@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Nikhil Garg"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Nikhil Garg"
+description              : &description "I work on engineering memristor-based neuromorphic hardware for edge AI applications as part of a joint doctorate between 3IT, Canada and IEMN, Lille, in collaboration with Aix-Marseille University and the Paris-Saclay University. I graduated from BITS Pilani, India, with a double major in Biological Sciences and Electrical and Electronics Engineering."
+url                      : https://nikhil-garg.github.io # the base hostname & protocol for your site e.g. "https://nikhil-garg.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "nikhil-garg/nikhil-garg.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
