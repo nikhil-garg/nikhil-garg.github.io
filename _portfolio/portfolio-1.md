@@ -1,7 +1,7 @@
 ---
 title: "UNICO Chip poster"
 excerpt: "Unsupervised spiking neural networks with
-analog memristive devices for edge computing  1<br/><img src='/images/poster-1.jpeg'>"
+analog memristive devices for edge computing  1<br/><img src='/images/poster-1.jpg'>"
 collection: portfolio
 ---
 
