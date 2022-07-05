@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Nikhil Garg"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "I work on engineering memristor-based neuromorphic hardware for edge AI applications as part of a joint doctorate between 3IT, Canada and IEMN, Lille, in collaboration with Aix-Marseille University and the Paris-Saclay University. I graduated from BITS Pilani, India, with a double major in Biological Sciences and Electrical and Electronics Engineering."
+  location         : "Lille, France"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=xtt0yUkAAAAJ&hl=en "
+  email            : "Nikhil.Garg@Usherbrooke.ca"
+  researchgate     :  "https://www.researchgate.net/profile/Nikhil-Garg-13"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/nikhil-garg"
   google_plus      :
   keybase          :
   instagram        :
