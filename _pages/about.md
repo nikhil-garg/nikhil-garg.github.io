@@ -8,36 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at CogniGron, the Groningen Cognitive Systems and Materials Center at the University of Groningen, in the Bio-Inspired Circuits and Systems group. My research asks how brain-inspired electronics can make wearable and implantable neural interfaces adaptive, energy-efficient, and personal.
+I am a postdoctoral researcher at CogniGron, the Groningen Cognitive Systems and Materials Center at the University of Groningen. I work on brain-inspired electronics for adaptive, energy-efficient neural interfaces.
 
-My work spans three connected threads: **adaptive front ends** that convert EEG and EMG biosignals into sparse events at the sensor; **spiking neural networks** trained on these event streams for brain-computer interfacing and gesture decoding; and **emerging synaptic devices**, including ferroelectric and memristive elements, that allow such networks to learn and be personalized directly in hardware.
+My work connects **adaptive biosignal front ends**, **spiking neural networks**, and **emerging synaptic devices** such as ferroelectric and memristive memories. Previously, I was a postdoctoral researcher in the Neuromorphic Electronics with Oxides group at ETH Zurich, and completed a joint PhD at the Universite de Lille and Universite de Sherbrooke.
 
-Previously, I was a postdoctoral researcher in the Neuromorphic Electronics with Oxides group at ETH Zurich. I completed a joint PhD in electronics and neuromorphic engineering from the Universite de Lille and Universite de Sherbrooke, where I worked on neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices.
+## Research at a glance
 
-My earlier work spans brain-computer interfaces, EEG-based authentication and affective-state decoding, assistive technology, embedded FPGA acceleration, and hardware-software co-design.
+* Event-based EEG/EMG sensing and bio-signal processing
+* Spiking neural networks for brain-computer interfaces and gesture decoding
+* In-memory learning with memristive, ferroelectric, and phase-change devices
+* Mixed-signal circuits, FPGA prototyping, and hardware-software co-design
 
-I have supervised Bachelor's and Master's students, serve on technical program committees for neuromorphic and memory-centric computing venues, and contribute to academic outreach through NeuroPAC.
-
-## Research interests
-
-* Signal processing and machine learning for brain-computer interfaces and bio-signal processing
-* Neuromorphic engineering and spiking neural networks for edge computing and low-power systems
-* Hardware-software co-design for embedded and intelligent systems
-* Mixed-signal IC design with emerging technologies
-
-## Key projects
-
-* **UNICO:** Unsupervised spiking neural networks with analog memristive devices for edge computing.
-* **IONOS:** Bio-signal encoding and processing with neuromorphic principles, event-based sensing, and organic neuromorphic devices.
-* **VITFOX:** Ferroelectric-oxide hardware and algorithms for bio-inspired neural network training.
-* **SWIMS:** Stochastic spiking wireless multimodal sensory systems.
-* **Brain-computer interfaces:** Real-time EEG pipelines for assistive technology, motor imagery, biometric authentication, and emotion recognition.
-* **FPGA and embedded hardware:** Reconfigurable computing, PCB design, and hardware-software co-design for characterization and signal-processing systems.
-
-See the [projects page](/projects/) for project summaries and code links.
-
-## Current position
+## Current work
 
 **Postdoctoral Researcher**  
-CogniGron, University of Groningen  
+Bio-Inspired Circuits and Systems group, CogniGron, University of Groningen  
 February 2026 - present
+
+## Quick links
+
+* [Projects](/projects/) for research themes and code
+* [Publications](/publications/) for papers, preprints, and repositories
+* [Talks](/talks/) for selected presentations
+* [CV](/cv/) for education, experience, skills, and supervision
