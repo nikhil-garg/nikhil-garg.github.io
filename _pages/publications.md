@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on [Google Scholar]({{author.googlescholar}}). Project links point to the related research themes on this site.
+You can also find my articles on [Google Scholar]({{site.author.googlescholar}}). Project links point to the related research themes on this site.
 
 ## VITFOX & Ferroelectric Learning
 
