@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nikhil Garg"
 title_separator          : "-"
 name                     : &name "Nikhil Garg"
-description              : &description "I work on engineering memristor-based neuromorphic hardware for edge AI applications as part of a joint doctorate between 3IT, Canada and IEMN, Lille, in collaboration with Aix-Marseille University and the Paris-Saclay University. I graduated from BITS Pilani, India, with a double major in Biological Sciences and Electrical and Electronics Engineering."
+description              : &description "Postdoctoral researcher working on neuromorphic engineering, emerging memory technologies, analog AI hardware, IC design, and brain-computer interfaces."
 url                      : https://nikhil-garg.github.io # the base hostname & protocol for your site e.g. "https://nikhil-garg.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nikhil-garg/nikhil-garg.github.io"
@@ -66,14 +66,19 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Nikhil Garg"
+  links:
+    - "https://orcid.org/0000-0002-9210-2826"
+    - "https://www.linkedin.com/in/nikhil-garg-bits"
+    - "https://scholar.google.com/citations?user=xtt0yUkAAAAJ&hl=en"
+    - "https://www.researchgate.net/profile/Nikhil-Garg-13"
+    - "https://github.com/nikhil-garg"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -82,12 +87,12 @@ analytics:
 author:
   name             : "Nikhil Garg"
   avatar           : "profile.png"
-  bio              : "I work on engineering memristor-based neuromorphic hardware for edge AI applications as part of a joint doctorate between 3IT, Canada and IEMN, Lille, in collaboration with Aix-Marseille University and the Paris-Saclay University. I graduated from BITS Pilani, India, with a double major in Biological Sciences and Electrical and Electronics Engineering."
-  location         : "Lille, France"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=xtt0yUkAAAAJ&hl=en "
-  email            : "Nikhil.Garg@Usherbrooke.ca"
+  bio              : "Postdoctoral researcher in electronics and neuromorphic engineering."
+  location         : "Netherlands"
+  employer         : "CogniGron, University of Groningen"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=xtt0yUkAAAAJ&hl=en"
+  email            : "nigarg@ethz.ch"
   researchgate     :  "https://www.researchgate.net/profile/Nikhil-Garg-13"
   uri              :
   bitbucket        :
@@ -96,20 +101,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/nikhil-garg"
+  github           : "nikhil-garg"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "nikhil-garg-bits"
+  orcid            : "https://orcid.org/0000-0002-9210-2826"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -142,6 +147,7 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
   - tmp
