@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nikhil Garg"
 title_separator          : "-"
 name                     : &name "Nikhil Garg"
-description              : &description "Postdoctoral researcher working on neuromorphic engineering, emerging memory technologies, analog AI hardware, IC design, and brain-computer interfaces."
+description              : &description "Postdoctoral researcher working on neuromorphic computing, brain-computer interfaces, biosignal processing, and emerging synaptic devices."
 url                      : https://nikhil-garg.github.io # the base hostname & protocol for your site e.g. "https://nikhil-garg.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nikhil-garg/nikhil-garg.github.io"
@@ -87,7 +87,7 @@ analytics:
 author:
   name             : "Nikhil Garg"
   avatar           : "profile.png"
-  bio              : "Postdoctoral researcher in electronics and neuromorphic engineering."
+  bio              : "Postdoctoral researcher in neuromorphic computing and biosignal processing."
   location         : "Netherlands"
   employer         : "CogniGron, University of Groningen"
   pubmed           :
