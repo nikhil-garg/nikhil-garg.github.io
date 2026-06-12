@@ -27,7 +27,12 @@ My earlier work spans brain-computer interfaces, EEG-based authentication and af
 
 * **UNICO:** Unsupervised spiking neural networks with analog memristive devices for edge computing.
 * **IONOS:** Bio-signal encoding and processing with neuromorphic principles, event-based sensing, and organic neuromorphic devices.
+* **VITFOX:** Ferroelectric-oxide hardware and algorithms for bio-inspired neural network training.
+* **SWIMS:** Stochastic spiking wireless multimodal sensory systems.
 * **Brain-computer interfaces:** Real-time EEG pipelines for assistive technology, motor imagery, biometric authentication, and emotion recognition.
+* **FPGA and embedded hardware:** Reconfigurable computing, PCB design, and hardware-software co-design for characterization and signal-processing systems.
+
+See the [portfolio](/portfolio/) for project summaries and code links.
 
 ## Current position
 
