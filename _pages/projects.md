@@ -72,7 +72,7 @@ Current work on stochastic spiking wireless multimodal sensory systems for adapt
 
 <p class="project-links"><a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Lab page</a> · <a href="/cv/">CV</a></p>
 
-<p class="project-outputs"><strong>Related outputs:</strong> current work in progress.</p>
+<p class="project-outputs"><strong>Outputs:</strong> current work in progress.</p>
 
 </section>
 
@@ -94,9 +94,9 @@ Ferroelectric-oxide hardware and algorithms for neural-network training, includi
 <p class="project-detail"><strong>Funding/program:</strong> VITFOX ferroelectric-oxide neuromorphic hardware research.</p>
 <p class="project-detail"><strong>Focus:</strong> ferroelectric synapses, device-aware learning, personalized spiking neural networks, energy-convergence analysis.</p>
 
-<p class="project-links"><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro</a> · <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Energy-convergence-Ferro-CCMCC2026</a> · <a href="/publications/#vitfox--ferroelectric-learning">selected papers</a></p>
+<p class="project-links"><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro</a> · <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Energy-convergence-Ferro-CCMCC2026</a> · <a href="/publications/#vitfox--ferroelectric-learning">Papers</a></p>
 
-<p class="project-outputs"><strong>Related outputs:</strong> APL Machine Learning 2026, Advanced Electronic Materials 2026, CCMCC 2025, analog AI hardware work.</p>
+<p class="project-outputs"><strong>Outputs:</strong> APL Machine Learning 2026, Advanced Electronic Materials 2026, CCMCC 2025, analog AI hardware work.</p>
 
 </section>
 
@@ -118,9 +118,9 @@ Unsupervised spiking neural networks with analog memristive devices for edge com
 <p class="project-detail"><strong>Funding:</strong> CHIST-ERA Call 2018 ACAI, December 2019-December 2022, funding support 878,415.90 EUR.</p>
 <p class="project-detail"><strong>Role:</strong> PhD research on learning rules, simulation, analog circuit interfaces, and memristor-integrated neuromorphic systems.</p>
 
-<p class="project-links"><a href="https://www.chistera.eu/projects/unico">Project page</a> · <a href="https://github.com/nikhil-garg/VDSP_Nengo">VDSP_Nengo</a> · <a href="https://github.com/nikhil-garg/VDSP-Memristors">VDSP-Memristors</a> · <a href="/publications/#unico--in-memory-learning">selected papers</a> · <a href="/talks/#2024">talks</a></p>
+<p class="project-links"><a href="https://www.chistera.eu/projects/unico">Project page</a> · <a href="https://github.com/nikhil-garg/VDSP_Nengo">VDSP_Nengo</a> · <a href="https://github.com/nikhil-garg/VDSP-Memristors">VDSP-Memristors</a> · <a href="/publications/#unico--in-memory-learning">Papers</a> · <a href="/talks/#2024">Talks</a></p>
 
-<p class="project-outputs"><strong>Related outputs:</strong> PhD thesis, Communications Materials 2026, ICONS 2024, NCE 2023, Frontiers in Neuroscience 2022.</p>
+<p class="project-outputs"><strong>Outputs:</strong> PhD thesis, Communications Materials 2026, ICONS 2024, NCE 2023, Frontiers in Neuroscience 2022.</p>
 
 </section>
 
@@ -142,9 +142,9 @@ Iono-electronic neuromorphic interfaces for communication with living systems. M
 <p class="project-detail"><strong>Funding:</strong> H2020 ERC Consolidator Grant, grant agreement 773228, November 2018-October 2024.</p>
 <p class="project-detail"><strong>Role:</strong> Master's thesis and follow-on neuromorphic bio-signal processing work.</p>
 
-<p class="project-links"><a href="https://cordis.europa.eu/project/id/773228">Project page</a> · <a href="https://doi.org/10.3030/773228">project DOI</a> · <a href="https://github.com/nikhil-garg/EMG_exp">EMG_exp</a> · <a href="/publications/#ionos--bio-signal-processing">selected papers</a> · <a href="/talks/#2021">talks</a></p>
+<p class="project-links"><a href="https://cordis.europa.eu/project/id/773228">Project page</a> · <a href="https://doi.org/10.3030/773228">DOI</a> · <a href="https://github.com/nikhil-garg/EMG_exp">EMG_exp</a> · <a href="/publications/#ionos--bio-signal-processing">Papers</a> · <a href="/talks/#2021">Talks</a></p>
 
-<p class="project-outputs"><strong>Related outputs:</strong> IEEE Sensors Journal 2024, Nature Communications 2023, ICONS 2021.</p>
+<p class="project-outputs"><strong>Outputs:</strong> IEEE Sensors Journal 2024, Nature Communications 2023, ICONS 2021.</p>
 
 </section>
 
@@ -164,9 +164,9 @@ Real-time EEG and machine-learning pipelines for assistive technology, motor ima
 <p class="project-detail"><strong>Lab:</strong> Cognitive Neuroscience Lab, BITS Pilani Goa.</p>
 <p class="project-detail"><strong>Role:</strong> undergraduate research on EEG acquisition, feature extraction, machine learning, and assistive BCI prototypes.</p>
 
-<p class="project-links"><a href="https://github.com/nikhil-garg/Decoding_EEG">Decoding_EEG</a> · <a href="/publications/#bci--eeg">selected papers</a> · <a href="/talks/#2021">talks</a></p>
+<p class="project-links"><a href="https://github.com/nikhil-garg/Decoding_EEG">Decoding_EEG</a> · <a href="/publications/#bci--eeg">Papers</a> · <a href="/talks/#2021">Talks</a></p>
 
-<p class="project-outputs"><strong>Related outputs:</strong> Frontiers in Human Neuroscience 2022, ISCMI 2021, IEEE SMC 2021, Cyberworlds 2020, ICCI*CC 2019.</p>
+<p class="project-outputs"><strong>Outputs:</strong> Frontiers in Human Neuroscience 2022, ISCMI 2021, IEEE SMC 2021, Cyberworlds 2020, ICCI*CC 2019.</p>
 
 </section>
 
@@ -187,8 +187,8 @@ FPGA, PCB, and hardware-software co-design work for memory characterization, emb
 <p class="project-detail"><strong>Labs:</strong> Reconfigurable Computing Lab, BITS Pilani Goa; Neuromorphic Electronics with Oxides group, ETH Zurich.</p>
 <p class="project-detail"><strong>Roles:</strong> undergraduate researcher; later supervisor for FPGA-based memristor crossbar characterization work.</p>
 
-<p class="project-links"><a href="/cv/#student-supervision">student supervision</a> · <a href="/publications/#analog-ai-hardware">related hardware papers</a></p>
+<p class="project-links"><a href="/cv/#student-supervision">Student supervision</a> · <a href="/publications/#analog-ai-hardware">Hardware papers</a></p>
 
-<p class="project-outputs"><strong>Related outputs:</strong> FPGA-based memristor crossbar characterization supervision, analog AI hardware publications, embedded hardware and PCB design experience.</p>
+<p class="project-outputs"><strong>Outputs:</strong> FPGA-based memristor crossbar characterization supervision, analog AI hardware publications, embedded hardware and PCB design experience.</p>
 
 </section>
