@@ -7,7 +7,7 @@ redirect_from:
   - /portfolio/
 ---
 
-Selected research and engineering projects across neuromorphic hardware, brain-computer interfaces, embedded systems, and bio-signal processing. Related papers are grouped on the [publications page](/publications/).
+Reverse-chronology project map across neuromorphic hardware, BCI, embedded systems, and bio-signal processing.
 
 <nav class="project-nav" aria-label="Project sections">
   <a href="#swims">SWIMS</a>
@@ -107,6 +107,12 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 .project-logo--lab i {
   color: #7a6849;
 }
+.project-facts {
+  display: grid;
+  gap: 0.28rem;
+  grid-template-columns: 1fr;
+  margin: 0.75rem 0;
+}
 .project-detail {
   margin: 0.25rem 0;
 }
@@ -173,14 +179,16 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
   <a class="project-logo" href="https://www.rug.nl/research/fse/cognitive-systems-and-materials/" title="Groningen Cognitive Systems and Materials Center"><i class="fas fa-brain"></i>CogniGron</a>
   <a class="project-logo project-logo--lab" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" title="Bio-Inspired Circuits and Systems group"><i class="fas fa-microchip"></i>BICS</a>
   <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
-  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/" title="European Commission CORDIS project database"><i class="fas fa-globe-europe"></i>EU</a>
+  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/" title="European Commission CORDIS project database"><i class="fas fa-university"></i>EU</a>
 </div>
 
 <p class="project-summary">Current work on stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces.</p>
 
+<div class="project-facts" markdown="1">
 <p class="project-detail"><strong>Lab:</strong> <a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Bio-Inspired Circuits and Systems group</a>, Zernike Institute for Advanced Materials / CogniGron.</p>
 <p class="project-detail"><strong>Funding:</strong> ERC project SWIMS.</p>
 <p class="project-detail"><strong>Focus:</strong> event-based sensing, spiking neural networks, wireless multimodal neural interfaces, mixed-signal neuromorphic circuits.</p>
+</div>
 
 <p class="project-links"><a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Lab page</a> <a href="/cv/">CV</a></p>
 
@@ -202,9 +210,10 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-summary">Ferroelectric-oxide hardware and algorithms for neural-network training, including energy-convergence tradeoffs and personalized EEG processing on emerging synaptic devices.</p>
 
+<div class="project-facts" markdown="1">
 <p class="project-detail"><strong>Lab:</strong> Neuromorphic Electronics with Oxides group, Integrated Systems Laboratory, ETH Zurich.</p>
-<p class="project-detail"><strong>Funding/program:</strong> VITFOX ferroelectric-oxide neuromorphic hardware research.</p>
 <p class="project-detail"><strong>Focus:</strong> ferroelectric synapses, device-aware learning, personalized spiking neural networks, energy-convergence analysis.</p>
+</div>
 
 <p class="project-links"><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Energy-convergence-Ferro-CCMCC2026</a></p>
 
@@ -235,9 +244,11 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-summary">Unsupervised spiking neural networks with analog memristive devices for edge computing. The work covered voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes for local learning.</p>
 
+<div class="project-facts" markdown="1">
 <p class="project-detail"><strong>Labs:</strong> IEMN-CNRS, France; LN2-CNRS, Canada.</p>
-<p class="project-detail"><strong>Funding:</strong> CHIST-ERA Call 2018 ACAI, December 2019-December 2022, funding support 878,415.90 EUR.</p>
-<p class="project-detail"><strong>Role:</strong> PhD research on learning rules, simulation, analog circuit interfaces, and memristor-integrated neuromorphic systems.</p>
+<p class="project-detail"><strong>Funding:</strong> CHIST-ERA Call 2018 ACAI.</p>
+<p class="project-detail"><strong>Focus:</strong> learning rules, simulation, analog circuit interfaces, memristor-integrated neuromorphic systems.</p>
+</div>
 
 <p class="project-links"><a href="https://www.chistera.eu/projects/unico">Project page</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo">VDSP_Nengo</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors">VDSP-Memristors</a> <a href="/talks/#2024">Talks</a></p>
 
@@ -260,7 +271,7 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 <p class="project-meta">2020-2024 · Master's thesis and PhD-related research · CNRS / Universite de Sherbrooke</p>
 <div class="project-logos">
   <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
-  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/project/id/773228" title="Horizon 2020 ERC Consolidator Grant 773228"><i class="fas fa-globe-europe"></i>H2020</a>
+  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/project/id/773228" title="Horizon 2020 ERC Consolidator Grant 773228"><i class="fas fa-university"></i>H2020</a>
   <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><i class="fas fa-university"></i>CNRS</a>
   <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><i class="fas fa-university"></i>UdeS</a>
   <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation"><i class="fas fa-flask"></i>3IT</a>
@@ -270,9 +281,11 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-summary">Iono-electronic neuromorphic interfaces for communication with living systems. My related work focused on analog-to-spike conversion workflows, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.</p>
 
+<div class="project-facts" markdown="1">
 <p class="project-detail"><strong>Coordinator:</strong> CNRS, France.</p>
-<p class="project-detail"><strong>Funding:</strong> H2020 ERC Consolidator Grant, grant agreement 773228, November 2018-October 2024.</p>
-<p class="project-detail"><strong>Role:</strong> Master's thesis and follow-on neuromorphic bio-signal processing work.</p>
+<p class="project-detail"><strong>Funding:</strong> H2020 ERC Consolidator Grant 773228.</p>
+<p class="project-detail"><strong>Focus:</strong> Master's thesis and follow-on neuromorphic bio-signal processing work.</p>
+</div>
 
 <p class="project-links"><a href="https://cordis.europa.eu/project/id/773228">Project page</a> <a href="https://doi.org/10.3030/773228">DOI</a> <a href="https://github.com/nikhil-garg/EMG_exp">EMG_exp</a> <a href="/talks/#2021">Talks</a></p>
 
@@ -293,13 +306,15 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 <div class="project-logos">
   <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><i class="fas fa-university"></i>BITS Goa</a>
   <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa"><i class="fas fa-brain"></i>CNL</a>
-  <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research"><i class="fas fa-head-side-virus"></i>BCI</a>
+  <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research"><i class="fas fa-brain"></i>BCI</a>
 </div>
 
 <p class="project-summary">Real-time EEG and machine-learning pipelines for assistive technology, motor imagery, biometric authentication, cognitive-state estimation, and portable-headset emotion decoding.</p>
 
+<div class="project-facts" markdown="1">
 <p class="project-detail"><strong>Lab:</strong> Cognitive Neuroscience Lab, BITS Pilani Goa.</p>
-<p class="project-detail"><strong>Role:</strong> undergraduate research on EEG acquisition, feature extraction, machine learning, and assistive BCI prototypes.</p>
+<p class="project-detail"><strong>Focus:</strong> EEG acquisition, feature extraction, machine learning, assistive BCI prototypes.</p>
+</div>
 
 <p class="project-links"><a href="https://github.com/nikhil-garg/Decoding_EEG">Decoding_EEG</a> <a href="/talks/#2021">Talks</a></p>
 
@@ -329,8 +344,10 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-summary">FPGA, PCB, and hardware-software co-design work for memory characterization, embedded acceleration, ADC/DAC interfacing, and signal-processing systems.</p>
 
+<div class="project-facts" markdown="1">
 <p class="project-detail"><strong>Labs:</strong> Reconfigurable Computing Lab, BITS Pilani Goa; Neuromorphic Electronics with Oxides group, ETH Zurich.</p>
-<p class="project-detail"><strong>Roles:</strong> undergraduate researcher; later supervisor for FPGA-based memristor crossbar characterization work.</p>
+<p class="project-detail"><strong>Focus:</strong> undergraduate hardware work and later supervision for memristor crossbar characterization.</p>
+</div>
 
 <p class="project-links"><a href="/cv/#student-supervision">Student supervision</a></p>
 

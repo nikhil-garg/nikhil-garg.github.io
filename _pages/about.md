@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at CogniGron, the Groningen Cognitive Systems and Materials Center at the University of Groningen. I work on brain-inspired electronics for adaptive, energy-efficient neural interfaces.
+Postdoctoral researcher at CogniGron, University of Groningen, working on brain-inspired electronics for adaptive, energy-efficient neural interfaces.
 
-My work connects **adaptive biosignal front ends**, **spiking neural networks**, and **emerging synaptic devices** such as ferroelectric and memristive memories. Previously, I was a postdoctoral researcher in the Neuromorphic Electronics with Oxides group at ETH Zurich, and completed a joint PhD at the Universite de Lille and Universite de Sherbrooke.
+My work connects adaptive biosignal front ends, spiking neural networks, and emerging synaptic devices such as ferroelectric and memristive memories.
 
 <style>
 .home-actions {
@@ -33,6 +33,31 @@ My work connects **adaptive biosignal front ends**, **spiking neural networks**,
 .home-actions i {
   color: #555;
 }
+.focus-grid {
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 1.25rem;
+}
+.focus-item {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 0.65rem;
+}
+.focus-item strong {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.15rem;
+}
+.focus-item span {
+  color: #555;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+@media (max-width: 640px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 <div class="home-actions">
@@ -43,15 +68,9 @@ My work connects **adaptive biosignal front ends**, **spiking neural networks**,
   <a href="https://github.com/nikhil-garg"><i class="fab fa-github"></i>Code</a>
 </div>
 
-## Research at a glance
-
-* Event-based EEG/EMG sensing and bio-signal processing
-* Spiking neural networks for brain-computer interfaces and gesture decoding
-* In-memory learning with memristive, ferroelectric, and phase-change devices
-* Mixed-signal circuits, FPGA prototyping, and hardware-software co-design
-
-## Current work
-
-**Postdoctoral Researcher**  
-Bio-Inspired Circuits and Systems group, CogniGron, University of Groningen  
-February 2026 - present
+<div class="focus-grid">
+  <div class="focus-item"><strong>Biosignals</strong><span>EEG/EMG sensing, BCI, gesture decoding</span></div>
+  <div class="focus-item"><strong>Neuromorphic algorithms</strong><span>spiking neural networks and local learning</span></div>
+  <div class="focus-item"><strong>Emerging devices</strong><span>memristive, ferroelectric, and phase-change synapses</span></div>
+  <div class="focus-item"><strong>Hardware systems</strong><span>mixed-signal circuits, FPGA, PCB, embedded interfaces</span></div>
+</div>
