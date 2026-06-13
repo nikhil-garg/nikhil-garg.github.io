@@ -106,6 +106,11 @@ Reading lists, teaching notes, community links, and foundation-building resource
     <a href="#teaching-material"><i class="fas fa-chalkboard-teacher"></i>organize</a>
   </section>
   <section class="teaching-card">
+    <h2>Open-source Tools</h2>
+    <p>GitHub stars grouped into learning paths for biosignals, SNNs, hardware, and devices.</p>
+    <a href="#open-source-map"><i class="fab fa-github"></i>explore</a>
+  </section>
+  <section class="teaching-card">
     <h2>Community</h2>
     <p>Useful groups, labs, datasets, competitions, and public tools for newcomers.</p>
     <a href="#community"><i class="fas fa-users"></i>collect</a>
@@ -129,6 +134,59 @@ Reading lists, teaching notes, community links, and foundation-building resource
 
 <section class="reading-section" id="reading-lists">
   <h2>Reading Lists</h2>
+</section>
+
+<section class="reading-section" id="open-source-map">
+  <h2>Open-source Learning Map</h2>
+  <div class="resource-grid">
+    <article class="resource-card">
+      <span class="resource-tag">Biosignals</span>
+      <h3>BCI, EEG, ECoG, fNIRS, and EMG</h3>
+      <p>Datasets, preprocessing examples, and model repositories for hands-on biosignal decoding.</p>
+      <a href="https://github.com/stars/nikhil-garg/lists/eeg-ecog"><i class="fab fa-github"></i>EEG/ECoG</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/fnirs"><i class="fab fa-github"></i>fNIRS</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/emg-transformer"><i class="fab fa-github"></i>EMG transformer</a>
+    </article>
+    <article class="resource-card">
+      <span class="resource-tag">Neuromorphic ML</span>
+      <h3>SNNs, transformers, and PyTorch</h3>
+      <p>Codebases for spiking neural networks, resonate-and-fire neurons, Spikformer-style models, and modern PyTorch workflows.</p>
+      <a href="https://github.com/stars/nikhil-garg/lists/snn"><i class="fab fa-github"></i>SNN</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/transformer"><i class="fab fa-github"></i>Transformer</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/pytorch"><i class="fab fa-github"></i>PyTorch</a>
+    </article>
+    <article class="resource-card">
+      <span class="resource-tag">Hardware design</span>
+      <h3>ASIC, EDA, PCB, and open silicon</h3>
+      <p>OpenROAD, OpenFASOC, cocotb, Chisel, Amaranth, Bluespec, and layout/verification flows worth turning into a practical hardware track.</p>
+      <a href="https://github.com/stars/nikhil-garg/lists/asic-design"><i class="fab fa-github"></i>ASIC design</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/eda"><i class="fab fa-github"></i>EDA</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/pcb"><i class="fab fa-github"></i>PCB</a>
+    </article>
+    <article class="resource-card">
+      <span class="resource-tag">Devices</span>
+      <h3>RRAM, characterization, materials, and nanotechnology</h3>
+      <p>Useful starting points for device-aware ML, RRAM design files, characterization workflows, and materials/nanotechnology exploration.</p>
+      <a href="https://github.com/stars/nikhil-garg/lists/chips-rram"><i class="fab fa-github"></i>RRAM chips</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/charac"><i class="fab fa-github"></i>characterization</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/materials"><i class="fab fa-github"></i>materials</a>
+    </article>
+    <article class="resource-card">
+      <span class="resource-tag">Simulation</span>
+      <h3>Hardware-aware simulation and explainability</h3>
+      <p>Repos that can support tutorials on device-to-system simulation, robustness, interpretability, and model-to-hardware translation.</p>
+      <a href="https://github.com/stars/nikhil-garg/lists/hw-aware-sim"><i class="fab fa-github"></i>HW-aware sim</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/explainable-ai"><i class="fab fa-github"></i>explainable AI</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/raf"><i class="fab fa-github"></i>RAF</a>
+    </article>
+    <article class="resource-card">
+      <span class="resource-tag">Communication</span>
+      <h3>Figures, writing, and documentation</h3>
+      <p>Tools for publication-quality figures, diagrams, documentation, and reproducible research notes.</p>
+      <a href="https://github.com/stars/nikhil-garg/lists/diagrams-documentation"><i class="fab fa-github"></i>diagrams</a>
+      <a href="https://github.com/stars/nikhil-garg/lists/writing"><i class="fab fa-github"></i>writing</a>
+    </article>
+  </div>
 </section>
 
 <section class="reading-section" id="bci">
