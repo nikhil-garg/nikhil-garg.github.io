@@ -3,7 +3,7 @@ layout: publication
 title: "Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits"
 date: 2024-01-01
 venue: "ICONS"
-authors: "N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart, et al."
+authors: "N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart, J.-M. Portal"
 project: "UNICO"
 project_url: "/projects/#unico"
 feature_image: "/images/publications/garg-2024-icons-cmos-lif-feature.jpg"

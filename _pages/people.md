@@ -40,7 +40,7 @@ People connected to supervision, publications, collaborations, and past affiliat
   {% else %}
     {% assign people = site.people | where: "category", group | sort: "people_order" %}
   {% endif %}
-  <section class="people-section">
+  <section class="people-section" id="{% if group == "Student" %}supervised-students{% elsif group == "Coauthor" %}coauthors{% else %}{{ group | downcase }}s{% endif %}">
     <h2>{% if group == "Student" %}Supervised Students{% elsif group == "Coauthor" %}Co-authors{% else %}{{ group }}s{% endif %}</h2>
     <div class="people-list">
       {% for person in people %}

@@ -3,7 +3,7 @@ title: "Rohit Garg"
 category: "Student"
 people_order: 21
 initials: "RG"
-affiliation: "BITS Pilani Goa · Bachelor's thesis, 2020-2021"
+affiliation: "BITS Pilani Goa · Bachelor’s thesis, 2020-2021"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"

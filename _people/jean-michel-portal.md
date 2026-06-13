@@ -4,7 +4,7 @@ category: "Mentor"
 mentor_order: 7
 initials: "JMP"
 role: "UNICO mentor and collaborator"
-affiliation: "Aix-Marseille Universite / IM2NP"
+affiliation: "Aix-Marseille Université / IM2NP"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

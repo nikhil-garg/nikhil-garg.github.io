@@ -5,7 +5,7 @@ permalink: /topics/
 author_profile: true
 ---
 
-Browse research topics across publications, collaborators, and the NeuroPAC video archive.
+Browse research topics across publications, collaborators, and video resources.
 
 <style>
 .topic-tools {
@@ -27,6 +27,9 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
+  max-height: 9rem;
+  overflow: auto;
+  padding-right: 0.25rem;
 }
 .topic-chip,
 .topic-mini-chip {
@@ -108,30 +111,9 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
   gap: 0.45rem;
 }
 .topic-person {
-  align-items: center;
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: 38px 1fr;
+  display: block;
+  line-height: 1.28;
   text-decoration: none;
-}
-.topic-person__avatar {
-  align-items: center;
-  background: #f5f7fa;
-  border: 1px solid #d8dde5;
-  border-radius: 50%;
-  color: #526a7a;
-  display: inline-flex;
-  font-size: 0.72rem;
-  font-weight: 700;
-  height: 38px;
-  justify-content: center;
-  overflow: hidden;
-  width: 38px;
-}
-.topic-person__avatar img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
 }
 .topic-person strong {
   color: #333;
@@ -158,6 +140,21 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
   color: #666;
   font-size: 0.84rem;
 }
+.topic-tools.is-focused .topic-cloud {
+  display: none;
+}
+.topic-tools.is-focused {
+  border-bottom: 0;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+.topic-reset {
+  display: none;
+  font-size: 0.84rem;
+}
+.topic-tools.is-focused .topic-reset {
+  display: inline-block;
+}
 @media (max-width: 760px) {
   .topic-grid {
     grid-template-columns: 1fr;
@@ -167,6 +164,7 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
 
 <div class="topic-tools">
   <input class="topic-search" type="search" placeholder="Filter topics, papers, people, or videos" data-topic-filter>
+  <a class="topic-reset" href="/topics/">Browse all topics</a>
   <nav class="topic-cloud" aria-label="Topic keywords">
     {% for topic in site.data.research_topics %}
       <a class="topic-chip" href="/topics/?q={{ topic.slug }}" data-topic-link="{{ topic.slug }}">{{ topic.title }} <span class="topic-count">{{ topic.publications | size }}</span></a>
@@ -192,30 +190,20 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
         {% endfor %}
       </div>
       <aside class="topic-side">
+        {% if topic.people.size > 0 %}
         <div>
           <h3>People</h3>
-          {% if topic.people.size > 0 %}
-            <div class="topic-people">
-              {% for person in topic.people limit: 10 %}
-                <a class="topic-person" href="{{ person.url }}">
-                  <span class="topic-person__avatar">
-                    {% if person.image %}
-                      <img src="{{ person.image }}" alt="{{ person.title }}">
-                    {% else %}
-                      {{ person.initials }}
-                    {% endif %}
-                  </span>
-                  <span>
-                    <strong>{{ person.title }}</strong>
-                    {% if person.affiliation %}<span>{{ person.affiliation }}</span>{% endif %}
-                  </span>
-                </a>
-              {% endfor %}
-            </div>
-          {% else %}
-            <p class="topic-empty">People links will appear here once a person page is associated with the matching publication.</p>
-          {% endif %}
+          <div class="topic-people">
+            {% for person in topic.people limit: 10 %}
+              <a class="topic-person" href="{{ person.url }}">
+                <strong>{{ person.title }}</strong>
+                {% if person.affiliation %}<span>{{ person.affiliation }}</span>{% endif %}
+              </a>
+            {% endfor %}
+          </div>
         </div>
+        {% endif %}
+        {% if topic.videos.size > 0 %}
         <div>
           <h3>Videos</h3>
           <div class="topic-links">
@@ -224,6 +212,7 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
             {% endfor %}
           </div>
         </div>
+        {% endif %}
       </aside>
     </div>
   </article>
@@ -238,6 +227,7 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
   const links = Array.from(document.querySelectorAll('[data-topic-link]'));
   const input = document.querySelector('[data-topic-filter]');
   const status = document.querySelector('[data-topic-status]');
+  const tools = document.querySelector('.topic-tools');
 
   function showTopic(slug) {
     let matches = panels;
@@ -246,12 +236,15 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
       if (matches.length) {
         panels.forEach(panel => panel.hidden = panel.dataset.topicSlug !== slug);
         links.forEach(link => link.classList.toggle('is-active', link.dataset.topicLink === slug));
-        status.textContent = 'Showing one selected topic. Use the chips or search box to explore the rest.';
+        if (tools) tools.classList.add('is-focused');
+        if (input) input.placeholder = 'Search within topics';
+        status.textContent = 'Showing selected topic.';
         return;
       }
     }
     panels.forEach(panel => panel.hidden = false);
     links.forEach(link => link.classList.remove('is-active'));
+    if (tools) tools.classList.remove('is-focused');
     status.textContent = 'Showing all topics.';
   }
 
@@ -268,6 +261,7 @@ Browse research topics across publications, collaborators, and the NeuroPAC vide
       link.hidden = !ok;
       link.classList.remove('is-active');
     });
+    if (tools) tools.classList.toggle('is-focused', false);
     status.textContent = q ? visible + ' matching topics.' : 'Showing all topics.';
   }
 

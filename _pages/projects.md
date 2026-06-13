@@ -118,15 +118,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 .project-logo--lab i {
   color: #7a6849;
 }
-.project-facts {
-  display: grid;
-  gap: 0.28rem;
-  grid-template-columns: 1fr;
-  margin: 0.75rem 0;
-}
-.project-detail {
-  margin: 0.25rem 0;
-}
 .project-links {
   display: flex;
   flex-wrap: wrap;
@@ -200,17 +191,11 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   </div></div>
   <div class="project-meta-row"><strong>Funding</strong><div class="project-logos">
     <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
-    <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/" title="European Commission CORDIS project database"><i class="fas fa-university"></i>EU</a>
   </div></div>
 </div>
 
 <p class="project-summary">Current work on stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces.</p>
 
-<div class="project-facts" markdown="1">
-<p class="project-detail"><strong>Lab:</strong> <a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Bio-Inspired Circuits and Systems group</a>, Zernike Institute for Advanced Materials / CogniGron.</p>
-<p class="project-detail"><strong>Funding:</strong> ERC project SWIMS.</p>
-<p class="project-detail"><strong>Focus:</strong> event-based sensing, spiking neural networks, wireless multimodal neural interfaces, mixed-signal neuromorphic circuits.</p>
-</div>
 
 <p class="project-links"><a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Lab page</a> <a href="/cv/">CV</a></p>
 
@@ -232,16 +217,11 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   <div class="project-meta-row"><strong>Funding</strong><div class="project-logos">
     <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="Chips Joint Undertaking"><i class="fas fa-microchip"></i>CHIPS-JU</a>
     <a class="project-logo project-logo--funding" href="https://www.snf.ch/en" title="Swiss National Science Foundation"><i class="fas fa-award"></i>SNSF</a>
-    <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="ViTFOX project"><i class="fas fa-bolt"></i>VITFOX</a>
   </div></div>
 </div>
 
 <p class="project-summary">Ferroelectric-oxide hardware and algorithms for neural-network training, including energy-convergence tradeoffs and personalized EEG processing on emerging synaptic devices.</p>
 
-<div class="project-facts" markdown="1">
-<p class="project-detail"><strong>Lab:</strong> Neuromorphic Electronics with Oxides group, Integrated Systems Laboratory, ETH Zurich.</p>
-<p class="project-detail"><strong>Focus:</strong> ferroelectric synapses, device-aware learning, personalized spiking neural networks, energy-convergence analysis.</p>
-</div>
 
 <p class="project-links"><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Energy-convergence-Ferro-CCMCC2026</a></p>
 
@@ -258,12 +238,12 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 ## UNICO
 
-<p class="project-meta">2021-2024 · PhD Candidate · Universite de Lille / Universite de Sherbrooke</p>
+<p class="project-meta">2021-2024 · PhD Candidate · Université de Lille / Université de Sherbrooke</p>
 <div class="project-meta-groups">
   <div class="project-meta-row"><strong>Affiliations</strong><div class="project-logos">
     <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
-    <a class="project-logo" href="https://www.univ-lille.fr/" title="Universite de Lille"><i class="fas fa-university"></i>U. Lille</a>
-    <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Universite de Sherbrooke"></a>
+    <a class="project-logo" href="https://www.univ-lille.fr/" title="Université de Lille"><i class="fas fa-university"></i>U. Lille</a>
+    <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Université de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Université de Sherbrooke"></a>
   </div></div>
   <div class="project-meta-row"><strong>Labs</strong><div class="project-logos">
     <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
@@ -280,11 +260,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-summary">Unsupervised spiking neural networks with analog memristive devices for edge computing. The work covered voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes for local learning.</p>
 
-<div class="project-facts" markdown="1">
-<p class="project-detail"><strong>Labs:</strong> IEMN-CNRS, France; LN2-CNRS, Canada.</p>
-<p class="project-detail"><strong>Funding:</strong> CHIST-ERA Call 2018 ACAI.</p>
-<p class="project-detail"><strong>Focus:</strong> learning rules, simulation, analog circuit interfaces, memristor-integrated neuromorphic systems.</p>
-</div>
 
 <p class="project-links"><a href="https://www.chistera.eu/projects/unico">Project page</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo">VDSP_Nengo</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors">VDSP-Memristors</a> <a href="/talks/#2024">Talks</a></p>
 
@@ -304,11 +279,11 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 ## IONOS
 
-<p class="project-meta">2020-2024 · Master's thesis and PhD-related research · CNRS / Universite de Sherbrooke</p>
+<p class="project-meta">2020-2024 · Master’s thesis and PhD-related research · CNRS / Université de Sherbrooke</p>
 <div class="project-meta-groups">
   <div class="project-meta-row"><strong>Affiliations</strong><div class="project-logos">
     <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
-    <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Universite de Sherbrooke"></a>
+    <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Université de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Université de Sherbrooke"></a>
   </div></div>
   <div class="project-meta-row"><strong>Labs</strong><div class="project-logos">
     <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation"><i class="fas fa-flask"></i>3IT</a>
@@ -323,11 +298,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-summary">Iono-electronic neuromorphic interfaces for communication with living systems. My related work focused on analog-to-spike conversion workflows, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.</p>
 
-<div class="project-facts" markdown="1">
-<p class="project-detail"><strong>Coordinator:</strong> CNRS, France.</p>
-<p class="project-detail"><strong>Funding:</strong> H2020 ERC Consolidator Grant 773228.</p>
-<p class="project-detail"><strong>Focus:</strong> Master's thesis and follow-on neuromorphic bio-signal processing work.</p>
-</div>
 
 <p class="project-links"><a href="https://cordis.europa.eu/project/id/773228">Project page</a> <a href="https://doi.org/10.3030/773228">DOI</a> <a href="https://github.com/nikhil-garg/EMG_exp">EMG_exp</a> <a href="/talks/#2021">Talks</a></p>
 
@@ -359,17 +329,13 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-summary">Real-time EEG and machine-learning pipelines for assistive technology, motor imagery, biometric authentication, cognitive-state estimation, and portable-headset emotion decoding.</p>
 
-<div class="project-facts" markdown="1">
-<p class="project-detail"><strong>Lab:</strong> Cognitive Neuroscience Lab, BITS Pilani Goa.</p>
-<p class="project-detail"><strong>Focus:</strong> EEG acquisition, feature extraction, machine learning, assistive BCI prototypes.</p>
-</div>
 
 <p class="project-links"><a href="https://github.com/nikhil-garg/Decoding_EEG">Decoding_EEG</a> <a href="/talks/#2021">Talks</a></p>
 
 <p class="project-outputs"><strong>Outputs</strong></p>
 <ul class="project-output-list">
   <li><a href="/publications/#portable-eeg-valence-arousal">Decoding the neural signatures of valence and arousal from portable EEG headset</a></li>
-  <li><a href="/publications/#alzheimer-bert-speech">Alzheimer's dementia detection using acoustic and linguistic features and pre-trained BERT</a></li>
+  <li><a href="/publications/#alzheimer-bert-speech">Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT</a></li>
   <li><a href="/publications/#wheelchair-hybrid-bci">Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks</a></li>
   <li><a href="/publications/#motor-imagery-biometrics">Motor Imagery Based Multimodal Biometric User Authentication System Using EEG</a></li>
   <li><a href="/publications/#motor-imagery-multiclass">Study of motor imagery for multiclass brain system interface with a special focus in the same limb movement</a></li>
@@ -398,16 +364,12 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-summary">FPGA, PCB, and hardware-software co-design work for memory characterization, embedded acceleration, ADC/DAC interfacing, and signal-processing systems.</p>
 
-<div class="project-facts" markdown="1">
-<p class="project-detail"><strong>Labs:</strong> Reconfigurable Computing Lab, BITS Pilani Goa; Neuromorphic Electronics with Oxides group, ETH Zurich.</p>
-<p class="project-detail"><strong>Focus:</strong> undergraduate hardware work and later supervision for memristor crossbar characterization.</p>
-</div>
 
-<p class="project-links"><a href="/cv/#student-supervision">Student supervision</a></p>
+<p class="project-links"><a href="/people/#supervised-students">Supervised students</a> <a href="/cv/#student-supervision">CV record</a></p>
 
 <p class="project-outputs"><strong>Outputs</strong></p>
 <ul class="project-output-list">
-  <li><a href="/cv/#student-supervision">FPGA-based memristor crossbar array characterization framework</a></li>
+  <li><a href="/people/#supervised-students">FPGA-based memristor crossbar array characterization framework</a></li>
 </ul>
 
 </section>

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Neuropac Video Archive"
+title: "Videos"
 permalink: /teaching/videos/
 author_profile: true
 ---
@@ -121,15 +121,15 @@ author_profile: true
 
 <section class="video-hero">
   <div>
-    <h1>Neuropac Videos</h1>
-    <p>A preserved, browsable video archive for neuromorphic computing, event-based sensing, emerging devices, edge AI, learning algorithms, and community workshops. The original Neuropac project is over, so this page is the maintained entry point from my site.</p>
+    <h1>Videos</h1>
+    <p>A preserved, browsable archive for neuromorphic computing, event-based sensing, emerging devices, edge AI, learning algorithms, and community workshops. The original NeuroPAC project has ended, so this page is the maintained entry point from my site.</p>
     <div class="video-actions">
       <a href="/files/neuropac-video-archive/index.html"><i class="fas fa-archive"></i>open full archive</a>
       <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>all videos</a>
-      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>old Neuropac site</a>
+      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>old NeuroPAC site</a>
     </div>
   </div>
-  <div class="video-stats" aria-label="Neuropac archive statistics">
+  <div class="video-stats" aria-label="Video archive statistics">
     <div class="video-stat"><strong>614</strong><span>videos</span></div>
     <div class="video-stat"><strong>18</strong><span>topics</span></div>
     <div class="video-stat"><strong>26</strong><span>events</span></div>
@@ -190,7 +190,7 @@ author_profile: true
     <article class="video-card">
       <span class="video-meta">Materials and devices</span>
       <h3>Ferroelectric memristors for BEOL integration</h3>
-      <p>Laura Begon-Lours, IEEE ISAF 2023. A useful bridge into ferroelectric devices and back-end integration.</p>
+      <p>Laura Bégon-Lours, IEEE ISAF 2023. A useful bridge into ferroelectric devices and back-end integration.</p>
       <div class="video-card-actions"><a href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html"><i class="fas fa-play-circle"></i>watch</a></div>
     </article>
     <article class="video-card">

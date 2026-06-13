@@ -3,7 +3,7 @@ title: "Akshay Valsaraj"
 category: "Student"
 people_order: 22
 initials: "AV"
-affiliation: "BITS Pilani Goa · Bachelor's project, 2019-2020"
+affiliation: "BITS Pilani Goa · Bachelor’s project, 2019-2020"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"
@@ -14,5 +14,5 @@ Supervised on motor-imagery biometrics and dementia detection from speech.
 
 ## Associated publications
 
-- [Alzheimer's dementia detection using acoustic and linguistic features and pre-trained BERT](/publications/#alzheimer-bert-speech)
+- [Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT](/publications/#alzheimer-bert-speech)
 - [Motor Imagery Based Multimodal Biometric User Authentication System Using EEG](/publications/#motor-imagery-biometrics)

@@ -124,7 +124,7 @@ Curated paths for building foundations in biosignals, machine learning, electron
 
 <div class="teaching-quicklinks">
   <section class="teaching-card">
-    <h2>Neuropac</h2>
+    <h2>Videos</h2>
     <p>A preserved video archive for neuromorphic computing lectures, workshops, and tutorials.</p>
     <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>videos</a>
   </section>
@@ -167,7 +167,7 @@ Curated paths for building foundations in biosignals, machine learning, electron
       <div class="path-card__meta"><span>SNN</span><span>VDSP</span><span>Reservoirs</span></div>
       <ul class="path-card__steps">
         <li>Begin with VDSP and signal-to-spike work, then compare with SNN tool repositories.</li>
-        <li>Use Neuropac videos for field-level lectures and workshop context.</li>
+        <li>Use the video archive for field-level lectures and workshop context.</li>
         <li>Follow through to device-aware learning in VITFOX and UNICO.</li>
       </ul>
     </article>
@@ -196,10 +196,10 @@ Curated paths for building foundations in biosignals, machine learning, electron
   <h2>Video Archive</h2>
   <div class="resource-grid">
     <article class="resource-card">
-      <img class="resource-logo" src="/images/logos/neuropac-logo.jpg" alt="Neuropac">
+      <img class="resource-logo" src="/images/logos/neuropac-logo.jpg" alt="NeuroPAC">
       <span class="resource-tag">Video archive</span>
-      <h3>Neuropac videos</h3>
-      <p>The Neuropac project has ended and the original website is no longer actively maintained by me. I keep a static archive here as a searchable teaching resource.</p>
+      <h3>Videos</h3>
+      <p>The NeuroPAC project has ended and the original website is no longer actively maintained by me. I keep a static archive here as a searchable teaching resource.</p>
       <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>curated page</a>
       <a href="/files/neuropac-video-archive/index.html"><i class="fas fa-archive"></i>full archive</a>
       <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>old site</a>

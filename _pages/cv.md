@@ -200,7 +200,7 @@ redirect_from:
 <article class="cv-item" markdown="1">
 <p class="cv-date">September 2022 - December 2024</p>
 <p class="cv-title">Doctoral Researcher</p>
-<p class="cv-place">LN2-CNRS / Universite de Sherbrooke, Canada</p>
+<p class="cv-place">LN2-CNRS / Université de Sherbrooke, Canada</p>
 <p class="cv-note">Neuromorphic in-memory learning with analog circuits and nanoscale memristive devices.</p>
 <p class="cv-links"><a href="/projects/#unico">UNICO</a> <a href="/projects/#ionos">IONOS</a> <a href="/publications/#unico--in-memory-learning">Publications</a></p>
 </article>
@@ -208,7 +208,7 @@ redirect_from:
 <article class="cv-item" markdown="1">
 <p class="cv-date">February 2023 - October 2024</p>
 <p class="cv-title">Research Professional</p>
-<p class="cv-place">3IT.AI / Universite de Sherbrooke, Canada</p>
+<p class="cv-place">3IT.AI / Université de Sherbrooke, Canada</p>
 <p class="cv-note">Applied neuromorphic and AI workflows during the PhD.</p>
 <p class="cv-links"><a href="/projects/#unico">UNICO</a> <a href="/projects/#ionos">IONOS</a></p>
 </article>
@@ -223,8 +223,8 @@ redirect_from:
 
 <article class="cv-item" markdown="1">
 <p class="cv-date">May 2020 - August 2020</p>
-<p class="cv-title">Master's Thesis / Graduate Research</p>
-<p class="cv-place">3IT, Universite de Sherbrooke, Canada</p>
+<p class="cv-title">Master’s Thesis / Graduate Research</p>
+<p class="cv-place">3IT, Université de Sherbrooke, Canada</p>
 <p class="cv-note">Neuromorphic reservoir computing and signal-to-spike encoding.</p>
 <p class="cv-links"><a href="/projects/#ionos">IONOS</a> <a href="/publications/#ionos--bio-signal-processing">Publications</a></p>
 </article>
@@ -326,7 +326,7 @@ redirect_from:
 
   <section class="cv-institution-period">
     <h3>2017-2020 · India</h3>
-    <p>Undergraduate BCI, embedded hardware, FPGA, and early publication network at BITS Pilani Goa.</p>
+    <p>Undergraduate BCI, embedded hardware, FPGA, and early publication context at BITS Pilani Goa.</p>
     <div class="cv-institution-grid">
     <div class="cv-institution-card">
       <a class="cv-institution-media" href="https://www.bits-pilani.ac.in/goa/"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
@@ -348,13 +348,13 @@ redirect_from:
 ## Education
 
 **PhD, Electronics, Microelectronics, Nanotechnology and Microwaves / Electrical Engineering**  
-University of Lille and Universite de Sherbrooke  
+University of Lille and Université de Sherbrooke
 October 2021 - December 2024
 
 **MSc, Biological Sciences**  
 Birla Institute of Technology and Science Pilani, Goa  
 2016 - 2021  
-Thesis research at 3IT, Universite de Sherbrooke: neuromorphic reservoir computing for neurophysiological signal processing.
+Thesis research at 3IT, Université de Sherbrooke: neuromorphic reservoir computing for neurophysiological signal processing.
 
 **BE, Electrical and Electronics Engineering**  
 Birla Institute of Technology and Science Pilani, Goa  
@@ -385,7 +385,7 @@ Student and collaborator pages are maintained in the [People](/people/); the CV 
 <p><strong>Aug-Dec 2025</strong> <a href="/people/anxiong-song/">Anxiong Song</a>, <a href="/people/niklas-plessnig/">Niklas Plessnig</a> · ETH Zurich</p>
 <p><strong>May-Aug 2025</strong> <a href="/people/marc-rautmann/">Marc Rautmann</a>, <a href="/people/lara-prelij/">Lara Prelij</a>, <a href="/people/sohil-khan/">Sohil Khan</a> · ETH Zurich</p>
 <p><strong>Feb-Jun 2025</strong> <a href="/people/jeff-ren/">Jeff Ren</a> · ETH Zurich</p>
-<p><strong>2021-2022</strong> <a href="/people/guillaume-goupy/">Guillaume Goupy</a> · Universite de Sherbrooke · <a href="/publications/#vdsp-convolutional-snn">publication</a></p>
+<p><strong>2021-2022</strong> <a href="/people/guillaume-goupy/">Guillaume Goupy</a> · Université de Sherbrooke · <a href="/publications/#vdsp-convolutional-snn">publication</a></p>
 <p><strong>2020-2021</strong> <a href="/people/rohit-garg/">Rohit Garg</a> · BITS Pilani Goa · <a href="/publications/#portable-eeg-valence-arousal">publication</a></p>
 <p><strong>2019-2020</strong> <a href="/people/akshay-valsaraj/">Akshay Valsaraj</a>, <a href="/people/ishaan-madala/">Ithihas Madala</a> · BITS Pilani Goa · <a href="/publications/#bci--eeg">publications</a></p>
 </div>
@@ -401,4 +401,4 @@ Student and collaborator pages are maintained in the [People](/people/); the CV 
 * An Introduction to Consumer Neuroscience and Neuromarketing
 * Intermediate Python for Data Science
 * Writing in the Sciences
-* Nanotechnology: A Maker's Course
+* Nanotechnology: A Maker’s Course

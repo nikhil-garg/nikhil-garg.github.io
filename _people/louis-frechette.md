@@ -1,5 +1,5 @@
 ---
-title: "Louis Frechette"
+title: "Louis Fréchette"
 category: "Collaborator"
 people_order: 59
 initials: "LF"

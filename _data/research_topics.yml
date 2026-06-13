@@ -3,14 +3,14 @@
   title: acoustic features
   publications:
   - id: alzheimer-bert-speech
-    title: Alzheimer's dementia detection using acoustic and linguistic features and
+    title: Alzheimer’s dementia detection using acoustic and linguistic features and
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
     url: "/publications/#alzheimer-bert-speech"
     project: BCI
     keywords:
-    - Alzheimer's dementia
+    - Alzheimer’s dementia
     - speech analysis
     - acoustic features
     - linguistic features
@@ -19,7 +19,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -27,7 +27,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -35,7 +35,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for acoustic features
+  - label: Search Videos for acoustic features
     url: "/files/neuropac-video-archive/videos/index.html?q=acoustic+features"
 - slug: affect-decoding
   title: affect decoding
@@ -64,7 +64,7 @@
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
+    affiliation: BITS Pilani Goa · Bachelor’s thesis, 2020-2021
     initials: RG
     publications:
     - portable-eeg-valence-arousal
@@ -81,20 +81,20 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for affect decoding
+  - label: Search Videos for affect decoding
     url: "/files/neuropac-video-archive/videos/index.html?q=affect+decoding"
 - slug: alzheimer-s-dementia
-  title: Alzheimer's dementia
+  title: Alzheimer’s dementia
   publications:
   - id: alzheimer-bert-speech
-    title: Alzheimer's dementia detection using acoustic and linguistic features and
+    title: Alzheimer’s dementia detection using acoustic and linguistic features and
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
     url: "/publications/#alzheimer-bert-speech"
     project: BCI
     keywords:
-    - Alzheimer's dementia
+    - Alzheimer’s dementia
     - speech analysis
     - acoustic features
     - linguistic features
@@ -103,7 +103,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -111,13 +111,13 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
   videos:
-  - label: Search NeuroPAC for Alzheimer's dementia
+  - label: Search Videos for Alzheimer’s dementia
     url: "/files/neuropac-video-archive/videos/index.html?q=Alzheimer%27s+dementia"
 - slug: analog-ai-hardware
   title: analog AI hardware
@@ -125,7 +125,7 @@
   - id: all-in-one-analog-ai-hardware
     title: 'All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx
       ReRAM Devices.'
-    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours,
+    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
     url: "/publications/#all-in-one-analog-ai-hardware"
@@ -147,7 +147,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -164,7 +164,7 @@
     initials: FH
     publications:
     - all-in-one-analog-ai-hardware
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -207,7 +207,7 @@
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for analog AI hardware
+  - label: Search Videos for analog AI hardware
     url: "/files/neuropac-video-archive/videos/index.html?q=analog+AI+hardware"
 - slug: analog-integrated-circuits
   title: analog integrated circuits
@@ -216,7 +216,7 @@
     title: Neuromorphic in-memory learning with analog integrated circuits and nanoscale
       memristive devices.
     authors: N. Garg.
-    venue: PhD thesis, Universite de Lille and Universite de Sherbrooke, 2024.
+    venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
     url: "/publications/#phd-thesis"
     project: UNICO
     keywords:
@@ -227,7 +227,7 @@
     - neuromorphic hardware
   people: []
   videos:
-  - label: Search NeuroPAC for analog integrated circuits
+  - label: Search Videos for analog integrated circuits
     url: "/files/neuropac-video-archive/videos/index.html?q=analog+integrated+circuits"
 - slug: analog-weight-update
   title: analog weight update
@@ -236,7 +236,7 @@
     title: Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming
       Pulses.
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
-      L. Begon-Lours.
+      L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
     url: "/publications/#analog-weight-update-ferroelectric-hafnia"
     project: VITFOX
@@ -294,7 +294,7 @@
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
   videos:
-  - label: Search NeuroPAC for analog weight update
+  - label: Search Videos for analog weight update
     url: "/files/neuropac-video-archive/videos/index.html?q=analog+weight+update"
 - slug: arousal
   title: arousal
@@ -323,7 +323,7 @@
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
+    affiliation: BITS Pilani Goa · Bachelor’s thesis, 2020-2021
     initials: RG
     publications:
     - portable-eeg-valence-arousal
@@ -340,7 +340,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for arousal
+  - label: Search Videos for arousal
     url: "/files/neuropac-video-archive/videos/index.html?q=arousal"
 - slug: assistive-technology
   title: assistive technology
@@ -385,7 +385,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for assistive technology
+  - label: Search Videos for assistive technology
     url: "/files/neuropac-video-archive/videos/index.html?q=assistive+technology"
 - slug: bci
   title: BCI
@@ -407,7 +407,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -415,7 +415,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -441,20 +441,20 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for BCI
+  - label: Search Videos for BCI
     url: "/files/neuropac-video-archive/videos/index.html?q=BCI"
 - slug: bert
   title: BERT
   publications:
   - id: alzheimer-bert-speech
-    title: Alzheimer's dementia detection using acoustic and linguistic features and
+    title: Alzheimer’s dementia detection using acoustic and linguistic features and
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
     url: "/publications/#alzheimer-bert-speech"
     project: BCI
     keywords:
-    - Alzheimer's dementia
+    - Alzheimer’s dementia
     - speech analysis
     - acoustic features
     - linguistic features
@@ -463,7 +463,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -471,7 +471,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -479,7 +479,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for BERT
+  - label: Search Videos for BERT
     url: "/files/neuropac-video-archive/videos/index.html?q=BERT"
 - slug: bio-inspired-hardware
   title: bio-inspired hardware
@@ -488,7 +488,7 @@
     title: Energy-convergence trade off for the training of neural networks on bio-inspired
       hardware.
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
-      B. J. Offrein, L. Begon-Lours.
+      B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
     url: "/publications/#energy-convergence-ferro"
     project: VITFOX
@@ -515,7 +515,7 @@
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -550,7 +550,7 @@
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for bio-inspired hardware
+  - label: Search Videos for bio-inspired hardware
     url: "/files/neuropac-video-archive/videos/index.html?q=bio-inspired+hardware"
 - slug: classification
   title: classification
@@ -590,7 +590,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for classification
+  - label: Search Videos for classification
     url: "/files/neuropac-video-archive/videos/index.html?q=classification"
 - slug: cmos-analog-circuits
   title: CMOS analog circuits
@@ -613,7 +613,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -629,7 +629,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -647,7 +647,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -682,7 +682,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -693,7 +693,7 @@
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
-  - label: Search NeuroPAC for CMOS analog circuits
+  - label: Search Videos for CMOS analog circuits
     url: "/files/neuropac-video-archive/videos/index.html?q=CMOS+analog+circuits"
 - slug: conductive-metal-oxide
   title: conductive-metal-oxide
@@ -701,7 +701,7 @@
   - id: all-in-one-analog-ai-hardware
     title: 'All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx
       ReRAM Devices.'
-    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours,
+    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
     url: "/publications/#all-in-one-analog-ai-hardware"
@@ -723,7 +723,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -740,7 +740,7 @@
     initials: FH
     publications:
     - all-in-one-analog-ai-hardware
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -783,7 +783,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for conductive-metal-oxide
+  - label: Search Videos for conductive-metal-oxide
     url: "/files/neuropac-video-archive/videos/index.html?q=conductive-metal-oxide"
 - slug: convolutional-snns
   title: convolutional SNNs
@@ -791,7 +791,7 @@
   - id: vdsp-convolutional-snn
     title: Unsupervised and efficient learning in sparsely activated convolutional
       spiking neural networks enabled by voltage-dependent synaptic plasticity.
-    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette,
+    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
     url: "/publications/#vdsp-convolutional-snn"
@@ -813,11 +813,11 @@
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
-    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
+    affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
     publications:
     - vdsp-convolutional-snn
-  - title: Louis Frechette
+  - title: Louis Fréchette
     url: "/people/louis-frechette/"
     category: Collaborator
     affiliation: UNICO coauthor
@@ -827,7 +827,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -836,7 +836,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for convolutional SNNs
+  - label: Search Videos for convolutional SNNs
     url: "/files/neuropac-video-archive/videos/index.html?q=convolutional+SNNs"
 - slug: cryogenic-computing
   title: cryogenic computing
@@ -894,7 +894,7 @@
     - pcm-cryo-snn
     - pcm-drift-compensation
   videos:
-  - label: Search NeuroPAC for cryogenic computing
+  - label: Search Videos for cryogenic computing
     url: "/files/neuropac-video-archive/videos/index.html?q=cryogenic+computing"
 - slug: current-scaling
   title: current scaling
@@ -933,7 +933,7 @@
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
-  - label: Search NeuroPAC for current scaling
+  - label: Search Videos for current scaling
     url: "/files/neuropac-video-archive/videos/index.html?q=current+scaling"
 - slug: dendritic-connections
   title: dendritic connections
@@ -963,7 +963,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -974,7 +974,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -1007,7 +1007,7 @@
     publications:
     - pedot-structural-plasticity
   videos:
-  - label: Search NeuroPAC for dendritic connections
+  - label: Search Videos for dendritic connections
     url: "/files/neuropac-video-archive/videos/index.html?q=dendritic+connections"
 - slug: device-aware-learning
   title: device-aware learning
@@ -1016,7 +1016,7 @@
     title: Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming
       Pulses.
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
-      L. Begon-Lours.
+      L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
     url: "/publications/#analog-weight-update-ferroelectric-hafnia"
     project: VITFOX
@@ -1076,7 +1076,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for device-aware learning
+  - label: Search Videos for device-aware learning
     url: "/files/neuropac-video-archive/videos/index.html?q=device-aware+learning"
 - slug: drift
   title: drift
@@ -1134,7 +1134,7 @@
     - pcm-cryo-snn
     - pcm-drift-compensation
   videos:
-  - label: Search NeuroPAC for drift
+  - label: Search Videos for drift
     url: "/files/neuropac-video-archive/videos/index.html?q=drift"
 - slug: drift-compensation
   title: drift compensation
@@ -1171,7 +1171,7 @@
     - pcm-cryo-snn
     - pcm-drift-compensation
   videos:
-  - label: Search NeuroPAC for drift compensation
+  - label: Search Videos for drift compensation
     url: "/files/neuropac-video-archive/videos/index.html?q=drift+compensation"
 - slug: eeg
   title: EEG
@@ -1179,7 +1179,7 @@
   - id: personalized-spiking-neural-networks
     title: Personalized spiking neural networks with ferroelectric synapses for EEG
       signal processing.
-    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Begon-Lours.
+    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
     url: "/publications/#personalized-spiking-neural-networks"
     project: VITFOX
@@ -1210,7 +1210,7 @@
     initials: AS
     publications:
     - personalized-spiking-neural-networks
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -1255,7 +1255,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for EEG
+  - label: Search Videos for EEG
     url: "/files/neuropac-video-archive/videos/index.html?q=EEG"
 - slug: eeg-authentication
   title: EEG authentication
@@ -1277,7 +1277,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -1285,7 +1285,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -1311,7 +1311,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for EEG authentication
+  - label: Search Videos for EEG authentication
     url: "/files/neuropac-video-archive/videos/index.html?q=EEG+authentication"
 - slug: electropolymerization
   title: electropolymerization
@@ -1341,7 +1341,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -1352,7 +1352,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -1385,7 +1385,7 @@
     publications:
     - pedot-structural-plasticity
   videos:
-  - label: Search NeuroPAC for electropolymerization
+  - label: Search Videos for electropolymerization
     url: "/files/neuropac-video-archive/videos/index.html?q=electropolymerization"
 - slug: emg
   title: EMG
@@ -1407,7 +1407,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -1418,7 +1418,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -1431,7 +1431,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -1439,7 +1439,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -1448,7 +1448,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for EMG
+  - label: Search Videos for EMG
     url: "/files/neuropac-video-archive/videos/index.html?q=EMG"
 - slug: energy-convergence
   title: energy-convergence
@@ -1457,7 +1457,7 @@
     title: Energy-convergence trade off for the training of neural networks on bio-inspired
       hardware.
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
-      B. J. Offrein, L. Begon-Lours.
+      B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
     url: "/publications/#energy-convergence-ferro"
     project: VITFOX
@@ -1484,7 +1484,7 @@
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -1517,7 +1517,7 @@
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
   videos:
-  - label: Search NeuroPAC for energy-convergence
+  - label: Search Videos for energy-convergence
     url: "/files/neuropac-video-archive/videos/index.html?q=energy-convergence"
 - slug: event-driven-sensing
   title: event-driven sensing
@@ -1539,7 +1539,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -1550,7 +1550,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -1563,7 +1563,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -1571,7 +1571,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -1580,7 +1580,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for event-driven sensing
+  - label: Search Videos for event-driven sensing
     url: "/files/neuropac-video-archive/videos/index.html?q=event-driven+sensing"
 - slug: eye-blinks
   title: eye blinks
@@ -1623,7 +1623,7 @@
     - motor-imagery-biometrics
     - motor-imagery-multiclass
   videos:
-  - label: Search NeuroPAC for eye blinks
+  - label: Search Videos for eye blinks
     url: "/files/neuropac-video-archive/videos/index.html?q=eye+blinks"
 - slug: fdsoi
   title: FDSOI
@@ -1683,7 +1683,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for FDSOI
+  - label: Search Videos for FDSOI
     url: "/files/neuropac-video-archive/videos/index.html?q=FDSOI"
 - slug: ferroelectric-devices
   title: ferroelectric devices
@@ -1692,7 +1692,7 @@
     title: Energy-convergence trade off for the training of neural networks on bio-inspired
       hardware.
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
-      B. J. Offrein, L. Begon-Lours.
+      B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
     url: "/publications/#energy-convergence-ferro"
     project: VITFOX
@@ -1719,7 +1719,7 @@
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -1754,7 +1754,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for ferroelectric devices
+  - label: Search Videos for ferroelectric devices
     url: "/files/neuropac-video-archive/videos/index.html?q=ferroelectric+devices"
 - slug: ferroelectric-hafnia
   title: ferroelectric hafnia
@@ -1763,7 +1763,7 @@
     title: Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming
       Pulses.
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
-      L. Begon-Lours.
+      L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
     url: "/publications/#analog-weight-update-ferroelectric-hafnia"
     project: VITFOX
@@ -1823,7 +1823,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for ferroelectric hafnia
+  - label: Search Videos for ferroelectric hafnia
     url: "/files/neuropac-video-archive/videos/index.html?q=ferroelectric+hafnia"
 - slug: ferroelectric-synapses
   title: ferroelectric synapses
@@ -1831,7 +1831,7 @@
   - id: personalized-spiking-neural-networks
     title: Personalized spiking neural networks with ferroelectric synapses for EEG
       signal processing.
-    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Begon-Lours.
+    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
     url: "/publications/#personalized-spiking-neural-networks"
     project: VITFOX
@@ -1844,7 +1844,7 @@
   - id: vdsp-memristors
     title: Unsupervised local learning based on voltage-dependent synaptic plasticity
       for resistive and ferroelectric synapses.
-    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini,
+    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
     url: "/publications/#vdsp-memristors"
@@ -1874,7 +1874,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -1885,7 +1885,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -1898,12 +1898,12 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
     - voltage-dependent-synaptic-plasticity
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -1945,7 +1945,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -1956,7 +1956,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for ferroelectric synapses
+  - label: Search Videos for ferroelectric synapses
     url: "/files/neuropac-video-archive/videos/index.html?q=ferroelectric+synapses"
 - slug: gesture-recognition
   title: gesture recognition
@@ -1978,7 +1978,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -1989,7 +1989,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2002,7 +2002,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2010,7 +2010,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2021,7 +2021,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for gesture recognition
+  - label: Search Videos for gesture recognition
     url: "/files/neuropac-video-archive/videos/index.html?q=gesture+recognition"
 - slug: hebbian-plasticity
   title: Hebbian plasticity
@@ -2044,7 +2044,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2052,7 +2052,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2063,7 +2063,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2076,7 +2076,7 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
@@ -2084,7 +2084,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2107,7 +2107,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2118,7 +2118,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for Hebbian plasticity
+  - label: Search Videos for Hebbian plasticity
     url: "/files/neuropac-video-archive/videos/index.html?q=Hebbian+plasticity"
 - slug: hybrid-bci
   title: hybrid BCI
@@ -2163,7 +2163,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for hybrid BCI
+  - label: Search Videos for hybrid BCI
     url: "/files/neuropac-video-archive/videos/index.html?q=hybrid+BCI"
 - slug: in-memory-learning
   title: in-memory learning
@@ -2172,7 +2172,7 @@
     title: Neuromorphic in-memory learning with analog integrated circuits and nanoscale
       memristive devices.
     authors: N. Garg.
-    venue: PhD thesis, Universite de Lille and Universite de Sherbrooke, 2024.
+    venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
     url: "/publications/#phd-thesis"
     project: UNICO
     keywords:
@@ -2185,7 +2185,7 @@
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for in-memory learning
+  - label: Search Videos for in-memory learning
     url: "/files/neuropac-video-archive/videos/index.html?q=in-memory+learning"
 - slug: inference
   title: inference
@@ -2193,7 +2193,7 @@
   - id: all-in-one-analog-ai-hardware
     title: 'All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx
       ReRAM Devices.'
-    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours,
+    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
     url: "/publications/#all-in-one-analog-ai-hardware"
@@ -2215,7 +2215,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2232,7 +2232,7 @@
     initials: FH
     publications:
     - all-in-one-analog-ai-hardware
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -2275,7 +2275,7 @@
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for inference
+  - label: Search Videos for inference
     url: "/files/neuropac-video-archive/videos/index.html?q=inference"
 - slug: lif-neuron
   title: LIF neuron
@@ -2298,7 +2298,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2314,7 +2314,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2332,7 +2332,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2367,7 +2367,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2378,20 +2378,20 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for LIF neuron
+  - label: Search Videos for LIF neuron
     url: "/files/neuropac-video-archive/videos/index.html?q=LIF+neuron"
 - slug: linguistic-features
   title: linguistic features
   publications:
   - id: alzheimer-bert-speech
-    title: Alzheimer's dementia detection using acoustic and linguistic features and
+    title: Alzheimer’s dementia detection using acoustic and linguistic features and
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
     url: "/publications/#alzheimer-bert-speech"
     project: BCI
     keywords:
-    - Alzheimer's dementia
+    - Alzheimer’s dementia
     - speech analysis
     - acoustic features
     - linguistic features
@@ -2400,7 +2400,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -2408,7 +2408,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -2416,7 +2416,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for linguistic features
+  - label: Search Videos for linguistic features
     url: "/files/neuropac-video-archive/videos/index.html?q=linguistic+features"
 - slug: local-learning
   title: local learning
@@ -2424,7 +2424,7 @@
   - id: vdsp-memristors
     title: Unsupervised local learning based on voltage-dependent synaptic plasticity
       for resistive and ferroelectric synapses.
-    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini,
+    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
     url: "/publications/#vdsp-memristors"
@@ -2447,7 +2447,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2458,7 +2458,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2471,12 +2471,12 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
     - voltage-dependent-synaptic-plasticity
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -2504,7 +2504,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2513,7 +2513,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for local learning
+  - label: Search Videos for local learning
     url: "/files/neuropac-video-archive/videos/index.html?q=local+learning"
 - slug: low-power
   title: low power
@@ -2552,7 +2552,7 @@
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
-  - label: Search NeuroPAC for low power
+  - label: Search Videos for low power
     url: "/files/neuropac-video-archive/videos/index.html?q=low+power"
 - slug: machine-learning
   title: machine learning
@@ -2581,7 +2581,7 @@
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
+    affiliation: BITS Pilani Goa · Bachelor’s thesis, 2020-2021
     initials: RG
     publications:
     - portable-eeg-valence-arousal
@@ -2598,7 +2598,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for machine learning
+  - label: Search Videos for machine learning
     url: "/files/neuropac-video-archive/videos/index.html?q=machine+learning"
 - slug: membrane-potential
   title: membrane potential
@@ -2621,7 +2621,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2629,7 +2629,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2640,7 +2640,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2653,7 +2653,7 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
@@ -2661,7 +2661,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2684,7 +2684,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2693,7 +2693,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for membrane potential
+  - label: Search Videos for membrane potential
     url: "/files/neuropac-video-archive/videos/index.html?q=membrane+potential"
 - slug: memristor-interface
   title: memristor interface
@@ -2716,7 +2716,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2732,7 +2732,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2750,7 +2750,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2785,7 +2785,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2796,7 +2796,7 @@
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
-  - label: Search NeuroPAC for memristor interface
+  - label: Search Videos for memristor interface
     url: "/files/neuropac-video-archive/videos/index.html?q=memristor+interface"
 - slug: memristors
   title: memristors
@@ -2804,7 +2804,7 @@
   - id: vdsp-memristors
     title: Unsupervised local learning based on voltage-dependent synaptic plasticity
       for resistive and ferroelectric synapses.
-    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini,
+    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
     url: "/publications/#vdsp-memristors"
@@ -2827,7 +2827,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2838,7 +2838,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2851,12 +2851,12 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
     - voltage-dependent-synaptic-plasticity
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -2884,7 +2884,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2893,7 +2893,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for memristors
+  - label: Search Videos for memristors
     url: "/files/neuropac-video-archive/videos/index.html?q=memristors"
 - slug: mixed-signal-asic
   title: mixed-signal ASIC
@@ -2916,7 +2916,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -2932,7 +2932,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -2950,7 +2950,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -2985,7 +2985,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -2996,7 +2996,7 @@
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
-  - label: Search NeuroPAC for mixed-signal ASIC
+  - label: Search Videos for mixed-signal ASIC
     url: "/files/neuropac-video-archive/videos/index.html?q=mixed-signal+ASIC"
 - slug: motor-imagery
   title: motor imagery
@@ -3031,7 +3031,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -3039,7 +3039,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -3065,7 +3065,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for motor imagery
+  - label: Search Videos for motor imagery
     url: "/files/neuropac-video-archive/videos/index.html?q=motor+imagery"
 - slug: multiclass-bci
   title: multiclass BCI
@@ -3105,7 +3105,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for multiclass BCI
+  - label: Search Videos for multiclass BCI
     url: "/files/neuropac-video-archive/videos/index.html?q=multiclass+BCI"
 - slug: multimodal-biometrics
   title: multimodal biometrics
@@ -3127,7 +3127,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -3135,7 +3135,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -3159,7 +3159,7 @@
     - motor-imagery-biometrics
     - motor-imagery-multiclass
   videos:
-  - label: Search NeuroPAC for multimodal biometrics
+  - label: Search Videos for multimodal biometrics
     url: "/files/neuropac-video-archive/videos/index.html?q=multimodal+biometrics"
 - slug: nanoscale-memristive-devices
   title: nanoscale memristive devices
@@ -3168,7 +3168,7 @@
     title: Neuromorphic in-memory learning with analog integrated circuits and nanoscale
       memristive devices.
     authors: N. Garg.
-    venue: PhD thesis, Universite de Lille and Universite de Sherbrooke, 2024.
+    venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
     url: "/publications/#phd-thesis"
     project: UNICO
     keywords:
@@ -3179,7 +3179,7 @@
     - neuromorphic hardware
   people: []
   videos:
-  - label: Search NeuroPAC for nanoscale memristive devices
+  - label: Search Videos for nanoscale memristive devices
     url: "/files/neuropac-video-archive/videos/index.html?q=nanoscale+memristive+devices"
 - slug: nengo
   title: Nengo
@@ -3202,7 +3202,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -3210,7 +3210,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -3221,7 +3221,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -3234,7 +3234,7 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
@@ -3242,7 +3242,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -3265,7 +3265,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -3276,7 +3276,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for Nengo
+  - label: Search Videos for Nengo
     url: "/files/neuropac-video-archive/videos/index.html?q=Nengo"
 - slug: neuromorphic-computing
   title: neuromorphic computing
@@ -3284,7 +3284,7 @@
   - id: vdsp-convolutional-snn
     title: Unsupervised and efficient learning in sparsely activated convolutional
       spiking neural networks enabled by voltage-dependent synaptic plasticity.
-    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette,
+    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
     url: "/publications/#vdsp-convolutional-snn"
@@ -3306,11 +3306,11 @@
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
-    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
+    affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
     publications:
     - vdsp-convolutional-snn
-  - title: Louis Frechette
+  - title: Louis Fréchette
     url: "/people/louis-frechette/"
     category: Collaborator
     affiliation: UNICO coauthor
@@ -3320,7 +3320,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -3329,7 +3329,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for neuromorphic computing
+  - label: Search Videos for neuromorphic computing
     url: "/files/neuropac-video-archive/videos/index.html?q=neuromorphic+computing"
 - slug: neuromorphic-hardware
   title: neuromorphic hardware
@@ -3338,7 +3338,7 @@
     title: Neuromorphic in-memory learning with analog integrated circuits and nanoscale
       memristive devices.
     authors: N. Garg.
-    venue: PhD thesis, Universite de Lille and Universite de Sherbrooke, 2024.
+    venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
     url: "/publications/#phd-thesis"
     project: UNICO
     keywords:
@@ -3351,7 +3351,7 @@
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for neuromorphic hardware
+  - label: Search Videos for neuromorphic hardware
     url: "/files/neuropac-video-archive/videos/index.html?q=neuromorphic+hardware"
 - slug: oect-array
   title: OECT array
@@ -3373,7 +3373,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -3401,7 +3401,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for OECT array
+  - label: Search Videos for OECT array
     url: "/files/neuropac-video-archive/videos/index.html?q=OECT+array"
 - slug: on-chip-training
   title: on-chip training
@@ -3409,7 +3409,7 @@
   - id: all-in-one-analog-ai-hardware
     title: 'All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx
       ReRAM Devices.'
-    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours,
+    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
     url: "/publications/#all-in-one-analog-ai-hardware"
@@ -3431,7 +3431,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -3448,7 +3448,7 @@
     initials: FH
     publications:
     - all-in-one-analog-ai-hardware
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -3493,7 +3493,7 @@
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for on-chip training
+  - label: Search Videos for on-chip training
     url: "/files/neuropac-video-archive/videos/index.html?q=on-chip+training"
 - slug: organic-electronics
   title: organic electronics
@@ -3515,7 +3515,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -3543,7 +3543,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for organic electronics
+  - label: Search Videos for organic electronics
     url: "/files/neuropac-video-archive/videos/index.html?q=organic+electronics"
 - slug: organic-neuromorphic-networks
   title: organic neuromorphic networks
@@ -3573,7 +3573,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -3584,7 +3584,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -3619,7 +3619,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for organic neuromorphic networks
+  - label: Search Videos for organic neuromorphic networks
     url: "/files/neuropac-video-archive/videos/index.html?q=organic+neuromorphic+networks"
 - slug: pedot
   title: PEDOT
@@ -3649,7 +3649,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -3660,7 +3660,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -3695,7 +3695,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for PEDOT
+  - label: Search Videos for PEDOT
     url: "/files/neuropac-video-archive/videos/index.html?q=PEDOT"
 - slug: personalization
   title: personalization
@@ -3703,7 +3703,7 @@
   - id: personalized-spiking-neural-networks
     title: Personalized spiking neural networks with ferroelectric synapses for EEG
       signal processing.
-    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Begon-Lours.
+    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
     url: "/publications/#personalized-spiking-neural-networks"
     project: VITFOX
@@ -3721,7 +3721,7 @@
     initials: AS
     publications:
     - personalized-spiking-neural-networks
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -3748,7 +3748,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for personalization
+  - label: Search Videos for personalization
     url: "/files/neuropac-video-archive/videos/index.html?q=personalization"
 - slug: phase-change-memory
   title: phase-change memory
@@ -3822,7 +3822,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for phase-change memory
+  - label: Search Videos for phase-change memory
     url: "/files/neuropac-video-archive/videos/index.html?q=phase-change+memory"
 - slug: phd-thesis
   title: PhD thesis
@@ -3831,7 +3831,7 @@
     title: Neuromorphic in-memory learning with analog integrated circuits and nanoscale
       memristive devices.
     authors: N. Garg.
-    venue: PhD thesis, Universite de Lille and Universite de Sherbrooke, 2024.
+    venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
     url: "/publications/#phd-thesis"
     project: UNICO
     keywords:
@@ -3842,7 +3842,7 @@
     - neuromorphic hardware
   people: []
   videos:
-  - label: Search NeuroPAC for PhD thesis
+  - label: Search Videos for PhD thesis
     url: "/files/neuropac-video-archive/videos/index.html?q=PhD+thesis"
 - slug: picojoule-pulses
   title: picojoule pulses
@@ -3851,7 +3851,7 @@
     title: Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming
       Pulses.
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
-      L. Begon-Lours.
+      L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
     url: "/publications/#analog-weight-update-ferroelectric-hafnia"
     project: VITFOX
@@ -3911,7 +3911,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for picojoule pulses
+  - label: Search Videos for picojoule pulses
     url: "/files/neuropac-video-archive/videos/index.html?q=picojoule+pulses"
 - slug: portable-eeg
   title: portable EEG
@@ -3940,7 +3940,7 @@
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
+    affiliation: BITS Pilani Goa · Bachelor’s thesis, 2020-2021
     initials: RG
     publications:
     - portable-eeg-valence-arousal
@@ -3957,7 +3957,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for portable EEG
+  - label: Search Videos for portable EEG
     url: "/files/neuropac-video-archive/videos/index.html?q=portable+EEG"
 - slug: probabilistic-learning
   title: probabilistic learning
@@ -3980,7 +3980,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -3988,7 +3988,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -3999,7 +3999,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4012,7 +4012,7 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
@@ -4020,7 +4020,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -4043,7 +4043,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -4054,7 +4054,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for probabilistic learning
+  - label: Search Videos for probabilistic learning
     url: "/files/neuropac-video-archive/videos/index.html?q=probabilistic+learning"
 - slug: reram
   title: ReRAM
@@ -4062,7 +4062,7 @@
   - id: all-in-one-analog-ai-hardware
     title: 'All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx
       ReRAM Devices.'
-    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours,
+    authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
     url: "/publications/#all-in-one-analog-ai-hardware"
@@ -4084,7 +4084,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4101,7 +4101,7 @@
     initials: FH
     publications:
     - all-in-one-analog-ai-hardware
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -4144,7 +4144,7 @@
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
-  - label: Search NeuroPAC for ReRAM
+  - label: Search Videos for ReRAM
     url: "/files/neuropac-video-archive/videos/index.html?q=ReRAM"
 - slug: reservoir-computing
   title: reservoir computing
@@ -4179,7 +4179,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -4190,7 +4190,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4203,7 +4203,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -4226,7 +4226,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -4237,7 +4237,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for reservoir computing
+  - label: Search Videos for reservoir computing
     url: "/files/neuropac-video-archive/videos/index.html?q=reservoir+computing"
 - slug: same-limb-movement
   title: same-limb movement
@@ -4275,7 +4275,7 @@
     - motor-imagery-biometrics
     - motor-imagery-multiclass
   videos:
-  - label: Search NeuroPAC for same-limb movement
+  - label: Search Videos for same-limb movement
     url: "/files/neuropac-video-archive/videos/index.html?q=same-limb+movement"
 - slug: signal-classification
   title: signal classification
@@ -4297,7 +4297,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4325,7 +4325,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for signal classification
+  - label: Search Videos for signal classification
     url: "/files/neuropac-video-archive/videos/index.html?q=signal+classification"
 - slug: signals-to-spikes
   title: signals-to-spikes
@@ -4347,7 +4347,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -4358,7 +4358,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4371,7 +4371,7 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -4379,7 +4379,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -4390,7 +4390,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for signals-to-spikes
+  - label: Search Videos for signals-to-spikes
     url: "/files/neuropac-video-archive/videos/index.html?q=signals-to-spikes"
 - slug: sparse-activation
   title: sparse activation
@@ -4398,7 +4398,7 @@
   - id: vdsp-convolutional-snn
     title: Unsupervised and efficient learning in sparsely activated convolutional
       spiking neural networks enabled by voltage-dependent synaptic plasticity.
-    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette,
+    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
     url: "/publications/#vdsp-convolutional-snn"
@@ -4420,11 +4420,11 @@
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
-    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
+    affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
     publications:
     - vdsp-convolutional-snn
-  - title: Louis Frechette
+  - title: Louis Fréchette
     url: "/people/louis-frechette/"
     category: Collaborator
     affiliation: UNICO coauthor
@@ -4434,7 +4434,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -4443,20 +4443,20 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for sparse activation
+  - label: Search Videos for sparse activation
     url: "/files/neuropac-video-archive/videos/index.html?q=sparse+activation"
 - slug: speech-analysis
   title: speech analysis
   publications:
   - id: alzheimer-bert-speech
-    title: Alzheimer's dementia detection using acoustic and linguistic features and
+    title: Alzheimer’s dementia detection using acoustic and linguistic features and
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
     url: "/publications/#alzheimer-bert-speech"
     project: BCI
     keywords:
-    - Alzheimer's dementia
+    - Alzheimer’s dementia
     - speech analysis
     - acoustic features
     - linguistic features
@@ -4465,7 +4465,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -4473,7 +4473,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -4481,7 +4481,7 @@
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
-  - label: Search NeuroPAC for speech analysis
+  - label: Search Videos for speech analysis
     url: "/files/neuropac-video-archive/videos/index.html?q=speech+analysis"
 - slug: spiking-neural-networks
   title: spiking neural networks
@@ -4489,7 +4489,7 @@
   - id: personalized-spiking-neural-networks
     title: Personalized spiking neural networks with ferroelectric synapses for EEG
       signal processing.
-    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Begon-Lours.
+    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
     url: "/publications/#personalized-spiking-neural-networks"
     project: VITFOX
@@ -4549,7 +4549,7 @@
     initials: JS
     publications:
     - pcm-cryo-snn
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -4599,7 +4599,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for spiking neural networks
+  - label: Search Videos for spiking neural networks
     url: "/files/neuropac-video-archive/videos/index.html?q=spiking+neural+networks"
 - slug: spiking-simulations
   title: spiking simulations
@@ -4621,7 +4621,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4649,7 +4649,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for spiking simulations
+  - label: Search Videos for spiking simulations
     url: "/files/neuropac-video-archive/videos/index.html?q=spiking+simulations"
 - slug: ssvep
   title: SSVEP
@@ -4694,7 +4694,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for SSVEP
+  - label: Search Videos for SSVEP
     url: "/files/neuropac-video-archive/videos/index.html?q=SSVEP"
 - slug: structural-plasticity
   title: structural plasticity
@@ -4724,7 +4724,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -4735,7 +4735,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4770,7 +4770,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for structural plasticity
+  - label: Search Videos for structural plasticity
     url: "/files/neuropac-video-archive/videos/index.html?q=structural+plasticity"
 - slug: training-dynamics
   title: training dynamics
@@ -4779,7 +4779,7 @@
     title: Energy-convergence trade off for the training of neural networks on bio-inspired
       hardware.
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
-      B. J. Offrein, L. Begon-Lours.
+      B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
     url: "/publications/#energy-convergence-ferro"
     project: VITFOX
@@ -4806,7 +4806,7 @@
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -4841,7 +4841,7 @@
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
-  - label: Search NeuroPAC for training dynamics
+  - label: Search Videos for training dynamics
     url: "/files/neuropac-video-archive/videos/index.html?q=training+dynamics"
 - slug: unico
   title: UNICO
@@ -4849,7 +4849,7 @@
   - id: vdsp-memristors
     title: Unsupervised local learning based on voltage-dependent synaptic plasticity
       for resistive and ferroelectric synapses.
-    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini,
+    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
     url: "/publications/#vdsp-memristors"
@@ -4878,7 +4878,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -4894,7 +4894,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -4912,7 +4912,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -4925,12 +4925,12 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
     - voltage-dependent-synaptic-plasticity
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -4980,7 +4980,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -4989,7 +4989,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for UNICO
+  - label: Search Videos for UNICO
     url: "/files/neuropac-video-archive/videos/index.html?q=UNICO"
 - slug: unsupervised-learning
   title: unsupervised learning
@@ -4997,7 +4997,7 @@
   - id: vdsp-convolutional-snn
     title: Unsupervised and efficient learning in sparsely activated convolutional
       spiking neural networks enabled by voltage-dependent synaptic plasticity.
-    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette,
+    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
     url: "/publications/#vdsp-convolutional-snn"
@@ -5019,11 +5019,11 @@
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
-    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
+    affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
     publications:
     - vdsp-convolutional-snn
-  - title: Louis Frechette
+  - title: Louis Fréchette
     url: "/people/louis-frechette/"
     category: Collaborator
     affiliation: UNICO coauthor
@@ -5033,7 +5033,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -5042,7 +5042,7 @@
     - signals-to-spikes-emg
     - cmos-lif-neuron
   videos:
-  - label: Search NeuroPAC for unsupervised learning
+  - label: Search Videos for unsupervised learning
     url: "/files/neuropac-video-archive/videos/index.html?q=unsupervised+learning"
 - slug: user-authentication
   title: user authentication
@@ -5064,7 +5064,7 @@
   - title: Akshay Valsaraj
     url: "/people/akshay-valsaraj/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: AV
     publications:
     - alzheimer-bert-speech
@@ -5072,7 +5072,7 @@
   - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    affiliation: BITS Pilani Goa · Bachelor’s project, 2019-2020
     initials: IM
     publications:
     - alzheimer-bert-speech
@@ -5098,7 +5098,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for user authentication
+  - label: Search Videos for user authentication
     url: "/files/neuropac-video-archive/videos/index.html?q=user+authentication"
 - slug: valence
   title: valence
@@ -5127,7 +5127,7 @@
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
-    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
+    affiliation: BITS Pilani Goa · Bachelor’s thesis, 2020-2021
     initials: RG
     publications:
     - portable-eeg-valence-arousal
@@ -5144,7 +5144,7 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for valence
+  - label: Search Videos for valence
     url: "/files/neuropac-video-archive/videos/index.html?q=valence"
 - slug: vdsp
   title: VDSP
@@ -5152,7 +5152,7 @@
   - id: vdsp-convolutional-snn
     title: Unsupervised and efficient learning in sparsely activated convolutional
       spiking neural networks enabled by voltage-dependent synaptic plasticity.
-    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette,
+    authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
     url: "/publications/#vdsp-convolutional-snn"
@@ -5188,7 +5188,7 @@
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
-    affiliation: Universite Paris-Saclay / CNRS
+    affiliation: Université Paris-Saclay / CNRS
     initials: DQ
     publications:
     - voltage-dependent-synaptic-plasticity
@@ -5196,7 +5196,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -5207,7 +5207,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -5220,14 +5220,14 @@
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
-    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
+    affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
     publications:
     - vdsp-convolutional-snn
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
@@ -5235,12 +5235,12 @@
   - title: Jean Rouat
     url: "/people/jean-rouat/"
     category: Mentor
-    affiliation: Universite de Sherbrooke
+    affiliation: Université de Sherbrooke
     initials: JR
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: Louis Frechette
+  - title: Louis Fréchette
     url: "/people/louis-frechette/"
     category: Collaborator
     affiliation: UNICO coauthor
@@ -5265,7 +5265,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -5276,7 +5276,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for VDSP
+  - label: Search Videos for VDSP
     url: "/files/neuropac-video-archive/videos/index.html?q=VDSP"
 - slug: vitfox
   title: VITFOX
@@ -5284,7 +5284,7 @@
   - id: personalized-spiking-neural-networks
     title: Personalized spiking neural networks with ferroelectric synapses for EEG
       signal processing.
-    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Begon-Lours.
+    authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
     url: "/publications/#personalized-spiking-neural-networks"
     project: VITFOX
@@ -5298,7 +5298,7 @@
     title: Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming
       Pulses.
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
-      L. Begon-Lours.
+      L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
     url: "/publications/#analog-weight-update-ferroelectric-hafnia"
     project: VITFOX
@@ -5312,7 +5312,7 @@
     title: Energy-convergence trade off for the training of neural networks on bio-inspired
       hardware.
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
-      B. J. Offrein, L. Begon-Lours.
+      B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
     url: "/publications/#energy-convergence-ferro"
     project: VITFOX
@@ -5353,7 +5353,7 @@
     initials: EZ
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -5415,7 +5415,7 @@
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
   videos:
-  - label: Search NeuroPAC for VITFOX
+  - label: Search Videos for VITFOX
     url: "/files/neuropac-video-archive/videos/index.html?q=VITFOX"
 - slug: voltage-dependent-synaptic-plasticity
   title: voltage-dependent synaptic plasticity
@@ -5423,7 +5423,7 @@
   - id: vdsp-memristors
     title: Unsupervised local learning based on voltage-dependent synaptic plasticity
       for resistive and ferroelectric synapses.
-    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini,
+    authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
     url: "/publications/#vdsp-memristors"
@@ -5446,7 +5446,7 @@
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: DD
     publications:
     - vdsp-memristors
@@ -5457,7 +5457,7 @@
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
-    affiliation: IEMN-CNRS / Universite de Lille
+    affiliation: IEMN-CNRS / Université de Lille
     initials: FA
     publications:
     - vdsp-memristors
@@ -5470,12 +5470,12 @@
   - title: Jean-Michel Portal
     url: "/people/jean-michel-portal/"
     category: Mentor
-    affiliation: Aix-Marseille Universite / IM2NP
+    affiliation: Aix-Marseille Université / IM2NP
     initials: JMP
     publications:
     - vdsp-memristors
     - voltage-dependent-synaptic-plasticity
-  - title: Laura Begon-Lours
+  - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
     affiliation: ETH Zurich
@@ -5503,7 +5503,7 @@
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
-    affiliation: Universite de Sherbrooke / LN2
+    affiliation: Université de Sherbrooke / LN2
     initials: YB
     publications:
     - vdsp-memristors
@@ -5514,7 +5514,7 @@
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
-  - label: Search NeuroPAC for voltage-dependent synaptic plasticity
+  - label: Search Videos for voltage-dependent synaptic plasticity
     url: "/files/neuropac-video-archive/videos/index.html?q=voltage-dependent+synaptic+plasticity"
 - slug: wheelchair-automation
   title: wheelchair automation
@@ -5559,5 +5559,5 @@
   videos:
   - label: Applications > Biomedical & BCI
     url: "/files/neuropac-video-archive/topics/applications-biomedical-bci.html"
-  - label: Search NeuroPAC for wheelchair automation
+  - label: Search Videos for wheelchair automation
     url: "/files/neuropac-video-archive/videos/index.html?q=wheelchair+automation"

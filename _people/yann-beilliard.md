@@ -4,7 +4,7 @@ category: "Mentor"
 mentor_order: 3
 initials: "YB"
 role: "PhD mentor and UNICO collaborator"
-affiliation: "Universite de Sherbrooke / LN2"
+affiliation: "Université de Sherbrooke / LN2"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

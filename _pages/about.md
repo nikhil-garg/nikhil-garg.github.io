@@ -41,7 +41,15 @@ My work connects adaptive biosignal front ends, spiking neural networks, and eme
 }
 .focus-item {
   border-top: 1px solid #d9d9d9;
+  color: #333;
+  display: block;
   padding-top: 0.65rem;
+  text-decoration: none;
+}
+.focus-item:hover {
+  border-color: #526a7a;
+  color: #111;
+  text-decoration: none;
 }
 .focus-item strong {
   display: block;
@@ -69,8 +77,8 @@ My work connects adaptive biosignal front ends, spiking neural networks, and eme
 </div>
 
 <div class="focus-grid">
-  <div class="focus-item"><strong>Biosignals</strong><span>EEG/EMG sensing, BCI, gesture decoding</span></div>
-  <div class="focus-item"><strong>Neuromorphic algorithms</strong><span>spiking neural networks and local learning</span></div>
-  <div class="focus-item"><strong>Emerging devices</strong><span>memristive, ferroelectric, and phase-change synapses</span></div>
-  <div class="focus-item"><strong>Hardware systems</strong><span>mixed-signal circuits, FPGA, PCB, embedded interfaces</span></div>
+  <a class="focus-item" href="/topics/?q=eeg"><strong>Biosignals</strong><span>EEG/EMG sensing, BCI, gesture decoding</span></a>
+  <a class="focus-item" href="/topics/?q=spiking-neural-networks"><strong>Neuromorphic algorithms</strong><span>spiking neural networks and local learning</span></a>
+  <a class="focus-item" href="/topics/?q=memristors"><strong>Emerging devices</strong><span>memristive, ferroelectric, and phase-change synapses</span></a>
+  <a class="focus-item" href="/projects/#fpga-and-embedded-hardware"><strong>Hardware systems</strong><span>mixed-signal circuits, FPGA, PCB, embedded interfaces</span></a>
 </div>

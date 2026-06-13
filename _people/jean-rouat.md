@@ -4,7 +4,7 @@ category: "Mentor"
 mentor_order: 5
 initials: "JR"
 role: "PhD mentor and collaborator"
-affiliation: "Universite de Sherbrooke"
+affiliation: "Université de Sherbrooke"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

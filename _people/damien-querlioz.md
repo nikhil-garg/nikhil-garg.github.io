@@ -4,7 +4,7 @@ category: "Mentor"
 mentor_order: 8
 initials: "DQ"
 role: "Neuromorphic computing mentor and collaborator"
-affiliation: "Universite Paris-Saclay / CNRS"
+affiliation: "Université Paris-Saclay / CNRS"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

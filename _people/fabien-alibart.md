@@ -4,7 +4,7 @@ category: "Mentor"
 mentor_order: 6
 initials: "FA"
 role: "PhD mentor and UNICO collaborator"
-affiliation: "IEMN-CNRS / Universite de Lille"
+affiliation: "IEMN-CNRS / Université de Lille"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

@@ -3,7 +3,7 @@ title: "Guillaume Goupy"
 category: "Student"
 people_order: 20
 initials: "GG"
-affiliation: "Universite de Sherbrooke · Master's thesis, 2021-2022"
+affiliation: "Université de Sherbrooke · Master’s thesis, 2021-2022"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

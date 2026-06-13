@@ -73,6 +73,34 @@ Selected invited and conference presentations, grouped by year. For the related 
 
 <div class="talk-list">
 
+<article class="talk-card" id="frenken-lecture-2026" markdown="1">
+<p class="talk-year">7 June 2026 · Invited lecture</p>
+<p class="talk-title">Frenken Lecture</p>
+<p class="talk-venue">University of Groningen</p>
+<p class="talk-links"><a href="/projects/#swims">SWIMS</a> <a href="/projects/#unico">UNICO</a></p>
+</article>
+
+<article class="talk-card" id="vieland-2026" markdown="1">
+<p class="talk-year">9 June 2026 · Symposium presentation</p>
+<p class="talk-title">VIELAND 2026 Symposium</p>
+<p class="talk-venue">University of Groningen</p>
+<p class="talk-links"><a href="/projects/#swims">SWIMS</a> <a href="/projects/#vitfox">VITFOX</a></p>
+</article>
+
+<article class="talk-card" id="iwmp-2026" markdown="1">
+<p class="talk-year">2026 · Invited talk</p>
+<p class="talk-title">Neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices</p>
+<p class="talk-venue"><a href="https://infim.ro/event/11th-international-workshop-of-materials-physics/">11th International Workshop of Materials Physics</a></p>
+<p class="talk-links"><a href="/files/talks/iwmp-2026-abstract.pdf">Abstract</a> <a href="/projects/#unico">UNICO</a> <a href="/publications/#vdsp-memristors">Related paper</a></p>
+</article>
+
+<article class="talk-card" id="ccmcc-2025" markdown="1">
+<p class="talk-year">2025 · Paper presentation</p>
+<p class="talk-title">Energy-convergence trade off for the training of neural networks on bio-inspired hardware</p>
+<p class="talk-venue">CCMCC</p>
+<p class="talk-links"><a href="/publications/#energy-convergence-ferro">Paper</a> <a href="/projects/#vitfox">VITFOX</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Code</a></p>
+</article>
+
 <article class="talk-card" id="2024" markdown="1">
 <p class="talk-year">2024 · Paper presentation</p>
 <p class="talk-title">Versatile CMOS Analog LIF Neuron for Memristor-Integrated Neuromorphic Circuits</p>

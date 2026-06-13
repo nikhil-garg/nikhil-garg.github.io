@@ -1,5 +1,5 @@
 ---
-title: "Laura Begon-Lours"
+title: "Laura Bégon-Lours"
 category: "Mentor"
 mentor_order: 2
 initials: "LBL"
