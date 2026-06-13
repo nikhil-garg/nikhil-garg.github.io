@@ -315,11 +315,11 @@ redirect_from:
     </div>
     <div class="cv-institution-card">
       <a class="cv-institution-media" href="https://www.im2np.fr/"><img src="/images/logos/im2np-logo.png" alt="IM2NP"></a>
-      <span><a class="cv-institution-name" href="https://www.im2np.fr/">IM2NP</a><span>Memristive device collaborations · Aix-Marseille</span></span>
+      <span><a class="cv-institution-name" href="https://www.im2np.fr/">IM2NP</a><span>Memristive devices · Aix-Marseille</span></span>
     </div>
     <div class="cv-institution-card">
       <a class="cv-institution-media" href="https://www.c2n.universite-paris-saclay.fr/"><img src="/images/logos/c2n-logo.png" alt="C2N"></a>
-      <span><a class="cv-institution-name" href="https://www.c2n.universite-paris-saclay.fr/">C2N</a><span>Neuromorphic and memristive hardware collaborations · Paris-Saclay</span></span>
+      <span><a class="cv-institution-name" href="https://www.c2n.universite-paris-saclay.fr/">C2N</a><span>Neuromorphic and memristive hardware · Paris-Saclay</span></span>
     </div>
     </div>
   </section>
@@ -377,7 +377,7 @@ Birla Institute of Technology and Science Pilani, Goa
 
 ## Student Supervision
 
-Student and collaborator pages are maintained in the [People](/people/); the CV keeps only the supervision timeline.
+Student pages are maintained in [People](/people/); the CV keeps only the supervision timeline.
 
 <div class="cv-compact-list" markdown="1">
 <p><strong>Apr-Jul 2026</strong> <a href="/people/eric-sebastian-hallen/">Eric Sebastian Hallen</a>, <a href="/people/eelco/">Eelco</a> · University of Groningen</p>

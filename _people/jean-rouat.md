@@ -3,7 +3,6 @@ title: "Jean Rouat"
 category: "Mentor"
 mentor_order: 5
 initials: "JR"
-role: "PhD mentor and collaborator"
 affiliation: "Université de Sherbrooke"
 links:
   - label: "UNICO"
@@ -13,8 +12,6 @@ links:
     url: "/projects/#ionos"
     icon: "fas fa-flask"
 ---
-
-Placeholder for notes on neuromorphic learning, signal processing, and shared research mentorship.
 
 ## Associated publications
 

@@ -3,15 +3,12 @@ title: "Jean-Michel Portal"
 category: "Mentor"
 mentor_order: 7
 initials: "JMP"
-role: "UNICO mentor and collaborator"
 affiliation: "Aix-Marseille Université / IM2NP"
 links:
   - label: "UNICO"
     url: "/projects/#unico"
     icon: "fas fa-project-diagram"
 ---
-
-Placeholder for notes on memristive devices, UNICO, and shared publications.
 
 ## Associated publications
 

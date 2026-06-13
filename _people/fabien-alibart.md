@@ -3,15 +3,12 @@ title: "Fabien Alibart"
 category: "Mentor"
 mentor_order: 6
 initials: "FA"
-role: "PhD mentor and UNICO collaborator"
 affiliation: "IEMN-CNRS / Université de Lille"
 links:
   - label: "UNICO"
     url: "/projects/#unico"
     icon: "fas fa-project-diagram"
 ---
-
-Placeholder for notes on mentoring, UNICO, analog in-memory learning, and shared publications.
 
 ## Associated publications
 

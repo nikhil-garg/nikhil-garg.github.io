@@ -126,7 +126,7 @@ author_profile: true
     <div class="video-actions">
       <a href="/files/neuropac-video-archive/index.html"><i class="fas fa-archive"></i>open full archive</a>
       <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>all videos</a>
-      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>old NeuroPAC site</a>
+      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>original source</a>
     </div>
   </div>
   <div class="video-stats" aria-label="Video archive statistics">

@@ -5,7 +5,7 @@ permalink: /topics/
 author_profile: true
 ---
 
-Browse research topics across publications, collaborators, and video resources.
+Browse research topics across publications, people, and video resources.
 
 <style>
 .topic-tools {

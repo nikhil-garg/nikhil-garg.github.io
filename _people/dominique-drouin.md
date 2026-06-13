@@ -3,15 +3,12 @@ title: "Dominique Drouin"
 category: "Mentor"
 mentor_order: 4
 initials: "DD"
-role: "PhD mentor and UNICO collaborator"
 affiliation: "Université de Sherbrooke / LN2"
 links:
   - label: "UNICO"
     url: "/projects/#unico"
     icon: "fas fa-project-diagram"
 ---
-
-Placeholder for notes on UNICO, nanotechnology, and PhD research mentorship.
 
 ## Associated publications
 

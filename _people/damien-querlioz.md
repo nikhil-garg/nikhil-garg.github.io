@@ -3,15 +3,12 @@ title: "Damien Querlioz"
 category: "Mentor"
 mentor_order: 8
 initials: "DQ"
-role: "Neuromorphic computing mentor and collaborator"
 affiliation: "Université Paris-Saclay / CNRS"
 links:
   - label: "UNICO"
     url: "/projects/#unico"
     icon: "fas fa-project-diagram"
 ---
-
-Placeholder for notes on neuromorphic computing, memristive systems, and shared research context.
 
 ## Associated publications
 
