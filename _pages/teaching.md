@@ -34,6 +34,16 @@ Reading lists, teaching notes, community links, and foundation-building resource
   line-height: 1.38;
   margin-bottom: 0.45rem;
 }
+.resource-logo {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 0.65rem;
+  max-height: 5rem;
+  object-fit: contain;
+  padding: 0.45rem;
+  width: 100%;
+}
 .teaching-card a,
 .resource-card a {
   display: inline-flex;
@@ -106,6 +116,7 @@ Reading lists, teaching notes, community links, and foundation-building resource
   <h2>Neuropac</h2>
   <div class="resource-grid">
     <article class="resource-card">
+      <img class="resource-logo" src="/images/logos/neuropac-logo.jpg" alt="Neuropac">
       <span class="resource-tag">Website</span>
       <h3>Neuropac</h3>
       <p>Add the public Neuropac URL here once finalized.</p>

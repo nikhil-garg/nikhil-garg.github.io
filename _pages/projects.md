@@ -269,8 +269,9 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-meta">2021-2024 · PhD Candidate · Universite de Lille / Universite de Sherbrooke</p>
 <div class="project-logos">
-  <a class="project-logo project-logo--funding" href="https://www.chistera.eu/projects/unico" title="CHIST-ERA UNICO project"><i class="fas fa-award"></i>CHIST-ERA</a>
+  <a class="project-logo project-logo--image project-logo--funding" href="https://www.chistera.eu/projects/unico" title="CHIST-ERA UNICO project"><img src="/images/logos/chist-era-logo.jpg" alt="CHIST-ERA"></a>
   <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.c2n.universite-paris-saclay.fr/" title="Centre de Nanosciences et de Nanotechnologies"><img src="/images/logos/c2n-logo.png" alt="C2N"></a>
   <a class="project-logo" href="https://www.univ-lille.fr/" title="Universite de Lille"><i class="fas fa-university"></i>U. Lille</a>
   <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Universite de Sherbrooke"></a>
   <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
@@ -353,7 +354,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 <p class="project-meta">2017-2021 · Undergraduate Student Researcher · BITS Pilani Goa</p>
 <div class="project-logos">
   <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
-  <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa"><i class="fas fa-brain"></i>CNL</a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa"><img src="/images/logos/cns-bits-goa.jpg" alt="Cognitive Neuroscience Lab"></a>
   <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research"><i class="fas fa-brain"></i>BCI</a>
 </div>
 
@@ -384,7 +385,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 <p class="project-meta">2017-2020, 2025 · Undergraduate research and postdoctoral supervision · BITS Pilani Goa / ETH Zurich</p>
 <div class="project-logos">
   <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
-  <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa"><i class="fas fa-project-diagram"></i>RCL</a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa"><img src="/images/logos/rcl-bits-goa.jpg" alt="Reconfigurable Computing Lab"></a>
   <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
   <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
   <a class="project-logo project-logo--funding" href="/projects/#fpga-and-embedded-hardware" title="FPGA and embedded hardware work"><i class="fas fa-microchip"></i>FPGA</a>
