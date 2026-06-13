@@ -1,9 +1,10 @@
 ---
 title: "D. F. Falcone"
 category: "Collaborator"
+network_order: 47
 initials: "DF"
 role: "Analog AI hardware collaborator"
-affiliation: "UNICO / ReRAM devices"
+affiliation: "UNICO coauthor"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

@@ -1,9 +1,10 @@
 ---
 title: "Ilyass Balafrej"
 category: "Colleague"
+network_order: 30
 initials: "IB"
 role: "UNICO and IONOS collaborator"
-affiliation: "Neuromorphic learning and bio-signal processing"
+affiliation: "UNICO / IONOS coauthor"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

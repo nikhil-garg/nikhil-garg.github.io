@@ -1,0 +1,16 @@
+---
+title: "P.-A. Mouny"
+category: "Collaborator"
+network_order: 52
+initials: "PM"
+affiliation: "UNICO / PCM coauthor"
+links:
+  - label: "UNICO"
+    url: "/projects/#unico"
+    icon: "fas fa-project-diagram"
+---
+
+## Associated publications
+
+- [28 nm FDSOI embedded PCM exhibiting near zero drift at 12 K for cryogenic SNNs](/publications/#pcm-cryo-snn)
+

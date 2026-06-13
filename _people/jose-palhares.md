@@ -1,9 +1,10 @@
 ---
 title: "Jose H. Q. Palhares"
 category: "Colleague"
+network_order: 31
 initials: "JP"
 role: "UNICO collaborator"
-affiliation: "PCM and cryogenic neuromorphic hardware"
+affiliation: "UNICO coauthor"
 links:
   - label: "UNICO"
     url: "/projects/#unico"

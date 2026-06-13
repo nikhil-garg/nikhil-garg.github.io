@@ -247,7 +247,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses.</p>
 <p class="pub-authors">N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini, D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.</p>
 <p class="pub-venue"><em>Communications Materials</em>, 2026.</p>
-<p class="pub-links"><a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1038/s43246-025-01033-5"><i class="fas fa-link"></i>doi</a> <a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
 <p class="pub-keywords"><span>voltage-dependent synaptic plasticity</span><span>local learning</span><span>memristors</span><span>ferroelectric synapses</span><span>UNICO</span></p>
 </div>
 </article>
@@ -311,7 +311,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks enabled by voltage-dependent synaptic plasticity.</p>
 <p class="pub-authors">G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette, D. Drouin, Y. Beilliard.</p>
 <p class="pub-venue"><em>Neuromorphic Computing and Engineering</em>, 2023.</p>
-<p class="pub-links"><a href="https://doi.org/10.1088/2634-4386/acad98"><i class="fas fa-file-alt"></i>paper</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1088/2634-4386/acad98"><i class="fas fa-link"></i>doi</a> <a href="/projects/#unico">UNICO</a></p>
 <p class="pub-keywords"><span>convolutional SNNs</span><span>sparse activation</span><span>unsupervised learning</span><span>VDSP</span><span>neuromorphic computing</span></p>
 </div>
 </article>
@@ -324,7 +324,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Voltage-dependent synaptic plasticity: Unsupervised probabilistic Hebbian plasticity rule based on neurons membrane potential.</p>
 <p class="pub-authors">N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz, D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.</p>
 <p class="pub-venue"><em>Frontiers in Neuroscience</em>, 2022.</p>
-<p class="pub-links"><a href="https://doi.org/10.3389/fnins.2022.983950"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-links"><a href="https://doi.org/10.3389/fnins.2022.983950"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
 <p class="pub-keywords"><span>VDSP</span><span>Hebbian plasticity</span><span>membrane potential</span><span>probabilistic learning</span><span>Nengo</span></p>
 </div>
 </article>
@@ -377,7 +377,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Neuromorphic signal classification using organic electrochemical transistor array and spiking neural simulations.</p>
 <p class="pub-authors">M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.</p>
 <p class="pub-venue"><em>IEEE Sensors Journal</em>, 2024.</p>
-<p class="pub-links"><a href="https://doi.org/10.1109/JSEN.2024.3353307"><i class="fas fa-file-alt"></i>paper</a> <a href="/projects/#ionos">IONOS</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1109/JSEN.2024.3353307"><i class="fas fa-link"></i>doi</a> <a href="/projects/#ionos">IONOS</a></p>
 <p class="pub-keywords"><span>OECT array</span><span>organic electronics</span><span>signal classification</span><span>spiking simulations</span><span>reservoir computing</span></p>
 </div>
 </article>
@@ -394,7 +394,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Structural plasticity for neuromorphic networks with electropolymerized dendritic PEDOT connections.</p>
 <p class="pub-authors">K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat, D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.</p>
 <p class="pub-venue"><em>Nature Communications</em>, 2023.</p>
-<p class="pub-links"><a href="https://doi.org/10.1038/s41467-023-43887-8"><i class="fas fa-file-alt"></i>paper</a> <a href="/projects/#ionos">IONOS</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1038/s41467-023-43887-8"><i class="fas fa-link"></i>doi</a> <a href="/projects/#ionos">IONOS</a></p>
 <p class="pub-keywords"><span>structural plasticity</span><span>PEDOT</span><span>dendritic connections</span><span>organic neuromorphic networks</span><span>electropolymerization</span></p>
 </div>
 </article>
@@ -411,7 +411,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition.</p>
 <p class="pub-authors">N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.</p>
 <p class="pub-venue"><em>ICONS</em>, 2021.</p>
-<p class="pub-links"><a href="https://doi.org/10.1145/3477145.3477267"><i class="fas fa-file-alt"></i>paper</a> <a href="https://arxiv.org/abs/2106.11169"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/nikhil-garg/EMG_exp"><i class="fab fa-github"></i>code</a> <a href="/projects/#ionos">IONOS</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1145/3477145.3477267"><i class="fas fa-link"></i>doi</a> <a href="https://arxiv.org/abs/2106.11169"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/nikhil-garg/EMG_exp"><i class="fab fa-github"></i>code</a> <a href="/projects/#ionos">IONOS</a></p>
 <p class="pub-keywords"><span>EMG</span><span>signals-to-spikes</span><span>reservoir computing</span><span>gesture recognition</span><span>event-driven sensing</span></p>
 </div>
 </article>
@@ -430,7 +430,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Decoding the neural signatures of valence and arousal from portable EEG headset.</p>
 <p class="pub-authors">N. Garg, R. Garg, A. Anand, V. Baths.</p>
 <p class="pub-venue"><em>Frontiers in Human Neuroscience</em>, 2022.</p>
-<p class="pub-links"><a href="https://doi.org/10.3389/fnhum.2022.1051463"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/Decoding_EEG"><i class="fab fa-github"></i>code</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
+<p class="pub-links"><a href="https://doi.org/10.3389/fnhum.2022.1051463"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/Decoding_EEG"><i class="fab fa-github"></i>code</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
 <p class="pub-keywords"><span>portable EEG</span><span>valence</span><span>arousal</span><span>affect decoding</span><span>machine learning</span></p>
 </div>
 </article>
@@ -481,7 +481,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title">Motor Imagery Based Multimodal Biometric User Authentication System Using EEG.</p>
 <p class="pub-authors">A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.</p>
 <p class="pub-venue"><em>Cyberworlds</em>, 2020.</p>
-<p class="pub-links"><a href="https://doi.org/10.1109/CW49994.2020.00050"><i class="fas fa-file-alt"></i>paper</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1109/CW49994.2020.00050"><i class="fas fa-link"></i>doi</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
 <p class="pub-keywords"><span>motor imagery</span><span>multimodal biometrics</span><span>EEG authentication</span><span>user authentication</span><span>BCI</span></p>
 </div>
 </article>

@@ -1,9 +1,10 @@
 ---
 title: "Abhishek Kumar"
 category: "Collaborator"
+network_order: 56
 initials: "AK"
 role: "IONOS collaborator"
-affiliation: "Organic neuromorphic devices"
+affiliation: "IONOS coauthor"
 links:
   - label: "IONOS"
     url: "/projects/#ionos"
