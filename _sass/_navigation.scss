@@ -308,6 +308,60 @@
   }
 }
 
+@media (max-width: 640px) {
+  .greedy-nav {
+    min-width: 0;
+
+    button,
+    button.hidden {
+      display: block !important;
+      height: 2.25rem;
+      min-width: 2.4rem;
+    }
+
+    .visible-links {
+      display: block;
+      padding-right: 3rem;
+
+      li {
+        display: none;
+
+        &:first-child {
+          display: block;
+        }
+      }
+    }
+
+    .visible-links a {
+      margin: 0;
+      max-width: calc(100vw - 6rem);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .hidden-links {
+      left: 0;
+      right: 0;
+      margin-top: 0.6rem;
+
+      .masthead__menu-item:not(.masthead__menu-item--mobile) {
+        display: none;
+      }
+
+      a {
+        font-size: $type-size-6;
+        padding: 0.75rem 0.85rem;
+      }
+    }
+
+    .hidden-links:before,
+    .hidden-links:after {
+      right: 0.85rem;
+    }
+  }
+}
+
 
 /*
    Navigation list
