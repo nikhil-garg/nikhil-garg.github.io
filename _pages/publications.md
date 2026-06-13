@@ -194,7 +194,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 }
 </style>
 
-## VITFOX & Ferroelectric Learning
+## 2026
 
 <article class="pub-card" id="personalized-spiking-neural-networks" markdown="1">
 <div class="pub-figure pub-figure--vitfox">
@@ -222,6 +222,25 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
+<article class="pub-card" id="vdsp-memristors" markdown="1">
+<div class="pub-figure pub-figure--unico">
+<div class="pub-thumb" aria-label="local plasticity in synapses thumbnail">
+<i class="fas fa-project-diagram"></i>
+<span class="pub-thumb__project">UNICO</span>
+<span class="pub-thumb__topic">local plasticity in synapses</span>
+</div>
+</div>
+<div>
+<p class="pub-title">Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses.</p>
+<p class="pub-authors">N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini, D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.</p>
+<p class="pub-venue"><em>Communications Materials</em>, 2026.</p>
+<p class="pub-links"><a href="https://doi.org/10.1038/s43246-025-01033-5"><i class="fas fa-link"></i>doi</a> <a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-keywords"><a href="/topics/?q=voltage-dependent-synaptic-plasticity">voltage-dependent synaptic plasticity</a><a href="/topics/?q=local-learning">local learning</a><a href="/topics/?q=memristors">memristors</a><a href="/topics/?q=ferroelectric-synapses">ferroelectric synapses</a><a href="/topics/?q=unico">UNICO</a></p>
+</div>
+</article>
+
+## 2025
+
 <article class="pub-card" id="energy-convergence-ferro" markdown="1">
 <div class="pub-figure pub-figure--vitfox">
 <div class="pub-thumb" aria-label="energy convergence tradeoff thumbnail">
@@ -239,24 +258,24 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
-## UNICO & In-Memory Learning
-
-<article class="pub-card" id="vdsp-memristors" markdown="1">
+<article class="pub-card" id="all-in-one-analog-ai-hardware" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="local plasticity in synapses thumbnail">
-<i class="fas fa-project-diagram"></i>
+<div class="pub-thumb" aria-label="on-chip training + inference thumbnail">
+<i class="fas fa-microchip"></i>
 <span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">local plasticity in synapses</span>
+<span class="pub-thumb__topic">on-chip training + inference</span>
 </div>
 </div>
 <div>
-<p class="pub-title">Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses.</p>
-<p class="pub-authors">N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini, D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.</p>
-<p class="pub-venue"><em>Communications Materials</em>, 2026.</p>
-<p class="pub-links"><a href="https://doi.org/10.1038/s43246-025-01033-5"><i class="fas fa-link"></i>doi</a> <a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><a href="/topics/?q=voltage-dependent-synaptic-plasticity">voltage-dependent synaptic plasticity</a><a href="/topics/?q=local-learning">local learning</a><a href="/topics/?q=memristors">memristors</a><a href="/topics/?q=ferroelectric-synapses">ferroelectric synapses</a><a href="/topics/?q=unico">UNICO</a></p>
+<p class="pub-title">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices.</p>
+<p class="pub-authors">D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours, M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.</p>
+<p class="pub-venue"><em>Advanced Functional Materials</em>, 2025.</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2502.04524"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-keywords"><a href="/topics/?q=analog-ai-hardware">analog AI hardware</a><a href="/topics/?q=on-chip-training">on-chip training</a><a href="/topics/?q=inference">inference</a><a href="/topics/?q=reram">ReRAM</a><a href="/topics/?q=conductive-metal-oxide">conductive-metal-oxide</a></p>
 </div>
 </article>
+
+## 2024
 
 <article class="pub-card" id="cmos-lif-neuron" markdown="1">
 <div class="pub-figure pub-figure--unico">
@@ -305,36 +324,6 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
-<article class="pub-card" id="vdsp-convolutional-snn" markdown="1">
-<div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="sparse convolutional SNNs thumbnail">
-<i class="fas fa-project-diagram"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">sparse convolutional SNNs</span>
-</div>
-</div>
-<div>
-<p class="pub-title">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks enabled by voltage-dependent synaptic plasticity.</p>
-<p class="pub-authors">G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette, D. Drouin, Y. Beilliard.</p>
-<p class="pub-venue"><em>Neuromorphic Computing and Engineering</em>, 2023.</p>
-<p class="pub-links"><a href="https://doi.org/10.1088/2634-4386/acad98"><i class="fas fa-link"></i>doi</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><a href="/topics/?q=convolutional-snns">convolutional SNNs</a><a href="/topics/?q=sparse-activation">sparse activation</a><a href="/topics/?q=unsupervised-learning">unsupervised learning</a><a href="/topics/?q=vdsp">VDSP</a><a href="/topics/?q=neuromorphic-computing">neuromorphic computing</a></p>
-</div>
-</article>
-
-<article class="pub-card" id="voltage-dependent-synaptic-plasticity" markdown="1">
-<div class="pub-figure pub-figure--unico">
-<img class="pub-image" src="/images/publications/garg-2022-vdsp-feature.jpg" alt="Voltage-dependent synaptic plasticity feature figure">
-</div>
-<div>
-<p class="pub-title">Voltage-dependent synaptic plasticity: Unsupervised probabilistic Hebbian plasticity rule based on neurons membrane potential.</p>
-<p class="pub-authors">N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz, D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.</p>
-<p class="pub-venue"><em>Frontiers in Neuroscience</em>, 2022.</p>
-<p class="pub-links"><a href="https://doi.org/10.3389/fnins.2022.983950"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><a href="/topics/?q=vdsp">VDSP</a><a href="/topics/?q=hebbian-plasticity">Hebbian plasticity</a><a href="/topics/?q=membrane-potential">membrane potential</a><a href="/topics/?q=probabilistic-learning">probabilistic learning</a><a href="/topics/?q=nengo">Nengo</a></p>
-</div>
-</article>
-
 <article class="pub-card" id="phd-thesis" markdown="1">
 <div class="pub-figure pub-figure--unico">
 <div class="pub-thumb" aria-label="in-memory learning thesis thumbnail">
@@ -352,25 +341,6 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
-<article class="pub-card" id="all-in-one-analog-ai-hardware" markdown="1">
-<div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="on-chip training + inference thumbnail">
-<i class="fas fa-microchip"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">on-chip training + inference</span>
-</div>
-</div>
-<div>
-<p class="pub-title">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices.</p>
-<p class="pub-authors">D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours, M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.</p>
-<p class="pub-venue"><em>Advanced Functional Materials</em>, 2025.</p>
-<p class="pub-links"><a href="https://arxiv.org/abs/2502.04524"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><a href="/topics/?q=analog-ai-hardware">analog AI hardware</a><a href="/topics/?q=on-chip-training">on-chip training</a><a href="/topics/?q=inference">inference</a><a href="/topics/?q=reram">ReRAM</a><a href="/topics/?q=conductive-metal-oxide">conductive-metal-oxide</a></p>
-</div>
-</article>
-
-## IONOS & Bio-Signal Processing
-
 <article class="pub-card" id="oect-array-snn" markdown="1">
 <div class="pub-figure pub-figure--ionos">
 <div class="pub-thumb" aria-label="OECT reservoir classification thumbnail">
@@ -385,6 +355,25 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-venue"><em>IEEE Sensors Journal</em>, 2024.</p>
 <p class="pub-links"><a href="https://doi.org/10.1109/JSEN.2024.3353307"><i class="fas fa-link"></i>doi</a> <a href="/projects/#ionos">IONOS</a></p>
 <p class="pub-keywords"><a href="/topics/?q=oect-array">OECT array</a><a href="/topics/?q=organic-electronics">organic electronics</a><a href="/topics/?q=signal-classification">signal classification</a><a href="/topics/?q=spiking-simulations">spiking simulations</a><a href="/topics/?q=reservoir-computing">reservoir computing</a></p>
+</div>
+</article>
+
+## 2023
+
+<article class="pub-card" id="vdsp-convolutional-snn" markdown="1">
+<div class="pub-figure pub-figure--unico">
+<div class="pub-thumb" aria-label="sparse convolutional SNNs thumbnail">
+<i class="fas fa-project-diagram"></i>
+<span class="pub-thumb__project">UNICO</span>
+<span class="pub-thumb__topic">sparse convolutional SNNs</span>
+</div>
+</div>
+<div>
+<p class="pub-title">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks enabled by voltage-dependent synaptic plasticity.</p>
+<p class="pub-authors">G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette, D. Drouin, Y. Beilliard.</p>
+<p class="pub-venue"><em>Neuromorphic Computing and Engineering</em>, 2023.</p>
+<p class="pub-links"><a href="https://doi.org/10.1088/2634-4386/acad98"><i class="fas fa-link"></i>doi</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-keywords"><a href="/topics/?q=convolutional-snns">convolutional SNNs</a><a href="/topics/?q=sparse-activation">sparse activation</a><a href="/topics/?q=unsupervised-learning">unsupervised learning</a><a href="/topics/?q=vdsp">VDSP</a><a href="/topics/?q=neuromorphic-computing">neuromorphic computing</a></p>
 </div>
 </article>
 
@@ -405,24 +394,20 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
-<article class="pub-card" id="signals-to-spikes-emg" markdown="1">
-<div class="pub-figure pub-figure--ionos">
-<div class="pub-thumb" aria-label="signal-to-spike EMG encoding thumbnail">
-<i class="fas fa-bolt"></i>
-<span class="pub-thumb__project">IONOS</span>
-<span class="pub-thumb__topic">signal-to-spike EMG encoding</span>
-</div>
+## 2022
+
+<article class="pub-card" id="voltage-dependent-synaptic-plasticity" markdown="1">
+<div class="pub-figure pub-figure--unico">
+<img class="pub-image" src="/images/publications/garg-2022-vdsp-feature.jpg" alt="Voltage-dependent synaptic plasticity feature figure">
 </div>
 <div>
-<p class="pub-title">Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition.</p>
-<p class="pub-authors">N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.</p>
-<p class="pub-venue"><em>ICONS</em>, 2021.</p>
-<p class="pub-links"><a href="https://doi.org/10.1145/3477145.3477267"><i class="fas fa-link"></i>doi</a> <a href="https://arxiv.org/abs/2106.11169"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/nikhil-garg/EMG_exp"><i class="fab fa-github"></i>code</a> <a href="/projects/#ionos">IONOS</a></p>
-<p class="pub-keywords"><a href="/topics/?q=emg">EMG</a><a href="/topics/?q=signals-to-spikes">signals-to-spikes</a><a href="/topics/?q=reservoir-computing">reservoir computing</a><a href="/topics/?q=gesture-recognition">gesture recognition</a><a href="/topics/?q=event-driven-sensing">event-driven sensing</a></p>
+<p class="pub-title">Voltage-dependent synaptic plasticity: Unsupervised probabilistic Hebbian plasticity rule based on neurons membrane potential.</p>
+<p class="pub-authors">N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz, D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.</p>
+<p class="pub-venue"><em>Frontiers in Neuroscience</em>, 2022.</p>
+<p class="pub-links"><a href="https://doi.org/10.3389/fnins.2022.983950"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-keywords"><a href="/topics/?q=vdsp">VDSP</a><a href="/topics/?q=hebbian-plasticity">Hebbian plasticity</a><a href="/topics/?q=membrane-potential">membrane potential</a><a href="/topics/?q=probabilistic-learning">probabilistic learning</a><a href="/topics/?q=nengo">Nengo</a></p>
 </div>
 </article>
-
-## BCI & EEG
 
 <article class="pub-card" id="portable-eeg-valence-arousal" markdown="1">
 <div class="pub-figure pub-figure--bci">
@@ -438,6 +423,25 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-venue"><em>Frontiers in Human Neuroscience</em>, 2022.</p>
 <p class="pub-links"><a href="https://doi.org/10.3389/fnhum.2022.1051463"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/Decoding_EEG"><i class="fab fa-github"></i>code</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
 <p class="pub-keywords"><a href="/topics/?q=portable-eeg">portable EEG</a><a href="/topics/?q=valence">valence</a><a href="/topics/?q=arousal">arousal</a><a href="/topics/?q=affect-decoding">affect decoding</a><a href="/topics/?q=machine-learning">machine learning</a></p>
+</div>
+</article>
+
+## 2021
+
+<article class="pub-card" id="signals-to-spikes-emg" markdown="1">
+<div class="pub-figure pub-figure--ionos">
+<div class="pub-thumb" aria-label="signal-to-spike EMG encoding thumbnail">
+<i class="fas fa-bolt"></i>
+<span class="pub-thumb__project">IONOS</span>
+<span class="pub-thumb__topic">signal-to-spike EMG encoding</span>
+</div>
+</div>
+<div>
+<p class="pub-title">Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition.</p>
+<p class="pub-authors">N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.</p>
+<p class="pub-venue"><em>ICONS</em>, 2021.</p>
+<p class="pub-links"><a href="https://doi.org/10.1145/3477145.3477267"><i class="fas fa-link"></i>doi</a> <a href="https://arxiv.org/abs/2106.11169"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/nikhil-garg/EMG_exp"><i class="fab fa-github"></i>code</a> <a href="/projects/#ionos">IONOS</a></p>
+<p class="pub-keywords"><a href="/topics/?q=emg">EMG</a><a href="/topics/?q=signals-to-spikes">signals-to-spikes</a><a href="/topics/?q=reservoir-computing">reservoir computing</a><a href="/topics/?q=gesture-recognition">gesture recognition</a><a href="/topics/?q=event-driven-sensing">event-driven sensing</a></p>
 </div>
 </article>
 
@@ -475,6 +479,8 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
+## 2020
+
 <article class="pub-card" id="motor-imagery-biometrics" markdown="1">
 <div class="pub-figure pub-figure--bci">
 <div class="pub-thumb" aria-label="motor imagery authentication thumbnail">
@@ -491,6 +497,8 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-keywords"><a href="/topics/?q=motor-imagery">motor imagery</a><a href="/topics/?q=multimodal-biometrics">multimodal biometrics</a><a href="/topics/?q=eeg-authentication">EEG authentication</a><a href="/topics/?q=user-authentication">user authentication</a><a href="/topics/?q=bci">BCI</a></p>
 </div>
 </article>
+
+## 2019
 
 <article class="pub-card" id="motor-imagery-multiclass" markdown="1">
 <div class="pub-figure pub-figure--bci">
