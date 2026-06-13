@@ -8,24 +8,24 @@ author_profile: true
 You can also find my articles on [Google Scholar]({{site.author.googlescholar}}). Project links point to the related research themes on this site.
 
 <nav class="keyword-cloud" aria-label="Publication topic keywords">
-  <a class="keyword keyword--xl" href="#personalized-spiking-neural-networks">EEG</a>
-  <a class="keyword keyword--xl" href="#voltage-dependent-synaptic-plasticity">synaptic plasticity</a>
-  <a class="keyword keyword--lg" href="#cmos-lif-neuron">CMOS analog circuits</a>
-  <a class="keyword keyword--lg" href="#vdsp-memristors">memristive devices</a>
-  <a class="keyword keyword--lg" href="#analog-weight-update-ferroelectric-hafnia">ferroelectric hafnia</a>
-  <a class="keyword keyword--lg" href="#signals-to-spikes-emg">spiking neural networks</a>
-  <a class="keyword" href="#all-in-one-analog-ai-hardware">analog AI hardware</a>
-  <a class="keyword" href="#energy-convergence-ferro">energy-convergence</a>
-  <a class="keyword" href="#oect-array-snn">OECT arrays</a>
-  <a class="keyword" href="#pedot-structural-plasticity">PEDOT</a>
-  <a class="keyword" href="#signals-to-spikes-emg">EMG</a>
-  <a class="keyword" href="#pcm-cryo-snn">phase-change memory</a>
-  <a class="keyword" href="#pcm-cryo-snn">cryogenic SNNs</a>
-  <a class="keyword" href="#portable-eeg-valence-arousal">affect decoding</a>
-  <a class="keyword" href="#wheelchair-hybrid-bci">SSVEP</a>
-  <a class="keyword" href="#motor-imagery-biometrics">motor imagery</a>
-  <a class="keyword" href="#alzheimer-bert-speech">BERT</a>
-  <a class="keyword" href="#wheelchair-hybrid-bci">assistive technology</a>
+  <a class="keyword keyword--xl" href="/topics/?q=eeg">EEG</a>
+  <a class="keyword keyword--xl" href="/topics/?q=voltage-dependent-synaptic-plasticity">voltage-dependent synaptic plasticity</a>
+  <a class="keyword keyword--lg" href="/topics/?q=cmos-analog-circuits">CMOS analog circuits</a>
+  <a class="keyword keyword--lg" href="/topics/?q=memristors">memristors</a>
+  <a class="keyword keyword--lg" href="/topics/?q=ferroelectric-hafnia">ferroelectric hafnia</a>
+  <a class="keyword keyword--lg" href="/topics/?q=spiking-neural-networks">spiking neural networks</a>
+  <a class="keyword" href="/topics/?q=analog-ai-hardware">analog AI hardware</a>
+  <a class="keyword" href="/topics/?q=energy-convergence">energy-convergence</a>
+  <a class="keyword" href="/topics/?q=oect-array">OECT array</a>
+  <a class="keyword" href="/topics/?q=pedot">PEDOT</a>
+  <a class="keyword" href="/topics/?q=emg">EMG</a>
+  <a class="keyword" href="/topics/?q=phase-change-memory">phase-change memory</a>
+  <a class="keyword" href="/topics/?q=cryogenic-computing">cryogenic computing</a>
+  <a class="keyword" href="/topics/?q=affect-decoding">affect decoding</a>
+  <a class="keyword" href="/topics/?q=ssvep">SSVEP</a>
+  <a class="keyword" href="/topics/?q=motor-imagery">motor imagery</a>
+  <a class="keyword" href="/topics/?q=bert">BERT</a>
+  <a class="keyword" href="/topics/?q=assistive-technology">assistive technology</a>
 </nav>
 
 <style>
@@ -42,7 +42,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
   padding: 0.75rem 0;
 }
 .keyword,
-.pub-keywords span {
+.pub-keywords a {
   background: #f6f7f8;
   border: 1px solid #d6dadd;
   border-radius: 4px;
@@ -51,6 +51,12 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
   line-height: 1;
   padding: 0.32rem 0.45rem;
   text-decoration: none;
+}
+.keyword:hover,
+.pub-keywords a:hover {
+  background: #eef3f6;
+  border-color: #b8c8d2;
+  color: #111;
 }
 .keyword--lg {
   font-size: 0.9rem;
@@ -199,7 +205,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, A. Song, N. Plessnig, N. Savoia, L. Begon-Lours.</p>
 <p class="pub-venue"><em>APL Machine Learning</em>, 2026.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2601.00020"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/NEO-ETHZ/EEG-Ferro"><i class="fab fa-github"></i>code</a> <a href="/projects/#vitfox">VITFOX</a></p>
-<p class="pub-keywords"><span>EEG</span><span>personalization</span><span>spiking neural networks</span><span>ferroelectric synapses</span><span>VITFOX</span></p>
+<p class="pub-keywords"><a href="/topics/?q=eeg">EEG</a><a href="/topics/?q=personalization">personalization</a><a href="/topics/?q=spiking-neural-networks">spiking neural networks</a><a href="/topics/?q=ferroelectric-synapses">ferroelectric synapses</a><a href="/topics/?q=vitfox">VITFOX</a></p>
 </div>
 </article>
 
@@ -212,7 +218,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein, L. Begon-Lours.</p>
 <p class="pub-venue"><em>Advanced Electronic Materials</em>, 2026.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2601.01186"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#vitfox">VITFOX</a></p>
-<p class="pub-keywords"><span>ferroelectric hafnia</span><span>analog weight update</span><span>picojoule pulses</span><span>device-aware learning</span><span>VITFOX</span></p>
+<p class="pub-keywords"><a href="/topics/?q=ferroelectric-hafnia">ferroelectric hafnia</a><a href="/topics/?q=analog-weight-update">analog weight update</a><a href="/topics/?q=picojoule-pulses">picojoule pulses</a><a href="/topics/?q=device-aware-learning">device-aware learning</a><a href="/topics/?q=vitfox">VITFOX</a></p>
 </div>
 </article>
 
@@ -229,7 +235,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala, B. J. Offrein, L. Begon-Lours.</p>
 <p class="pub-venue"><em>CCMCC</em>, 2025.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2509.18121"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026"><i class="fab fa-github"></i>code</a> <a href="/projects/#vitfox">VITFOX</a></p>
-<p class="pub-keywords"><span>energy-convergence</span><span>training dynamics</span><span>bio-inspired hardware</span><span>ferroelectric devices</span><span>VITFOX</span></p>
+<p class="pub-keywords"><a href="/topics/?q=energy-convergence">energy-convergence</a><a href="/topics/?q=training-dynamics">training dynamics</a><a href="/topics/?q=bio-inspired-hardware">bio-inspired hardware</a><a href="/topics/?q=ferroelectric-devices">ferroelectric devices</a><a href="/topics/?q=vitfox">VITFOX</a></p>
 </div>
 </article>
 
@@ -248,7 +254,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, I. Balafrej, J. H. Q. Palhares, L. Begon-Lours, D. Florini, D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.</p>
 <p class="pub-venue"><em>Communications Materials</em>, 2026.</p>
 <p class="pub-links"><a href="https://doi.org/10.1038/s43246-025-01033-5"><i class="fas fa-link"></i>doi</a> <a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>voltage-dependent synaptic plasticity</span><span>local learning</span><span>memristors</span><span>ferroelectric synapses</span><span>UNICO</span></p>
+<p class="pub-keywords"><a href="/topics/?q=voltage-dependent-synaptic-plasticity">voltage-dependent synaptic plasticity</a><a href="/topics/?q=local-learning">local learning</a><a href="/topics/?q=memristors">memristors</a><a href="/topics/?q=ferroelectric-synapses">ferroelectric synapses</a><a href="/topics/?q=unico">UNICO</a></p>
 </div>
 </article>
 
@@ -261,7 +267,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart, et al.</p>
 <p class="pub-venue"><em>ICONS</em>, 2024.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2406.19667"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/blog/cmos-lif-neuron/"><i class="fas fa-link"></i>overview</a> <a href="https://www.linkedin.com/posts/nikhil-garg-bits_neuromorphic-analog-ai-activity-7273994918837071872-jdDP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAB_PrxUBC3G1jJscK5o4lv4kztQxXb9ErrI"><i class="fab fa-linkedin"></i>LinkedIn</a> <a href="/publications/cmos-lif-neuron/">details</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>CMOS analog circuits</span><span>LIF neuron</span><span>memristor interface</span><span>mixed-signal ASIC</span><span>UNICO</span></p>
+<p class="pub-keywords"><a href="/topics/?q=cmos-analog-circuits">CMOS analog circuits</a><a href="/topics/?q=lif-neuron">LIF neuron</a><a href="/topics/?q=memristor-interface">memristor interface</a><a href="/topics/?q=mixed-signal-asic">mixed-signal ASIC</a><a href="/topics/?q=unico">UNICO</a></p>
 </div>
 </article>
 
@@ -278,7 +284,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">J. H. Q. Palhares, N. Garg, P.-A. Mouny, Y. Beilliard, J. Sandrini, F. Arnaud, L. Anghel, F. Alibart, D. Drouin, P. Galy.</p>
 <p class="pub-venue"><em>npj Unconventional Computing</em>, 2024.</p>
 <p class="pub-links"><a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>phase-change memory</span><span>FDSOI</span><span>cryogenic computing</span><span>drift</span><span>spiking neural networks</span></p>
+<p class="pub-keywords"><a href="/topics/?q=phase-change-memory">phase-change memory</a><a href="/topics/?q=fdsoi">FDSOI</a><a href="/topics/?q=cryogenic-computing">cryogenic computing</a><a href="/topics/?q=drift">drift</a><a href="/topics/?q=spiking-neural-networks">spiking neural networks</a></p>
 </div>
 </article>
 
@@ -295,7 +301,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">J. H. Q. Palhares, N. Garg, Y. Beilliard, L. Anghel, F. Alibart, D. Drouin, P. Galy.</p>
 <p class="pub-venue"><em>Journal of Low Power Electronics and Applications</em>, 2024.</p>
 <p class="pub-links"><a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>phase-change memory</span><span>drift compensation</span><span>current scaling</span><span>spiking neural networks</span><span>low power</span></p>
+<p class="pub-keywords"><a href="/topics/?q=phase-change-memory">phase-change memory</a><a href="/topics/?q=drift-compensation">drift compensation</a><a href="/topics/?q=current-scaling">current scaling</a><a href="/topics/?q=spiking-neural-networks">spiking neural networks</a><a href="/topics/?q=low-power">low power</a></p>
 </div>
 </article>
 
@@ -312,7 +318,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Frechette, D. Drouin, Y. Beilliard.</p>
 <p class="pub-venue"><em>Neuromorphic Computing and Engineering</em>, 2023.</p>
 <p class="pub-links"><a href="https://doi.org/10.1088/2634-4386/acad98"><i class="fas fa-link"></i>doi</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>convolutional SNNs</span><span>sparse activation</span><span>unsupervised learning</span><span>VDSP</span><span>neuromorphic computing</span></p>
+<p class="pub-keywords"><a href="/topics/?q=convolutional-snns">convolutional SNNs</a><a href="/topics/?q=sparse-activation">sparse activation</a><a href="/topics/?q=unsupervised-learning">unsupervised learning</a><a href="/topics/?q=vdsp">VDSP</a><a href="/topics/?q=neuromorphic-computing">neuromorphic computing</a></p>
 </div>
 </article>
 
@@ -325,7 +331,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz, D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.</p>
 <p class="pub-venue"><em>Frontiers in Neuroscience</em>, 2022.</p>
 <p class="pub-links"><a href="https://doi.org/10.3389/fnins.2022.983950"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo"><i class="fab fa-github"></i>code</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>VDSP</span><span>Hebbian plasticity</span><span>membrane potential</span><span>probabilistic learning</span><span>Nengo</span></p>
+<p class="pub-keywords"><a href="/topics/?q=vdsp">VDSP</a><a href="/topics/?q=hebbian-plasticity">Hebbian plasticity</a><a href="/topics/?q=membrane-potential">membrane potential</a><a href="/topics/?q=probabilistic-learning">probabilistic learning</a><a href="/topics/?q=nengo">Nengo</a></p>
 </div>
 </article>
 
@@ -342,7 +348,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg.</p>
 <p class="pub-venue">PhD thesis, Universite de Lille and Universite de Sherbrooke, 2024.</p>
 <p class="pub-links"><a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>PhD thesis</span><span>in-memory learning</span><span>analog integrated circuits</span><span>nanoscale memristive devices</span><span>neuromorphic hardware</span></p>
+<p class="pub-keywords"><a href="/topics/?q=phd-thesis">PhD thesis</a><a href="/topics/?q=in-memory-learning">in-memory learning</a><a href="/topics/?q=analog-integrated-circuits">analog integrated circuits</a><a href="/topics/?q=nanoscale-memristive-devices">nanoscale memristive devices</a><a href="/topics/?q=neuromorphic-hardware">neuromorphic hardware</a></p>
 </div>
 </article>
 
@@ -359,7 +365,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours, M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.</p>
 <p class="pub-venue"><em>Advanced Functional Materials</em>, 2025.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2502.04524"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#unico">UNICO</a></p>
-<p class="pub-keywords"><span>analog AI hardware</span><span>on-chip training</span><span>inference</span><span>ReRAM</span><span>conductive-metal-oxide</span></p>
+<p class="pub-keywords"><a href="/topics/?q=analog-ai-hardware">analog AI hardware</a><a href="/topics/?q=on-chip-training">on-chip training</a><a href="/topics/?q=inference">inference</a><a href="/topics/?q=reram">ReRAM</a><a href="/topics/?q=conductive-metal-oxide">conductive-metal-oxide</a></p>
 </div>
 </article>
 
@@ -378,7 +384,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.</p>
 <p class="pub-venue"><em>IEEE Sensors Journal</em>, 2024.</p>
 <p class="pub-links"><a href="https://doi.org/10.1109/JSEN.2024.3353307"><i class="fas fa-link"></i>doi</a> <a href="/projects/#ionos">IONOS</a></p>
-<p class="pub-keywords"><span>OECT array</span><span>organic electronics</span><span>signal classification</span><span>spiking simulations</span><span>reservoir computing</span></p>
+<p class="pub-keywords"><a href="/topics/?q=oect-array">OECT array</a><a href="/topics/?q=organic-electronics">organic electronics</a><a href="/topics/?q=signal-classification">signal classification</a><a href="/topics/?q=spiking-simulations">spiking simulations</a><a href="/topics/?q=reservoir-computing">reservoir computing</a></p>
 </div>
 </article>
 
@@ -395,7 +401,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat, D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.</p>
 <p class="pub-venue"><em>Nature Communications</em>, 2023.</p>
 <p class="pub-links"><a href="https://doi.org/10.1038/s41467-023-43887-8"><i class="fas fa-link"></i>doi</a> <a href="/projects/#ionos">IONOS</a></p>
-<p class="pub-keywords"><span>structural plasticity</span><span>PEDOT</span><span>dendritic connections</span><span>organic neuromorphic networks</span><span>electropolymerization</span></p>
+<p class="pub-keywords"><a href="/topics/?q=structural-plasticity">structural plasticity</a><a href="/topics/?q=pedot">PEDOT</a><a href="/topics/?q=dendritic-connections">dendritic connections</a><a href="/topics/?q=organic-neuromorphic-networks">organic neuromorphic networks</a><a href="/topics/?q=electropolymerization">electropolymerization</a></p>
 </div>
 </article>
 
@@ -412,7 +418,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.</p>
 <p class="pub-venue"><em>ICONS</em>, 2021.</p>
 <p class="pub-links"><a href="https://doi.org/10.1145/3477145.3477267"><i class="fas fa-link"></i>doi</a> <a href="https://arxiv.org/abs/2106.11169"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://github.com/nikhil-garg/EMG_exp"><i class="fab fa-github"></i>code</a> <a href="/projects/#ionos">IONOS</a></p>
-<p class="pub-keywords"><span>EMG</span><span>signals-to-spikes</span><span>reservoir computing</span><span>gesture recognition</span><span>event-driven sensing</span></p>
+<p class="pub-keywords"><a href="/topics/?q=emg">EMG</a><a href="/topics/?q=signals-to-spikes">signals-to-spikes</a><a href="/topics/?q=reservoir-computing">reservoir computing</a><a href="/topics/?q=gesture-recognition">gesture recognition</a><a href="/topics/?q=event-driven-sensing">event-driven sensing</a></p>
 </div>
 </article>
 
@@ -431,7 +437,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">N. Garg, R. Garg, A. Anand, V. Baths.</p>
 <p class="pub-venue"><em>Frontiers in Human Neuroscience</em>, 2022.</p>
 <p class="pub-links"><a href="https://doi.org/10.3389/fnhum.2022.1051463"><i class="fas fa-link"></i>doi</a> <a href="https://github.com/nikhil-garg/Decoding_EEG"><i class="fab fa-github"></i>code</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
-<p class="pub-keywords"><span>portable EEG</span><span>valence</span><span>arousal</span><span>affect decoding</span><span>machine learning</span></p>
+<p class="pub-keywords"><a href="/topics/?q=portable-eeg">portable EEG</a><a href="/topics/?q=valence">valence</a><a href="/topics/?q=arousal">arousal</a><a href="/topics/?q=affect-decoding">affect decoding</a><a href="/topics/?q=machine-learning">machine learning</a></p>
 </div>
 </article>
 
@@ -448,7 +454,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">A. Valsaraj, I. Madala, N. Garg, V. Baths.</p>
 <p class="pub-venue"><em>ISCMI</em>, 2021.</p>
 <p class="pub-links"><a href="/projects/#brain-computer-interfaces">BCI</a></p>
-<p class="pub-keywords"><span>Alzheimer's dementia</span><span>speech analysis</span><span>acoustic features</span><span>linguistic features</span><span>BERT</span></p>
+<p class="pub-keywords"><a href="/topics/?q=alzheimer-s-dementia">Alzheimer's dementia</a><a href="/topics/?q=speech-analysis">speech analysis</a><a href="/topics/?q=acoustic-features">acoustic features</a><a href="/topics/?q=linguistic-features">linguistic features</a><a href="/topics/?q=bert">BERT</a></p>
 </div>
 </article>
 
@@ -465,7 +471,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">L. Kanungo, N. Garg, A. Bhobe, S. Rajguru, V. Baths.</p>
 <p class="pub-venue"><em>IEEE SMC</em>, 2021.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2106.11008"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
-<p class="pub-keywords"><span>hybrid BCI</span><span>SSVEP</span><span>eye blinks</span><span>wheelchair automation</span><span>assistive technology</span></p>
+<p class="pub-keywords"><a href="/topics/?q=hybrid-bci">hybrid BCI</a><a href="/topics/?q=ssvep">SSVEP</a><a href="/topics/?q=eye-blinks">eye blinks</a><a href="/topics/?q=wheelchair-automation">wheelchair automation</a><a href="/topics/?q=assistive-technology">assistive technology</a></p>
 </div>
 </article>
 
@@ -482,7 +488,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.</p>
 <p class="pub-venue"><em>Cyberworlds</em>, 2020.</p>
 <p class="pub-links"><a href="https://doi.org/10.1109/CW49994.2020.00050"><i class="fas fa-link"></i>doi</a> <a href="/projects/#brain-computer-interfaces">BCI</a></p>
-<p class="pub-keywords"><span>motor imagery</span><span>multimodal biometrics</span><span>EEG authentication</span><span>user authentication</span><span>BCI</span></p>
+<p class="pub-keywords"><a href="/topics/?q=motor-imagery">motor imagery</a><a href="/topics/?q=multimodal-biometrics">multimodal biometrics</a><a href="/topics/?q=eeg-authentication">EEG authentication</a><a href="/topics/?q=user-authentication">user authentication</a><a href="/topics/?q=bci">BCI</a></p>
 </div>
 </article>
 
@@ -499,6 +505,6 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">M. Patil, N. Garg, L. Kanungo, V. Baths.</p>
 <p class="pub-venue"><em>ICCI\*CC</em>, 2019.</p>
 <p class="pub-links"><a href="/projects/#brain-computer-interfaces">BCI</a></p>
-<p class="pub-keywords"><span>motor imagery</span><span>multiclass BCI</span><span>same-limb movement</span><span>EEG</span><span>classification</span></p>
+<p class="pub-keywords"><a href="/topics/?q=motor-imagery">motor imagery</a><a href="/topics/?q=multiclass-bci">multiclass BCI</a><a href="/topics/?q=same-limb-movement">same-limb movement</a><a href="/topics/?q=eeg">EEG</a><a href="/topics/?q=classification">classification</a></p>
 </div>
 </article>
