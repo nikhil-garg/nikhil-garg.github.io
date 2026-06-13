@@ -60,6 +60,9 @@ Browse research topics across publications, collaborators, and video resources.
   margin-top: 1.2rem;
   padding-top: 1rem;
 }
+.topic-panel[hidden] {
+  display: none;
+}
 .topic-panel h2 {
   margin-bottom: 0.25rem;
 }
@@ -140,6 +143,39 @@ Browse research topics across publications, collaborators, and video resources.
   color: #666;
   font-size: 0.84rem;
 }
+.topic-index {
+  display: grid;
+  gap: 0.55rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1rem;
+}
+.topic-index[hidden] {
+  display: none;
+}
+.topic-index-card {
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  color: #333;
+  display: block;
+  padding: 0.68rem 0.75rem;
+  text-decoration: none;
+}
+.topic-index-card:hover {
+  border-color: #9cb6c4;
+  color: #111;
+  text-decoration: none;
+}
+.topic-index-card strong {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.2;
+}
+.topic-index-card span {
+  color: #666;
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+}
 .topic-tools.is-focused .topic-cloud {
   display: none;
 }
@@ -174,9 +210,18 @@ Browse research topics across publications, collaborators, and video resources.
 
 <div data-topic-status class="topic-summary"></div>
 
+<section class="topic-index" data-topic-index aria-label="Topic directory">
+{% for topic in site.data.research_topics %}
+  <a class="topic-index-card" href="/topics/?q={{ topic.slug }}" data-topic-index-card data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}">
+    <strong>{{ topic.title }}</strong>
+    <span>{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}{% if topic.videos.size > 0 %} · {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}{% endif %}</span>
+  </a>
+{% endfor %}
+</section>
+
 <section class="topic-list">
 {% for topic in site.data.research_topics %}
-  <article class="topic-panel" id="{{ topic.slug }}" data-topic-panel data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}">
+  <article class="topic-panel" id="{{ topic.slug }}" data-topic-panel data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}" hidden>
     <h2>{{ topic.title }}</h2>
     <p class="topic-summary">{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}, {{ topic.people | size }} linked people, and {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}.</p>
     <div class="topic-grid">
@@ -225,6 +270,8 @@ Browse research topics across publications, collaborators, and video resources.
   const selected = (params.get('q') || window.location.hash.replace('#', '') || '').toLowerCase();
   const panels = Array.from(document.querySelectorAll('[data-topic-panel]'));
   const links = Array.from(document.querySelectorAll('[data-topic-link]'));
+  const index = document.querySelector('[data-topic-index]');
+  const indexCards = Array.from(document.querySelectorAll('[data-topic-index-card]'));
   const input = document.querySelector('[data-topic-filter]');
   const status = document.querySelector('[data-topic-status]');
   const tools = document.querySelector('.topic-tools');
@@ -236,25 +283,33 @@ Browse research topics across publications, collaborators, and video resources.
       if (matches.length) {
         panels.forEach(panel => panel.hidden = panel.dataset.topicSlug !== slug);
         links.forEach(link => link.classList.toggle('is-active', link.dataset.topicLink === slug));
+        if (index) index.hidden = true;
         if (tools) tools.classList.add('is-focused');
         if (input) input.placeholder = 'Search within topics';
         status.textContent = 'Showing selected topic.';
         return;
       }
     }
-    panels.forEach(panel => panel.hidden = false);
+    panels.forEach(panel => panel.hidden = true);
     links.forEach(link => link.classList.remove('is-active'));
+    indexCards.forEach(card => card.hidden = false);
+    if (index) index.hidden = false;
     if (tools) tools.classList.remove('is-focused');
-    status.textContent = 'Showing all topics.';
+    status.textContent = 'Choose a topic to open its papers, people, and videos.';
   }
 
   function filterTopics() {
     const q = input.value.trim().toLowerCase();
     let visible = 0;
+    if (index) index.hidden = Boolean(q);
     panels.forEach(panel => {
       const ok = !q || panel.dataset.topicText.includes(q) || panel.dataset.topicSlug.includes(q);
-      panel.hidden = !ok;
+      panel.hidden = !q || !ok;
       if (ok) visible += 1;
+    });
+    indexCards.forEach(card => {
+      const ok = !q || card.dataset.topicText.includes(q) || card.dataset.topicSlug.includes(q);
+      card.hidden = !ok;
     });
     links.forEach(link => {
       const ok = !q || link.textContent.toLowerCase().includes(q) || link.dataset.topicLink.includes(q);

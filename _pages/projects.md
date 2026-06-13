@@ -10,12 +10,12 @@ redirect_from:
 Reverse-chronology project map across neuromorphic hardware, BCI, embedded systems, and bio-signal processing.
 
 <nav class="project-nav" aria-label="Project sections">
-  <a href="#swims">SWIMS</a>
-  <a href="#vitfox">VITFOX</a>
-  <a href="#unico">UNICO</a>
-  <a href="#ionos">IONOS</a>
-  <a href="#brain-computer-interfaces">BCI</a>
-  <a href="#fpga-and-embedded-hardware">FPGA</a>
+  <a href="#swims" data-project-link="swims">SWIMS</a>
+  <a href="#vitfox" data-project-link="vitfox">VITFOX</a>
+  <a href="#unico" data-project-link="unico">UNICO</a>
+  <a href="#ionos" data-project-link="ionos">IONOS</a>
+  <a href="#brain-computer-interfaces" data-project-link="brain-computer-interfaces">BCI</a>
+  <a href="#fpga-and-embedded-hardware" data-project-link="fpga-and-embedded-hardware">FPGA</a>
 </nav>
 
 <style>
@@ -39,6 +39,53 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   color: #111;
   text-decoration: none;
 }
+.project-nav a.is-active {
+  background: #eaf2f5;
+  border-color: #9cb6c4;
+  color: #111;
+  font-weight: 700;
+}
+.project-status {
+  color: #555;
+  font-size: 0.88rem;
+  margin: 0 0 1rem;
+}
+.project-index {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  margin: 1rem 0 1.35rem;
+}
+.project-index[hidden] {
+  display: none;
+}
+.project-index-card {
+  border: 1px solid #dedede;
+  border-left: 4px solid #526a7a;
+  border-radius: 6px;
+  color: #333;
+  display: block;
+  padding: 0.8rem 0.85rem;
+  text-decoration: none;
+}
+.project-index-card:hover {
+  border-color: #9cb6c4;
+  border-left-color: #526a7a;
+  color: #111;
+  text-decoration: none;
+}
+.project-index-card strong {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+.project-index-card span {
+  color: #555;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  margin-top: 0.28rem;
+}
 .project-card {
   background: #fff;
   border: 1px solid #dedede;
@@ -46,6 +93,9 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   border-radius: 6px;
   margin: 1.75rem 0 2.25rem;
   padding: 1.05rem 1.15rem 1.15rem;
+}
+.project-card[hidden] {
+  display: none;
 }
 .project-card h2 {
   font-size: 1.22rem;
@@ -176,7 +226,18 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 }
 </style>
 
-<section class="project-card" id="swims" markdown="1">
+<p class="project-status" data-project-status></p>
+
+<section class="project-index" data-project-index aria-label="Project overview">
+  <a class="project-index-card" href="#swims"><strong>SWIMS</strong><span>2026-present · University of Groningen · spiking wireless multimodal sensory systems</span></a>
+  <a class="project-index-card" href="#vitfox"><strong>VITFOX</strong><span>2025-2026 · ETH Zurich · ferroelectric synapses and device-aware learning</span></a>
+  <a class="project-index-card" href="#unico"><strong>UNICO</strong><span>2021-2024 · France/Canada · memristive in-memory learning and analog circuits</span></a>
+  <a class="project-index-card" href="#ionos"><strong>IONOS</strong><span>2020-2024 · CNRS/UdeS · iono-electronic neuromorphic interfaces</span></a>
+  <a class="project-index-card" href="#brain-computer-interfaces"><strong>Brain-Computer Interfaces</strong><span>2017-2021 · BITS Pilani Goa · EEG, BCI, affect decoding, assistive systems</span></a>
+  <a class="project-index-card" href="#fpga-and-embedded-hardware"><strong>FPGA and Embedded Hardware</strong><span>2017-2020, 2025 · BITS/ETH · FPGA, PCB, characterization systems</span></a>
+</section>
+
+<section class="project-card" id="swims" data-project-card markdown="1" hidden>
 
 ## SWIMS
 
@@ -201,7 +262,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 </section>
 
-<section class="project-card" id="vitfox" markdown="1">
+<section class="project-card" id="vitfox" data-project-card markdown="1" hidden>
 
 ## VITFOX
 
@@ -234,7 +295,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 </section>
 
-<section class="project-card" id="unico" markdown="1">
+<section class="project-card" id="unico" data-project-card markdown="1" hidden>
 
 ## UNICO
 
@@ -275,7 +336,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 </section>
 
-<section class="project-card" id="ionos" markdown="1">
+<section class="project-card" id="ionos" data-project-card markdown="1" hidden>
 
 ## IONOS
 
@@ -310,7 +371,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 </section>
 
-<section class="project-card" id="brain-computer-interfaces" markdown="1">
+<section class="project-card" id="brain-computer-interfaces" data-project-card markdown="1" hidden>
 
 ## Brain-Computer Interfaces
 
@@ -343,7 +404,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 </section>
 
-<section class="project-card" id="fpga-and-embedded-hardware" markdown="1">
+<section class="project-card" id="fpga-and-embedded-hardware" data-project-card markdown="1" hidden>
 
 ## FPGA and Embedded Hardware
 
@@ -373,3 +434,33 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 </ul>
 
 </section>
+
+<script>
+(function(){
+  const cards = Array.from(document.querySelectorAll('[data-project-card]'));
+  const links = Array.from(document.querySelectorAll('[data-project-link]'));
+  const index = document.querySelector('[data-project-index]');
+  const status = document.querySelector('[data-project-status]');
+
+  function showProject() {
+    const slug = window.location.hash.replace('#', '');
+    const match = cards.find(card => card.id === slug);
+
+    if (match) {
+      cards.forEach(card => card.hidden = card !== match);
+      links.forEach(link => link.classList.toggle('is-active', link.dataset.projectLink === slug));
+      if (index) index.hidden = true;
+      if (status) status.innerHTML = '<a href="/projects/">All projects</a>';
+      return;
+    }
+
+    cards.forEach(card => card.hidden = true);
+    links.forEach(link => link.classList.remove('is-active'));
+    if (index) index.hidden = false;
+    if (status) status.textContent = 'Choose a project to open its labs, funding, links, and outputs.';
+  }
+
+  window.addEventListener('hashchange', showProject);
+  showProject();
+})();
+</script>

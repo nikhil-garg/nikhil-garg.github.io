@@ -7,7 +7,7 @@ redirect_from:
   - /network/
 ---
 
-People connected to supervision, publications, collaborations, and past affiliations.
+People connected to mentorship, supervision, and publications.
 
 <style>
 .people-section {
@@ -33,7 +33,7 @@ People connected to supervision, publications, collaborations, and past affiliat
 </style>
 
 <section id="people">
-{% assign groups = "Mentor|Student|Colleague|Collaborator|Coauthor" | split: "|" %}
+{% assign groups = "Mentor|Student|Coauthor" | split: "|" %}
 {% for group in groups %}
   {% if group == "Mentor" %}
     {% assign people = site.people | where: "category", group | sort: "mentor_order" %}
