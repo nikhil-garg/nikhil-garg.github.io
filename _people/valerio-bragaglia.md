@@ -1,7 +1,7 @@
 ---
 title: "V. Bragaglia"
 category: "Collaborator"
-network_order: 45
+people_order: 45
 initials: "VB"
 affiliation: "UNICO coauthor"
 links:

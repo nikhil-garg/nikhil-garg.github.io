@@ -1,7 +1,7 @@
 ---
 title: "Ithihas Madala"
 category: "Student"
-network_order: 23
+people_order: 23
 initials: "IM"
 affiliation: "BITS Pilani Goa · Bachelor's project, 2019-2020"
 links:

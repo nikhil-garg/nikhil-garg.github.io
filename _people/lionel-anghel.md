@@ -1,7 +1,7 @@
 ---
 title: "Lionel Anghel"
 category: "Collaborator"
-network_order: 51
+people_order: 51
 initials: "LA"
 affiliation: "UNICO / PCM coauthor"
 links:

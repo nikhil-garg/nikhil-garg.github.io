@@ -1,7 +1,7 @@
 ---
 title: "Louis Frechette"
 category: "Collaborator"
-network_order: 59
+people_order: 59
 initials: "LF"
 affiliation: "UNICO coauthor"
 links:

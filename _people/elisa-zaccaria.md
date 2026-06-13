@@ -1,7 +1,7 @@
 ---
 title: "E. Zaccaria"
 category: "Colleague"
-network_order: 26
+people_order: 26
 initials: "EZ"
 affiliation: "VITFOX coauthor"
 links:

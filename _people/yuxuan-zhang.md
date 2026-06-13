@@ -1,7 +1,7 @@
 ---
 title: "Y. Zhang"
 category: "Colleague"
-network_order: 22
+people_order: 22
 initials: "YZ"
 affiliation: "VITFOX coauthor"
 links:

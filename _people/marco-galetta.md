@@ -1,7 +1,7 @@
 ---
 title: "M. Galetta"
 category: "Collaborator"
-network_order: 48
+people_order: 48
 initials: "MG"
 affiliation: "UNICO coauthor"
 links:

@@ -1,7 +1,7 @@
 ---
 title: "Eelco"
 category: "Student"
-network_order: 2
+people_order: 2
 initials: "E"
 affiliation: "University of Groningen · April-July 2026"
 links:

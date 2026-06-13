@@ -1,7 +1,7 @@
 ---
 title: "E. Muhr"
 category: "Colleague"
-network_order: 34
+people_order: 34
 initials: "EM"
 affiliation: "UNICO coauthor"
 links:

@@ -1,7 +1,7 @@
 ---
 title: "Katarina Janzakova"
 category: "Colleague"
-network_order: 37
+people_order: 37
 initials: "KJ"
 affiliation: "IONOS coauthor"
 links:

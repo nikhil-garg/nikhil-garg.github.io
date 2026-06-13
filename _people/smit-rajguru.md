@@ -1,7 +1,7 @@
 ---
 title: "S. Rajguru"
 category: "Student"
-network_order: 85
+people_order: 85
 initials: "SR"
 affiliation: "BITS Pilani Goa / BCI coauthor"
 links:

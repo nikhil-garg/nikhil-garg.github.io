@@ -1,7 +1,7 @@
 ---
 title: "T. C. Stewart"
 category: "Collaborator"
-network_order: 60
+people_order: 60
 initials: "TS"
 affiliation: "VDSP / Nengo coauthor"
 links:

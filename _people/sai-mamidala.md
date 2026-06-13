@@ -1,7 +1,7 @@
 ---
 title: "S. R. Mamidala"
 category: "Colleague"
-network_order: 28
+people_order: 28
 initials: "SM"
 affiliation: "VITFOX coauthor"
 links:

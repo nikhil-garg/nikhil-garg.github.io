@@ -1,7 +1,7 @@
 ---
 title: "A. La Porta"
 category: "Collaborator"
-network_order: 49
+people_order: 49
 initials: "AL"
 affiliation: "UNICO coauthor"
 links:

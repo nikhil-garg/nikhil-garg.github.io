@@ -1,7 +1,7 @@
 ---
 title: "Anxiong Song"
 category: "Student"
-network_order: 6
+people_order: 6
 initials: "AS"
 affiliation: "ETH Zurich · August-December 2025"
 links:

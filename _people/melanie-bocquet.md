@@ -1,7 +1,7 @@
 ---
 title: "M. Bocquet"
 category: "Collaborator"
-network_order: 42
+people_order: 42
 initials: "MB"
 affiliation: "UNICO coauthor"
 links:

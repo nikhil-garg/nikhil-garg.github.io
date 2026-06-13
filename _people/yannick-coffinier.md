@@ -1,7 +1,7 @@
 ---
 title: "Yannick Coffinier"
 category: "Collaborator"
-network_order: 58
+people_order: 58
 initials: "YC"
 affiliation: "IONOS coauthor"
 links:

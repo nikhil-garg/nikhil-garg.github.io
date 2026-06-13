@@ -1,7 +1,7 @@
 ---
 title: "D. Florini"
 category: "Colleague"
-network_order: 32
+people_order: 32
 initials: "DF"
 affiliation: "UNICO coauthor"
 links:

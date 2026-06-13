@@ -1,7 +1,7 @@
 ---
 title: "Sylvain Pecqueur"
 category: "Collaborator"
-network_order: 57
+people_order: 57
 initials: "SP"
 affiliation: "IONOS coauthor"
 links:

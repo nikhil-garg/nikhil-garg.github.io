@@ -1,7 +1,7 @@
 ---
 title: "Abhishek Kumar"
 category: "Collaborator"
-network_order: 56
+people_order: 56
 initials: "AK"
 role: "IONOS collaborator"
 affiliation: "IONOS coauthor"

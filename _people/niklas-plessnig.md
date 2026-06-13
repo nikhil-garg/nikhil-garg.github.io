@@ -1,7 +1,7 @@
 ---
 title: "Niklas Plessnig"
 category: "Student"
-network_order: 7
+people_order: 7
 initials: "NP"
 affiliation: "ETH Zurich · August-December 2025"
 links:

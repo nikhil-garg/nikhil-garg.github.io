@@ -1,7 +1,7 @@
 ---
 title: "D. F. Falcone"
 category: "Collaborator"
-network_order: 47
+people_order: 47
 initials: "DF"
 role: "Analog AI hardware collaborator"
 affiliation: "UNICO coauthor"

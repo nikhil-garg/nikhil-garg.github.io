@@ -1,7 +1,7 @@
 ---
 title: "N. Savoia"
 category: "Colleague"
-network_order: 24
+people_order: 24
 initials: "NS"
 affiliation: "VITFOX coauthor"
 links:

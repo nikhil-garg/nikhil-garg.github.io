@@ -1,7 +1,7 @@
 ---
 title: "Marc Rautmann"
 category: "Student"
-network_order: 8
+people_order: 8
 initials: "MR"
 affiliation: "ETH Zurich · May-August 2025"
 links:

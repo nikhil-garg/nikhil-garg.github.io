@@ -1,7 +1,7 @@
 ---
 title: "P. U. Vicandi"
 category: "Colleague"
-network_order: 27
+people_order: 27
 initials: "PV"
 affiliation: "VITFOX coauthor"
 links:

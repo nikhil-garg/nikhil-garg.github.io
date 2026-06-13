@@ -1,7 +1,7 @@
 ---
 title: "M. Patil"
 category: "Student"
-network_order: 83
+people_order: 83
 initials: "MP"
 affiliation: "BITS Pilani Goa / BCI coauthor"
 links:

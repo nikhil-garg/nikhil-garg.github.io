@@ -1,7 +1,7 @@
 ---
 title: "Alexandre Juneau-Fecteau"
 category: "Colleague"
-network_order: 39
+people_order: 39
 initials: "AJ"
 affiliation: "UNICO coauthor"
 links:

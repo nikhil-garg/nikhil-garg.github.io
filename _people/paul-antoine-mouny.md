@@ -1,7 +1,7 @@
 ---
 title: "P.-A. Mouny"
 category: "Collaborator"
-network_order: 52
+people_order: 52
 initials: "PM"
 affiliation: "UNICO / PCM coauthor"
 links:

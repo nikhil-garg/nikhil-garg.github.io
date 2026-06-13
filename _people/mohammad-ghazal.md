@@ -1,7 +1,7 @@
 ---
 title: "Mohammad Ghazal"
 category: "Colleague"
-network_order: 36
+people_order: 36
 initials: "MG"
 affiliation: "IONOS coauthor"
 links:

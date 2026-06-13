@@ -1,7 +1,7 @@
 ---
 title: "Guillaume Goupy"
 category: "Student"
-network_order: 20
+people_order: 20
 initials: "GG"
 affiliation: "Universite de Sherbrooke · Master's thesis, 2021-2022"
 links:

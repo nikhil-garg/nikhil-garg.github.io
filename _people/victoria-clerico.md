@@ -1,7 +1,7 @@
 ---
 title: "V. Clerico"
 category: "Collaborator"
-network_order: 43
+people_order: 43
 initials: "VC"
 affiliation: "UNICO coauthor"
 links:

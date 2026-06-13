@@ -1,7 +1,7 @@
 ---
 title: "B. J. Offrein"
 category: "Collaborator"
-network_order: 41
+people_order: 41
 initials: "BO"
 affiliation: "VITFOX / IBM Research Zurich coauthor"
 links:

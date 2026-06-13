@@ -1,7 +1,7 @@
 ---
 title: "A. Baigol"
 category: "Colleague"
-network_order: 21
+people_order: 21
 initials: "AB"
 affiliation: "VITFOX coauthor"
 links:

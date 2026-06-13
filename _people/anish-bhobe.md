@@ -1,7 +1,7 @@
 ---
 title: "A. Bhobe"
 category: "Student"
-network_order: 84
+people_order: 84
 initials: "AB"
 affiliation: "BITS Pilani Goa / BCI coauthor"
 links:

@@ -1,7 +1,7 @@
 ---
 title: "Jeff Ren"
 category: "Student"
-network_order: 11
+people_order: 11
 initials: "JR"
 affiliation: "ETH Zurich · February-June 2025"
 links:

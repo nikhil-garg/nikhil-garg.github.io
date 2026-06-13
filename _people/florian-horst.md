@@ -1,7 +1,7 @@
 ---
 title: "F. Horst"
 category: "Collaborator"
-network_order: 46
+people_order: 46
 initials: "FH"
 affiliation: "UNICO coauthor"
 links:

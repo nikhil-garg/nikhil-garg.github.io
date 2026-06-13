@@ -1,7 +1,7 @@
 ---
 title: "Matteo Mazza"
 category: "Student"
-network_order: 5
+people_order: 5
 initials: "MM"
 affiliation: "ETH Zurich · October 2025-July 2026"
 links:

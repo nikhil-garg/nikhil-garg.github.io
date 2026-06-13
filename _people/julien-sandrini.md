@@ -1,7 +1,7 @@
 ---
 title: "J. Sandrini"
 category: "Collaborator"
-network_order: 53
+people_order: 53
 initials: "JS"
 affiliation: "UNICO / PCM coauthor"
 links:

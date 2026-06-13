@@ -1,7 +1,7 @@
 ---
 title: "Sohil Khan"
 category: "Student"
-network_order: 10
+people_order: 10
 initials: "SK"
 affiliation: "ETH Zurich · May-August 2025"
 links:

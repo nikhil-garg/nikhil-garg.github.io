@@ -1,7 +1,7 @@
 ---
 title: "Lara Prelij"
 category: "Student"
-network_order: 9
+people_order: 9
 initials: "LP"
 affiliation: "ETH Zurich · May-August 2025"
 links:

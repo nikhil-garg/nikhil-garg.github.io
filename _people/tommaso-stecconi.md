@@ -1,7 +1,7 @@
 ---
 title: "T. Stecconi"
 category: "Collaborator"
-network_order: 44
+people_order: 44
 initials: "TS"
 affiliation: "UNICO coauthor"
 links:

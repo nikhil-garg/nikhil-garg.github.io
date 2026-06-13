@@ -1,7 +1,7 @@
 ---
 title: "Ilyass Balafrej"
 category: "Colleague"
-network_order: 30
+people_order: 30
 initials: "IB"
 role: "UNICO and IONOS collaborator"
 affiliation: "UNICO / IONOS coauthor"

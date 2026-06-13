@@ -1,7 +1,7 @@
 ---
 title: "Akshay Valsaraj"
 category: "Student"
-network_order: 22
+people_order: 22
 initials: "AV"
 affiliation: "BITS Pilani Goa · Bachelor's project, 2019-2020"
 links:

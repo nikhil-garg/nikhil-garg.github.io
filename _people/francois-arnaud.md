@@ -1,7 +1,7 @@
 ---
 title: "F. Arnaud"
 category: "Collaborator"
-network_order: 54
+people_order: 54
 initials: "FA"
 affiliation: "UNICO / PCM coauthor"
 links:

@@ -1,7 +1,7 @@
 ---
 title: "A. Anand"
 category: "Collaborator"
-network_order: 71
+people_order: 71
 initials: "AA"
 affiliation: "BCI coauthor"
 links:

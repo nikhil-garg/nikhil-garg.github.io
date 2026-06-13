@@ -1,7 +1,7 @@
 ---
 title: "M. C. Faye"
 category: "Colleague"
-network_order: 35
+people_order: 35
 initials: "MF"
 affiliation: "UNICO coauthor"
 links:

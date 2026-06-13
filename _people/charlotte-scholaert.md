@@ -1,7 +1,7 @@
 ---
 title: "C. Scholaert"
 category: "Collaborator"
-network_order: 55
+people_order: 55
 initials: "CS"
 affiliation: "IONOS coauthor"
 links:

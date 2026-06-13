@@ -1,7 +1,7 @@
 ---
 title: "P. Dufour"
 category: "Colleague"
-network_order: 33
+people_order: 33
 initials: "PD"
 affiliation: "UNICO coauthor"
 links:

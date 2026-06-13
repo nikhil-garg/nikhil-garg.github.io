@@ -1,7 +1,7 @@
 ---
 title: "Philippe Galy"
 category: "Collaborator"
-network_order: 50
+people_order: 50
 initials: "PG"
 affiliation: "UNICO / PCM coauthor"
 links:

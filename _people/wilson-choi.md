@@ -1,7 +1,7 @@
 ---
 title: "W. Choi"
 category: "Collaborator"
-network_order: 40
+people_order: 40
 initials: "WC"
 affiliation: "VITFOX / UNICO coauthor"
 links:
