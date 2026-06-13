@@ -230,7 +230,7 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-links"><a href="https://www.chistera.eu/projects/unico">Project page</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo">VDSP_Nengo</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors">VDSP-Memristors</a> <a href="/talks/#2024">Talks</a></p>
 
-<p class="project-outputs"><strong>Outputs</strong></p>
+<p class="project-outputs"><strong>UNICO outputs</strong></p>
 <ul class="project-output-list">
   <li><a href="/publications/#phd-thesis">Neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices</a></li>
   <li><a href="/publications/#vdsp-memristors">Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses</a></li>
