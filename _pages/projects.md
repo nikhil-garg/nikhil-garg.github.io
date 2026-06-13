@@ -202,7 +202,6 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
   <li><a href="/publications/#personalized-spiking-neural-networks">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></li>
   <li><a href="/publications/#analog-weight-update-ferroelectric-hafnia">Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming Pulses</a></li>
   <li><a href="/publications/#energy-convergence-ferro">Energy-convergence trade off for the training of neural networks on bio-inspired hardware</a></li>
-  <li><a href="/publications/#all-in-one-analog-ai-hardware">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices</a></li>
 </ul>
 
 </section>
@@ -238,6 +237,7 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
   <li><a href="/publications/#cmos-lif-neuron">Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits</a></li>
   <li><a href="/publications/#vdsp-convolutional-snn">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks</a></li>
   <li><a href="/publications/#voltage-dependent-synaptic-plasticity">Voltage-dependent synaptic plasticity: Unsupervised probabilistic Hebbian plasticity rule based on neurons membrane potential</a></li>
+  <li><a href="/publications/#all-in-one-analog-ai-hardware">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices</a></li>
 </ul>
 
 </section>
@@ -325,7 +325,6 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-outputs"><strong>Outputs</strong></p>
 <ul class="project-output-list">
-  <li><a href="/publications/#all-in-one-analog-ai-hardware">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices</a></li>
   <li><a href="/cv/#student-supervision">FPGA-based memristor crossbar array characterization framework</a></li>
 </ul>
 

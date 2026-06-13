@@ -186,6 +186,18 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 </div>
 </article>
 
+<article class="pub-card" id="all-in-one-analog-ai-hardware" markdown="1">
+<div class="pub-figure">
+<svg viewBox="0 0 320 180" role="img" aria-label="Analog AI ReRAM array thumbnail"><rect width="320" height="180" fill="#fafafa"/><rect x="64" y="36" width="192" height="108" rx="8" fill="#eef0de" stroke="#697244" stroke-width="3"/><g stroke="#697244" stroke-width="3"><path d="M88 54v72M118 54v72M148 54v72M178 54v72M208 54v72M238 54v72"/><path d="M82 62h156M82 86h156M82 110h156M82 134h156"/></g><circle cx="148" cy="86" r="7" fill="#9a6b5b"/><circle cx="208" cy="110" r="7" fill="#587f9a"/><text x="160" y="168" text-anchor="middle" font-size="16" fill="#333">on-chip training and inference</text></svg>
+</div>
+<div>
+<p class="pub-title">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices.</p>
+<p class="pub-authors">D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours, M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.</p>
+<p class="pub-venue"><em>Advanced Functional Materials</em>, 2025.</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2502.04524"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#unico">UNICO</a></p>
+</div>
+</article>
+
 ## IONOS & Bio-Signal Processing
 
 <article class="pub-card" id="oect-array-snn" markdown="1">
@@ -283,19 +295,5 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-authors">M. Patil, N. Garg, L. Kanungo, V. Baths.</p>
 <p class="pub-venue"><em>ICCI\*CC</em>, 2019.</p>
 <p class="pub-links"><a href="/projects/#brain-computer-interfaces">BCI</a></p>
-</div>
-</article>
-
-## Analog AI Hardware
-
-<article class="pub-card" id="all-in-one-analog-ai-hardware" markdown="1">
-<div class="pub-figure">
-<svg viewBox="0 0 320 180" role="img" aria-label="Analog AI ReRAM array thumbnail"><rect width="320" height="180" fill="#fafafa"/><rect x="64" y="36" width="192" height="108" rx="8" fill="#eef0de" stroke="#697244" stroke-width="3"/><g stroke="#697244" stroke-width="3"><path d="M88 54v72M118 54v72M148 54v72M178 54v72M208 54v72M238 54v72"/><path d="M82 62h156M82 86h156M82 110h156M82 134h156"/></g><circle cx="148" cy="86" r="7" fill="#9a6b5b"/><circle cx="208" cy="110" r="7" fill="#587f9a"/><text x="160" y="168" text-anchor="middle" font-size="16" fill="#333">on-chip training and inference</text></svg>
-</div>
-<div>
-<p class="pub-title">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices.</p>
-<p class="pub-authors">D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Begon-Lours, M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.</p>
-<p class="pub-venue"><em>Advanced Functional Materials</em>, 2025.</p>
-<p class="pub-links"><a href="https://arxiv.org/abs/2502.04524"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/projects/#unico">UNICO</a></p>
 </div>
 </article>
