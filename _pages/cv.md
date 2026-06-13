@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-This page is a compact academic CV. Project narratives, papers, code, and talks are kept on their dedicated pages: [Projects](/projects/), [Publications](/publications/), and [Talks](/talks/).
-
 ## Research Appointments
 
 **Postdoctoral Researcher**  
