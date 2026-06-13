@@ -196,11 +196,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="cmos-lif-neuron" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="CMOS LIF neuron interface thumbnail">
-<i class="fas fa-microchip"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">CMOS LIF neuron interface</span>
-</div>
+<img class="pub-image" src="/images/publications/garg-2024-icons-cmos-lif-feature.jpg" alt="CMOS analog LIF neuron feature figure">
 </div>
 <div>
 <p class="pub-title"><a href="/publications/cmos-lif-neuron/">Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits.</a></p>
@@ -260,11 +256,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="voltage-dependent-synaptic-plasticity" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="membrane-voltage plasticity thumbnail">
-<i class="fas fa-bolt"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">membrane-voltage plasticity</span>
-</div>
+<img class="pub-image" src="/images/publications/garg-2022-vdsp-feature.jpg" alt="Voltage-dependent synaptic plasticity feature figure">
 </div>
 <div>
 <p class="pub-title">Voltage-dependent synaptic plasticity: Unsupervised probabilistic Hebbian plasticity rule based on neurons membrane potential.</p>

@@ -33,7 +33,21 @@ layout: single
 .publication-meta strong {
   color: #222;
 }
+.publication-feature {
+  border: 1px solid #dedede;
+  border-radius: 7px;
+  display: block;
+  margin: 0.75rem 0 1.25rem;
+  max-height: 28rem;
+  object-fit: contain;
+  padding: 0.45rem;
+  width: 100%;
+}
 </style>
+
+{% if page.feature_image %}
+  <img class="publication-feature" src="{{ page.feature_image }}" alt="{{ page.feature_alt | default: page.title }}">
+{% endif %}
 
 {% if page.authors %}
   <p class="publication-meta"><strong>Authors:</strong> {{ page.authors }}</p>

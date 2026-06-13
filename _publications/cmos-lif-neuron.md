@@ -6,6 +6,8 @@ venue: "ICONS"
 authors: "N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart, et al."
 project: "UNICO"
 project_url: "/projects/#unico"
+feature_image: "/images/publications/garg-2024-icons-cmos-lif-feature.jpg"
+feature_alt: "CMOS analog LIF neuron circuit and measurement overview"
 paper_links:
   - label: "arXiv"
     url: "https://arxiv.org/abs/2406.19667"
