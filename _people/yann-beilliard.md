@@ -2,6 +2,7 @@
 title: "Yann Beilliard"
 category: "Mentor"
 initials: "YB"
+image: "/images/people/yann-beilliard.jpg"
 role: "PhD mentor and UNICO collaborator"
 affiliation: "Universite de Sherbrooke / LN2"
 links:
