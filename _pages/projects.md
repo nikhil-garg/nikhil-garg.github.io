@@ -83,6 +83,16 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   text-decoration: none;
   text-transform: uppercase;
 }
+.project-logo--image {
+  min-height: 2.25rem;
+  padding: 0.28rem 0.48rem;
+}
+.project-logo--image img {
+  display: block;
+  max-height: 1.45rem;
+  max-width: 5.8rem;
+  object-fit: contain;
+}
 .project-logo i {
   color: #526a7a;
   font-size: 0.8rem;
@@ -115,6 +125,30 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 }
 .project-detail {
   margin: 0.25rem 0;
+}
+.project-places {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0.85rem 0 1rem;
+}
+.project-place {
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.project-place img {
+  aspect-ratio: 4 / 3;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+.project-place span {
+  color: #444;
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  padding: 0.45rem 0.55rem;
 }
 .project-links {
   display: flex;
@@ -166,6 +200,9 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   .project-card {
     padding: 0.9rem;
   }
+  .project-places {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -200,7 +237,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-meta">2025-2026 · Postdoctoral Researcher · ETH Zurich</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://ethz.ch/en.html" title="ETH Zurich"><i class="fas fa-university"></i>ETH</a>
+  <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
   <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
   <a class="project-logo project-logo--lab" href="https://iis.ee.ethz.ch/" title="Integrated Systems Laboratory, ETH Zurich"><i class="fas fa-project-diagram"></i>ISL</a>
   <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="Chips Joint Undertaking"><i class="fas fa-microchip"></i>CHIPS-JU</a>
@@ -233,13 +270,19 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 <p class="project-meta">2021-2024 · PhD Candidate · Universite de Lille / Universite de Sherbrooke</p>
 <div class="project-logos">
   <a class="project-logo project-logo--funding" href="https://www.chistera.eu/projects/unico" title="CHIST-ERA UNICO project"><i class="fas fa-award"></i>CHIST-ERA</a>
-  <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><i class="fas fa-university"></i>CNRS</a>
+  <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
   <a class="project-logo" href="https://www.univ-lille.fr/" title="Universite de Lille"><i class="fas fa-university"></i>U. Lille</a>
-  <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><i class="fas fa-university"></i>UdeS</a>
-  <a class="project-logo project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><i class="fas fa-microchip"></i>IEMN</a>
-  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><i class="fas fa-atom"></i>LN2</a>
+  <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Universite de Sherbrooke"></a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.im2np.fr/" title="Institut Materiaux Microelectronique Nanosciences de Provence"><img src="/images/logos/im2np-logo.png" alt="IM2NP"></a>
   <a class="project-logo project-logo--funding" href="https://anr.fr/" title="French National Research Agency"><i class="fas fa-award"></i>ANR</a>
   <a class="project-logo project-logo--funding" href="https://www.nserc-crsng.gc.ca/" title="Natural Sciences and Engineering Research Council of Canada"><i class="fas fa-award"></i>NSERC</a>
+</div>
+
+<div class="project-places">
+  <a class="project-place" href="https://www.iemn.fr/"><img src="/images/places/iemn-building.jpg" alt="IEMN building"><span>IEMN, Lille</span></a>
+  <a class="project-place" href="https://www.usherbrooke.ca/ln2/"><img src="/images/places/ln2-building.png" alt="LN2 building"><span>LN2, Sherbrooke</span></a>
 </div>
 
 <p class="project-summary">Unsupervised spiking neural networks with analog memristive devices for edge computing. The work covered voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes for local learning.</p>
@@ -272,11 +315,16 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 <div class="project-logos">
   <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
   <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/project/id/773228" title="Horizon 2020 ERC Consolidator Grant 773228"><i class="fas fa-university"></i>H2020</a>
-  <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><i class="fas fa-university"></i>CNRS</a>
-  <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><i class="fas fa-university"></i>UdeS</a>
+  <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
+  <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Universite de Sherbrooke"></a>
   <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation"><i class="fas fa-flask"></i>3IT</a>
-  <a class="project-logo project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><i class="fas fa-microchip"></i>IEMN</a>
-  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><i class="fas fa-atom"></i>LN2</a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
+</div>
+
+<div class="project-places">
+  <a class="project-place" href="https://www.iemn.fr/"><img src="/images/places/iemn-building.jpg" alt="IEMN building"><span>IEMN, Lille</span></a>
+  <a class="project-place" href="https://www.usherbrooke.ca/ln2/"><img src="/images/places/ln2-building.png" alt="LN2 building"><span>LN2, Sherbrooke</span></a>
 </div>
 
 <p class="project-summary">Iono-electronic neuromorphic interfaces for communication with living systems. My related work focused on analog-to-spike conversion workflows, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.</p>
@@ -304,7 +352,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-meta">2017-2021 · Undergraduate Student Researcher · BITS Pilani Goa</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><i class="fas fa-university"></i>BITS Goa</a>
+  <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
   <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa"><i class="fas fa-brain"></i>CNL</a>
   <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research"><i class="fas fa-brain"></i>BCI</a>
 </div>
@@ -335,9 +383,9 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-meta">2017-2020, 2025 · Undergraduate research and postdoctoral supervision · BITS Pilani Goa / ETH Zurich</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><i class="fas fa-university"></i>BITS Goa</a>
+  <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
   <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa"><i class="fas fa-project-diagram"></i>RCL</a>
-  <a class="project-logo" href="https://ethz.ch/en.html" title="ETH Zurich"><i class="fas fa-university"></i>ETH</a>
+  <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
   <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
   <a class="project-logo project-logo--funding" href="/projects/#fpga-and-embedded-hardware" title="FPGA and embedded hardware work"><i class="fas fa-microchip"></i>FPGA</a>
 </div>
