@@ -253,11 +253,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="energy-convergence-ferro" markdown="1">
 <div class="pub-figure pub-figure--vitfox">
-<div class="pub-thumb" aria-label="energy convergence tradeoff thumbnail">
-<i class="fas fa-chart-line"></i>
-<span class="pub-thumb__project">VITFOX</span>
-<span class="pub-thumb__topic">energy convergence tradeoff</span>
-</div>
+<img class="pub-image" src="/images/publications/garg-2026-energy-convergence-feature.png" alt="Mixed-precision in-memory training schematic for energy-convergence tradeoff">
 </div>
 <div>
 <p class="pub-title">Energy-convergence trade off for the training of neural networks on bio-inspired hardware.</p>
@@ -270,11 +266,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="all-in-one-analog-ai-hardware" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="on-chip training + inference thumbnail">
-<i class="fas fa-microchip"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">on-chip training + inference</span>
-</div>
+<img class="pub-image" src="/images/publications/falcone-2025-all-in-one-analog-ai-feature.png" alt="BEOL-integrated analog ReRAM array and 1T1R unit cell">
 </div>
 <div>
 <p class="pub-title">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices.</p>
@@ -302,11 +294,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="pcm-cryo-snn" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="cryogenic PCM SNNs thumbnail">
-<i class="fas fa-atom"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">cryogenic PCM SNNs</span>
-</div>
+<img class="pub-image" src="/images/publications/joao-2024-pcm-cryo-snn-feature.jpg" alt="Embedded PCM device and cryogenic probe-station setup">
 </div>
 <div>
 <p class="pub-title">28 nm FDSOI embedded PCM exhibiting near zero drift at 12 K for cryogenic SNNs.</p>
@@ -319,11 +307,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="pcm-drift-compensation" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="PCM drift compensation thumbnail">
-<i class="fas fa-chart-area"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">PCM drift compensation</span>
-</div>
+<img class="pub-image" src="/images/publications/joao-2024-pcm-drift-compensation-feature.png" alt="Phase-change memory drift mitigation feature graphic">
 </div>
 <div>
 <p class="pub-title">Phase change memory drift compensation in spiking neural networks using a non-linear current scaling strategy.</p>
@@ -336,11 +320,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="phd-thesis" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="in-memory learning thesis thumbnail">
-<i class="fas fa-book"></i>
-<span class="pub-thumb__project">Thesis</span>
-<span class="pub-thumb__topic">in-memory learning thesis</span>
-</div>
+<img class="pub-image" src="/images/publications/garg-2024-thesis-feature.jpg" alt="Neuromorphic chip micrograph with analog blocks and synaptic array">
 </div>
 <div>
 <p class="pub-title">Neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices.</p>
@@ -353,11 +333,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="oect-array-snn" markdown="1">
 <div class="pub-figure pub-figure--ionos">
-<div class="pub-thumb" aria-label="OECT reservoir classification thumbnail">
-<i class="fas fa-flask"></i>
-<span class="pub-thumb__project">IONOS</span>
-<span class="pub-thumb__topic">OECT reservoir classification</span>
-</div>
+<img class="pub-image" src="/images/publications/ghazal-2024-oect-array-snn-feature.jpg" alt="OECT array signals-to-spikes gesture classification workflow">
 </div>
 <div>
 <p class="pub-title">Neuromorphic signal classification using organic electrochemical transistor array and spiking neural simulations.</p>
@@ -372,11 +348,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="vdsp-convolutional-snn" markdown="1">
 <div class="pub-figure pub-figure--unico">
-<div class="pub-thumb" aria-label="sparse convolutional SNNs thumbnail">
-<i class="fas fa-project-diagram"></i>
-<span class="pub-thumb__project">UNICO</span>
-<span class="pub-thumb__topic">sparse convolutional SNNs</span>
-</div>
+<img class="pub-image" src="/images/publications/goupy-2023-vdsp-convolutional-snn-feature.jpg" alt="Sparse convolutional spiking neural network with VDSP neuron model">
 </div>
 <div>
 <p class="pub-title">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks enabled by voltage-dependent synaptic plasticity.</p>
@@ -389,11 +361,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="pedot-structural-plasticity" markdown="1">
 <div class="pub-figure pub-figure--ionos">
-<div class="pub-thumb" aria-label="PEDOT structural plasticity thumbnail">
-<i class="fas fa-project-diagram"></i>
-<span class="pub-thumb__project">IONOS</span>
-<span class="pub-thumb__topic">PEDOT structural plasticity</span>
-</div>
+<img class="pub-image" src="/images/publications/janzakova-2023-pedot-structural-plasticity-feature.jpg" alt="PEDOT dendritic structural plasticity connecting neuromorphic network nodes">
 </div>
 <div>
 <p class="pub-title">Structural plasticity for neuromorphic networks with electropolymerized dendritic PEDOT connections.</p>
