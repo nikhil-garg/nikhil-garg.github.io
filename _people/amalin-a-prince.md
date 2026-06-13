@@ -1,6 +1,7 @@
 ---
 title: "Amalin A Prince"
 category: "Mentor"
+mentor_order: 9
 initials: "AP"
 image: "/images/people/amalin-a-prince.jpg"
 role: "Research mentor"
@@ -12,3 +13,7 @@ links:
 ---
 
 Placeholder for notes on early hardware research, embedded systems, and mentorship.
+
+## Associated publications
+
+Publication links will be added here.

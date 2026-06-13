@@ -1,6 +1,7 @@
 ---
 title: "Jean Rouat"
 category: "Mentor"
+mentor_order: 5
 initials: "JR"
 image: "/images/people/jean-rouat.jpg"
 role: "PhD mentor and collaborator"
@@ -15,3 +16,8 @@ links:
 ---
 
 Placeholder for notes on neuromorphic learning, signal processing, and shared research mentorship.
+
+## Associated publications
+
+- [Voltage-dependent synaptic plasticity](/publications/#voltage-dependent-synaptic-plasticity)
+- [Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition](/publications/#signals-to-spikes-emg)

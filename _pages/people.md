@@ -66,7 +66,11 @@ Mentors, colleagues, students, and collaborators connected to projects, publicat
 
 {% assign groups = "Mentor|Colleague|Student|Collaborator" | split: "|" %}
 {% for group in groups %}
-  {% assign people = site.people | where: "category", group | sort: "title" %}
+  {% if group == "Mentor" %}
+    {% assign people = site.people | where: "category", group | sort: "mentor_order" %}
+  {% else %}
+    {% assign people = site.people | where: "category", group | sort: "title" %}
+  {% endif %}
   <section class="people-section">
     <h2>{{ group }}{% if group != "People" %}s{% endif %}</h2>
     <div class="people-grid">
@@ -81,7 +85,6 @@ Mentors, colleagues, students, and collaborators connected to projects, publicat
           </span>
           <span>
             <strong>{{ person.title }}</strong>
-            {% if person.role %}<span>{{ person.role }}</span>{% endif %}
             {% if person.affiliation %}<span>{{ person.affiliation }}</span>{% endif %}
           </span>
         </a>
