@@ -3,7 +3,6 @@ title: "Damien Querlioz"
 category: "Mentor"
 mentor_order: 8
 initials: "DQ"
-image: "/images/people/damien-querlioz.jpg"
 role: "Neuromorphic computing mentor and collaborator"
 affiliation: "Universite Paris-Saclay / CNRS"
 links:

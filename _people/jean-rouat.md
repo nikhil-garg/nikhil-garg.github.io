@@ -3,7 +3,6 @@ title: "Jean Rouat"
 category: "Mentor"
 mentor_order: 5
 initials: "JR"
-image: "/images/people/jean-rouat.jpg"
 role: "PhD mentor and collaborator"
 affiliation: "Universite de Sherbrooke"
 links:

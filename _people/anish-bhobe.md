@@ -1,9 +1,9 @@
 ---
 title: "A. Bhobe"
-category: "Student"
-people_order: 84
+category: "Coauthor"
+people_order: 83
 initials: "AB"
-affiliation: "BITS Pilani Goa / BCI coauthor"
+affiliation: "BITS Pilani Goa · BCI coauthor"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"

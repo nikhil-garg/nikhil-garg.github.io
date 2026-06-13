@@ -1,9 +1,9 @@
 ---
 title: "S. Rajguru"
-category: "Student"
-people_order: 85
+category: "Coauthor"
+people_order: 84
 initials: "SR"
-affiliation: "BITS Pilani Goa / BCI coauthor"
+affiliation: "BITS Pilani Goa · BCI coauthor"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"

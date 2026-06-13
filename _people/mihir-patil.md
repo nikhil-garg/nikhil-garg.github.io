@@ -1,9 +1,9 @@
 ---
 title: "M. Patil"
-category: "Student"
-people_order: 83
+category: "Coauthor"
+people_order: 82
 initials: "MP"
-affiliation: "BITS Pilani Goa / BCI coauthor"
+affiliation: "BITS Pilani Goa · BCI coauthor"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"

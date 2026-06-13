@@ -1,10 +1,10 @@
 ---
 title: "Lovish Kanungo"
-category: "Student"
-people_order: 82
+category: "Coauthor"
+people_order: 81
 initials: "LK"
 role: "BCI collaborator"
-affiliation: "BITS Pilani Goa / BCI coauthor"
+affiliation: "BITS Pilani Goa · BCI coauthor"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"

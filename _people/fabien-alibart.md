@@ -3,7 +3,6 @@ title: "Fabien Alibart"
 category: "Mentor"
 mentor_order: 6
 initials: "FA"
-image: "/images/people/fabien-alibart.jpg"
 role: "PhD mentor and UNICO collaborator"
 affiliation: "IEMN-CNRS / Universite de Lille"
 links:

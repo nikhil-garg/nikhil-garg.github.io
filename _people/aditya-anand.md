@@ -1,9 +1,9 @@
 ---
 title: "A. Anand"
-category: "Collaborator"
-people_order: 71
+category: "Coauthor"
+people_order: 85
 initials: "AA"
-affiliation: "BCI coauthor"
+affiliation: "BITS Pilani Goa · BCI coauthor"
 links:
   - label: "BCI"
     url: "/projects/#brain-computer-interfaces"

@@ -3,7 +3,6 @@ title: "Veeky Baths"
 category: "Mentor"
 mentor_order: 10
 initials: "VB"
-image: "/images/people/vaibhav-baths.jpg"
 role: "BCI mentor and collaborator"
 affiliation: "BITS Pilani Goa"
 links:

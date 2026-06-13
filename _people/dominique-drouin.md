@@ -3,7 +3,6 @@ title: "Dominique Drouin"
 category: "Mentor"
 mentor_order: 4
 initials: "DD"
-image: "/images/people/dominique-drouin.jpg"
 role: "PhD mentor and UNICO collaborator"
 affiliation: "Universite de Sherbrooke / LN2"
 links:

@@ -3,7 +3,6 @@ title: "Elisabetta Chicca"
 category: "Mentor"
 mentor_order: 1
 initials: "EC"
-image: "/images/people/elisabetta-chicca.jpg"
 role: "Neuromorphic engineering mentor"
 affiliation: "University of Groningen"
 links:

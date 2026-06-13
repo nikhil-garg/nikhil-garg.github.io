@@ -3,7 +3,6 @@ title: "Jean-Michel Portal"
 category: "Mentor"
 mentor_order: 7
 initials: "JMP"
-image: "/images/people/jean-michel-portal.jpg"
 role: "UNICO mentor and collaborator"
 affiliation: "Aix-Marseille Universite / IM2NP"
 links:

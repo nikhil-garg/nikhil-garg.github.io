@@ -3,7 +3,6 @@ title: "Amalin A Prince"
 category: "Mentor"
 mentor_order: 9
 initials: "AP"
-image: "/images/people/amalin-a-prince.jpg"
 role: "Research mentor"
 affiliation: "BITS Pilani Goa"
 links:
