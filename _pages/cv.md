@@ -108,23 +108,24 @@ redirect_from:
   margin: 0.2rem 0 0.45rem;
 }
 .cv-institution-card {
+  align-items: center;
   border: 1px solid #dedede;
   border-radius: 7px;
   display: grid;
   gap: 0.7rem;
-  grid-template-columns: 92px 1fr;
+  grid-template-columns: 110px 1fr;
   min-width: 0;
   padding: 0.75rem;
 }
 .cv-institution-media {
   align-items: center;
-  border: 1px solid #e2e2e2;
-  border-radius: 6px;
+  border-bottom: 0;
   display: flex;
-  height: 70px;
+  height: 76px;
   justify-content: center;
   overflow: hidden;
-  padding: 0.35rem;
+  padding: 0.2rem;
+  text-decoration: none;
 }
 .cv-institution-media img {
   display: block;
@@ -134,28 +135,19 @@ redirect_from:
 }
 .cv-institution-media--initials {
   color: #526a7a;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
 }
-.cv-institution-place {
-  align-items: center;
-  display: flex;
-  gap: 0.45rem;
-  margin-top: 0.45rem;
-}
-.cv-institution-place img {
-  border: 1px solid #e2e2e2;
-  border-radius: 5px;
-  height: 42px;
-  object-fit: cover;
-  width: 62px;
-}
-.cv-institution-place span {
-  margin-top: 0;
-}
 .cv-institution-card strong {
+  color: #333;
   display: block;
   line-height: 1.2;
+}
+.cv-institution-name {
+  border-bottom: 0;
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
 }
 .cv-institution-card span {
   color: #555;
@@ -164,15 +156,8 @@ redirect_from:
   line-height: 1.32;
   margin-top: 0.18rem;
 }
-.cv-institution-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.28rem 0.55rem;
-  margin-top: 0.38rem;
-}
-.cv-institution-links a {
-  font-size: 0.78rem;
-  white-space: nowrap;
+.cv-institution-name:hover {
+  text-decoration: underline;
 }
 .cv-institution-grid {
   margin-bottom: 1rem;
@@ -180,6 +165,9 @@ redirect_from:
 @media (max-width: 720px) {
   .cv-institution-grid {
     grid-template-columns: 1fr;
+  }
+  .cv-institution-card {
+    grid-template-columns: 86px 1fr;
   }
 }
 </style>
@@ -272,21 +260,21 @@ redirect_from:
 </article>
 </div>
 
-<section id="places-labs-funding">
-  <h2>Places, Labs, and Funding Context</h2>
+<section id="places-labs">
+  <h2>Places and Labs</h2>
 
   <section class="cv-institution-period">
     <h3>2026-present · Netherlands</h3>
     <p>Current postdoctoral context and neuromorphic circuit research environment.</p>
     <div class="cv-institution-grid">
-    <a class="cv-institution-card" href="https://www.rug.nl/">
-      <span class="cv-institution-media"><img src="/images/logos/university-of-groningen-logo.png" alt="University of Groningen"></span>
-      <span><strong>University of Groningen</strong><span>SWIMS · current postdoctoral affiliation</span><span class="cv-institution-links">SWIMS</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">
-      <span class="cv-institution-media"><img src="/images/logos/bics-logo.png" alt="BICS"></span>
-      <span><strong>Bio-Inspired Circuits and Systems</strong><span>Mixed-signal and neuromorphic circuits group</span><span class="cv-institution-links">SWIMS</span></span>
-    </a>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.rug.nl/"><img src="/images/logos/university-of-groningen-logo.png" alt="University of Groningen"></a>
+      <span><a class="cv-institution-name" href="https://www.rug.nl/">University of Groningen</a><span>Current postdoctoral affiliation · Netherlands</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/"><img src="/images/logos/bics-logo.png" alt="BICS"></a>
+      <span><a class="cv-institution-name" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Bio-Inspired Circuits and Systems</a><span>Mixed-signal and neuromorphic circuits group</span></span>
+    </div>
     </div>
   </section>
 
@@ -294,49 +282,45 @@ redirect_from:
     <h3>2024-2026 · Switzerland</h3>
     <p>Postdoctoral VITFOX work on ferroelectric synapses, device-aware learning, and FPGA-assisted characterization.</p>
     <div class="cv-institution-grid">
-    <a class="cv-institution-card" href="https://ethz.ch/en.html">
-      <span class="cv-institution-media"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></span>
-      <span><strong>ETH Zurich</strong><span>VITFOX and FPGA supervision period</span><span class="cv-institution-links">VITFOX · FPGA</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://neo.ethz.ch/">
-      <span class="cv-institution-media"><img src="/images/logos/neo-ethz-logo.svg" alt="NEO ETH Zurich"></span>
-      <span><strong>Neuromorphic Electronics with Oxides</strong><span>Ferroelectric and oxide neuromorphic hardware</span><span class="cv-institution-links">VITFOX</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.zurich.ibm.com/">
-      <span class="cv-institution-media cv-institution-media--initials">IBM</span>
-      <span><strong>IBM Research Zurich</strong><span>VITFOX coauthor network around ferroelectric and analog hardware publications</span><span class="cv-institution-links">VITFOX</span></span>
-    </a>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://ethz.ch/en.html"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
+      <span><a class="cv-institution-name" href="https://ethz.ch/en.html">ETH Zurich</a><span>Postdoctoral affiliation · Switzerland</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://neo.ethz.ch/"><img src="/images/logos/neo-ethz-logo.svg" alt="NEO ETH Zurich"></a>
+      <span><a class="cv-institution-name" href="https://neo.ethz.ch/">Neuromorphic Electronics with Oxides</a><span>Ferroelectric and oxide neuromorphic hardware group</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media cv-institution-media--initials" href="https://www.zurich.ibm.com/">IBM</a>
+      <span><a class="cv-institution-name" href="https://www.zurich.ibm.com/">IBM Research Zurich</a><span>Research collaboration during the ETH period</span></span>
+    </div>
     </div>
   </section>
 
   <section class="cv-institution-period">
     <h3>2020-2024 · France and Canada</h3>
-    <p>PhD and collaborative UNICO/IONOS ecosystem across IEMN, LN2, IM2NP, C2N, CNRS, and CHIST-ERA.</p>
+    <p>PhD research environment across IEMN, LN2, University of Sherbrooke, CNRS, IM2NP, and C2N.</p>
     <div class="cv-institution-grid">
-    <a class="cv-institution-card" href="https://www.iemn.fr/">
-      <span class="cv-institution-media"><img src="/images/logos/iemn-logo.png" alt="IEMN"></span>
-      <span><strong>IEMN</strong><span>UNICO and IONOS lab context in Lille</span><span class="cv-institution-links">UNICO · IONOS</span><span class="cv-institution-place"><img src="/images/places/iemn-building.jpg" alt="IEMN building"><span>Villeneuve-d'Ascq, France</span></span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.usherbrooke.ca/ln2/">
-      <span class="cv-institution-media"><img src="/images/logos/ln2-logo.png" alt="LN2"></span>
-      <span><strong>LN2</strong><span>Laboratoire Nanotechnologies Nanosystemes, Sherbrooke</span><span class="cv-institution-links">UNICO · IONOS</span><span class="cv-institution-place"><img src="/images/places/ln2-building.png" alt="LN2 building"><span>Sherbrooke, Canada</span></span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.cnrs.fr/en">
-      <span class="cv-institution-media"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></span>
-      <span><strong>CNRS</strong><span>French national research network and project/funding ecosystem</span><span class="cv-institution-links">UNICO · IONOS</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.im2np.fr/">
-      <span class="cv-institution-media"><img src="/images/logos/im2np-logo.png" alt="IM2NP"></span>
-      <span><strong>IM2NP</strong><span>Aix-Marseille memristive devices and UNICO collaborations</span><span class="cv-institution-links">UNICO</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.c2n.universite-paris-saclay.fr/">
-      <span class="cv-institution-media"><img src="/images/logos/c2n-logo.png" alt="C2N"></span>
-      <span><strong>C2N</strong><span>Paris-Saclay neuromorphic and memristive hardware collaboration network</span><span class="cv-institution-links">UNICO</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.chistera.eu/">
-      <span class="cv-institution-media"><img src="/images/logos/chist-era-logo.jpg" alt="CHIST-ERA"></span>
-      <span><strong>CHIST-ERA</strong><span>European funding network connected to UNICO-style collaborative projects</span><span class="cv-institution-links">Funding</span></span>
-    </a>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.iemn.fr/"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
+      <span><a class="cv-institution-name" href="https://www.iemn.fr/">IEMN</a><span>Doctoral research site · Lille, France</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.usherbrooke.ca/ln2/"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
+      <span><a class="cv-institution-name" href="https://www.usherbrooke.ca/ln2/">LN2</a><span>Laboratoire Nanotechnologies Nanosystemes · Sherbrooke, Canada</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.cnrs.fr/en"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
+      <span><a class="cv-institution-name" href="https://www.cnrs.fr/en">CNRS</a><span>French national research organization</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.im2np.fr/"><img src="/images/logos/im2np-logo.png" alt="IM2NP"></a>
+      <span><a class="cv-institution-name" href="https://www.im2np.fr/">IM2NP</a><span>Memristive device collaborations · Aix-Marseille</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.c2n.universite-paris-saclay.fr/"><img src="/images/logos/c2n-logo.png" alt="C2N"></a>
+      <span><a class="cv-institution-name" href="https://www.c2n.universite-paris-saclay.fr/">C2N</a><span>Neuromorphic and memristive hardware collaborations · Paris-Saclay</span></span>
+    </div>
     </div>
   </section>
 
@@ -344,18 +328,18 @@ redirect_from:
     <h3>2017-2020 · India</h3>
     <p>Undergraduate BCI, embedded hardware, FPGA, and early publication network at BITS Pilani Goa.</p>
     <div class="cv-institution-grid">
-    <a class="cv-institution-card" href="https://www.bits-pilani.ac.in/goa/">
-      <span class="cv-institution-media"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></span>
-      <span><strong>BITS Pilani Goa</strong><span>Undergraduate BCI and FPGA research</span><span class="cv-institution-links">BCI · FPGA</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.bits-pilani.ac.in/goa/">
-      <span class="cv-institution-media"><img src="/images/logos/cns-bits-goa.jpg" alt="Cognitive Neuroscience Lab"></span>
-      <span><strong>Cognitive Neuroscience Lab</strong><span>EEG, BCI, affect decoding, motor imagery, and assistive interface work</span><span class="cv-institution-links">BCI</span></span>
-    </a>
-    <a class="cv-institution-card" href="https://www.bits-pilani.ac.in/goa/">
-      <span class="cv-institution-media"><img src="/images/logos/rcl-bits-goa.jpg" alt="Reconfigurable Computing Lab"></span>
-      <span><strong>Reconfigurable Computing Lab</strong><span>FPGA, PCB, ADC/DAC interfacing, and embedded hardware-software co-design</span><span class="cv-institution-links">FPGA</span></span>
-    </a>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.bits-pilani.ac.in/goa/"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
+      <span><a class="cv-institution-name" href="https://www.bits-pilani.ac.in/goa/">BITS Pilani Goa</a><span>Undergraduate research affiliation · India</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.bits-pilani.ac.in/goa/"><img src="/images/logos/cns-bits-goa.jpg" alt="Cognitive Neuroscience Lab"></a>
+      <span><a class="cv-institution-name" href="https://www.bits-pilani.ac.in/goa/">Cognitive Neuroscience Lab</a><span>EEG, BCI, affect decoding, and assistive interface work</span></span>
+    </div>
+    <div class="cv-institution-card">
+      <a class="cv-institution-media" href="https://www.bits-pilani.ac.in/goa/"><img src="/images/logos/rcl-bits-goa.jpg" alt="Reconfigurable Computing Lab"></a>
+      <span><a class="cv-institution-name" href="https://www.bits-pilani.ac.in/goa/">Reconfigurable Computing Lab</a><span>FPGA, PCB, ADC/DAC interfacing, and embedded systems</span></span>
+    </div>
     </div>
   </section>
 </section>
