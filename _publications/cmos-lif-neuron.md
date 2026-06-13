@@ -14,6 +14,9 @@ paper_links:
     url: "/projects/#unico"
     icon: "fas fa-project-diagram"
 related_posts:
+  - label: "Local overview"
+    url: "/blog/cmos-lif-neuron/"
+    icon: "fas fa-link"
   - label: "LinkedIn post"
     url: "https://www.linkedin.com/posts/nikhil-garg-bits_neuromorphic-analog-ai-activity-7273994918837071872-jdDP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAB_PrxUBC3G1jJscK5o4lv4kztQxXb9ErrI"
     icon: "fab fa-linkedin"

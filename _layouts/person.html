@@ -1,0 +1,70 @@
+---
+layout: single
+---
+
+<style>
+.person-header {
+  align-items: center;
+  display: flex;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+.person-avatar {
+  align-items: center;
+  background: #f5f7fa;
+  border: 1px solid #d8dde5;
+  border-radius: 50%;
+  color: #526a7a;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-weight: 700;
+  height: 64px;
+  justify-content: center;
+  width: 64px;
+}
+.person-avatar img {
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.person-meta {
+  color: #555;
+  font-size: 0.92rem;
+  margin: 0;
+}
+.person-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  margin: 0.85rem 0 1.15rem;
+}
+.person-links i {
+  color: #555;
+  margin-right: 0.22rem;
+}
+</style>
+
+<div class="person-header">
+  <div class="person-avatar">
+    {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    {% else %}
+      {{ page.initials }}
+    {% endif %}
+  </div>
+  <div>
+    {% if page.role %}<p class="person-meta">{{ page.role }}</p>{% endif %}
+    {% if page.affiliation %}<p class="person-meta">{{ page.affiliation }}</p>{% endif %}
+  </div>
+</div>
+
+{% if page.links %}
+  <div class="person-links">
+    {% for item in page.links %}
+      <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-link' }}"></i>{{ item.label }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{{ content }}

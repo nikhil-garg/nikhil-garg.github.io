@@ -206,7 +206,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 <p class="pub-title"><a href="/publications/cmos-lif-neuron/">Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits.</a></p>
 <p class="pub-authors">N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart, et al.</p>
 <p class="pub-venue"><em>ICONS</em>, 2024.</p>
-<p class="pub-links"><a href="https://arxiv.org/abs/2406.19667"><i class="fas fa-file-alt"></i>arXiv</a> <a href="https://www.linkedin.com/posts/nikhil-garg-bits_neuromorphic-analog-ai-activity-7273994918837071872-jdDP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAB_PrxUBC3G1jJscK5o4lv4kztQxXb9ErrI"><i class="fab fa-linkedin"></i>post</a> <a href="/publications/cmos-lif-neuron/">details</a> <a href="/projects/#unico">UNICO</a></p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2406.19667"><i class="fas fa-file-alt"></i>arXiv</a> <a href="/blog/cmos-lif-neuron/"><i class="fas fa-link"></i>overview</a> <a href="https://www.linkedin.com/posts/nikhil-garg-bits_neuromorphic-analog-ai-activity-7273994918837071872-jdDP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAB_PrxUBC3G1jJscK5o4lv4kztQxXb9ErrI"><i class="fab fa-linkedin"></i>LinkedIn</a> <a href="/publications/cmos-lif-neuron/">details</a> <a href="/projects/#unico">UNICO</a></p>
 </div>
 </article>
 
