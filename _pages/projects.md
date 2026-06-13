@@ -83,6 +83,11 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
   text-decoration: none;
   text-transform: uppercase;
 }
+.project-logo i {
+  color: #526a7a;
+  font-size: 0.8rem;
+  line-height: 1;
+}
 .project-logo:hover {
   border-color: #777;
   color: #111;
@@ -92,9 +97,15 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
   background: #f7f8fb;
   border-color: #bfc8d8;
 }
+.project-logo--funding i {
+  color: #5f6f9f;
+}
 .project-logo--lab {
   background: #f9f7f2;
   border-color: #d8cdbb;
+}
+.project-logo--lab i {
+  color: #7a6849;
 }
 .project-detail {
   margin: 0.25rem 0;
@@ -158,11 +169,11 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-meta">2026-present · Postdoctoral Researcher · University of Groningen</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://www.rug.nl/" title="University of Groningen">UG</a>
-  <a class="project-logo" href="https://www.rug.nl/research/fse/cognitive-systems-and-materials/" title="Groningen Cognitive Systems and Materials Center">CogniGron</a>
-  <a class="project-logo project-logo--lab" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" title="Bio-Inspired Circuits and Systems group">BICS</a>
-  <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council">ERC</a>
-  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/" title="European Commission CORDIS project database">EU</a>
+  <a class="project-logo" href="https://www.rug.nl/" title="University of Groningen"><i class="fas fa-university"></i>UG</a>
+  <a class="project-logo" href="https://www.rug.nl/research/fse/cognitive-systems-and-materials/" title="Groningen Cognitive Systems and Materials Center"><i class="fas fa-brain"></i>CogniGron</a>
+  <a class="project-logo project-logo--lab" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" title="Bio-Inspired Circuits and Systems group"><i class="fas fa-microchip"></i>BICS</a>
+  <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
+  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/" title="European Commission CORDIS project database"><i class="fas fa-globe-europe"></i>EU</a>
 </div>
 
 <p class="project-summary">Current work on stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces.</p>
@@ -181,12 +192,12 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-meta">2025-2026 · Postdoctoral Researcher · ETH Zurich</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://ethz.ch/en.html" title="ETH Zurich">ETH</a>
-  <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group">NEO</a>
-  <a class="project-logo project-logo--lab" href="https://iis.ee.ethz.ch/" title="Integrated Systems Laboratory, ETH Zurich">ISL</a>
-  <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="Chips Joint Undertaking">CHIPS-JU</a>
-  <a class="project-logo project-logo--funding" href="https://www.snf.ch/en" title="Swiss National Science Foundation">SNSF</a>
-  <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="ViTFOX project">VITFOX</a>
+  <a class="project-logo" href="https://ethz.ch/en.html" title="ETH Zurich"><i class="fas fa-university"></i>ETH</a>
+  <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
+  <a class="project-logo project-logo--lab" href="https://iis.ee.ethz.ch/" title="Integrated Systems Laboratory, ETH Zurich"><i class="fas fa-project-diagram"></i>ISL</a>
+  <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="Chips Joint Undertaking"><i class="fas fa-microchip"></i>CHIPS-JU</a>
+  <a class="project-logo project-logo--funding" href="https://www.snf.ch/en" title="Swiss National Science Foundation"><i class="fas fa-award"></i>SNSF</a>
+  <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="ViTFOX project"><i class="fas fa-bolt"></i>VITFOX</a>
 </div>
 
 <p class="project-summary">Ferroelectric-oxide hardware and algorithms for neural-network training, including energy-convergence tradeoffs and personalized EEG processing on emerging synaptic devices.</p>
@@ -212,14 +223,14 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-meta">2021-2024 · PhD Candidate · Universite de Lille / Universite de Sherbrooke</p>
 <div class="project-logos">
-  <a class="project-logo project-logo--funding" href="https://www.chistera.eu/projects/unico" title="CHIST-ERA UNICO project">CHIST-ERA</a>
-  <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research">CNRS</a>
-  <a class="project-logo" href="https://www.univ-lille.fr/" title="Universite de Lille">U. Lille</a>
-  <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke">UdeS</a>
-  <a class="project-logo project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology">IEMN</a>
-  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes">LN2</a>
-  <a class="project-logo project-logo--funding" href="https://anr.fr/" title="French National Research Agency">ANR</a>
-  <a class="project-logo project-logo--funding" href="https://www.nserc-crsng.gc.ca/" title="Natural Sciences and Engineering Research Council of Canada">NSERC</a>
+  <a class="project-logo project-logo--funding" href="https://www.chistera.eu/projects/unico" title="CHIST-ERA UNICO project"><i class="fas fa-award"></i>CHIST-ERA</a>
+  <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><i class="fas fa-university"></i>CNRS</a>
+  <a class="project-logo" href="https://www.univ-lille.fr/" title="Universite de Lille"><i class="fas fa-university"></i>U. Lille</a>
+  <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><i class="fas fa-university"></i>UdeS</a>
+  <a class="project-logo project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><i class="fas fa-microchip"></i>IEMN</a>
+  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><i class="fas fa-atom"></i>LN2</a>
+  <a class="project-logo project-logo--funding" href="https://anr.fr/" title="French National Research Agency"><i class="fas fa-award"></i>ANR</a>
+  <a class="project-logo project-logo--funding" href="https://www.nserc-crsng.gc.ca/" title="Natural Sciences and Engineering Research Council of Canada"><i class="fas fa-award"></i>NSERC</a>
 </div>
 
 <p class="project-summary">Unsupervised spiking neural networks with analog memristive devices for edge computing. The work covered voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes for local learning.</p>
@@ -248,13 +259,13 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-meta">2020-2024 · Master's thesis and PhD-related research · CNRS / Universite de Sherbrooke</p>
 <div class="project-logos">
-  <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council">ERC</a>
-  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/project/id/773228" title="Horizon 2020 ERC Consolidator Grant 773228">H2020</a>
-  <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research">CNRS</a>
-  <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke">UdeS</a>
-  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation">3IT</a>
-  <a class="project-logo project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology">IEMN</a>
-  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes">LN2</a>
+  <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
+  <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/project/id/773228" title="Horizon 2020 ERC Consolidator Grant 773228"><i class="fas fa-globe-europe"></i>H2020</a>
+  <a class="project-logo" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><i class="fas fa-university"></i>CNRS</a>
+  <a class="project-logo" href="https://www.usherbrooke.ca/" title="Universite de Sherbrooke"><i class="fas fa-university"></i>UdeS</a>
+  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation"><i class="fas fa-flask"></i>3IT</a>
+  <a class="project-logo project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><i class="fas fa-microchip"></i>IEMN</a>
+  <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><i class="fas fa-atom"></i>LN2</a>
 </div>
 
 <p class="project-summary">Iono-electronic neuromorphic interfaces for communication with living systems. My related work focused on analog-to-spike conversion workflows, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.</p>
@@ -280,9 +291,9 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-meta">2017-2021 · Undergraduate Student Researcher · BITS Pilani Goa</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus">BITS Goa</a>
-  <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa">CNL</a>
-  <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research">BCI</a>
+  <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><i class="fas fa-university"></i>BITS Goa</a>
+  <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa"><i class="fas fa-brain"></i>CNL</a>
+  <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research"><i class="fas fa-head-side-virus"></i>BCI</a>
 </div>
 
 <p class="project-summary">Real-time EEG and machine-learning pipelines for assistive technology, motor imagery, biometric authentication, cognitive-state estimation, and portable-headset emotion decoding.</p>
@@ -309,11 +320,11 @@ Selected research and engineering projects across neuromorphic hardware, brain-c
 
 <p class="project-meta">2017-2020, 2025 · Undergraduate research and postdoctoral supervision · BITS Pilani Goa / ETH Zurich</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus">BITS Goa</a>
-  <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa">RCL</a>
-  <a class="project-logo" href="https://ethz.ch/en.html" title="ETH Zurich">ETH</a>
-  <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group">NEO</a>
-  <a class="project-logo project-logo--funding" href="/projects/#fpga-and-embedded-hardware" title="FPGA and embedded hardware work">FPGA</a>
+  <a class="project-logo" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><i class="fas fa-university"></i>BITS Goa</a>
+  <a class="project-logo project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa"><i class="fas fa-project-diagram"></i>RCL</a>
+  <a class="project-logo" href="https://ethz.ch/en.html" title="ETH Zurich"><i class="fas fa-university"></i>ETH</a>
+  <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
+  <a class="project-logo project-logo--funding" href="/projects/#fpga-and-embedded-hardware" title="FPGA and embedded hardware work"><i class="fas fa-microchip"></i>FPGA</a>
 </div>
 
 <p class="project-summary">FPGA, PCB, and hardware-software co-design work for memory characterization, embedded acceleration, ADC/DAC interfacing, and signal-processing systems.</p>
