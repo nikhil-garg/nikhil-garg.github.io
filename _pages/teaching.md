@@ -92,8 +92,8 @@ Reading lists, teaching notes, community links, and foundation-building resource
 <div class="teaching-quicklinks">
   <section class="teaching-card">
     <h2>Neuropac</h2>
-    <p>A home for teaching notes, practical tutorials, and neurotechnology resources.</p>
-    <a href="#neuropac"><i class="fas fa-link"></i>add link</a>
+    <p>A preserved video archive for neuromorphic computing lectures, workshops, and tutorials.</p>
+    <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>videos</a>
   </section>
   <section class="teaching-card">
     <h2>Reading Lists</h2>
@@ -117,10 +117,12 @@ Reading lists, teaching notes, community links, and foundation-building resource
   <div class="resource-grid">
     <article class="resource-card">
       <img class="resource-logo" src="/images/logos/neuropac-logo.jpg" alt="Neuropac">
-      <span class="resource-tag">Website</span>
-      <h3>Neuropac</h3>
-      <p>Add the public Neuropac URL here once finalized.</p>
-      <a href="/teaching/"><i class="fas fa-link"></i>placeholder</a>
+      <span class="resource-tag">Video archive</span>
+      <h3>Neuropac videos</h3>
+      <p>The Neuropac project has ended and the original website is no longer actively maintained by me. I keep a static archive here as a searchable teaching resource.</p>
+      <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>curated page</a>
+      <a href="/files/neuropac-video-archive/index.html"><i class="fas fa-archive"></i>full archive</a>
+      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>old site</a>
     </article>
   </div>
 </section>
