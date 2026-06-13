@@ -5,30 +5,34 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Reading lists, teaching notes, community links, and foundation-building resources across BCI, machine learning, electronics, and neuromorphic engineering.
+Curated paths for building foundations in biosignals, machine learning, electronics, and neuromorphic hardware. This page is meant to be a working syllabus: start with concepts, move to code and circuits, then use the video archive and open-source lists for depth.
 
 <style>
 .teaching-quicklinks,
-.resource-grid {
+.resource-grid,
+.path-grid {
   display: grid;
   gap: 0.75rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin: 1rem 0 1.5rem;
 }
 .teaching-card,
-.resource-card {
+.resource-card,
+.path-card {
   border: 1px solid #dedede;
   border-radius: 7px;
   padding: 0.85rem 0.95rem;
 }
 .teaching-card h2,
-.resource-card h3 {
+.resource-card h3,
+.path-card h3 {
   font-size: 1rem;
   line-height: 1.25;
   margin: 0 0 0.25rem;
 }
 .teaching-card p,
-.resource-card p {
+.resource-card p,
+.path-card p {
   color: #555;
   font-size: 0.86rem;
   line-height: 1.38;
@@ -57,6 +61,34 @@ Reading lists, teaching notes, community links, and foundation-building resource
 .reading-section h2 {
   font-size: 1.18rem;
 }
+.path-card {
+  display: grid;
+  gap: 0.6rem;
+}
+.path-card__meta {
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.76rem;
+  gap: 0.3rem 0.6rem;
+  text-transform: uppercase;
+}
+.path-card__steps {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.path-card__steps li {
+  border-top: 1px solid #ececec;
+  color: #444;
+  font-size: 0.84rem;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0.42rem 0 0;
+}
+.path-card__steps li + li {
+  margin-top: 0.42rem;
+}
 .reading-list {
   list-style: none;
   margin-left: 0;
@@ -83,7 +115,8 @@ Reading lists, teaching notes, community links, and foundation-building resource
 }
 @media (max-width: 720px) {
   .teaching-quicklinks,
-  .resource-grid {
+  .resource-grid,
+  .path-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -96,29 +129,71 @@ Reading lists, teaching notes, community links, and foundation-building resource
     <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>videos</a>
   </section>
   <section class="teaching-card">
-    <h2>Reading Lists</h2>
-    <p>Foundational papers and books grouped by topic, with short notes on why each matters.</p>
-    <a href="#reading-lists"><i class="fas fa-book-open"></i>browse</a>
+    <h2>Learning Paths</h2>
+    <p>Four routes through biosignals, ML, electronics, and neuromorphic systems.</p>
+    <a href="#learning-paths"><i class="fas fa-route"></i>start</a>
   </section>
   <section class="teaching-card">
-    <h2>Teaching Material</h2>
-    <p>Slides, lab notes, tutorials, notebooks, and workshop material can live here.</p>
-    <a href="#teaching-material"><i class="fas fa-chalkboard-teacher"></i>organize</a>
+    <h2>Core Readings</h2>
+    <p>Papers and books that anchor the learning paths, with short notes.</p>
+    <a href="#core-readings"><i class="fas fa-book-open"></i>read</a>
   </section>
   <section class="teaching-card">
     <h2>Open-source Tools</h2>
-    <p>GitHub stars grouped into learning paths for biosignals, SNNs, hardware, and devices.</p>
+    <p>Starred repositories grouped by practical skill: data, models, silicon, and writing.</p>
     <a href="#open-source-map"><i class="fab fa-github"></i>explore</a>
   </section>
   <section class="teaching-card">
-    <h2>Community</h2>
-    <p>Useful groups, labs, datasets, competitions, and public tools for newcomers.</p>
-    <a href="#community"><i class="fas fa-users"></i>collect</a>
+    <h2>Practice</h2>
+    <p>Small project ideas, reproducible notebooks, and community resources to add next.</p>
+    <a href="#practice"><i class="fas fa-tools"></i>build</a>
   </section>
 </div>
 
+<section class="reading-section" id="learning-paths">
+  <h2>Learning Paths</h2>
+  <div class="path-grid">
+    <article class="path-card">
+      <div><span class="resource-tag">Path 1</span><h3>BCI and Biosignals</h3><p>From EEG/EMG signals to features, decoding, and assistive interfaces.</p></div>
+      <div class="path-card__meta"><span>Signals</span><span>ML</span><span>Evaluation</span></div>
+      <ul class="path-card__steps">
+        <li>Start with EEGNet and portable EEG decoding to understand baselines.</li>
+        <li>Use the EEG/ECoG, fNIRS, and EMG GitHub star lists for datasets and preprocessing.</li>
+        <li>Connect to BCI publications and project outputs on this site.</li>
+      </ul>
+    </article>
+    <article class="path-card">
+      <div><span class="resource-tag">Path 2</span><h3>Neuromorphic Algorithms</h3><p>Spiking neural networks, local learning rules, reservoirs, and event-driven encodings.</p></div>
+      <div class="path-card__meta"><span>SNN</span><span>VDSP</span><span>Reservoirs</span></div>
+      <ul class="path-card__steps">
+        <li>Begin with VDSP and signal-to-spike work, then compare with SNN tool repositories.</li>
+        <li>Use Neuropac videos for field-level lectures and workshop context.</li>
+        <li>Follow through to device-aware learning in VITFOX and UNICO.</li>
+      </ul>
+    </article>
+    <article class="path-card">
+      <div><span class="resource-tag">Path 3</span><h3>Electronics and Open Hardware</h3><p>Analog circuits, FPGA workflows, PCB design, and open-source EDA.</p></div>
+      <div class="path-card__meta"><span>CMOS</span><span>FPGA</span><span>EDA</span></div>
+      <ul class="path-card__steps">
+        <li>Use basic analog/CMOS references alongside ASIC, EDA, and PCB star lists.</li>
+        <li>Bridge into CMOS LIF neurons and FPGA characterization workflows.</li>
+        <li>Turn repo examples into small reproducible lab exercises.</li>
+      </ul>
+    </article>
+    <article class="path-card">
+      <div><span class="resource-tag">Path 4</span><h3>Devices to Systems</h3><p>RRAM, ferroelectric hafnia, OECTs, PCM, and hardware-aware simulation.</p></div>
+      <div class="path-card__meta"><span>Devices</span><span>Materials</span><span>Simulation</span></div>
+      <ul class="path-card__steps">
+        <li>Use materials, device, characterization, and HW-aware simulation star lists.</li>
+        <li>Read UNICO, IONOS, and VITFOX outputs as case studies.</li>
+        <li>Map each device paper to its model, circuit interface, and learning task.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
 <section class="reading-section" id="neuropac">
-  <h2>Neuropac</h2>
+  <h2>Video Archive</h2>
   <div class="resource-grid">
     <article class="resource-card">
       <img class="resource-logo" src="/images/logos/neuropac-logo.jpg" alt="Neuropac">
@@ -130,10 +205,6 @@ Reading lists, teaching notes, community links, and foundation-building resource
       <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>old site</a>
     </article>
   </div>
-</section>
-
-<section class="reading-section" id="reading-lists">
-  <h2>Reading Lists</h2>
 </section>
 
 <section class="reading-section" id="open-source-map">
@@ -189,6 +260,10 @@ Reading lists, teaching notes, community links, and foundation-building resource
   </div>
 </section>
 
+<section class="reading-section" id="core-readings">
+  <h2>Core Readings</h2>
+</section>
+
 <section class="reading-section" id="bci">
   <h2>BCI & Biosignals</h2>
   <ul class="reading-list">
@@ -227,25 +302,19 @@ Reading lists, teaching notes, community links, and foundation-building resource
   </ul>
 </section>
 
-<section class="reading-section" id="teaching-material">
-  <h2>Teaching Material</h2>
+<section class="reading-section" id="practice">
+  <h2>Practice and Community</h2>
   <div class="resource-grid">
     <article class="resource-card">
-      <span class="resource-tag">Future</span>
-      <h3>Slides and tutorials</h3>
-      <p>Workshop slides, notebooks, lab sheets, and short explainers can be added here.</p>
+      <span class="resource-tag">Exercises</span>
+      <h3>Reproducible mini-projects</h3>
+      <p>Small notebooks and lab sheets can be organized around EEG decoding, SNN simulation, FPGA interfacing, and device-aware learning.</p>
     </article>
     <article class="resource-card">
-      <span class="resource-tag">Future</span>
+      <span class="resource-tag">Mentoring</span>
       <h3>Student project ideas</h3>
-      <p>Small BCI, ML, FPGA, biosignal, and neuromorphic hardware exercises.</p>
+      <p>Short scoped projects can link back to publications, code repositories, and people pages.</p>
     </article>
-  </div>
-</section>
-
-<section class="reading-section" id="community">
-  <h2>Community</h2>
-  <div class="resource-grid">
     <article class="resource-card">
       <span class="resource-tag">Datasets</span>
       <h3>BCI and biosignal datasets</h3>
