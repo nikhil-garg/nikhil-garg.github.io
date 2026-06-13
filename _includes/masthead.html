@@ -1,9 +1,25 @@
 {% include base_path %}
 
 <style>
+.mobile-site-title {
+  display: none;
+}
+
 @media (max-width: 640px) {
   #site-nav {
     min-width: 0;
+  }
+
+  #site-nav .mobile-site-title {
+    color: #7a8288;
+    display: block;
+    font-weight: 700;
+    margin: 0;
+    max-width: calc(100vw - 6rem);
+    overflow: hidden;
+    padding: 0.5rem 3rem 0.5rem 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   #site-nav button,
@@ -20,18 +36,6 @@
 
   #site-nav .visible-links li {
     display: none !important;
-  }
-
-  #site-nav .visible-links li:first-child {
-    display: block !important;
-  }
-
-  #site-nav .visible-links a {
-    margin: 0;
-    max-width: calc(100vw - 6rem);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   #site-nav .hidden-links {
@@ -54,6 +58,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+        <a class="mobile-site-title" href="{{ base_path }}/">{{ site.title }}</a>
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
