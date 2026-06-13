@@ -126,30 +126,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 .project-detail {
   margin: 0.25rem 0;
 }
-.project-places {
-  display: grid;
-  gap: 0.75rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin: 0.85rem 0 1rem;
-}
-.project-place {
-  border: 1px solid #dedede;
-  border-radius: 6px;
-  overflow: hidden;
-}
-.project-place img {
-  aspect-ratio: 4 / 3;
-  display: block;
-  object-fit: cover;
-  width: 100%;
-}
-.project-place span {
-  color: #444;
-  display: block;
-  font-size: 0.78rem;
-  line-height: 1.25;
-  padding: 0.45rem 0.55rem;
-}
 .project-links {
   display: flex;
   flex-wrap: wrap;
@@ -199,9 +175,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 @media (max-width: 640px) {
   .project-card {
     padding: 0.9rem;
-  }
-  .project-places {
-    grid-template-columns: 1fr;
   }
 }
 </style>
@@ -281,11 +254,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   <a class="project-logo project-logo--funding" href="https://www.nserc-crsng.gc.ca/" title="Natural Sciences and Engineering Research Council of Canada"><i class="fas fa-award"></i>NSERC</a>
 </div>
 
-<div class="project-places">
-  <a class="project-place" href="https://www.iemn.fr/"><img src="/images/places/iemn-building.jpg" alt="IEMN building"><span>IEMN, Lille</span></a>
-  <a class="project-place" href="https://www.usherbrooke.ca/ln2/"><img src="/images/places/ln2-building.png" alt="LN2 building"><span>LN2, Sherbrooke</span></a>
-</div>
-
 <p class="project-summary">Unsupervised spiking neural networks with analog memristive devices for edge computing. The work covered voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes for local learning.</p>
 
 <div class="project-facts" markdown="1">
@@ -321,11 +289,6 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation"><i class="fas fa-flask"></i>3IT</a>
   <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
   <a class="project-logo project-logo--image project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
-</div>
-
-<div class="project-places">
-  <a class="project-place" href="https://www.iemn.fr/"><img src="/images/places/iemn-building.jpg" alt="IEMN building"><span>IEMN, Lille</span></a>
-  <a class="project-place" href="https://www.usherbrooke.ca/ln2/"><img src="/images/places/ln2-building.png" alt="LN2 building"><span>LN2, Sherbrooke</span></a>
 </div>
 
 <p class="project-summary">Iono-electronic neuromorphic interfaces for communication with living systems. My related work focused on analog-to-spike conversion workflows, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.</p>
