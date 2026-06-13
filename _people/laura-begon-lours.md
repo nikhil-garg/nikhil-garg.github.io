@@ -1,7 +1,8 @@
 ---
 title: "Laura Begon-Lours"
-category: "Colleague"
+category: "Mentor"
 initials: "LBL"
+image: "/images/people/laura-begon-lours.jpg"
 role: "Neuromorphic hardware collaborator"
 affiliation: "ETH Zurich"
 links:

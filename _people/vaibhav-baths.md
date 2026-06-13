@@ -2,6 +2,7 @@
 title: "Vaibhav Baths"
 category: "Mentor"
 initials: "VB"
+image: "/images/people/vaibhav-baths.jpg"
 role: "BCI mentor and collaborator"
 affiliation: "BITS Pilani Goa"
 links:
