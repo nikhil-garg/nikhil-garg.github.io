@@ -212,9 +212,9 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 
 <p class="project-meta">2026-present · Postdoctoral Researcher · University of Groningen</p>
 <div class="project-logos">
-  <a class="project-logo" href="https://www.rug.nl/" title="University of Groningen"><i class="fas fa-university"></i>UG</a>
+  <a class="project-logo project-logo--image" href="https://www.rug.nl/" title="University of Groningen"><img src="/images/logos/university-of-groningen-logo.png" alt="University of Groningen"></a>
   <a class="project-logo" href="https://www.rug.nl/research/fse/cognitive-systems-and-materials/" title="Groningen Cognitive Systems and Materials Center"><i class="fas fa-brain"></i>CogniGron</a>
-  <a class="project-logo project-logo--lab" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" title="Bio-Inspired Circuits and Systems group"><i class="fas fa-microchip"></i>BICS</a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" title="Bio-Inspired Circuits and Systems group"><img src="/images/logos/bics-logo.png" alt="BICS"></a>
   <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
   <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/" title="European Commission CORDIS project database"><i class="fas fa-university"></i>EU</a>
 </div>
@@ -238,7 +238,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
 <p class="project-meta">2025-2026 · Postdoctoral Researcher · ETH Zurich</p>
 <div class="project-logos">
   <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
-  <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><img src="/images/logos/neo-ethz-logo.svg" alt="NEO ETH Zurich"></a>
   <a class="project-logo project-logo--lab" href="https://iis.ee.ethz.ch/" title="Integrated Systems Laboratory, ETH Zurich"><i class="fas fa-project-diagram"></i>ISL</a>
   <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="Chips Joint Undertaking"><i class="fas fa-microchip"></i>CHIPS-JU</a>
   <a class="project-logo project-logo--funding" href="https://www.snf.ch/en" title="Swiss National Science Foundation"><i class="fas fa-award"></i>SNSF</a>
@@ -387,7 +387,7 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
   <a class="project-logo project-logo--image project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa"><img src="/images/logos/rcl-bits-goa.jpg" alt="Reconfigurable Computing Lab"></a>
   <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
-  <a class="project-logo project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><i class="fas fa-microchip"></i>NEO</a>
+  <a class="project-logo project-logo--image project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><img src="/images/logos/neo-ethz-logo.svg" alt="NEO ETH Zurich"></a>
   <a class="project-logo project-logo--funding" href="/projects/#fpga-and-embedded-hardware" title="FPGA and embedded hardware work"><i class="fas fa-microchip"></i>FPGA</a>
 </div>
 

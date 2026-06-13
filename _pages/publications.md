@@ -64,6 +64,14 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
   line-height: 1.2;
   max-width: 11rem;
 }
+.pub-image {
+  aspect-ratio: 16 / 10;
+  background: #fff;
+  display: block;
+  object-fit: contain;
+  padding: 0.35rem;
+  width: 100%;
+}
 .pub-figure--vitfox {
   background: #f6f7fb;
   border-color: #cdd5e5;
@@ -130,11 +138,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="personalized-spiking-neural-networks" markdown="1">
 <div class="pub-figure pub-figure--vitfox">
-<div class="pub-thumb" aria-label="EEG + ferroelectric synapses thumbnail">
-<i class="fas fa-brain"></i>
-<span class="pub-thumb__project">VITFOX</span>
-<span class="pub-thumb__topic">EEG + ferroelectric synapses</span>
-</div>
+<img class="pub-image" src="/images/publications/garg-2026-apl-ml-feature.png" alt="Personalized spiking neural networks with EEG and ferroelectric synapses">
 </div>
 <div>
 <p class="pub-title">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing.</p>
@@ -146,11 +150,7 @@ You can also find my articles on [Google Scholar]({{site.author.googlescholar}})
 
 <article class="pub-card" id="analog-weight-update-ferroelectric-hafnia" markdown="1">
 <div class="pub-figure pub-figure--vitfox">
-<div class="pub-thumb" aria-label="picojoule hafnia updates thumbnail">
-<i class="fas fa-bolt"></i>
-<span class="pub-thumb__project">VITFOX</span>
-<span class="pub-thumb__topic">picojoule hafnia updates</span>
-</div>
+<img class="pub-image" src="/images/publications/baigol-2026-aem-feature.png" alt="Analog ferroelectric hafnia weight update feature figure">
 </div>
 <div>
 <p class="pub-title">Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming Pulses.</p>
