@@ -7,7 +7,7 @@ redirect_from:
   - /network/
 ---
 
-People connected to mentorship, supervision, and publications.
+Mentors and students connected to my training and supervision.
 
 <style>
 .people-section {
@@ -33,15 +33,15 @@ People connected to mentorship, supervision, and publications.
 </style>
 
 <section id="people">
-{% assign groups = "Mentor|Student|Coauthor" | split: "|" %}
+{% assign groups = "Mentor|Student" | split: "|" %}
 {% for group in groups %}
   {% if group == "Mentor" %}
     {% assign people = site.people | where: "category", group | sort: "mentor_order" %}
   {% else %}
     {% assign people = site.people | where: "category", group | sort: "people_order" %}
   {% endif %}
-  <section class="people-section" id="{% if group == "Student" %}supervised-students{% elsif group == "Coauthor" %}coauthors{% else %}{{ group | downcase }}s{% endif %}">
-    <h2>{% if group == "Student" %}Supervised Students{% elsif group == "Coauthor" %}Co-authors{% else %}{{ group }}s{% endif %}</h2>
+  <section class="people-section" id="{% if group == "Student" %}supervised-students{% else %}{{ group | downcase }}s{% endif %}">
+    <h2>{% if group == "Student" %}Supervised Students{% else %}{{ group }}s{% endif %}</h2>
     <div class="people-list">
       {% for person in people %}
         <p><a href="{{ person.url }}">{{ person.title }}</a>{% if person.affiliation %}<span> · {{ person.affiliation }}</span>{% endif %}</p>

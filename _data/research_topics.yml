@@ -54,13 +54,6 @@
     - affect decoding
     - machine learning
   people:
-  - title: A. Anand
-    url: "/people/aditya-anand/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AA
-    publications:
-    - portable-eeg-valence-arousal
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
@@ -137,13 +130,6 @@
     - ReRAM
     - conductive-metal-oxide
   people:
-  - title: A. La Porta
-    url: "/people/antonio-la-porta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: AL
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
@@ -157,13 +143,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: F. Horst
-    url: "/people/florian-horst/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: FH
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -173,36 +152,6 @@
     - personalized-spiking-neural-networks
     - energy-convergence-ferro
     - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: M. Galetta
-    url: "/people/marco-galetta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MG
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Clerico
-    url: "/people/victoria-clerico/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VC
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
@@ -247,29 +196,6 @@
     - device-aware learning
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: E. Zaccaria
-    url: "/people/elisa-zaccaria/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: EZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
   - title: Matteo Mazza
     url: "/people/matteo-mazza/"
     category: Student
@@ -277,22 +203,6 @@
     initials: MM
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - all-in-one-analog-ai-hardware
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Search Videos for analog weight update
     url: "/files/neuropac-video-archive/videos/index.html?q=analog+weight+update"
@@ -313,13 +223,6 @@
     - affect decoding
     - machine learning
   people:
-  - title: A. Anand
-    url: "/people/aditya-anand/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AA
-    publications:
-    - portable-eeg-valence-arousal
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
@@ -358,20 +261,6 @@
     - wheelchair automation
     - assistive technology
   people:
-  - title: A. Bhobe
-    url: "/people/anish-bhobe/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AB
-    publications:
-    - wheelchair-hybrid-bci
-  - title: S. Rajguru
-    url: "/people/smit-rajguru/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: SR
-    publications:
-    - wheelchair-hybrid-bci
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -420,14 +309,6 @@
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -499,22 +380,6 @@
     - ferroelectric devices
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -525,28 +390,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: P. U. Vicandi
-    url: "/people/pedro-vicandi/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: PV
-    publications:
-    - energy-convergence-ferro
-  - title: S. R. Mamidala
-    url: "/people/sai-mamidala/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: SM
-    publications:
-    - energy-convergence-ferro
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
@@ -569,14 +412,6 @@
     - EEG
     - classification
   people:
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -618,14 +453,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -636,13 +463,6 @@
     - voltage-dependent-synaptic-plasticity
     - pedot-structural-plasticity
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: E. Muhr
-    url: "/people/eric-muhr/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: EM
-    publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
@@ -656,28 +476,6 @@
     - pedot-structural-plasticity
     - oect-array-snn
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: M. C. Faye
-    url: "/people/marie-faye/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: MF
-    publications:
-    - cmos-lif-neuron
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: P. Dufour
-    url: "/people/pierre-dufour/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: PD
-    publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
@@ -713,13 +511,6 @@
     - ReRAM
     - conductive-metal-oxide
   people:
-  - title: A. La Porta
-    url: "/people/antonio-la-porta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: AL
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
@@ -733,13 +524,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: F. Horst
-    url: "/people/florian-horst/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: FH
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -749,36 +533,6 @@
     - personalized-spiking-neural-networks
     - energy-convergence-ferro
     - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: M. Galetta
-    url: "/people/marco-galetta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MG
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Clerico
-    url: "/people/victoria-clerico/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VC
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
   videos:
   - label: Materials & Devices > Emerging Devices
@@ -803,25 +557,11 @@
     - VDSP
     - neuromorphic computing
   people:
-  - title: Alexandre Juneau-Fecteau
-    url: "/people/alexandre-juneau-fecteau/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: AJ
-    publications:
-    - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
     affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
-    publications:
-    - vdsp-convolutional-snn
-  - title: Louis Fréchette
-    url: "/people/louis-frechette/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: LF
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -855,44 +595,7 @@
     - cryogenic computing
     - drift
     - spiking neural networks
-  people:
-  - title: F. Arnaud
-    url: "/people/francois-arnaud/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: FA
-    publications:
-    - pcm-cryo-snn
-  - title: J. Sandrini
-    url: "/people/julien-sandrini/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: JS
-    publications:
-    - pcm-cryo-snn
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: P.-A. Mouny
-    url: "/people/paul-antoine-mouny/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PM
-    publications:
-    - pcm-cryo-snn
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Search Videos for cryogenic computing
     url: "/files/neuropac-video-archive/videos/index.html?q=cryogenic+computing"
@@ -913,23 +616,7 @@
     - current scaling
     - spiking neural networks
     - low power
-  people:
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
@@ -953,13 +640,6 @@
     - organic neuromorphic networks
     - electropolymerization
   people:
-  - title: C. Scholaert
-    url: "/people/charlotte-scholaert/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: CS
-    publications:
-    - pedot-structural-plasticity
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -984,28 +664,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Katarina Janzakova
-    url: "/people/katarina-janzakova/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: KJ
-    publications:
-    - pedot-structural-plasticity
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
-  - title: Yannick Coffinier
-    url: "/people/yannick-coffinier/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: YC
-    publications:
-    - pedot-structural-plasticity
   videos:
   - label: Search Videos for dendritic connections
     url: "/files/neuropac-video-archive/videos/index.html?q=dendritic+connections"
@@ -1027,29 +685,6 @@
     - device-aware learning
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: E. Zaccaria
-    url: "/people/elisa-zaccaria/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: EZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
   - title: Matteo Mazza
     url: "/people/matteo-mazza/"
     category: Student
@@ -1057,22 +692,6 @@
     initials: MM
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - all-in-one-analog-ai-hardware
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -1095,44 +714,7 @@
     - cryogenic computing
     - drift
     - spiking neural networks
-  people:
-  - title: F. Arnaud
-    url: "/people/francois-arnaud/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: FA
-    publications:
-    - pcm-cryo-snn
-  - title: J. Sandrini
-    url: "/people/julien-sandrini/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: JS
-    publications:
-    - pcm-cryo-snn
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: P.-A. Mouny
-    url: "/people/paul-antoine-mouny/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PM
-    publications:
-    - pcm-cryo-snn
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Search Videos for drift
     url: "/files/neuropac-video-archive/videos/index.html?q=drift"
@@ -1153,23 +735,7 @@
     - current scaling
     - spiking neural networks
     - low power
-  people:
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Search Videos for drift compensation
     url: "/files/neuropac-video-archive/videos/index.html?q=drift+compensation"
@@ -1220,21 +786,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
-  - title: N. Savoia
-    url: "/people/niccolo-savoia/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: NS
-    publications:
-    - personalized-spiking-neural-networks
   - title: Niklas Plessnig
     url: "/people/niklas-plessnig/"
     category: Student
@@ -1290,14 +841,6 @@
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -1331,13 +874,6 @@
     - organic neuromorphic networks
     - electropolymerization
   people:
-  - title: C. Scholaert
-    url: "/people/charlotte-scholaert/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: CS
-    publications:
-    - pedot-structural-plasticity
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -1362,28 +898,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Katarina Janzakova
-    url: "/people/katarina-janzakova/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: KJ
-    publications:
-    - pedot-structural-plasticity
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
-  - title: Yannick Coffinier
-    url: "/people/yannick-coffinier/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: YC
-    publications:
-    - pedot-structural-plasticity
   videos:
   - label: Search Videos for electropolymerization
     url: "/files/neuropac-video-archive/videos/index.html?q=electropolymerization"
@@ -1468,22 +982,6 @@
     - ferroelectric devices
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -1494,28 +992,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: P. U. Vicandi
-    url: "/people/pedro-vicandi/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: PV
-    publications:
-    - energy-convergence-ferro
-  - title: S. R. Mamidala
-    url: "/people/sai-mamidala/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: SM
-    publications:
-    - energy-convergence-ferro
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Search Videos for energy-convergence
     url: "/files/neuropac-video-archive/videos/index.html?q=energy-convergence"
@@ -1598,20 +1074,6 @@
     - wheelchair automation
     - assistive technology
   people:
-  - title: A. Bhobe
-    url: "/people/anish-bhobe/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AB
-    publications:
-    - wheelchair-hybrid-bci
-  - title: S. Rajguru
-    url: "/people/smit-rajguru/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: SR
-    publications:
-    - wheelchair-hybrid-bci
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -1642,44 +1104,7 @@
     - cryogenic computing
     - drift
     - spiking neural networks
-  people:
-  - title: F. Arnaud
-    url: "/people/francois-arnaud/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: FA
-    publications:
-    - pcm-cryo-snn
-  - title: J. Sandrini
-    url: "/people/julien-sandrini/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: JS
-    publications:
-    - pcm-cryo-snn
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: P.-A. Mouny
-    url: "/people/paul-antoine-mouny/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PM
-    publications:
-    - pcm-cryo-snn
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -1703,22 +1128,6 @@
     - ferroelectric devices
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -1729,28 +1138,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: P. U. Vicandi
-    url: "/people/pedro-vicandi/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: PV
-    publications:
-    - energy-convergence-ferro
-  - title: S. R. Mamidala
-    url: "/people/sai-mamidala/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: SM
-    publications:
-    - energy-convergence-ferro
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -1774,29 +1161,6 @@
     - device-aware learning
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: E. Zaccaria
-    url: "/people/elisa-zaccaria/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: EZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
   - title: Matteo Mazza
     url: "/people/matteo-mazza/"
     category: Student
@@ -1804,22 +1168,6 @@
     initials: MM
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - all-in-one-analog-ai-hardware
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -1863,14 +1211,6 @@
     initials: AS
     publications:
     - personalized-spiking-neural-networks
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -1913,13 +1253,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: N. Savoia
-    url: "/people/niccolo-savoia/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: NS
-    publications:
-    - personalized-spiking-neural-networks
   - title: Niklas Plessnig
     url: "/people/niklas-plessnig/"
     category: Student
@@ -1927,21 +1260,6 @@
     initials: NP
     publications:
     - personalized-spiking-neural-networks
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Bragaglia
-    url: "/people/valerio-bragaglia/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VB
-    publications:
-    - vdsp-memristors
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -2089,21 +1407,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: T. C. Stewart
-    url: "/people/terrence-stewart/"
-    category: Collaborator
-    affiliation: VDSP / Nengo coauthor
-    initials: TS
-    publications:
-    - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -2136,20 +1439,6 @@
     - wheelchair automation
     - assistive technology
   people:
-  - title: A. Bhobe
-    url: "/people/anish-bhobe/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AB
-    publications:
-    - wheelchair-hybrid-bci
-  - title: S. Rajguru
-    url: "/people/smit-rajguru/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: SR
-    publications:
-    - wheelchair-hybrid-bci
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -2205,13 +1494,6 @@
     - ReRAM
     - conductive-metal-oxide
   people:
-  - title: A. La Porta
-    url: "/people/antonio-la-porta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: AL
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
@@ -2225,13 +1507,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: F. Horst
-    url: "/people/florian-horst/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: FH
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -2241,36 +1516,6 @@
     - personalized-spiking-neural-networks
     - energy-convergence-ferro
     - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: M. Galetta
-    url: "/people/marco-galetta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MG
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Clerico
-    url: "/people/victoria-clerico/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VC
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
@@ -2303,14 +1548,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -2321,13 +1558,6 @@
     - voltage-dependent-synaptic-plasticity
     - pedot-structural-plasticity
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: E. Muhr
-    url: "/people/eric-muhr/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: EM
-    publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
@@ -2341,28 +1571,6 @@
     - pedot-structural-plasticity
     - oect-array-snn
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: M. C. Faye
-    url: "/people/marie-faye/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: MF
-    publications:
-    - cmos-lif-neuron
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: P. Dufour
-    url: "/people/pierre-dufour/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: PD
-    publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
@@ -2436,14 +1644,6 @@
     - ferroelectric synapses
     - UNICO
   people:
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -2486,21 +1686,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Bragaglia
-    url: "/people/valerio-bragaglia/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VB
-    publications:
-    - vdsp-memristors
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -2532,23 +1717,7 @@
     - current scaling
     - spiking neural networks
     - low power
-  people:
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-circuit-chip-design.html"
@@ -2571,13 +1740,6 @@
     - affect decoding
     - machine learning
   people:
-  - title: A. Anand
-    url: "/people/aditya-anand/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AA
-    publications:
-    - portable-eeg-valence-arousal
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
@@ -2666,21 +1828,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: T. C. Stewart
-    url: "/people/terrence-stewart/"
-    category: Collaborator
-    affiliation: VDSP / Nengo coauthor
-    initials: TS
-    publications:
-    - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -2721,14 +1868,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -2739,13 +1878,6 @@
     - voltage-dependent-synaptic-plasticity
     - pedot-structural-plasticity
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: E. Muhr
-    url: "/people/eric-muhr/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: EM
-    publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
@@ -2759,28 +1891,6 @@
     - pedot-structural-plasticity
     - oect-array-snn
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: M. C. Faye
-    url: "/people/marie-faye/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: MF
-    publications:
-    - cmos-lif-neuron
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: P. Dufour
-    url: "/people/pierre-dufour/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: PD
-    publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
@@ -2816,14 +1926,6 @@
     - ferroelectric synapses
     - UNICO
   people:
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -2866,21 +1968,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Bragaglia
-    url: "/people/valerio-bragaglia/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VB
-    publications:
-    - vdsp-memristors
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -2921,14 +2008,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -2939,13 +2018,6 @@
     - voltage-dependent-synaptic-plasticity
     - pedot-structural-plasticity
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: E. Muhr
-    url: "/people/eric-muhr/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: EM
-    publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
@@ -2959,28 +2031,6 @@
     - pedot-structural-plasticity
     - oect-array-snn
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: M. C. Faye
-    url: "/people/marie-faye/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: MF
-    publications:
-    - cmos-lif-neuron
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: P. Dufour
-    url: "/people/pierre-dufour/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: PD
-    publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
@@ -3044,14 +2094,6 @@
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -3084,14 +2126,6 @@
     - EEG
     - classification
   people:
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -3140,14 +2174,6 @@
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -3247,21 +2273,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: T. C. Stewart
-    url: "/people/terrence-stewart/"
-    category: Collaborator
-    affiliation: VDSP / Nengo coauthor
-    initials: TS
-    publications:
-    - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -3296,25 +2307,11 @@
     - VDSP
     - neuromorphic computing
   people:
-  - title: Alexandre Juneau-Fecteau
-    url: "/people/alexandre-juneau-fecteau/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: AJ
-    publications:
-    - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
     affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
-    publications:
-    - vdsp-convolutional-snn
-  - title: Louis Fréchette
-    url: "/people/louis-frechette/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: LF
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -3383,21 +2380,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Mohammad Ghazal
-    url: "/people/mohammad-ghazal/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: MG
-    publications:
-    - oect-array-snn
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -3421,13 +2403,6 @@
     - ReRAM
     - conductive-metal-oxide
   people:
-  - title: A. La Porta
-    url: "/people/antonio-la-porta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: AL
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
@@ -3441,13 +2416,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: F. Horst
-    url: "/people/florian-horst/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: FH
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -3457,36 +2425,6 @@
     - personalized-spiking-neural-networks
     - energy-convergence-ferro
     - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: M. Galetta
-    url: "/people/marco-galetta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MG
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Clerico
-    url: "/people/victoria-clerico/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VC
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
   videos:
   - label: Neuromorphic Hardware > Circuit & Chip Design
@@ -3525,21 +2463,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Mohammad Ghazal
-    url: "/people/mohammad-ghazal/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: MG
-    publications:
-    - oect-array-snn
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -3563,13 +2486,6 @@
     - organic neuromorphic networks
     - electropolymerization
   people:
-  - title: C. Scholaert
-    url: "/people/charlotte-scholaert/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: CS
-    publications:
-    - pedot-structural-plasticity
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -3594,28 +2510,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Katarina Janzakova
-    url: "/people/katarina-janzakova/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: KJ
-    publications:
-    - pedot-structural-plasticity
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
-  - title: Yannick Coffinier
-    url: "/people/yannick-coffinier/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: YC
-    publications:
-    - pedot-structural-plasticity
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -3639,13 +2533,6 @@
     - organic neuromorphic networks
     - electropolymerization
   people:
-  - title: C. Scholaert
-    url: "/people/charlotte-scholaert/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: CS
-    publications:
-    - pedot-structural-plasticity
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -3670,28 +2557,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Katarina Janzakova
-    url: "/people/katarina-janzakova/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: KJ
-    publications:
-    - pedot-structural-plasticity
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
-  - title: Yannick Coffinier
-    url: "/people/yannick-coffinier/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: YC
-    publications:
-    - pedot-structural-plasticity
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -3731,13 +2596,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: N. Savoia
-    url: "/people/niccolo-savoia/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: NS
-    publications:
-    - personalized-spiking-neural-networks
   - title: Niklas Plessnig
     url: "/people/niklas-plessnig/"
     category: Student
@@ -3781,44 +2639,7 @@
     - current scaling
     - spiking neural networks
     - low power
-  people:
-  - title: F. Arnaud
-    url: "/people/francois-arnaud/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: FA
-    publications:
-    - pcm-cryo-snn
-  - title: J. Sandrini
-    url: "/people/julien-sandrini/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: JS
-    publications:
-    - pcm-cryo-snn
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: P.-A. Mouny
-    url: "/people/paul-antoine-mouny/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PM
-    publications:
-    - pcm-cryo-snn
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
+  people: []
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -3862,29 +2683,6 @@
     - device-aware learning
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: E. Zaccaria
-    url: "/people/elisa-zaccaria/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: EZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
   - title: Matteo Mazza
     url: "/people/matteo-mazza/"
     category: Student
@@ -3892,22 +2690,6 @@
     initials: MM
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - all-in-one-analog-ai-hardware
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Materials & Devices > Emerging Devices
     url: "/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html"
@@ -3930,13 +2712,6 @@
     - affect decoding
     - machine learning
   people:
-  - title: A. Anand
-    url: "/people/aditya-anand/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AA
-    publications:
-    - portable-eeg-valence-arousal
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
@@ -4025,21 +2800,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: T. C. Stewart
-    url: "/people/terrence-stewart/"
-    category: Collaborator
-    affiliation: VDSP / Nengo coauthor
-    initials: TS
-    publications:
-    - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -4074,13 +2834,6 @@
     - ReRAM
     - conductive-metal-oxide
   people:
-  - title: A. La Porta
-    url: "/people/antonio-la-porta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: AL
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
     category: Mentor
@@ -4094,13 +2847,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: F. Horst
-    url: "/people/florian-horst/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: FH
-    publications:
-    - all-in-one-analog-ai-hardware
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -4110,36 +2856,6 @@
     - personalized-spiking-neural-networks
     - energy-convergence-ferro
     - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: M. Galetta
-    url: "/people/marco-galetta/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MG
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Clerico
-    url: "/people/victoria-clerico/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VC
-    publications:
-    - all-in-one-analog-ai-hardware
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
   videos:
   - label: Materials & Devices > Emerging Devices
@@ -4208,21 +2924,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: Mohammad Ghazal
-    url: "/people/mohammad-ghazal/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: MG
-    publications:
-    - oect-array-snn
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -4256,14 +2957,6 @@
     - EEG
     - classification
   people:
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -4307,21 +3000,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Mohammad Ghazal
-    url: "/people/mohammad-ghazal/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: MG
-    publications:
-    - oect-array-snn
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
   videos:
   - label: Algorithms & Learning > Learning Approaches
     url: "/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"
@@ -4410,25 +3088,11 @@
     - VDSP
     - neuromorphic computing
   people:
-  - title: Alexandre Juneau-Fecteau
-    url: "/people/alexandre-juneau-fecteau/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: AJ
-    publications:
-    - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
     affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
-    publications:
-    - vdsp-convolutional-snn
-  - title: Louis Fréchette
-    url: "/people/louis-frechette/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: LF
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -4535,20 +3199,6 @@
     initials: AS
     publications:
     - personalized-spiking-neural-networks
-  - title: F. Arnaud
-    url: "/people/francois-arnaud/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: FA
-    publications:
-    - pcm-cryo-snn
-  - title: J. Sandrini
-    url: "/people/julien-sandrini/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: JS
-    publications:
-    - pcm-cryo-snn
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -4559,21 +3209,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: Lionel Anghel
-    url: "/people/lionel-anghel/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: LA
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
-  - title: N. Savoia
-    url: "/people/niccolo-savoia/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: NS
-    publications:
-    - personalized-spiking-neural-networks
   - title: Niklas Plessnig
     url: "/people/niklas-plessnig/"
     category: Student
@@ -4581,21 +3216,6 @@
     initials: NP
     publications:
     - personalized-spiking-neural-networks
-  - title: P.-A. Mouny
-    url: "/people/paul-antoine-mouny/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PM
-    publications:
-    - pcm-cryo-snn
-  - title: Philippe Galy
-    url: "/people/philippe-galy/"
-    category: Collaborator
-    affiliation: UNICO / PCM coauthor
-    initials: PG
-    publications:
-    - pcm-cryo-snn
-    - pcm-drift-compensation
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
@@ -4631,21 +3251,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Mohammad Ghazal
-    url: "/people/mohammad-ghazal/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: MG
-    publications:
-    - oect-array-snn
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
@@ -4667,20 +3272,6 @@
     - wheelchair automation
     - assistive technology
   people:
-  - title: A. Bhobe
-    url: "/people/anish-bhobe/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AB
-    publications:
-    - wheelchair-hybrid-bci
-  - title: S. Rajguru
-    url: "/people/smit-rajguru/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: SR
-    publications:
-    - wheelchair-hybrid-bci
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -4714,13 +3305,6 @@
     - organic neuromorphic networks
     - electropolymerization
   people:
-  - title: C. Scholaert
-    url: "/people/charlotte-scholaert/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: CS
-    publications:
-    - pedot-structural-plasticity
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -4745,28 +3329,6 @@
     - oect-array-snn
     - signals-to-spikes-emg
     - cmos-lif-neuron
-  - title: Katarina Janzakova
-    url: "/people/katarina-janzakova/"
-    category: Colleague
-    affiliation: IONOS coauthor
-    initials: KJ
-    publications:
-    - pedot-structural-plasticity
-  - title: Sylvain Pecqueur
-    url: "/people/sylvain-pecqueur/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: SP
-    publications:
-    - oect-array-snn
-    - pedot-structural-plasticity
-  - title: Yannick Coffinier
-    url: "/people/yannick-coffinier/"
-    category: Collaborator
-    affiliation: IONOS coauthor
-    initials: YC
-    publications:
-    - pedot-structural-plasticity
   videos:
   - label: Algorithms & Learning > Neuromorphic Algorithms
     url: "/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html"
@@ -4790,22 +3352,6 @@
     - ferroelectric devices
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -4816,28 +3362,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: P. U. Vicandi
-    url: "/people/pedro-vicandi/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: PV
-    publications:
-    - energy-convergence-ferro
-  - title: S. R. Mamidala
-    url: "/people/sai-mamidala/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: SM
-    publications:
-    - energy-convergence-ferro
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Neuromorphic Hardware > Platforms & Architectures
     url: "/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html"
@@ -4883,14 +3407,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -4901,13 +3417,6 @@
     - voltage-dependent-synaptic-plasticity
     - pedot-structural-plasticity
     - signals-to-spikes-emg
-    - cmos-lif-neuron
-  - title: E. Muhr
-    url: "/people/eric-muhr/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: EM
-    publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
     url: "/people/fabien-alibart/"
@@ -4940,43 +3449,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: M. C. Faye
-    url: "/people/marie-faye/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: MF
-    publications:
-    - cmos-lif-neuron
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: P. Dufour
-    url: "/people/pierre-dufour/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: PD
-    publications:
-    - cmos-lif-neuron
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Bragaglia
-    url: "/people/valerio-bragaglia/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VB
-    publications:
-    - vdsp-memristors
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -5009,25 +3481,11 @@
     - VDSP
     - neuromorphic computing
   people:
-  - title: Alexandre Juneau-Fecteau
-    url: "/people/alexandre-juneau-fecteau/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: AJ
-    publications:
-    - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
     category: Student
     affiliation: Université de Sherbrooke · Master’s thesis, 2021-2022
     initials: GG
-    publications:
-    - vdsp-convolutional-snn
-  - title: Louis Fréchette
-    url: "/people/louis-frechette/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: LF
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -5077,14 +3535,6 @@
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
-  - title: M. Patil
-    url: "/people/mihir-patil/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: MP
-    publications:
-    - motor-imagery-biometrics
-    - motor-imagery-multiclass
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
@@ -5117,13 +3567,6 @@
     - affect decoding
     - machine learning
   people:
-  - title: A. Anand
-    url: "/people/aditya-anand/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AA
-    publications:
-    - portable-eeg-valence-arousal
   - title: Rohit Garg
     url: "/people/rohit-garg/"
     category: Student
@@ -5178,13 +3621,6 @@
     - probabilistic learning
     - Nengo
   people:
-  - title: Alexandre Juneau-Fecteau
-    url: "/people/alexandre-juneau-fecteau/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: AJ
-    publications:
-    - vdsp-convolutional-snn
   - title: Damien Querlioz
     url: "/people/damien-querlioz/"
     category: Mentor
@@ -5240,28 +3676,6 @@
     publications:
     - voltage-dependent-synaptic-plasticity
     - signals-to-spikes-emg
-  - title: Louis Fréchette
-    url: "/people/louis-frechette/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: LF
-    publications:
-    - vdsp-convolutional-snn
-  - title: M. Bocquet
-    url: "/people/melanie-bocquet/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: MB
-    publications:
-    - voltage-dependent-synaptic-plasticity
-    - cmos-lif-neuron
-  - title: T. C. Stewart
-    url: "/people/terrence-stewart/"
-    category: Collaborator
-    affiliation: VDSP / Nengo coauthor
-    initials: TS
-    publications:
-    - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -5323,14 +3737,6 @@
     - ferroelectric devices
     - VITFOX
   people:
-  - title: A. Baigol
-    url: "/people/andreas-baigol/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AB
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   - title: Anxiong Song
     url: "/people/anxiong-song/"
     category: Student
@@ -5338,21 +3744,6 @@
     initials: AS
     publications:
     - personalized-spiking-neural-networks
-  - title: B. J. Offrein
-    url: "/people/bert-offrein/"
-    category: Collaborator
-    affiliation: VITFOX / IBM Research Zurich coauthor
-    initials: BO
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
-  - title: E. Zaccaria
-    url: "/people/elisa-zaccaria/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: EZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
   - title: Laura Bégon-Lours
     url: "/people/laura-begon-lours/"
     category: Mentor
@@ -5370,13 +3761,6 @@
     initials: MM
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: N. Savoia
-    url: "/people/niccolo-savoia/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: NS
-    publications:
-    - personalized-spiking-neural-networks
   - title: Niklas Plessnig
     url: "/people/niklas-plessnig/"
     category: Student
@@ -5384,36 +3768,6 @@
     initials: NP
     publications:
     - personalized-spiking-neural-networks
-  - title: P. U. Vicandi
-    url: "/people/pedro-vicandi/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: PV
-    publications:
-    - energy-convergence-ferro
-  - title: S. R. Mamidala
-    url: "/people/sai-mamidala/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: SM
-    publications:
-    - energy-convergence-ferro
-  - title: W. Choi
-    url: "/people/wilson-choi/"
-    category: Collaborator
-    affiliation: VITFOX / UNICO coauthor
-    initials: WC
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - all-in-one-analog-ai-hardware
-  - title: Y. Zhang
-    url: "/people/yuxuan-zhang/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: YZ
-    publications:
-    - analog-weight-update-ferroelectric-hafnia
-    - energy-convergence-ferro
   videos:
   - label: Search Videos for VITFOX
     url: "/files/neuropac-video-archive/videos/index.html?q=VITFOX"
@@ -5435,14 +3789,6 @@
     - ferroelectric synapses
     - UNICO
   people:
-  - title: D. Florini
-    url: "/people/dennis-florini/"
-    category: Colleague
-    affiliation: UNICO coauthor
-    initials: DF
-    publications:
-    - vdsp-memristors
-    - cmos-lif-neuron
   - title: Dominique Drouin
     url: "/people/dominique-drouin/"
     category: Mentor
@@ -5485,21 +3831,6 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: T. Stecconi
-    url: "/people/tommaso-stecconi/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: TS
-    publications:
-    - vdsp-memristors
-    - all-in-one-analog-ai-hardware
-  - title: V. Bragaglia
-    url: "/people/valerio-bragaglia/"
-    category: Collaborator
-    affiliation: UNICO coauthor
-    initials: VB
-    publications:
-    - vdsp-memristors
   - title: Yann Beilliard
     url: "/people/yann-beilliard/"
     category: Mentor
@@ -5532,20 +3863,6 @@
     - wheelchair automation
     - assistive technology
   people:
-  - title: A. Bhobe
-    url: "/people/anish-bhobe/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: AB
-    publications:
-    - wheelchair-hybrid-bci
-  - title: S. Rajguru
-    url: "/people/smit-rajguru/"
-    category: Coauthor
-    affiliation: BITS Pilani Goa · BCI coauthor
-    initials: SR
-    publications:
-    - wheelchair-hybrid-bci
   - title: Veeky Baths
     url: "/people/vaibhav-baths/"
     category: Mentor
