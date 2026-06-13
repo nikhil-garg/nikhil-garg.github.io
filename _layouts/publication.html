@@ -1,0 +1,66 @@
+---
+layout: single
+---
+
+<style>
+.publication-actions,
+.publication-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.7rem;
+  margin: 0.75rem 0 1.25rem;
+}
+.publication-actions a,
+.publication-posts a {
+  align-items: center;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  color: #333;
+  display: inline-flex;
+  gap: 0.35rem;
+  line-height: 1;
+  padding: 0.5rem 0.62rem;
+}
+.publication-actions i,
+.publication-posts i {
+  color: #555;
+}
+.publication-meta {
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+.publication-meta strong {
+  color: #222;
+}
+</style>
+
+{% if page.authors %}
+  <p class="publication-meta"><strong>Authors:</strong> {{ page.authors }}</p>
+{% endif %}
+
+{% if page.project or page.project_url %}
+  <p class="publication-meta">
+    <strong>Project:</strong>
+    {% if page.project_url %}<a href="{{ page.project_url }}">{{ page.project }}</a>{% else %}{{ page.project }}{% endif %}
+  </p>
+{% endif %}
+
+{% if page.paper_links %}
+  <div class="publication-actions">
+    {% for item in page.paper_links %}
+      <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-file-alt' }}"></i>{{ item.label }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{{ content }}
+
+{% if page.related_posts %}
+  <h2 id="related-posts">Related Posts</h2>
+  <div class="publication-posts">
+    {% for item in page.related_posts %}
+      <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-link' }}"></i>{{ item.label }}</a>
+    {% endfor %}
+  </div>
+{% endif %}
