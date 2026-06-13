@@ -16,12 +16,21 @@
     - linguistic features
     - BERT
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -52,15 +61,15 @@
     category: Collaborator
     affiliation: BCI coauthor
     initials: AA
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
-  - title: R. Garg
-    url: "/people/ritika-garg/"
-    category: Collaborator
-    affiliation: BCI coauthor
+  - title: Rohit Garg
+    url: "/people/rohit-garg/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
     initials: RG
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
   - title: Veeky Baths
@@ -96,12 +105,21 @@
     - linguistic features
     - BERT
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -131,7 +149,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: AL
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
@@ -153,7 +171,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: FH
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Laura Begon-Lours
@@ -172,7 +190,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: T. Stecconi
@@ -180,7 +198,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -189,7 +207,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VC
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: W. Choi
@@ -197,7 +215,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -249,7 +267,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -258,7 +276,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -267,15 +285,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: EZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: M. Mazza
+  - title: Matteo Mazza
     url: "/people/matteo-mazza/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · October 2025-July 2026
     initials: MM
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
   - title: W. Choi
@@ -283,7 +301,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -292,7 +310,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -321,15 +339,15 @@
     category: Collaborator
     affiliation: BCI coauthor
     initials: AA
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
-  - title: R. Garg
-    url: "/people/ritika-garg/"
-    category: Collaborator
-    affiliation: BCI coauthor
+  - title: Rohit Garg
+    url: "/people/rohit-garg/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
     initials: RG
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
   - title: Veeky Baths
@@ -369,7 +387,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: S. Rajguru
@@ -377,7 +395,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: SR
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: Veeky Baths
@@ -413,12 +431,21 @@
     - user authentication
     - BCI
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -427,7 +454,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -464,12 +491,21 @@
     - linguistic features
     - BERT
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -501,7 +537,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -510,7 +546,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -530,7 +566,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: PV
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: S. R. Mamidala
@@ -538,7 +574,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: SM
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: Y. Zhang
@@ -546,7 +582,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -577,7 +613,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -629,7 +665,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -650,7 +686,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: EM
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
@@ -672,7 +708,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: MF
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: M. Bocquet
@@ -680,7 +716,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -689,7 +725,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: PD
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
@@ -732,7 +768,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: AL
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
@@ -754,7 +790,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: FH
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Laura Begon-Lours
@@ -773,7 +809,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: T. Stecconi
@@ -781,7 +817,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -790,7 +826,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VC
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: W. Choi
@@ -798,7 +834,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -830,15 +866,15 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: AJ
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
-    category: Colleague
-    affiliation: UNICO coauthor
+    category: Student
+    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
     initials: GG
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Louis Frechette
@@ -846,7 +882,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: LF
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -887,7 +923,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: FA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: J. Sandrini
@@ -895,7 +931,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: JS
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Lionel Anghel
@@ -903,7 +939,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -912,7 +948,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PM
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Philippe Galy
@@ -920,7 +956,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -950,7 +986,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -959,7 +995,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -991,7 +1027,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: CS
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Dominique Drouin
@@ -1025,7 +1061,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: KJ
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Sylvain Pecqueur
@@ -1033,7 +1069,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -1042,7 +1078,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: YC
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   videos:
@@ -1071,7 +1107,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1080,7 +1116,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1089,15 +1125,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: EZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: M. Mazza
+  - title: Matteo Mazza
     url: "/people/matteo-mazza/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · October 2025-July 2026
     initials: MM
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
   - title: W. Choi
@@ -1105,7 +1141,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -1114,7 +1150,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1146,7 +1182,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: FA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: J. Sandrini
@@ -1154,7 +1190,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: JS
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Lionel Anghel
@@ -1162,7 +1198,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -1171,7 +1207,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PM
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Philippe Galy
@@ -1179,7 +1215,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -1209,7 +1245,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -1218,7 +1254,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -1255,12 +1291,12 @@
     - EEG
     - classification
   people:
-  - title: A. Song
-    url: "/people/andrea-song/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+  - title: Anxiong Song
+    url: "/people/anxiong-song/"
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: AS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: Laura Begon-Lours
@@ -1279,7 +1315,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -1288,15 +1324,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: NS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
-  - title: N. Plessnig
+  - title: Niklas Plessnig
     url: "/people/nicolas-plessnig/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: NP
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: Veeky Baths
@@ -1332,12 +1368,21 @@
     - user authentication
     - BCI
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -1346,7 +1391,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -1389,7 +1434,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: CS
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Dominique Drouin
@@ -1423,7 +1468,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: KJ
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Sylvain Pecqueur
@@ -1431,7 +1476,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -1440,7 +1485,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: YC
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   videos:
@@ -1536,7 +1581,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1545,7 +1590,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1565,7 +1610,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: PV
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: S. R. Mamidala
@@ -1573,7 +1618,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: SM
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: Y. Zhang
@@ -1581,7 +1626,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1676,7 +1721,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: S. Rajguru
@@ -1684,7 +1729,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: SR
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: Veeky Baths
@@ -1724,7 +1769,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: FA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: J. Sandrini
@@ -1732,7 +1777,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: JS
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Lionel Anghel
@@ -1740,7 +1785,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -1749,7 +1794,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PM
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Philippe Galy
@@ -1757,7 +1802,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -1789,7 +1834,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1798,7 +1843,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1818,7 +1863,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: PV
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: S. R. Mamidala
@@ -1826,7 +1871,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: SM
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: Y. Zhang
@@ -1834,7 +1879,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1866,7 +1911,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1875,7 +1920,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1884,15 +1929,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: EZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: M. Mazza
+  - title: Matteo Mazza
     url: "/people/matteo-mazza/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · October 2025-July 2026
     initials: MM
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
   - title: W. Choi
@@ -1900,7 +1945,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -1909,7 +1954,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -1949,12 +1994,12 @@
     - ferroelectric synapses
     - UNICO
   people:
-  - title: A. Song
-    url: "/people/andrea-song/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+  - title: Anxiong Song
+    url: "/people/anxiong-song/"
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: AS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: D. Florini
@@ -1962,7 +2007,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -2017,15 +2062,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: NS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
-  - title: N. Plessnig
+  - title: Niklas Plessnig
     url: "/people/nicolas-plessnig/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: NP
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: T. Stecconi
@@ -2033,7 +2078,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -2042,7 +2087,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VB
-    image: 
+    image:
     publications:
     - vdsp-memristors
   - title: Yann Beilliard
@@ -2207,7 +2252,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -2216,7 +2261,7 @@
     category: Collaborator
     affiliation: VDSP / Nengo coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
@@ -2257,7 +2302,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: S. Rajguru
@@ -2265,7 +2310,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: SR
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: Veeky Baths
@@ -2329,7 +2374,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: AL
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
@@ -2351,7 +2396,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: FH
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Laura Begon-Lours
@@ -2370,7 +2415,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: T. Stecconi
@@ -2378,7 +2423,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -2387,7 +2432,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VC
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: W. Choi
@@ -2395,7 +2440,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -2436,7 +2481,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -2457,7 +2502,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: EM
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
@@ -2479,7 +2524,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: MF
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: M. Bocquet
@@ -2487,7 +2532,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -2496,7 +2541,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: PD
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
@@ -2533,12 +2578,21 @@
     - linguistic features
     - BERT
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -2570,7 +2624,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -2625,7 +2679,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -2634,7 +2688,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VB
-    image: 
+    image:
     publications:
     - vdsp-memristors
   - title: Yann Beilliard
@@ -2675,7 +2729,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -2684,7 +2738,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -2715,15 +2769,15 @@
     category: Collaborator
     affiliation: BCI coauthor
     initials: AA
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
-  - title: R. Garg
-    url: "/people/ritika-garg/"
-    category: Collaborator
-    affiliation: BCI coauthor
+  - title: Rohit Garg
+    url: "/people/rohit-garg/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
     initials: RG
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
   - title: Veeky Baths
@@ -2818,7 +2872,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -2827,7 +2881,7 @@
     category: Collaborator
     affiliation: VDSP / Nengo coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
@@ -2877,7 +2931,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -2898,7 +2952,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: EM
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
@@ -2920,7 +2974,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: MF
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: M. Bocquet
@@ -2928,7 +2982,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -2937,7 +2991,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: PD
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
@@ -2980,7 +3034,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -3035,7 +3089,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -3044,7 +3098,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VB
-    image: 
+    image:
     publications:
     - vdsp-memristors
   - title: Yann Beilliard
@@ -3094,7 +3148,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -3115,7 +3169,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: EM
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
@@ -3137,7 +3191,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: MF
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: M. Bocquet
@@ -3145,7 +3199,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -3154,7 +3208,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: PD
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Yann Beilliard
@@ -3204,12 +3258,21 @@
     - EEG
     - classification
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -3218,7 +3281,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -3260,7 +3323,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -3297,12 +3360,21 @@
     - user authentication
     - BCI
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -3311,7 +3383,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -3425,7 +3497,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -3434,7 +3506,7 @@
     category: Collaborator
     affiliation: VDSP / Nengo coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
@@ -3477,15 +3549,15 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: AJ
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
-    category: Colleague
-    affiliation: UNICO coauthor
+    category: Student
+    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
     initials: GG
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Louis Frechette
@@ -3493,7 +3565,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: LF
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -3569,7 +3641,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - oect-array-snn
   - title: Sylvain Pecqueur
@@ -3577,7 +3649,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -3609,7 +3681,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: AL
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
@@ -3631,7 +3703,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: FH
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Laura Begon-Lours
@@ -3650,7 +3722,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: T. Stecconi
@@ -3658,7 +3730,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -3667,7 +3739,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VC
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: W. Choi
@@ -3675,7 +3747,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -3722,7 +3794,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - oect-array-snn
   - title: Sylvain Pecqueur
@@ -3730,7 +3802,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -3762,7 +3834,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: CS
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Dominique Drouin
@@ -3796,7 +3868,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: KJ
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Sylvain Pecqueur
@@ -3804,7 +3876,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -3813,7 +3885,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: YC
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   videos:
@@ -3844,7 +3916,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: CS
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Dominique Drouin
@@ -3878,7 +3950,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: KJ
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Sylvain Pecqueur
@@ -3886,7 +3958,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -3895,7 +3967,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: YC
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   videos:
@@ -3920,12 +3992,12 @@
     - ferroelectric synapses
     - VITFOX
   people:
-  - title: A. Song
-    url: "/people/andrea-song/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+  - title: Anxiong Song
+    url: "/people/anxiong-song/"
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: AS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: Laura Begon-Lours
@@ -3944,15 +4016,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: NS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
-  - title: N. Plessnig
+  - title: Niklas Plessnig
     url: "/people/nicolas-plessnig/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: NP
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   videos:
@@ -3997,7 +4069,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: FA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: J. Sandrini
@@ -4005,7 +4077,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: JS
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Lionel Anghel
@@ -4013,7 +4085,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -4022,7 +4094,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PM
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Philippe Galy
@@ -4030,7 +4102,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -4082,7 +4154,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -4091,7 +4163,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -4100,15 +4172,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: EZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
-  - title: M. Mazza
+  - title: Matteo Mazza
     url: "/people/matteo-mazza/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · October 2025-July 2026
     initials: MM
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
   - title: W. Choi
@@ -4116,7 +4188,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -4125,7 +4197,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -4156,15 +4228,15 @@
     category: Collaborator
     affiliation: BCI coauthor
     initials: AA
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
-  - title: R. Garg
-    url: "/people/ritika-garg/"
-    category: Collaborator
-    affiliation: BCI coauthor
+  - title: Rohit Garg
+    url: "/people/rohit-garg/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
     initials: RG
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
   - title: Veeky Baths
@@ -4259,7 +4331,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -4268,7 +4340,7 @@
     category: Collaborator
     affiliation: VDSP / Nengo coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
@@ -4311,7 +4383,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: AL
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Fabien Alibart
@@ -4333,7 +4405,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: FH
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: Laura Begon-Lours
@@ -4352,7 +4424,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: T. Stecconi
@@ -4360,7 +4432,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -4369,7 +4441,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VC
-    image: 
+    image:
     publications:
     - all-in-one-analog-ai-hardware
   - title: W. Choi
@@ -4377,7 +4449,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -4456,7 +4528,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - oect-array-snn
   - title: Sylvain Pecqueur
@@ -4464,7 +4536,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -4507,7 +4579,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -4561,7 +4633,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - oect-array-snn
   - title: Sylvain Pecqueur
@@ -4569,7 +4641,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -4670,15 +4742,15 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: AJ
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
-    category: Colleague
-    affiliation: UNICO coauthor
+    category: Student
+    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
     initials: GG
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Louis Frechette
@@ -4686,7 +4758,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: LF
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -4721,12 +4793,21 @@
     - linguistic features
     - BERT
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -4780,12 +4861,12 @@
     - spiking neural networks
     - low power
   people:
-  - title: A. Song
-    url: "/people/andrea-song/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+  - title: Anxiong Song
+    url: "/people/anxiong-song/"
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: AS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: F. Arnaud
@@ -4793,7 +4874,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: FA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: J. Sandrini
@@ -4801,7 +4882,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: JS
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Laura Begon-Lours
@@ -4820,7 +4901,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: LA
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -4829,15 +4910,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: NS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
-  - title: N. Plessnig
+  - title: Niklas Plessnig
     url: "/people/nicolas-plessnig/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: NP
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: P.-A. Mouny
@@ -4845,7 +4926,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PM
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
   - title: Philippe Galy
@@ -4853,7 +4934,7 @@
     category: Collaborator
     affiliation: UNICO / PCM coauthor
     initials: PG
-    image: 
+    image:
     publications:
     - pcm-cryo-snn
     - pcm-drift-compensation
@@ -4898,7 +4979,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: MG
-    image: 
+    image:
     publications:
     - oect-array-snn
   - title: Sylvain Pecqueur
@@ -4906,7 +4987,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -4936,7 +5017,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: S. Rajguru
@@ -4944,7 +5025,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: SR
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: Veeky Baths
@@ -4986,7 +5067,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: CS
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Dominique Drouin
@@ -5020,7 +5101,7 @@
     category: Colleague
     affiliation: IONOS coauthor
     initials: KJ
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   - title: Sylvain Pecqueur
@@ -5028,7 +5109,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: SP
-    image: 
+    image:
     publications:
     - oect-array-snn
     - pedot-structural-plasticity
@@ -5037,7 +5118,7 @@
     category: Collaborator
     affiliation: IONOS coauthor
     initials: YC
-    image: 
+    image:
     publications:
     - pedot-structural-plasticity
   videos:
@@ -5068,7 +5149,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -5077,7 +5158,7 @@
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -5097,7 +5178,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: PV
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: S. R. Mamidala
@@ -5105,7 +5186,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: SM
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: Y. Zhang
@@ -5113,7 +5194,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -5168,7 +5249,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -5189,7 +5270,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: EM
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: Fabien Alibart
@@ -5231,7 +5312,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: MF
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: M. Bocquet
@@ -5239,7 +5320,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -5248,7 +5329,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: PD
-    image: 
+    image:
     publications:
     - cmos-lif-neuron
   - title: T. Stecconi
@@ -5256,7 +5337,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -5265,7 +5346,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VB
-    image: 
+    image:
     publications:
     - vdsp-memristors
   - title: Yann Beilliard
@@ -5306,15 +5387,15 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: AJ
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
-    category: Colleague
-    affiliation: UNICO coauthor
+    category: Student
+    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
     initials: GG
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Louis Frechette
@@ -5322,7 +5403,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: LF
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Yann Beilliard
@@ -5357,12 +5438,21 @@
     - user authentication
     - BCI
   people:
-  - title: I. Madala
+  - title: Akshay Valsaraj
+    url: "/people/akshay-valsaraj/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
+    initials: AV
+    image:
+    publications:
+    - alzheimer-bert-speech
+    - motor-imagery-biometrics
+  - title: Ithihas Madala
     url: "/people/ishaan-madala/"
     category: Student
-    affiliation: BITS Pilani Goa / BCI coauthor
+    affiliation: BITS Pilani Goa · Bachelor's project, 2019-2020
     initials: IM
-    image: 
+    image:
     publications:
     - alzheimer-bert-speech
     - motor-imagery-biometrics
@@ -5371,7 +5461,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: MP
-    image: 
+    image:
     publications:
     - motor-imagery-biometrics
     - motor-imagery-multiclass
@@ -5413,15 +5503,15 @@
     category: Collaborator
     affiliation: BCI coauthor
     initials: AA
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
-  - title: R. Garg
-    url: "/people/ritika-garg/"
-    category: Collaborator
-    affiliation: BCI coauthor
+  - title: Rohit Garg
+    url: "/people/rohit-garg/"
+    category: Student
+    affiliation: BITS Pilani Goa · Bachelor's thesis, 2020-2021
     initials: RG
-    image: 
+    image:
     publications:
     - portable-eeg-valence-arousal
   - title: Veeky Baths
@@ -5477,7 +5567,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: AJ
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Damien Querlioz
@@ -5517,10 +5607,10 @@
     - cmos-lif-neuron
   - title: Guillaume Goupy
     url: "/people/guillaume-goupy/"
-    category: Colleague
-    affiliation: UNICO coauthor
+    category: Student
+    affiliation: Universite de Sherbrooke · Master's thesis, 2021-2022
     initials: GG
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: Jean-Michel Portal
@@ -5546,7 +5636,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: LF
-    image: 
+    image:
     publications:
     - vdsp-convolutional-snn
   - title: M. Bocquet
@@ -5554,7 +5644,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: MB
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
     - cmos-lif-neuron
@@ -5563,7 +5653,7 @@
     category: Collaborator
     affiliation: VDSP / Nengo coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - voltage-dependent-synaptic-plasticity
   - title: Yann Beilliard
@@ -5628,29 +5718,29 @@
     - ferroelectric devices
     - VITFOX
   people:
-  - title: A. Song
-    url: "/people/andrea-song/"
-    category: Colleague
-    affiliation: VITFOX coauthor
-    initials: AS
-    image: 
-    publications:
-    - personalized-spiking-neural-networks
   - title: A. Baigol
     url: "/people/andreas-baigol/"
     category: Colleague
     affiliation: VITFOX coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
+  - title: Anxiong Song
+    url: "/people/anxiong-song/"
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
+    initials: AS
+    image:
+    publications:
+    - personalized-spiking-neural-networks
   - title: B. J. Offrein
     url: "/people/bert-offrein/"
     category: Collaborator
     affiliation: VITFOX / IBM Research Zurich coauthor
     initials: BO
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -5659,7 +5749,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: EZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
   - title: Laura Begon-Lours
@@ -5673,12 +5763,12 @@
     - energy-convergence-ferro
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
-  - title: M. Mazza
+  - title: Matteo Mazza
     url: "/people/matteo-mazza/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · October 2025-July 2026
     initials: MM
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
   - title: N. Savoia
@@ -5686,15 +5776,15 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: NS
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
-  - title: N. Plessnig
+  - title: Niklas Plessnig
     url: "/people/nicolas-plessnig/"
-    category: Colleague
-    affiliation: VITFOX coauthor
+    category: Student
+    affiliation: ETH Zurich · August-December 2025
     initials: NP
-    image: 
+    image:
     publications:
     - personalized-spiking-neural-networks
   - title: P. U. Vicandi
@@ -5702,7 +5792,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: PV
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: S. R. Mamidala
@@ -5710,7 +5800,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: SM
-    image: 
+    image:
     publications:
     - energy-convergence-ferro
   - title: W. Choi
@@ -5718,7 +5808,7 @@
     category: Collaborator
     affiliation: VITFOX / UNICO coauthor
     initials: WC
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - all-in-one-analog-ai-hardware
@@ -5727,7 +5817,7 @@
     category: Colleague
     affiliation: VITFOX coauthor
     initials: YZ
-    image: 
+    image:
     publications:
     - analog-weight-update-ferroelectric-hafnia
     - energy-convergence-ferro
@@ -5757,7 +5847,7 @@
     category: Colleague
     affiliation: UNICO coauthor
     initials: DF
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - cmos-lif-neuron
@@ -5812,7 +5902,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: TS
-    image: 
+    image:
     publications:
     - vdsp-memristors
     - all-in-one-analog-ai-hardware
@@ -5821,7 +5911,7 @@
     category: Collaborator
     affiliation: UNICO coauthor
     initials: VB
-    image: 
+    image:
     publications:
     - vdsp-memristors
   - title: Yann Beilliard
@@ -5862,7 +5952,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: AB
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: S. Rajguru
@@ -5870,7 +5960,7 @@
     category: Student
     affiliation: BITS Pilani Goa / BCI coauthor
     initials: SR
-    image: 
+    image:
     publications:
     - wheelchair-hybrid-bci
   - title: Veeky Baths

@@ -71,6 +71,21 @@ redirect_from:
   color: #111;
   text-decoration: none;
 }
+.cv-compact-list {
+  border-top: 1px solid #dedede;
+  margin: 0.8rem 0 1.4rem;
+}
+.cv-compact-list p {
+  border-bottom: 1px solid #ececec;
+  font-size: 0.92rem;
+  margin: 0;
+  padding: 0.52rem 0;
+}
+.cv-compact-list strong {
+  color: #444;
+  display: inline-block;
+  min-width: 9rem;
+}
 </style>
 
 ## Research Appointments
@@ -193,13 +208,18 @@ Birla Institute of Technology and Science Pilani, Goa
 
 ## Student Supervision
 
-* **Marc Rautmann**, May-August 2025: digital integrated circuit in a 7 nm node for bio-inspired spiking neurons.
-* **Lara Prelij**, May-August 2025: analog integrated circuit for bio-inspired spiking neurons.
-* **Sohil Khan**, May-August 2025: physics-based memristive device modeling framework.
-* **Jeff Ren**, February-June 2025: FPGA-based memristor crossbar array characterization framework.
-* **Gaspard Goupy**, Master's thesis, 2021-2022: adaptation of VDSP-based learning for convolutional neural networks. [Publication](/publications/#unico--in-memory-learning)
-* **Rohit Garg**, Bachelor's thesis, 2020-2021: emotion elicitation and detection using a portable EEG headset and machine learning. [Publication](/publications/#bci--eeg)
-* **Akshay Valsaraj and Ithihas Madala**, Bachelor's project, 2019-2020: motor-imagery biometrics and dementia detection from speech. [Publications](/publications/#bci--eeg)
+Student and collaborator pages are maintained in the [Network](/network/#people); the CV keeps only the supervision timeline.
+
+<div class="cv-compact-list" markdown="1">
+<p><strong>Apr-Jul 2026</strong> <a href="/people/eric-sebastian-hallen/">Eric Sebastian Hallen</a>, <a href="/people/eelco/">Eelco</a> · University of Groningen</p>
+<p><strong>Oct 2025-Jul 2026</strong> <a href="/people/matteo-mazza/">Matteo Mazza</a> · ETH Zurich</p>
+<p><strong>Aug-Dec 2025</strong> <a href="/people/anxiong-song/">Anxiong Song</a>, <a href="/people/nicolas-plessnig/">Niklas Plessnig</a> · ETH Zurich</p>
+<p><strong>May-Aug 2025</strong> <a href="/people/marc-rautmann/">Marc Rautmann</a>, <a href="/people/lara-prelij/">Lara Prelij</a>, <a href="/people/sohil-khan/">Sohil Khan</a> · ETH Zurich</p>
+<p><strong>Feb-Jun 2025</strong> <a href="/people/jeff-ren/">Jeff Ren</a> · ETH Zurich</p>
+<p><strong>2021-2022</strong> <a href="/people/guillaume-goupy/">Guillaume Goupy</a> · Universite de Sherbrooke · <a href="/publications/#vdsp-convolutional-snn">publication</a></p>
+<p><strong>2020-2021</strong> <a href="/people/rohit-garg/">Rohit Garg</a> · BITS Pilani Goa · <a href="/publications/#portable-eeg-valence-arousal">publication</a></p>
+<p><strong>2019-2020</strong> <a href="/people/akshay-valsaraj/">Akshay Valsaraj</a>, <a href="/people/ishaan-madala/">Ithihas Madala</a> · BITS Pilani Goa · <a href="/publications/#bci--eeg">publications</a></p>
+</div>
 
 ## Teaching, Service, and Outreach
 
