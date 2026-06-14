@@ -1,0 +1,100 @@
+# Four-cluster spine. Each topic has exactly ONE primary cluster.
+clusters:
+  - id: biosignals
+    label: "Biosignals & BCI"
+    blurb: "EEG/EMG sensing, BCI, gesture decoding"
+  - id: algorithms
+    label: "Neuromorphic algorithms"
+    blurb: "spiking neural networks and local learning"
+  - id: devices
+    label: "Emerging devices"
+    blurb: "memristive, ferroelectric, and phase-change synapses"
+  - id: hardware
+    label: "Hardware systems"
+    blurb: "mixed-signal circuits, FPGA, PCB, embedded interfaces"
+
+topic_map:
+  acoustic-features: biosignals
+  affect-decoding: biosignals
+  alzheimer-s-dementia: biosignals
+  analog-ai-hardware: hardware
+  analog-integrated-circuits: hardware
+  analog-weight-update: devices
+  arousal: biosignals
+  assistive-technology: biosignals
+  bci: biosignals
+  bert: algorithms
+  bio-inspired-hardware: hardware
+  classification: algorithms
+  cmos-analog-circuits: hardware
+  conductive-metal-oxide: devices
+  convolutional-snns: algorithms
+  cryogenic-computing: hardware
+  current-scaling: devices
+  dendritic-connections: devices
+  device-aware-learning: algorithms
+  drift: devices
+  drift-compensation: devices
+  eeg: biosignals
+  eeg-authentication: biosignals
+  electropolymerization: devices
+  emg: biosignals
+  energy-convergence: algorithms
+  event-driven-sensing: biosignals
+  eye-blinks: biosignals
+  fdsoi: hardware
+  ferroelectric-devices: devices
+  ferroelectric-hafnia: devices
+  ferroelectric-synapses: devices
+  gesture-recognition: biosignals
+  hebbian-plasticity: algorithms
+  hybrid-bci: biosignals
+  in-memory-learning: algorithms
+  inference: algorithms
+  lif-neuron: hardware
+  linguistic-features: biosignals
+  local-learning: algorithms
+  low-power: hardware
+  machine-learning: algorithms
+  membrane-potential: algorithms
+  memristor-interface: hardware
+  memristors: devices
+  mixed-signal-asic: hardware
+  motor-imagery: biosignals
+  multiclass-bci: biosignals
+  multimodal-biometrics: biosignals
+  nanoscale-memristive-devices: devices
+  nengo: algorithms
+  neuromorphic-computing: algorithms
+  neuromorphic-hardware: hardware
+  oect-array: devices
+  on-chip-training: algorithms
+  organic-electronics: devices
+  organic-neuromorphic-networks: devices
+  pedot: devices
+  personalization: biosignals
+  phase-change-memory: devices
+  phd-thesis: algorithms
+  picojoule-pulses: devices
+  portable-eeg: biosignals
+  probabilistic-learning: algorithms
+  reram: devices
+  reservoir-computing: algorithms
+  same-limb-movement: biosignals
+  signal-classification: algorithms
+  signals-to-spikes: algorithms
+  sparse-activation: algorithms
+  speech-analysis: biosignals
+  spiking-neural-networks: algorithms
+  spiking-simulations: algorithms
+  ssvep: biosignals
+  structural-plasticity: devices
+  training-dynamics: algorithms
+  unico: devices
+  unsupervised-learning: algorithms
+  user-authentication: biosignals
+  valence: biosignals
+  vdsp: algorithms
+  vitfox: devices
+  voltage-dependent-synaptic-plasticity: algorithms
+  wheelchair-automation: biosignals
