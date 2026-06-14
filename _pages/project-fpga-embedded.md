@@ -11,7 +11,4 @@ FPGA, PCB, and hardware-software co-design work for memory characterization, emb
 
 <p><a href="/people/#supervised-students">Supervised students</a> · <a href="/cv/#student-supervision">CV record</a></p>
 
-<h2>Output</h2>
-<ul>
-  <li><a href="/people/#supervised-students">FPGA-based memristor crossbar array characterization framework</a></li>
-</ul>
+{% include project-links.html slug="fpga-embedded" %}

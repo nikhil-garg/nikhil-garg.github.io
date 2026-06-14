@@ -146,3 +146,28 @@
   color: #111;
   text-decoration: none;
 }
+
+.topic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.topic-mini-chip {
+  background: #f6f7f8;
+  border: 1px solid #d6dadd;
+  border-radius: 4px;
+  color: #333;
+  display: inline-flex;
+  font-size: 0.76rem;
+  line-height: 1;
+  padding: 0.33rem 0.45rem;
+  text-decoration: none;
+}
+
+.topic-mini-chip:hover {
+  background: #eef3f6;
+  border-color: #b8c8d2;
+  color: #111;
+  text-decoration: none;
+}
