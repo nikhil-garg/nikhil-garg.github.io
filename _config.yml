@@ -7,7 +7,7 @@ url                      : https://nikhil-garg.github.io # the base hostname & p
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nikhil-garg/nikhil-garg.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 comments:
@@ -36,7 +36,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile-2026-mountain.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
