@@ -2,64 +2,19 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
+author_profile: false
 redirect_from:
   - /portfolio/
 ---
 
-Reverse-chronology project map across neuromorphic hardware, BCI, embedded systems, and bio-signal processing.
-
-<nav class="project-nav" aria-label="Project sections">
-  <a href="#swims" data-project-link="swims">SWIMS</a>
-  <a href="#vitfox" data-project-link="vitfox">VITFOX</a>
-  <a href="#unico" data-project-link="unico">UNICO</a>
-  <a href="#ionos" data-project-link="ionos">IONOS</a>
-  <a href="#brain-computer-interfaces" data-project-link="brain-computer-interfaces">BCI</a>
-  <a href="#fpga-and-embedded-hardware" data-project-link="fpga-and-embedded-hardware">FPGA</a>
-</nav>
-
 <style>
-.project-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 1rem 0 1.35rem;
-}
-.project-nav a {
-  border: 1px solid #d2d2d2;
-  border-radius: 4px;
-  color: #333;
-  font-size: 0.82rem;
-  line-height: 1;
-  padding: 0.42rem 0.55rem;
-  text-decoration: none;
-}
-.project-nav a:hover {
-  border-color: #777;
-  color: #111;
-  text-decoration: none;
-}
-.project-nav a.is-active {
-  background: #eaf2f5;
-  border-color: #9cb6c4;
-  color: #111;
-  font-weight: 700;
-}
-.project-status {
-  color: #555;
-  font-size: 0.88rem;
-  margin: 0 0 1rem;
-}
-.project-index {
+.project-grid {
   display: grid;
   gap: 0.75rem;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   margin: 1rem 0 1.35rem;
 }
-.project-index[hidden] {
-  display: none;
-}
-.project-index-card {
+.project-card {
   border: 1px solid #dedede;
   border-left: 4px solid #526a7a;
   border-radius: 6px;
@@ -68,399 +23,117 @@ Reverse-chronology project map across neuromorphic hardware, BCI, embedded syste
   padding: 0.8rem 0.85rem;
   text-decoration: none;
 }
-.project-index-card:hover {
+.project-card:hover {
   border-color: #9cb6c4;
   border-left-color: #526a7a;
   color: #111;
   text-decoration: none;
 }
-.project-index-card strong {
+.project-card strong {
   display: block;
   font-size: 0.95rem;
   line-height: 1.2;
 }
-.project-index-card span {
+.project-card span {
   color: #555;
   display: block;
   font-size: 0.8rem;
   line-height: 1.35;
   margin-top: 0.28rem;
 }
-.project-card {
-  background: #fff;
-  border: 1px solid #dedede;
-  border-left: 4px solid #526a7a;
-  border-radius: 6px;
-  margin: 1.75rem 0 2.25rem;
-  padding: 1.05rem 1.15rem 1.15rem;
-}
-.project-card[hidden] {
-  display: none;
-}
-.project-card h2 {
-  font-size: 1.22rem;
-  margin-bottom: 0.25rem;
-}
-.project-meta {
-  color: #555;
-  font-size: 0.9rem;
-  margin: 0 0 0.75rem;
-}
-.project-summary {
-  color: #333;
-  font-size: 0.98rem;
-  line-height: 1.48;
-  margin: 0.8rem 0;
-}
-.project-meta-groups {
-  display: grid;
-  gap: 0.55rem;
-  margin: 0.65rem 0 0.95rem;
-}
-.project-meta-row {
-  align-items: center;
-  display: grid;
-  gap: 0.65rem;
-  grid-template-columns: 6.4rem 1fr;
-}
-.project-meta-row strong {
-  color: #666;
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.project-logos {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 0.85rem;
-}
-.project-logo {
-  color: #333;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1.1;
-  min-height: 1.9rem;
-  text-decoration: none;
-}
-.project-logo--image img {
-  display: block;
-  max-height: 1.8rem;
-  max-width: 7.2rem;
-  object-fit: contain;
-}
-.project-logo i {
-  color: #526a7a;
-  font-size: 0.8rem;
-  line-height: 1;
-}
-.project-logo:hover {
-  color: #111;
-  text-decoration: underline;
-}
-.project-logo--funding i {
-  color: #5f6f9f;
-}
-.project-logo--lab i {
-  color: #7a6849;
-}
-.project-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0.75rem 0;
-}
-.project-links a {
-  border: 1px solid #d2d2d2;
-  border-radius: 4px;
-  color: #333;
-  display: inline-flex;
-  font-size: 0.82rem;
-  line-height: 1;
-  padding: 0.42rem 0.55rem;
-  text-decoration: none;
-}
-.project-links a:hover {
-  border-color: #777;
-  color: #111;
-  text-decoration: none;
-}
-.project-outputs {
-  border-top: 1px solid #e6e6e6;
-  color: #333;
-  font-size: 0.82rem;
-  margin: 0.95rem 0 0;
-  padding-top: 0.8rem;
-  text-transform: uppercase;
-}
-.project-output-list {
-  display: grid;
-  gap: 0.38rem;
-  grid-template-columns: 1fr;
-  list-style: none;
-  margin-left: 0;
-  margin-top: 0.45rem;
-  padding-left: 0;
-}
-.project-output-list li {
-  margin-bottom: 0;
-}
-.project-output-list a {
-  color: #333;
-  display: inline-block;
-  line-height: 1.35;
-}
-@media (max-width: 640px) {
-  .project-card {
-    padding: 0.9rem;
-  }
-  .project-meta-row {
-    align-items: start;
-    grid-template-columns: 1fr;
-    gap: 0.25rem;
-  }
-}
 </style>
 
-<p class="project-status" data-project-status></p>
-
-<section class="project-index" data-project-index aria-label="Project overview">
-  <a class="project-index-card" href="#swims"><strong>SWIMS</strong><span>2026-present · University of Groningen · spiking wireless multimodal sensory systems</span></a>
-  <a class="project-index-card" href="#vitfox"><strong>VITFOX</strong><span>2025-2026 · ETH Zurich · ferroelectric synapses and device-aware learning</span></a>
-  <a class="project-index-card" href="#unico"><strong>UNICO</strong><span>2021-2024 · France/Canada · memristive in-memory learning and analog circuits</span></a>
-  <a class="project-index-card" href="#ionos"><strong>IONOS</strong><span>2020-2024 · CNRS/UdeS · iono-electronic neuromorphic interfaces</span></a>
-  <a class="project-index-card" href="#brain-computer-interfaces"><strong>Brain-Computer Interfaces</strong><span>2017-2021 · BITS Pilani Goa · EEG, BCI, affect decoding, assistive systems</span></a>
-  <a class="project-index-card" href="#fpga-and-embedded-hardware"><strong>FPGA and Embedded Hardware</strong><span>2017-2020, 2025 · BITS/ETH · FPGA, PCB, characterization systems</span></a>
+<section class="project-grid" aria-label="Project overview">
+  <a class="project-card" href="#swims"><strong>SWIMS</strong><span>2026-present · University of Groningen · spiking wireless multimodal sensory systems</span></a>
+  <a class="project-card" href="#vitfox"><strong>VITFOX</strong><span>2025-2026 · ETH Zurich · ferroelectric synapses and device-aware learning</span></a>
+  <a class="project-card" href="#unico"><strong>UNICO</strong><span>2021-2024 · France/Canada · memristive in-memory learning and analog circuits</span></a>
+  <a class="project-card" href="#ionos"><strong>IONOS</strong><span>2020-2024 · CNRS/UdeS · iono-electronic neuromorphic interfaces</span></a>
+  <a class="project-card" href="#bci"><strong>Brain-Computer Interfaces</strong><span>2017-2021 · BITS Pilani Goa · EEG, BCI, affect decoding, assistive systems</span></a>
+  <a class="project-card" href="#fpga-embedded"><strong>FPGA and Embedded Hardware</strong><span>2017-2020, 2025 · BITS/ETH · FPGA, PCB, characterization systems</span></a>
 </section>
 
-<section class="project-card" id="swims" data-project-card markdown="1" hidden>
-
+<section id="swims" markdown="1">
 ## SWIMS
 
-<p class="project-meta">2026-present · Postdoctoral Researcher · University of Groningen</p>
-<div class="project-meta-groups">
-  <div class="project-meta-row"><strong>Affiliation</strong><div class="project-logos">
-    <a class="project-logo project-logo--image" href="https://www.rug.nl/" title="University of Groningen"><img src="/images/logos/university-of-groningen-logo.png" alt="University of Groningen"></a>
-    <a class="project-logo" href="https://www.rug.nl/research/fse/cognitive-systems-and-materials/" title="Groningen Cognitive Systems and Materials Center"><i class="fas fa-brain"></i>CogniGron</a>
-  </div></div>
-  <div class="project-meta-row"><strong>Lab</strong><div class="project-logos">
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" title="Bio-Inspired Circuits and Systems group"><img src="/images/logos/bics-logo.png" alt="BICS"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Funding</strong><div class="project-logos">
-    <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
-  </div></div>
-</div>
+2026-present · University of Groningen
 
-<p class="project-summary">Current work on stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces.</p>
+Stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces.
 
-
-<p class="project-links"><a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Lab page</a> <a href="/cv/">CV</a></p>
-
+[Lab page](https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/)
 </section>
 
-<section class="project-card" id="vitfox" data-project-card markdown="1" hidden>
-
+<section id="vitfox" markdown="1">
 ## VITFOX
 
-<p class="project-meta">2025-2026 · Postdoctoral Researcher · ETH Zurich</p>
-<div class="project-meta-groups">
-  <div class="project-meta-row"><strong>Affiliation</strong><div class="project-logos">
-    <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Labs</strong><div class="project-logos">
-    <a class="project-logo project-logo--image project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><img src="/images/logos/neo-ethz-logo.svg" alt="NEO ETH Zurich"></a>
-    <a class="project-logo project-logo--lab" href="https://iis.ee.ethz.ch/" title="Integrated Systems Laboratory, ETH Zurich"><i class="fas fa-project-diagram"></i>ISL</a>
-  </div></div>
-  <div class="project-meta-row"><strong>Funding</strong><div class="project-logos">
-    <a class="project-logo project-logo--funding" href="https://www.chips-ju.europa.eu/" title="Chips Joint Undertaking"><i class="fas fa-microchip"></i>CHIPS-JU</a>
-    <a class="project-logo project-logo--funding" href="https://www.snf.ch/en" title="Swiss National Science Foundation"><i class="fas fa-award"></i>SNSF</a>
-  </div></div>
-</div>
+2025-2026 · ETH Zurich
 
-<p class="project-summary">Ferroelectric-oxide hardware and algorithms for neural-network training, including energy-convergence tradeoffs and personalized EEG processing on emerging synaptic devices.</p>
+Ferroelectric-oxide hardware and algorithms for neural-network training, energy-convergence tradeoffs, and personalized EEG processing.
 
+[EEG-Ferro](https://github.com/NEO-ETHZ/EEG-Ferro) · [Energy-convergence-Ferro-CCMCC2026](https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026)
 
-<p class="project-links"><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Energy-convergence-Ferro-CCMCC2026</a></p>
-
-<p class="project-outputs"><strong>Outputs</strong></p>
-<ul class="project-output-list">
-  <li><a href="/publications/#personalized-spiking-neural-networks">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></li>
-  <li><a href="/publications/#analog-weight-update-ferroelectric-hafnia">Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming Pulses</a></li>
-  <li><a href="/publications/#energy-convergence-ferro">Energy-convergence trade off for the training of neural networks on bio-inspired hardware</a></li>
-</ul>
-
+### Outputs
+- [Personalized spiking neural networks with ferroelectric synapses for EEG signal processing](/publications/#personalized-spiking-neural-networks)
+- [Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming Pulses](/publications/#analog-weight-update-ferroelectric-hafnia)
+- [Energy-convergence trade off for the training of neural networks on bio-inspired hardware](/publications/#energy-convergence-ferro)
 </section>
 
-<section class="project-card" id="unico" data-project-card markdown="1" hidden>
-
+<section id="unico" markdown="1">
 ## UNICO
 
-<p class="project-meta">2021-2024 · PhD Candidate · Université de Lille / Université de Sherbrooke</p>
-<div class="project-meta-groups">
-  <div class="project-meta-row"><strong>Affiliations</strong><div class="project-logos">
-    <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
-    <a class="project-logo" href="https://www.univ-lille.fr/" title="Université de Lille"><i class="fas fa-university"></i>U. Lille</a>
-    <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Université de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Université de Sherbrooke"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Labs</strong><div class="project-logos">
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.im2np.fr/" title="Institut Materiaux Microelectronique Nanosciences de Provence"><img src="/images/logos/im2np-logo.png" alt="IM2NP"></a>
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.c2n.universite-paris-saclay.fr/" title="Centre de Nanosciences et de Nanotechnologies"><img src="/images/logos/c2n-logo.png" alt="C2N"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Funding</strong><div class="project-logos">
-    <a class="project-logo project-logo--image project-logo--funding" href="https://www.chistera.eu/projects/unico" title="CHIST-ERA UNICO project"><img src="/images/logos/chist-era-logo.jpg" alt="CHIST-ERA"></a>
-    <a class="project-logo project-logo--funding" href="https://anr.fr/" title="French National Research Agency"><i class="fas fa-award"></i>ANR</a>
-    <a class="project-logo project-logo--funding" href="https://www.nserc-crsng.gc.ca/" title="Natural Sciences and Engineering Research Council of Canada"><i class="fas fa-award"></i>NSERC</a>
-  </div></div>
-</div>
+2021-2024 · Université de Lille / Université de Sherbrooke
 
-<p class="project-summary">Unsupervised spiking neural networks with analog memristive devices for edge computing. The work covered voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes for local learning.</p>
+Unsupervised spiking neural networks with analog memristive devices for edge computing, covering voltage-dependent synaptic plasticity, memristive synapse modeling, simulation workflows, and mixed-signal ASIC prototypes.
 
+[Project page](https://www.chistera.eu/projects/unico) · [VDSP_Nengo](https://github.com/nikhil-garg/VDSP_Nengo) · [VDSP-Memristors](https://github.com/nikhil-garg/VDSP-Memristors)
 
-<p class="project-links"><a href="https://www.chistera.eu/projects/unico">Project page</a> <a href="https://github.com/nikhil-garg/VDSP_Nengo">VDSP_Nengo</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors">VDSP-Memristors</a> <a href="/talks/#2024">Talks</a></p>
-
-<p class="project-outputs"><strong>UNICO outputs</strong></p>
-<ul class="project-output-list">
-  <li><a href="/publications/#phd-thesis">Neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices</a></li>
-  <li><a href="/publications/#vdsp-memristors">Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses</a></li>
-  <li><a href="/publications/#cmos-lif-neuron">Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits</a></li>
-  <li><a href="/publications/#vdsp-convolutional-snn">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks</a></li>
-  <li><a href="/publications/#voltage-dependent-synaptic-plasticity">Voltage-dependent synaptic plasticity: Unsupervised probabilistic Hebbian plasticity rule based on neurons membrane potential</a></li>
-  <li><a href="/publications/#all-in-one-analog-ai-hardware">All-in-One Analog AI Hardware: On-Chip Training and Inference with Conductive-Metal-Oxide/HfOx ReRAM Devices</a></li>
-</ul>
-
+### Outputs
+- [Neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices](/publications/#phd-thesis)
+- [Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses](/publications/#vdsp-memristors)
+- [Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits](/publications/#cmos-lif-neuron)
+- [Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks](/publications/#vdsp-convolutional-snn)
+- [Voltage-dependent synaptic plasticity](/publications/#voltage-dependent-synaptic-plasticity)
+- [All-in-One Analog AI Hardware](/publications/#all-in-one-analog-ai-hardware)
 </section>
 
-<section class="project-card" id="ionos" data-project-card markdown="1" hidden>
-
+<section id="ionos" markdown="1">
 ## IONOS
 
-<p class="project-meta">2020-2024 · Master’s thesis and PhD-related research · CNRS / Université de Sherbrooke</p>
-<div class="project-meta-groups">
-  <div class="project-meta-row"><strong>Affiliations</strong><div class="project-logos">
-    <a class="project-logo project-logo--image" href="https://www.cnrs.fr/en" title="French National Centre for Scientific Research"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
-    <a class="project-logo project-logo--image" href="https://www.usherbrooke.ca/" title="Université de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Université de Sherbrooke"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Labs</strong><div class="project-logos">
-    <a class="project-logo project-logo--lab" href="https://www.usherbrooke.ca/3it/en/" title="Interdisciplinary Institute for Technological Innovation"><i class="fas fa-flask"></i>3IT</a>
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.iemn.fr/" title="Institute of Electronics, Microelectronics and Nanotechnology"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.usherbrooke.ca/ln2/" title="Laboratoire Nanotechnologies Nanosystemes"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Funding</strong><div class="project-logos">
-    <a class="project-logo project-logo--funding" href="https://erc.europa.eu/" title="European Research Council"><i class="fas fa-award"></i>ERC</a>
-    <a class="project-logo project-logo--funding" href="https://cordis.europa.eu/project/id/773228" title="Horizon 2020 ERC Consolidator Grant 773228"><i class="fas fa-university"></i>H2020</a>
-  </div></div>
-</div>
+2020-2024 · CNRS / Université de Sherbrooke
 
-<p class="project-summary">Iono-electronic neuromorphic interfaces for communication with living systems. My related work focused on analog-to-spike conversion workflows, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.</p>
+Iono-electronic neuromorphic interfaces for communication with living systems, including analog-to-spike conversion, EMG reservoir-computing experiments, and organic electrochemical transistor reservoir evaluation.
 
+[Project page](https://cordis.europa.eu/project/id/773228) · [EMG_exp](https://github.com/nikhil-garg/EMG_exp)
 
-<p class="project-links"><a href="https://cordis.europa.eu/project/id/773228">Project page</a> <a href="https://doi.org/10.3030/773228">DOI</a> <a href="https://github.com/nikhil-garg/EMG_exp">EMG_exp</a> <a href="/talks/#2021">Talks</a></p>
-
-<p class="project-outputs"><strong>Outputs</strong></p>
-<ul class="project-output-list">
-  <li><a href="/publications/#oect-array-snn">Neuromorphic signal classification using organic electrochemical transistor array and spiking neural simulations</a></li>
-  <li><a href="/publications/#pedot-structural-plasticity">Structural plasticity for neuromorphic networks with electropolymerized dendritic PEDOT connections</a></li>
-  <li><a href="/publications/#signals-to-spikes-emg">Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition</a></li>
-</ul>
-
+### Outputs
+- [Neuromorphic signal classification using organic electrochemical transistor array and spiking neural simulations](/publications/#oect-array-snn)
+- [Structural plasticity for neuromorphic networks with electropolymerized dendritic PEDOT connections](/publications/#pedot-structural-plasticity)
+- [Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition](/publications/#signals-to-spikes-emg)
 </section>
 
-<section class="project-card" id="brain-computer-interfaces" data-project-card markdown="1" hidden>
-
+<section id="bci" markdown="1">
 ## Brain-Computer Interfaces
 
-<p class="project-meta">2017-2021 · Undergraduate Student Researcher · BITS Pilani Goa</p>
-<div class="project-meta-groups">
-  <div class="project-meta-row"><strong>Affiliation</strong><div class="project-logos">
-    <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Lab</strong><div class="project-logos">
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Cognitive Neuroscience Lab, BITS Pilani Goa"><img src="/images/logos/cns-bits-goa.jpg" alt="Cognitive Neuroscience Lab"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Theme</strong><div class="project-logos">
-    <a class="project-logo project-logo--funding" href="/projects/#brain-computer-interfaces" title="Brain-computer interface research"><i class="fas fa-brain"></i>BCI</a>
-  </div></div>
-</div>
+2017-2021 · BITS Pilani Goa
 
-<p class="project-summary">Real-time EEG and machine-learning pipelines for assistive technology, motor imagery, biometric authentication, cognitive-state estimation, and portable-headset emotion decoding.</p>
+Real-time EEG and machine-learning pipelines for assistive technology, motor imagery, biometric authentication, cognitive-state estimation, and portable-headset emotion decoding.
 
+[Decoding_EEG](https://github.com/nikhil-garg/Decoding_EEG)
 
-<p class="project-links"><a href="https://github.com/nikhil-garg/Decoding_EEG">Decoding_EEG</a> <a href="/talks/#2021">Talks</a></p>
-
-<p class="project-outputs"><strong>Outputs</strong></p>
-<ul class="project-output-list">
-  <li><a href="/publications/#portable-eeg-valence-arousal">Decoding the neural signatures of valence and arousal from portable EEG headset</a></li>
-  <li><a href="/publications/#alzheimer-bert-speech">Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT</a></li>
-  <li><a href="/publications/#wheelchair-hybrid-bci">Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks</a></li>
-  <li><a href="/publications/#motor-imagery-biometrics">Motor Imagery Based Multimodal Biometric User Authentication System Using EEG</a></li>
-  <li><a href="/publications/#motor-imagery-multiclass">Study of motor imagery for multiclass brain system interface with a special focus in the same limb movement</a></li>
-</ul>
-
+### Outputs
+- [Decoding the neural signatures of valence and arousal from portable EEG headset](/publications/#portable-eeg-valence-arousal)
+- [Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT](/publications/#alzheimer-bert-speech)
+- [Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks](/publications/#wheelchair-hybrid-bci)
+- [Motor Imagery Based Multimodal Biometric User Authentication System Using EEG](/publications/#motor-imagery-biometrics)
+- [Study of motor imagery for multiclass brain system interface](/publications/#motor-imagery-multiclass)
 </section>
 
-<section class="project-card" id="fpga-and-embedded-hardware" data-project-card markdown="1" hidden>
-
+<section id="fpga-embedded" markdown="1">
 ## FPGA and Embedded Hardware
 
-<p class="project-meta">2017-2020, 2025 · Undergraduate research and postdoctoral supervision · BITS Pilani Goa / ETH Zurich</p>
-<div class="project-meta-groups">
-  <div class="project-meta-row"><strong>Affiliations</strong><div class="project-logos">
-    <a class="project-logo project-logo--image" href="https://www.bits-pilani.ac.in/goa/" title="BITS Pilani, Goa Campus"><img src="/images/logos/bits-logo.png" alt="BITS Pilani"></a>
-    <a class="project-logo project-logo--image" href="https://ethz.ch/en.html" title="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Labs</strong><div class="project-logos">
-    <a class="project-logo project-logo--image project-logo--lab" href="https://www.bits-pilani.ac.in/goa/" title="Reconfigurable Computing Lab, BITS Pilani Goa"><img src="/images/logos/rcl-bits-goa.jpg" alt="Reconfigurable Computing Lab"></a>
-    <a class="project-logo project-logo--image project-logo--lab" href="https://neo.ethz.ch/" title="Neuromorphic Electronics with Oxides group"><img src="/images/logos/neo-ethz-logo.svg" alt="NEO ETH Zurich"></a>
-  </div></div>
-  <div class="project-meta-row"><strong>Theme</strong><div class="project-logos">
-    <a class="project-logo project-logo--funding" href="/projects/#fpga-and-embedded-hardware" title="FPGA and embedded hardware work"><i class="fas fa-microchip"></i>FPGA</a>
-  </div></div>
-</div>
+2017-2020, 2025 · BITS Pilani Goa / ETH Zurich
 
-<p class="project-summary">FPGA, PCB, and hardware-software co-design work for memory characterization, embedded acceleration, ADC/DAC interfacing, and signal-processing systems.</p>
+FPGA, PCB, and hardware-software co-design work for memory characterization, embedded acceleration, ADC/DAC interfacing, and signal-processing systems.
 
-
-<p class="project-links"><a href="/people/#supervised-students">Supervised students</a> <a href="/cv/#student-supervision">CV record</a></p>
-
-<p class="project-outputs"><strong>Outputs</strong></p>
-<ul class="project-output-list">
-  <li><a href="/people/#supervised-students">FPGA-based memristor crossbar array characterization framework</a></li>
-</ul>
-
+### Output
+- FPGA-based memristor crossbar array characterization framework
 </section>
-
-<script>
-(function(){
-  const cards = Array.from(document.querySelectorAll('[data-project-card]'));
-  const links = Array.from(document.querySelectorAll('[data-project-link]'));
-  const index = document.querySelector('[data-project-index]');
-  const status = document.querySelector('[data-project-status]');
-
-  function showProject() {
-    const slug = window.location.hash.replace('#', '');
-    const match = cards.find(card => card.id === slug);
-
-    if (match) {
-      cards.forEach(card => card.hidden = card !== match);
-      links.forEach(link => link.classList.toggle('is-active', link.dataset.projectLink === slug));
-      if (index) index.hidden = true;
-      if (status) status.innerHTML = '<a href="/projects/">All projects</a>';
-      return;
-    }
-
-    cards.forEach(card => card.hidden = true);
-    links.forEach(link => link.classList.remove('is-active'));
-    if (index) index.hidden = false;
-    if (status) status.textContent = 'Choose a project to open its labs, funding, links, and outputs.';
-  }
-
-  window.addEventListener('hashchange', showProject);
-  showProject();
-})();
-</script>

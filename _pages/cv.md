@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -85,6 +85,12 @@ redirect_from:
   color: #444;
   display: inline-block;
   min-width: 9rem;
+}
+.cv-supervision-publications {
+  display: inline;
+}
+.cv-supervision-publications a {
+  white-space: normal;
 }
 .cv-institution-grid {
   display: grid;
@@ -180,7 +186,6 @@ redirect_from:
 <p class="cv-title">Postdoctoral Researcher</p>
 <p class="cv-place"><a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Bio-Inspired Circuits and Systems group</a>, University of Groningen, Netherlands</p>
 <p class="cv-note">ERC SWIMS: stochastic spiking wireless multimodal sensory systems.</p>
-<p class="cv-links"><a href="/projects/#swims">SWIMS</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -188,7 +193,7 @@ redirect_from:
 <p class="cv-title">Postdoctoral Researcher</p>
 <p class="cv-place"><a href="https://neo.ethz.ch/">Neuromorphic Electronics with Oxides group</a>, ETH Zurich, Switzerland</p>
 <p class="cv-note">Ferroelectric-oxide devices and bio-inspired computing.</p>
-<p class="cv-links"><a href="/projects/#vitfox">VITFOX</a> <a href="/publications/#vitfox--ferroelectric-learning">Publications</a></p>
+<p class="cv-links"><a href="/publications/#personalized-spiking-neural-networks">Publications</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -202,7 +207,7 @@ redirect_from:
 <p class="cv-title">Doctoral Researcher</p>
 <p class="cv-place">LN2-CNRS / Université de Sherbrooke, Canada</p>
 <p class="cv-note">Neuromorphic in-memory learning with analog circuits and nanoscale memristive devices.</p>
-<p class="cv-links"><a href="/projects/#unico">UNICO</a> <a href="/projects/#ionos">IONOS</a> <a href="/publications/#unico--in-memory-learning">Publications</a></p>
+<p class="cv-links"><a href="/publications/#vdsp-memristors">Publications</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -210,7 +215,6 @@ redirect_from:
 <p class="cv-title">Research Professional</p>
 <p class="cv-place">3IT.AI / Université de Sherbrooke, Canada</p>
 <p class="cv-note">Applied neuromorphic and AI workflows during the PhD.</p>
-<p class="cv-links"><a href="/projects/#unico">UNICO</a> <a href="/projects/#ionos">IONOS</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -218,7 +222,7 @@ redirect_from:
 <p class="cv-title">Doctoral Researcher</p>
 <p class="cv-place">IEMN-CNRS / University of Lille, France</p>
 <p class="cv-note">Neuromorphic circuits, SNNs, and hardware-compatible learning rules.</p>
-<p class="cv-links"><a href="/projects/#unico">UNICO</a> <a href="/publications/#unico--in-memory-learning">Publications</a></p>
+<p class="cv-links"><a href="/publications/#vdsp-memristors">Publications</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -226,7 +230,7 @@ redirect_from:
 <p class="cv-title">Master’s Thesis / Graduate Research</p>
 <p class="cv-place">3IT, Université de Sherbrooke, Canada</p>
 <p class="cv-note">Neuromorphic reservoir computing and signal-to-spike encoding.</p>
-<p class="cv-links"><a href="/projects/#ionos">IONOS</a> <a href="/publications/#ionos--bio-signal-processing">Publications</a></p>
+<p class="cv-links"><a href="/publications/#signals-to-spikes-emg">Publications</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -234,7 +238,7 @@ redirect_from:
 <p class="cv-title">Undergraduate Student Researcher</p>
 <p class="cv-place">Cognitive Neuroscience Lab, BITS Pilani Goa, India</p>
 <p class="cv-note">EEG-based BCI, assistive interfaces, biometrics, and cognitive-state estimation.</p>
-<p class="cv-links"><a href="/projects/#brain-computer-interfaces">BCI</a> <a href="/publications/#bci--eeg">Publications</a></p>
+<p class="cv-links"><a href="/publications/#portable-eeg-valence-arousal">Publications</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -242,7 +246,6 @@ redirect_from:
 <p class="cv-title">Undergraduate Student Researcher</p>
 <p class="cv-place">Reconfigurable Computing Lab, BITS Pilani Goa, India</p>
 <p class="cv-note">FPGA acceleration, reflectometry-data analysis, and hardware-software co-design.</p>
-<p class="cv-links"><a href="/projects/#fpga-and-embedded-hardware">FPGA and embedded hardware</a></p>
 </article>
 
 <article class="cv-item" markdown="1">
@@ -377,17 +380,15 @@ Birla Institute of Technology and Science Pilani, Goa
 
 ## Student Supervision
 
-Student pages are maintained in [People](/people/); the CV keeps only the supervision timeline.
-
 <div class="cv-compact-list" markdown="1">
-<p><strong>Apr-Jul 2026</strong> <a href="/people/eric-sebastian-hallen/">Eric Sebastian Hallen</a>, <a href="/people/eelco/">Eelco</a> · University of Groningen</p>
-<p><strong>Oct 2025-Jul 2026</strong> <a href="/people/matteo-mazza/">Matteo Mazza</a> · ETH Zurich</p>
-<p><strong>Aug-Dec 2025</strong> <a href="/people/anxiong-song/">Anxiong Song</a>, <a href="/people/niklas-plessnig/">Niklas Plessnig</a> · ETH Zurich</p>
-<p><strong>May-Aug 2025</strong> <a href="/people/marc-rautmann/">Marc Rautmann</a>, <a href="/people/lara-prelij/">Lara Prelij</a>, <a href="/people/sohil-khan/">Sohil Khan</a> · ETH Zurich</p>
-<p><strong>Feb-Jun 2025</strong> <a href="/people/jeff-ren/">Jeff Ren</a> · ETH Zurich</p>
-<p><strong>2021-2022</strong> <a href="/people/guillaume-goupy/">Guillaume Goupy</a> · Université de Sherbrooke · <a href="/publications/#vdsp-convolutional-snn">publication</a></p>
-<p><strong>2020-2021</strong> <a href="/people/rohit-garg/">Rohit Garg</a> · BITS Pilani Goa · <a href="/publications/#portable-eeg-valence-arousal">publication</a></p>
-<p><strong>2019-2020</strong> <a href="/people/akshay-valsaraj/">Akshay Valsaraj</a>, <a href="/people/ishaan-madala/">Ithihas Madala</a> · BITS Pilani Goa · <a href="/publications/#bci--eeg">publications</a></p>
+<p><a href="/people/eric-sebastian-hallen/">Eric Sebastian Hallen</a>, <a href="/people/eelco/">Eelco</a> · University of Groningen</p>
+<p><a href="/people/matteo-mazza/">Matteo Mazza</a> · ETH Zurich · <span class="cv-supervision-publications"><a href="/publications/#analog-weight-update-ferroelectric-hafnia">Analog Weight Update Rule in Ferroelectric Hafnia</a></span></p>
+<p><a href="/people/anxiong-song/">Anxiong Song</a>, <a href="/people/niklas-plessnig/">Niklas Plessnig</a> · ETH Zurich · <span class="cv-supervision-publications"><a href="/publications/#personalized-spiking-neural-networks">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></span></p>
+<p><a href="/people/marc-rautmann/">Marc Rautmann</a>, <a href="/people/lara-prelij/">Lara Prelij</a>, <a href="/people/sohil-khan/">Sohil Khan</a> · ETH Zurich</p>
+<p><a href="/people/jeff-ren/">Jeff Ren</a> · ETH Zurich</p>
+<p><a href="/people/guillaume-goupy/">Guillaume Goupy</a> · Université de Sherbrooke · <span class="cv-supervision-publications"><a href="/publications/#vdsp-convolutional-snn">Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks</a></span></p>
+<p><a href="/people/rohit-garg/">Rohit Garg</a> · BITS Pilani Goa · <span class="cv-supervision-publications"><a href="/publications/#portable-eeg-valence-arousal">Decoding valence and arousal from portable EEG</a></span></p>
+<p><a href="/people/akshay-valsaraj/">Akshay Valsaraj</a>, <a href="/people/ishaan-madala/">Ithihas Madala</a> · BITS Pilani Goa · <span class="cv-supervision-publications"><a href="/publications/#alzheimer-bert-speech">Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT</a>; <a href="/publications/#motor-imagery-biometrics">Motor Imagery Based Multimodal Biometric User Authentication System Using EEG</a></span></p>
 </div>
 
 ## Teaching, Service, and Outreach

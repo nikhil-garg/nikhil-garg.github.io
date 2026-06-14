@@ -4,16 +4,9 @@ category: "Mentor"
 mentor_order: 5
 initials: "JR"
 affiliation: "Université de Sherbrooke"
-links:
-  - label: "UNICO"
-    url: "/projects/#unico"
-    icon: "fas fa-project-diagram"
-  - label: "IONOS"
-    url: "/projects/#ionos"
-    icon: "fas fa-flask"
 ---
 
-## Associated publications
+## Publications
 
 - [Voltage-dependent synaptic plasticity](/publications/#voltage-dependent-synaptic-plasticity)
 - [Signals to spikes for neuromorphic regulated reservoir computing and EMG hand gesture recognition](/publications/#signals-to-spikes-emg)

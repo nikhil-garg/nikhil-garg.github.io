@@ -4,13 +4,9 @@ category: "Mentor"
 mentor_order: 6
 initials: "FA"
 affiliation: "IEMN-CNRS / Université de Lille"
-links:
-  - label: "UNICO"
-    url: "/projects/#unico"
-    icon: "fas fa-project-diagram"
 ---
 
-## Associated publications
+## Publications
 
 - [Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses](/publications/#vdsp-memristors)
 - [Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic circuits](/publications/cmos-lif-neuron/)

@@ -4,19 +4,14 @@ title: "Versatile CMOS analog LIF neuron for memristor-integrated neuromorphic c
 date: 2024-01-01
 venue: "ICONS"
 authors: "N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart, J.-M. Portal"
-project: "UNICO"
-project_url: "/projects/#unico"
 feature_image: "/images/publications/garg-2024-icons-cmos-lif-feature.jpg"
 feature_alt: "CMOS analog LIF neuron circuit and measurement overview"
 paper_links:
   - label: "arXiv"
     url: "https://arxiv.org/abs/2406.19667"
     icon: "fas fa-file-alt"
-  - label: "UNICO"
-    url: "/projects/#unico"
-    icon: "fas fa-project-diagram"
 related_posts:
-  - label: "Local overview"
+  - label: "Blog note"
     url: "/blog/cmos-lif-neuron/"
     icon: "fas fa-link"
   - label: "LinkedIn post"

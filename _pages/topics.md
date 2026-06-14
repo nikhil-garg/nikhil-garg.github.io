@@ -2,7 +2,7 @@
 layout: archive
 title: "Topics"
 permalink: /topics/
-author_profile: true
+author_profile: false
 ---
 
 Browse research topics across publications, people, and video resources.
@@ -201,9 +201,12 @@ Browse research topics across publications, people, and video resources.
 <div class="topic-tools">
   <input class="topic-search" type="search" placeholder="Filter topics, papers, people, or videos" data-topic-filter>
   <a class="topic-reset" href="/topics/">Browse all topics</a>
+  {% assign hidden_project_topics = "swims|vitfox|unico|ionos|bci" | split: "|" %}
   <nav class="topic-cloud" aria-label="Topic keywords">
     {% for topic in site.data.research_topics %}
+      {% unless hidden_project_topics contains topic.slug %}
       <a class="topic-chip" href="/topics/?q={{ topic.slug }}" data-topic-link="{{ topic.slug }}">{{ topic.title }} <span class="topic-count">{{ topic.publications | size }}</span></a>
+      {% endunless %}
     {% endfor %}
   </nav>
 </div>
@@ -212,15 +215,18 @@ Browse research topics across publications, people, and video resources.
 
 <section class="topic-index" data-topic-index aria-label="Topic directory">
 {% for topic in site.data.research_topics %}
+  {% unless hidden_project_topics contains topic.slug %}
   <a class="topic-index-card" href="/topics/?q={{ topic.slug }}" data-topic-index-card data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}">
     <strong>{{ topic.title }}</strong>
     <span>{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}{% if topic.videos.size > 0 %} · {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}{% endif %}</span>
   </a>
+  {% endunless %}
 {% endfor %}
 </section>
 
 <section class="topic-list">
 {% for topic in site.data.research_topics %}
+  {% unless hidden_project_topics contains topic.slug %}
   <article class="topic-panel" id="{{ topic.slug }}" data-topic-panel data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}" hidden>
     <h2>{{ topic.title }}</h2>
     <p class="topic-summary">{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}, {{ topic.people | size }} linked people, and {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}.</p>
@@ -230,7 +236,7 @@ Browse research topics across publications, people, and video resources.
           <a class="topic-card" href="{{ pub.url }}">
             <strong>{{ pub.title }}</strong>
             <span>{{ pub.authors }}</span>
-            <span class="topic-card__meta">{{ pub.venue }}{% if pub.project %} · {{ pub.project }}{% endif %}</span>
+            <span class="topic-card__meta">{{ pub.venue }}</span>
           </a>
         {% endfor %}
       </div>
@@ -261,6 +267,7 @@ Browse research topics across publications, people, and video resources.
       </aside>
     </div>
   </article>
+  {% endunless %}
 {% endfor %}
 </section>
 

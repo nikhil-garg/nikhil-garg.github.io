@@ -12,9 +12,9 @@
   <div class="header-inner">
     <a class="brand" href="../index.html">
       <span class="brand-mark">V</span>
-      <span class="brand-text"><strong>Videos</strong><span>Curated archive</span></span>
+      <span class="brand-text"><strong>Videos</strong><span>Neuromorphic talks</span></span>
     </a>
-    <nav class="nav" aria-label="Main navigation"><a class="" href="../index.html">Home</a><a class="" href="../videos/index.html">All videos</a><a class="" href="../topics/index.html">Topics</a><a class="" href="../events/index.html">Conferences & workshops</a><a class="" href="../speakers/index.html">Speakers</a><a class="" href="../years/index.html">Years</a></nav>
+    <nav class="nav" aria-label="Main navigation"><a class="site-back" href="/">Main site</a><a class="" href="../index.html">Home</a><a class="" href="../videos/index.html">All videos</a><a class="" href="../topics/index.html">Topics</a><a class="" href="../events/index.html">Conferences & workshops</a><a class="" href="../speakers/index.html">Speakers</a><a class="" href="../years/index.html">Years</a></nav>
   </div>
 </header>
 <main>
@@ -23,7 +23,7 @@
   <article class="video-main">
     <h1>muRISCV-NN: Deep-Learning Inference Kernels for Embedded Platforms using the RISC-V Vector and Packed Extensions</h1>
     <iframe class="player" src="https://www.youtube.com/embed/umo0YvjMirw" title="muRISCV-NN: Deep-Learning Inference Kernels for Embedded Platforms using the RISC-V Vector and Packed Extensions" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="meta" style="margin:18px 0 20px;"><a href="../speakers/kempen-philipp.html">Kempen Philipp</a><span>•</span><a href="../events/tinyml.html">TinyML</a><span>•</span><a href="../years/2023.html">2023</a><span>•</span>145 views</div>
+    <div class="meta" style="margin:18px 0 20px;"><a href="../speakers/kempen-philipp.html">Kempen Philipp</a><span>•</span><a href="../events/tinyml.html">TinyML</a><span>•</span><a href="../years/2023.html">2023</a></div>
     <p class="description">muRISCV-NN: Deep-Learning Inference Kernels for Embedded Platforms using the RISC-V Vector and Packed Extensions Philipp VAN KEMPEN PhD Student / Chair of Electronic Design Automation, Technical University of Munich With the rapid adoption of deep learning workloads to resource-constrained edge devices, efficient and data-parallel computing paradigms are becoming increasingly important. To this end, the RISC-V ISA provides two attractive data parallel extensions: The super-word parallel Vector V extension and the sub-word parallel Packed P extension. An increasing number of both academic and commercial RISC-V processors are already implementing these extensions. They provide powerful data computation capabilities to accelerate deep learning workloads at the edge. However, the RISC-V ecosystem lacks a lightweight, open-source, and vendor-agnostic compute library to support these extensions on embedded and ultra-low-power platforms. This requires every processor designer to implement and ship a custom compute-library implementation.. We introduce muRISCV-NN, an open-source compute library for embedded and microcontroller class systems. muRISCV-NN targets to provide an open-source, and vendor-agnostic compute library targeting all RISC-V-compliant platforms for supplying a HW/SW interface between industry-standard deep learning libraries and emerging ultra-low-power compute platforms. Forked from ARM’s CMSIS-NN library, muRISCV-NN provides optimized scalar kernels written in plain C as an efficient and highly portable baseline. Additionally, we provide hand-optimized vectorized kernels employing either the V or P extensions. muRISCV-NN is designed to be lightweight and modular, and is implemented as a static library that can be linked to the application software and accessed through a single header file. Furthermore, muRISCV-NN is bit-accurate to CMSIS-NN and can, thus, be used as a drop-in replacement with only minor changes to the compilation flow. This makes its use with higher-level frameworks completely transparent and enables a seamless transition from ARM-based systems to RISC-V. As a proof of concept, we provide full integration support with both TensorFlow Lite for Microcontrollers and microTVM. We demonstrate the effectiveness of muRISCV-NN on the MLPerf Tiny benchmark, observing up to a 9x speedup and 5x EDP reduction compared to the plain C-Version of CMSIS-NN across all four benchmarks. muRISCV-NN supports the latest RISC-V vector v1.0 and packed v0.9.6 specification, enabling it to run on many open-source and commercial RISC-V processors and simulators. The instruction-level simulators supported by the library include Spike, OVPsim, and ETISS. RISC-V processor support exists for TU Wien’s Vicuna, with active work being done on supporting ETH’s Ara and Spatz cores. In addition, work is ongoing to backport the library to provide support for commercial cores that were taped out before the introduction of the v1.0 vector specification. In terms of toolchain support, muRISCV-NN can be compiled with both GCC and LLVM. The muRISCV-NN project is open source and fully available on GitHub.</p>
     <div class="tags"><a class="tag" href="../topics/neuromorphic-hardware-circuit-chip-design.html">Neuromorphic Hardware › Circuit &amp; Chip Design</a><a class="tag" href="../events/tinyml.html">TinyML</a><a class="tag" href="../speakers/kempen-philipp.html">Kempen Philipp</a><a class="tag" href="../years/2023.html">2023</a></div>
     <p style="margin-top:22px"><a class="btn ghost" href="https://www.youtube.com/watch?v=umo0YvjMirw">Watch on original platform</a></p>
@@ -35,7 +35,7 @@
     </div>
   </aside>
 </div></main>
-<footer class="footer">Curated static video archive.</footer>
-<script src="../assets/search.js"></script>
+<footer class="footer"><a href="/">Nikhil Garg</a> · Neuromorphic video archive.</footer>
+<script src="../assets/search.js?v=2"></script>
 </body>
 </html>

@@ -1,5 +1,24 @@
 
 (function(){
+  function initDirectorySearch(){
+    const directorySearch = document.querySelector('[data-directory-search]');
+    if(!directorySearch || directorySearch.dataset.ready) return;
+    directorySearch.dataset.ready = '1';
+    const items = Array.from(document.querySelectorAll('[data-directory-item]'));
+    const count = document.querySelector('[data-directory-count]');
+    function filterDirectory(){
+      const q = directorySearch.value.trim().toLowerCase();
+      let visible = 0;
+      items.forEach(item => {
+        const ok = !q || (item.dataset.directoryText || item.textContent || '').toLowerCase().includes(q);
+        item.hidden = !ok;
+        if(ok) visible++;
+      });
+      if(count) count.textContent = visible + ' shown';
+    }
+    directorySearch.addEventListener('input', filterDirectory);
+    filterDirectory();
+  }
   const input = document.querySelector('[data-video-search]');
   if(input){
     const cards = Array.from(document.querySelectorAll('.video-card'));
@@ -30,4 +49,6 @@
     input.value = params.get('q');
     input.dispatchEvent(new Event('input'));
   }
+  initDirectorySearch();
+  document.addEventListener('DOMContentLoaded', initDirectorySearch);
 })();
