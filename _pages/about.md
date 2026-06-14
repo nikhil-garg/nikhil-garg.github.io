@@ -129,4 +129,21 @@ redirect_from:
   {% endfor %}
 </section>
 
+{% assign featured_pages = site.pages | where: "featured", true | sort: "featured_order" %}
+{% if featured_pages.size > 0 %}
+<h2>Selected work</h2>
+<section class="site-card-grid" aria-label="Selected work">
+  {% for item in featured_pages limit: 3 %}
+    {% include card.html
+      title=item.title
+      url=item.url
+      eyebrow="Selected"
+      description=item.excerpt
+      cluster_id=item.feature_cluster
+      card_type="CreativeWork"
+    %}
+  {% endfor %}
+</section>
+{% endif %}
+
 <p class="home-note">For a compact record, start with <a href="/cv/">CV</a>. For collaborators and supervised students, use <a href="/people/">People</a>. For talks and teaching material, use <a href="/talks/">Talks</a> and <a href="/teaching/">Teaching</a>.</p>

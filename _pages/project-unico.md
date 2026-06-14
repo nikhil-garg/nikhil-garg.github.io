@@ -3,6 +3,10 @@ layout: archive
 title: "UNICO"
 permalink: /projects/unico/
 author_profile: false
+featured: true
+featured_order: 3
+feature_cluster: algorithms
+excerpt: "Unsupervised spiking neural networks with analog memristive devices for edge computing."
 ---
 
 2021-2024 · PhD Candidate · Université de Lille / Université de Sherbrooke

@@ -3,6 +3,10 @@ layout: archive
 title: "VITFOX"
 permalink: /projects/vitfox/
 author_profile: false
+featured: true
+featured_order: 2
+feature_cluster: devices
+excerpt: "Ferroelectric-oxide hardware and algorithms for neural-network training, including energy-convergence tradeoffs and personalized EEG processing on emerging synaptic devices."
 ---
 
 2025-2026 · Postdoctoral Researcher · ETH Zurich

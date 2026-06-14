@@ -3,6 +3,10 @@ layout: archive
 title: "SWIMS"
 permalink: /projects/swims/
 author_profile: false
+featured: true
+featured_order: 1
+feature_cluster: biosignals
+excerpt: "Stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces."
 ---
 
 2026-present · Postdoctoral Researcher · University of Groningen
