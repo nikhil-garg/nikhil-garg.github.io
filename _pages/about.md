@@ -54,7 +54,6 @@ redirect_from:
   margin: 1rem 0 0;
 }
 .home-actions a,
-.home-card__link,
 .home-chip {
   border: 1px solid #d4d4d4;
   border-radius: 4px;
@@ -70,7 +69,6 @@ redirect_from:
   padding: 0.5rem 0.62rem;
 }
 .home-actions a:hover,
-.home-card__link:hover,
 .home-chip:hover {
   border-color: #526a7a;
   color: #111;
@@ -98,10 +96,6 @@ redirect_from:
   font-size: 0.92rem;
   line-height: 1.45;
   margin: 0 0 0.7rem;
-}
-.home-card__link {
-  font-size: 0.82rem;
-  padding: 0.42rem 0.52rem;
 }
 .home-chip-row {
   display: flex;
@@ -157,7 +151,6 @@ redirect_from:
   <article class="home-card">
     <h2><a href="/projects/swims/">Adaptive neural interfaces</a></h2>
     <p>Current work on stochastic spiking wireless multimodal sensory systems for low-power neural interfaces.</p>
-    <a class="home-card__link" href="/projects/swims/">Open SWIMS</a>
     <div class="home-chip-row">
       <a class="home-chip" href="/topics/?q=eeg">EEG</a>
       <a class="home-chip" href="/topics/?q=spiking-neural-networks">spiking neural networks</a>
@@ -168,7 +161,6 @@ redirect_from:
   <article class="home-card">
     <h2><a href="/projects/vitfox/">Ferroelectric learning hardware</a></h2>
     <p>Device-aware training, energy-convergence tradeoffs, and personalized EEG processing with ferroelectric synapses.</p>
-    <a class="home-card__link" href="/projects/vitfox/">Open VITFOX</a>
     <div class="home-chip-row">
       <a class="home-chip" href="/publications/#personalized-spiking-neural-networks">EEG-Ferro paper</a>
       <a class="home-chip" href="/publications/#analog-weight-update-ferroelectric-hafnia">hafnia update rule</a>
@@ -179,7 +171,6 @@ redirect_from:
   <article class="home-card">
     <h2><a href="/projects/unico/">Memristive in-memory learning</a></h2>
     <p>Analog CMOS neurons, voltage-dependent synaptic plasticity, and memristive devices for local learning.</p>
-    <a class="home-card__link" href="/projects/unico/">Open UNICO</a>
     <div class="home-chip-row">
       <a class="home-chip" href="/publications/#phd-thesis">PhD thesis</a>
       <a class="home-chip" href="/publications/#vdsp-memristors">VDSP</a>
@@ -190,7 +181,6 @@ redirect_from:
   <article class="home-card">
     <h2><a href="/projects/bci/">Biosignal and BCI systems</a></h2>
     <p>EEG, EMG, gesture decoding, affect estimation, assistive interfaces, and embedded hardware pipelines.</p>
-    <a class="home-card__link" href="/projects/bci/">Open BCI work</a>
     <div class="home-chip-row">
       <a class="home-chip" href="/publications/#portable-eeg-valence-arousal">portable EEG</a>
       <a class="home-chip" href="/publications/#signals-to-spikes-emg">EMG spikes</a>

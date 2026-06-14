@@ -7,6 +7,9 @@ authors: "N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Qu
 feature_image: "/images/publications/garg-2024-icons-cmos-lif-feature.jpg"
 feature_alt: "CMOS analog LIF neuron circuit and measurement overview"
 paper_links:
+  - label: "DOI"
+    url: "https://doi.org/10.1109/icons62911.2024.00034"
+    icon: "fas fa-link"
   - label: "arXiv"
     url: "https://arxiv.org/abs/2406.19667"
     icon: "fas fa-file-alt"
