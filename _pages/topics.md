@@ -143,38 +143,17 @@ Browse research topics across publications, people, and video resources.
   color: #666;
   font-size: 0.84rem;
 }
-.topic-index {
-  display: grid;
-  gap: 0.55rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin-top: 1rem;
-}
 .topic-index[hidden] {
   display: none;
 }
-.topic-index-card {
-  border: 1px solid #dedede;
-  border-radius: 6px;
-  color: #333;
-  display: block;
-  padding: 0.68rem 0.75rem;
-  text-decoration: none;
+.topic-cluster {
+  margin-top: 1.35rem;
 }
-.topic-index-card:hover {
-  border-color: #9cb6c4;
-  color: #111;
-  text-decoration: none;
-}
-.topic-index-card strong {
-  display: block;
-  font-size: 0.88rem;
-  line-height: 1.2;
-}
-.topic-index-card span {
-  color: #666;
-  display: block;
-  font-size: 0.75rem;
-  margin-top: 0.2rem;
+.topic-cluster h2 {
+  border-bottom: 1px solid #dedede;
+  font-size: 1.05rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.35rem;
 }
 .topic-tools.is-focused .topic-cloud {
   display: none;
@@ -214,13 +193,31 @@ Browse research topics across publications, people, and video resources.
 <div data-topic-status class="topic-summary"></div>
 
 <section class="topic-index" data-topic-index aria-label="Topic directory">
-{% for topic in site.data.research_topics %}
-  {% unless hidden_project_topics contains topic.slug %}
-  <a class="topic-index-card" href="/topics/?q={{ topic.slug }}" data-topic-index-card data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}">
-    <strong>{{ topic.title }}</strong>
-    <span>{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}{% if topic.videos.size > 0 %} · {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}{% endif %}</span>
-  </a>
-  {% endunless %}
+{% for cluster in site.data.topic_clusters.clusters %}
+  <section class="topic-cluster" id="cluster-{{ cluster.id }}">
+    <h2>{{ cluster.label }}</h2>
+    <div class="site-card-grid">
+      {% for topic in site.data.research_topics %}
+        {% assign topic_cluster_id = site.data.topic_clusters.topic_map[topic.slug] %}
+        {% unless hidden_project_topics contains topic.slug %}
+          {% if topic_cluster_id == cluster.id %}
+            {% capture topic_meta %}{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}{% if topic.videos.size > 0 %}, {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}{% endif %}{% endcapture %}
+            {% assign topic_url = "/topics/?q=" | append: topic.slug %}
+            <div data-topic-index-card data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}">
+              {% include card.html
+                title=topic.title
+                url=topic_url
+                eyebrow=cluster.label
+                meta=topic_meta
+                cluster_id=cluster.id
+                card_type="CreativeWork"
+              %}
+            </div>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </section>
 {% endfor %}
 </section>
 
