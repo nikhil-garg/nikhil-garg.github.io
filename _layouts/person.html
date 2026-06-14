@@ -22,12 +22,6 @@ layout: single
   justify-content: center;
   width: 64px;
 }
-.person-avatar img {
-  border-radius: 50%;
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
 .person-meta {
   color: #555;
   font-size: 0.92rem;
@@ -47,11 +41,7 @@ layout: single
 
 <div class="person-header">
   <div class="person-avatar">
-    {% if page.image %}
-      <img src="{{ page.image }}" alt="{{ page.title }}">
-    {% else %}
-      {{ page.initials }}
-    {% endif %}
+    {{ page.initials }}
   </div>
   <div>
     {% if page.affiliation %}<p class="person-meta">{{ page.affiliation }}</p>{% endif %}

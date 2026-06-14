@@ -75,38 +75,7 @@ redirect_from:
   text-decoration: none;
 }
 .home-grid {
-  display: grid;
-  gap: 0.85rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin: 1.15rem 0 1.6rem;
-}
-.home-card {
-  border: 1px solid #dedede;
-  border-left: 4px solid #526a7a;
-  border-radius: 6px;
-  padding: 0.95rem;
-}
-.home-card h2 {
-  font-size: 1.05rem;
-  line-height: 1.2;
-  margin: 0 0 0.45rem;
-}
-.home-card p {
-  color: #444;
-  font-size: 0.92rem;
-  line-height: 1.45;
-  margin: 0 0 0.7rem;
-}
-.home-chip-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-top: 0.72rem;
-}
-.home-chip {
-  background: #f7f8f9;
-  font-size: 0.78rem;
-  padding: 0.34rem 0.45rem;
 }
 .home-note {
   border-top: 1px solid #dedede;
@@ -147,46 +116,17 @@ redirect_from:
   </figure>
 </section>
 
-<section class="home-grid" aria-label="Research routes">
-  <article class="home-card">
-    <h2><a href="/projects/swims/">Adaptive neural interfaces</a></h2>
-    <p>Current work on stochastic spiking wireless multimodal sensory systems for low-power neural interfaces.</p>
-    <div class="home-chip-row">
-      <a class="home-chip" href="/topics/?q=eeg">EEG</a>
-      <a class="home-chip" href="/topics/?q=spiking-neural-networks">spiking neural networks</a>
-      <a class="home-chip" href="/teaching/videos/">videos</a>
-    </div>
-  </article>
-
-  <article class="home-card">
-    <h2><a href="/projects/vitfox/">Ferroelectric learning hardware</a></h2>
-    <p>Device-aware training, energy-convergence tradeoffs, and personalized EEG processing with ferroelectric synapses.</p>
-    <div class="home-chip-row">
-      <a class="home-chip" href="/publications/#personalized-spiking-neural-networks">EEG-Ferro paper</a>
-      <a class="home-chip" href="/publications/#analog-weight-update-ferroelectric-hafnia">hafnia update rule</a>
-      <a class="home-chip" href="/topics/?q=ferroelectric-synapses">ferroelectric synapses</a>
-    </div>
-  </article>
-
-  <article class="home-card">
-    <h2><a href="/projects/unico/">Memristive in-memory learning</a></h2>
-    <p>Analog CMOS neurons, voltage-dependent synaptic plasticity, and memristive devices for local learning.</p>
-    <div class="home-chip-row">
-      <a class="home-chip" href="/publications/#phd-thesis">PhD thesis</a>
-      <a class="home-chip" href="/publications/#vdsp-memristors">VDSP</a>
-      <a class="home-chip" href="/publications/#cmos-lif-neuron">CMOS LIF neuron</a>
-    </div>
-  </article>
-
-  <article class="home-card">
-    <h2><a href="/projects/bci/">Biosignal and BCI systems</a></h2>
-    <p>EEG, EMG, gesture decoding, affect estimation, assistive interfaces, and embedded hardware pipelines.</p>
-    <div class="home-chip-row">
-      <a class="home-chip" href="/publications/#portable-eeg-valence-arousal">portable EEG</a>
-      <a class="home-chip" href="/publications/#signals-to-spikes-emg">EMG spikes</a>
-      <a class="home-chip" href="/projects/fpga-embedded/">FPGA and embedded</a>
-    </div>
-  </article>
+<section class="home-grid site-card-grid" aria-label="Research routes">
+  {% for cluster in site.data.topic_clusters.clusters %}
+    {% assign cluster_url = "/topics/#cluster-" | append: cluster.id %}
+    {% include card.html
+      title=cluster.blurb
+      url=cluster_url
+      eyebrow=cluster.label
+      cluster_id=cluster.id
+      card_type="CreativeWork"
+    %}
+  {% endfor %}
 </section>
 
 <p class="home-note">For a compact record, start with <a href="/cv/">CV</a>. For collaborators and supervised students, use <a href="/people/">People</a>. For talks and teaching material, use <a href="/talks/">Talks</a> and <a href="/teaching/">Teaching</a>.</p>

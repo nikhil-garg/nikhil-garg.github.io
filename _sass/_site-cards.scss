@@ -1,0 +1,148 @@
+.site-card-grid {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1rem 0 1.5rem;
+}
+
+.site-card {
+  border: 1px solid #dedede;
+  border-left: 4px solid #526a7a;
+  border-radius: 6px;
+  background: #fff;
+  min-height: 100%;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.site-card:hover {
+  border-color: #9cb6c4;
+  box-shadow: 0 8px 22px rgba(17, 24, 39, 0.06);
+  transform: translateY(-1px);
+}
+
+.site-card--biosignals {
+  border-left-color: #526a7a;
+}
+
+.site-card--algorithms {
+  border-left-color: #7b8fa1;
+}
+
+.site-card--devices {
+  border-left-color: #b56f4a;
+}
+
+.site-card--hardware {
+  border-left-color: #597f68;
+}
+
+.site-card__main {
+  color: #333;
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: 58px minmax(0, 1fr);
+  padding: 0.85rem;
+  text-decoration: none;
+}
+
+.site-card__main:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+.site-card__image,
+.site-card__monogram {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  width: 58px;
+}
+
+.site-card__image {
+  display: block;
+  object-fit: cover;
+}
+
+.site-card__monogram {
+  align-items: center;
+  background: #f5f7fa;
+  border: 1px solid #d8dde5;
+  color: #526a7a;
+  display: inline-flex;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.site-card__body {
+  display: block;
+  min-width: 0;
+}
+
+.site-card__eyebrow,
+.site-card__meta,
+.site-card__description,
+.site-card__status {
+  display: block;
+}
+
+.site-card__eyebrow {
+  color: #526a7a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+.site-card__title {
+  display: block;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.site-card__meta {
+  color: #555;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-top: 0.2rem;
+}
+
+.site-card__description {
+  color: #444;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  margin-top: 0.45rem;
+}
+
+.site-card__status {
+  color: #555;
+  font-size: 0.76rem;
+  font-weight: 700;
+  margin-top: 0.45rem;
+  text-transform: uppercase;
+}
+
+.site-card__tags {
+  border-top: 1px solid #ececec;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.65rem 0.85rem 0.85rem;
+}
+
+.site-card__tags a {
+  background: #f7f8f9;
+  border: 1px solid #d6dadd;
+  border-radius: 4px;
+  color: #333;
+  font-size: 0.76rem;
+  line-height: 1;
+  padding: 0.32rem 0.45rem;
+  text-decoration: none;
+}
+
+.site-card__tags a:hover {
+  background: #eef3f6;
+  border-color: #b8c8d2;
+  color: #111;
+  text-decoration: none;
+}
