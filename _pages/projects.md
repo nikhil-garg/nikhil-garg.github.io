@@ -44,12 +44,12 @@ redirect_from:
 </style>
 
 <section class="project-grid" aria-label="Project overview">
-  <a class="project-card" href="#swims"><strong>SWIMS</strong><span>2026-present · University of Groningen · spiking wireless multimodal sensory systems</span></a>
-  <a class="project-card" href="#vitfox"><strong>VITFOX</strong><span>2025-2026 · ETH Zurich · ferroelectric synapses and device-aware learning</span></a>
-  <a class="project-card" href="#unico"><strong>UNICO</strong><span>2021-2024 · France/Canada · memristive in-memory learning and analog circuits</span></a>
-  <a class="project-card" href="#ionos"><strong>IONOS</strong><span>2020-2024 · CNRS/UdeS · iono-electronic neuromorphic interfaces</span></a>
-  <a class="project-card" href="#bci"><strong>Brain-Computer Interfaces</strong><span>2017-2021 · BITS Pilani Goa · EEG, BCI, affect decoding, assistive systems</span></a>
-  <a class="project-card" href="#fpga-embedded"><strong>FPGA and Embedded Hardware</strong><span>2017-2020, 2025 · BITS/ETH · FPGA, PCB, characterization systems</span></a>
+  <a class="project-card" href="/projects/swims/"><strong>SWIMS</strong><span>University of Groningen · spiking wireless multimodal sensory systems</span></a>
+  <a class="project-card" href="/projects/vitfox/"><strong>VITFOX</strong><span>ETH Zurich · ferroelectric synapses and device-aware learning</span></a>
+  <a class="project-card" href="/projects/unico/"><strong>UNICO</strong><span>France/Canada · memristive in-memory learning and analog circuits</span></a>
+  <a class="project-card" href="/projects/ionos/"><strong>IONOS</strong><span>CNRS/UdeS · iono-electronic neuromorphic interfaces</span></a>
+  <a class="project-card" href="/projects/bci/"><strong>Brain-Computer Interfaces</strong><span>BITS Pilani Goa · EEG, BCI, affect decoding, assistive systems</span></a>
+  <a class="project-card" href="/projects/fpga-embedded/"><strong>FPGA and Embedded Hardware</strong><span>BITS/ETH · FPGA, PCB, characterization systems</span></a>
 </section>
 
 <section id="swims" markdown="1">
