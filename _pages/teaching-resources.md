@@ -5,8 +5,6 @@ permalink: /teaching/resources/
 author_profile: false
 ---
 
-Readings and tools for self-study.
-
 <h2>Readings</h2>
 <ul>
   <li><a href="https://arxiv.org/abs/1611.08024">EEGNet</a>: compact baseline for EEG decoding.</li>

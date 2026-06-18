@@ -124,11 +124,11 @@ a.video-label:hover {
 <section class="video-hero">
   <div>
     <div class="video-actions">
-      <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>all videos</a>
-      <a href="/files/neuropac-video-archive/topics/index.html"><i class="fas fa-tags"></i>topics</a>
-      <a href="/files/neuropac-video-archive/events/index.html"><i class="fas fa-calendar-alt"></i>events</a>
-      <a href="/files/neuropac-video-archive/speakers/index.html"><i class="fas fa-user-friends"></i>speakers</a>
-      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>original NeuroPAC site</a>
+      <a href="/files/neuropac-video-archive/videos/index.html">All videos</a>
+      <a href="/files/neuropac-video-archive/topics/index.html">Topics</a>
+      <a href="/files/neuropac-video-archive/events/index.html">Events</a>
+      <a href="/files/neuropac-video-archive/speakers/index.html">Speakers</a>
+      <a href="https://www.neuropac.info/video-category/">NeuroPAC source</a>
     </div>
   </div>
 </section>
@@ -228,7 +228,7 @@ a.video-label:hover {
 </script>
 
 <section class="video-section">
-  <h2>Topic Routes</h2>
+  <h2>Topics</h2>
   <div class="topic-list">
     <a class="topic-link" href="/files/neuropac-video-archive/topics/algorithms-learning-learning-approaches.html"><span>Learning approaches</span><strong>74</strong></a>
     <a class="topic-link" href="/files/neuropac-video-archive/topics/sensing-event-based-vision.html"><span>Event-based vision</span><strong>65</strong></a>

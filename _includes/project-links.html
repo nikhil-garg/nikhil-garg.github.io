@@ -11,14 +11,6 @@
         {% endfor %}
       </ul>
     {% endif %}
-    {% if project.people.size > 0 %}
-      <h2>People</h2>
-      <ul>
-        {% for person in project.people %}
-          <li><a href="{{ person.url }}">{{ person.name }}</a></li>
-        {% endfor %}
-      </ul>
-    {% endif %}
   </section>
   <script type="application/ld+json">
   {

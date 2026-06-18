@@ -3,15 +3,13 @@ permalink: /
 title: "Nikhil Garg"
 excerpt: "Postdoctoral researcher in neuromorphic computing and biosignal processing."
 author_profile: false
+hide_title: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
 <style>
-.page__title {
-  display: none;
-}
 .home-profile {
   display: grid;
   gap: 2rem;
@@ -121,17 +119,7 @@ redirect_from:
         <dd>Neuromorphic electronics, biosignals, adaptive hardware, and emerging synaptic devices.</dd>
       </div>
       <div class="home-row">
-        <dt>Pages</dt>
-        <dd class="home-inline-links">
-          <a href="/publications/">Publications</a>
-          <a href="/projects/">Projects</a>
-          <a href="/teaching/">Teaching</a>
-          <a href="/videos/">Videos</a>
-          <a href="/cv/">CV</a>
-        </dd>
-      </div>
-      <div class="home-row">
-        <dt>Selected work</dt>
+        <dt>Work</dt>
         <dd>
           <ul class="home-list">
             <li><a href="https://doi.org/10.1063/5.0319912">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></li>

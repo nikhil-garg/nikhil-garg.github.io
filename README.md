@@ -2,7 +2,7 @@
 
 Source for [nikhil-garg.github.io](https://nikhil-garg.github.io/).
 
-This is a Jekyll/GitHub Pages site for publications, projects, people, teaching material, talks, and the Neuropac video archive.
+This is a Jekyll/GitHub Pages site for publications, projects, teaching material, talks, and the NeuroPAC video archive.
 
 ## Local Development
 

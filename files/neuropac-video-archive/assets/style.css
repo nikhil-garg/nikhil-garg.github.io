@@ -32,11 +32,7 @@ img { max-width: 100%; display: block; }
   display: flex; align-items: center; justify-content: space-between; gap: 22px;
 }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
-.brand-mark {
-  display: none;
-}
 .brand-text strong { display: block; font-size: 1rem; }
-.brand-text span { display: none; }
 .nav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
 .nav a {
   padding: 6px 8px; border-radius: 4px; color: #1f2937; font-weight: 500; font-size: .86rem;
@@ -233,7 +229,6 @@ h3 { margin: 0; letter-spacing: 0; }
   letter-spacing: -0.02em;
 }
 .player { aspect-ratio: 16/9; width: 100%; border: 0; border-radius: 12px; background: #111827; }
-.description { color: #334155; font-size: .94rem; line-height: 1.58; white-space: pre-wrap; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .tag {
   border: 1px solid var(--line); border-radius: 999px; padding: 7px 10px; font-size: .86rem; background: #fbfcfe; color: #344256;
