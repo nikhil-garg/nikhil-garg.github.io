@@ -35,10 +35,6 @@ author_profile: false
 
 <div class="hub-grid">
   <section class="hub-card">
-    <h2>Videos</h2>
-    <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>Videos</a>
-  </section>
-  <section class="hub-card">
     <h2>Presentations</h2>
     <a href="/teaching/presentations/"><i class="fas fa-chalkboard"></i>Presentations</a>
   </section>

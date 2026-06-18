@@ -1,8 +1,10 @@
 ---
 layout: archive
 title: "Videos"
-permalink: /teaching/videos/
+permalink: /videos/
 author_profile: false
+redirect_from:
+  - /teaching/videos/
 ---
 
 <style>
@@ -88,6 +90,13 @@ author_profile: false
   margin-bottom: 0.35rem;
   text-transform: uppercase;
 }
+a.video-label {
+  text-decoration: none;
+}
+a.video-label:hover {
+  color: #333;
+  text-decoration: underline;
+}
 .topic-list {
   display: grid;
   gap: 0.45rem;
@@ -124,34 +133,98 @@ author_profile: false
 </section>
 
 <section class="video-section">
-  <h2>Start Here</h2>
+  <h2>Featured Videos</h2>
   <div class="video-feature-grid">
-    <article class="video-card">
+    <article class="video-card" data-featured-video-card>
       <a class="video-card__media" href="/files/neuropac-video-archive/videos/neuromorphic-principles-for-self-attention-emre-neftci-6836.html"><img loading="lazy" src="https://www.neuropac.info/wp-content/uploads/2025/11/attention.png" alt=""></a>
       <div class="video-card-body">
-        <span class="video-label">Algorithms</span>
+        <a class="video-label" href="/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html">Algorithms</a>
         <h3><a href="/files/neuropac-video-archive/videos/neuromorphic-principles-for-self-attention-emre-neftci-6836.html">Neuromorphic principles for self-attention</a></h3>
         <p>Emre Neftci, Telluride 2025.</p>
       </div>
     </article>
-    <article class="video-card">
+    <article class="video-card" data-featured-video-card>
       <a class="video-card__media" href="/files/neuropac-video-archive/videos/event-based-vision-for-egomotion-estimation-elisabetta-chicca-6984.html"><img loading="lazy" src="https://i.ytimg.com/vi/CGYT6g80Ku8/maxresdefault.jpg" alt=""></a>
       <div class="video-card-body">
-        <span class="video-label">Sensing</span>
+        <a class="video-label" href="/files/neuropac-video-archive/topics/sensing-event-based-vision.html">Sensing</a>
         <h3><a href="/files/neuropac-video-archive/videos/event-based-vision-for-egomotion-estimation-elisabetta-chicca-6984.html">Event-Based Vision for Egomotion Estimation</a></h3>
         <p>Elisabetta Chicca, SNUFA 2025.</p>
       </div>
     </article>
-    <article class="video-card">
+    <article class="video-card" data-featured-video-card>
       <a class="video-card__media" href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html"><img loading="lazy" src="https://img.youtube.com/vi/I2cI_HZdxRU/mqdefault.jpg" alt=""></a>
       <div class="video-card-body">
-        <span class="video-label">Devices</span>
+        <a class="video-label" href="/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html">Devices</a>
         <h3><a href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html">Ferroelectric memristors for BEOL integration</a></h3>
         <p>Laura Bégon-Lours, IEEE ISAF 2023.</p>
       </div>
     </article>
   </div>
 </section>
+
+<script>
+(function(){
+  const pool = [
+    {
+      label: 'Algorithms',
+      topic: '/files/neuropac-video-archive/topics/algorithms-learning-neuromorphic-algorithms.html',
+      title: 'Neuromorphic principles for self-attention',
+      meta: 'Emre Neftci, Telluride 2025.',
+      url: '/files/neuropac-video-archive/videos/neuromorphic-principles-for-self-attention-emre-neftci-6836.html',
+      image: 'https://www.neuropac.info/wp-content/uploads/2025/11/attention.png'
+    },
+    {
+      label: 'Sensing',
+      topic: '/files/neuropac-video-archive/topics/sensing-event-based-vision.html',
+      title: 'Event-Based Vision for Egomotion Estimation',
+      meta: 'Elisabetta Chicca, SNUFA 2025.',
+      url: '/files/neuropac-video-archive/videos/event-based-vision-for-egomotion-estimation-elisabetta-chicca-6984.html',
+      image: 'https://i.ytimg.com/vi/CGYT6g80Ku8/maxresdefault.jpg'
+    },
+    {
+      label: 'Devices',
+      topic: '/files/neuropac-video-archive/topics/materials-devices-emerging-devices.html',
+      title: 'Ferroelectric memristors for BEOL integration',
+      meta: 'Laura Bégon-Lours, IEEE ISAF 2023.',
+      url: '/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html',
+      image: 'https://img.youtube.com/vi/I2cI_HZdxRU/mqdefault.jpg'
+    },
+    {
+      label: 'Tools',
+      topic: '/files/neuropac-video-archive/topics/neuromorphic-hardware-software-tools.html',
+      title: 'Neuromorphic LLMs',
+      meta: 'Jason Eshraghian, TILOS Seminar.',
+      url: '/files/neuropac-video-archive/videos/neuromorphic-llms-tilos-seminar-jason-eshraghian-7364.html',
+      image: 'https://i.ytimg.com/vi/Y5V_3B4wKCI/mqdefault.jpg'
+    },
+    {
+      label: 'Foundations',
+      topic: '/files/neuropac-video-archive/topics/foundations-theory-generic-introductions.html',
+      title: '35 Years of Neuromorphic Systems Engineering',
+      meta: 'André van Schaik, 2025.',
+      url: '/files/neuropac-video-archive/videos/35-years-of-neuromorphic-systems-engineering-professor-andre-van-schaik-inaugura-6595.html',
+      image: 'https://i.ytimg.com/vi/bITFEBlZYIc/mqdefault.jpg'
+    },
+    {
+      label: 'Hardware',
+      topic: '/files/neuropac-video-archive/topics/neuromorphic-hardware-platforms-architectures.html',
+      title: 'Full-stack Co-Design for Neuromorphic Systems',
+      meta: 'Rajit Manohar, NICE 2023.',
+      url: '/files/neuropac-video-archive/videos/full-stack-co-design-for-neuromorphic-systems-rajit-manohar-yale-university-6391.html',
+      image: 'https://i.ytimg.com/vi/S6chVH114M8/mqdefault.jpg'
+    }
+  ];
+  const cards = Array.from(document.querySelectorAll('[data-featured-video-card]'));
+  if (!cards.length) return;
+  const picks = pool.slice().sort(() => Math.random() - 0.5).slice(0, cards.length);
+  cards.forEach((card, index) => {
+    const item = picks[index];
+    card.innerHTML = '<a class="video-card__media" href="' + item.url + '"><img loading="lazy" src="' + item.image + '" alt=""></a>' +
+      '<div class="video-card-body"><a class="video-label" href="' + item.topic + '">' + item.label + '</a>' +
+      '<h3><a href="' + item.url + '">' + item.title + '</a></h3><p>' + item.meta + '</p></div>';
+  });
+})();
+</script>
 
 <section class="video-section">
   <h2>Topic Routes</h2>

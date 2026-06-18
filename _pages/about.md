@@ -126,7 +126,7 @@ redirect_from:
           <a href="/publications/">Publications</a>
           <a href="/projects/">Projects</a>
           <a href="/teaching/">Teaching</a>
-          <a href="/teaching/videos/">Videos</a>
+          <a href="/videos/">Videos</a>
           <a href="/cv/">CV</a>
         </dd>
       </div>
@@ -137,7 +137,7 @@ redirect_from:
             <li><a href="https://doi.org/10.1063/5.0319912">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></li>
             <li><a href="https://doi.org/10.1038/s43246-025-01033-5">Unsupervised local learning based on voltage-dependent synaptic plasticity</a></li>
             <li><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro code</a></li>
-            <li><a href="/teaching/videos/">Neuromorphic video archive</a></li>
+            <li><a href="/videos/">Neuromorphic video archive</a></li>
           </ul>
         </dd>
       </div>
