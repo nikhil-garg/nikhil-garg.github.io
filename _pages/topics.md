@@ -5,8 +5,6 @@ permalink: /topics/
 author_profile: false
 ---
 
-Browse research topics across publications, people, and video resources.
-
 <style>
 .topic-tools {
   border-bottom: 1px solid #dedede;
@@ -178,7 +176,7 @@ Browse research topics across publications, people, and video resources.
 </style>
 
 <div class="topic-tools">
-  <input class="topic-search" type="search" placeholder="Filter topics, papers, people, or videos" data-topic-filter>
+  <input class="topic-search" type="search" placeholder="Search" data-topic-filter>
   <a class="topic-reset" href="/topics/">Browse all topics</a>
   {% assign hidden_project_topics = "swims|vitfox|unico|ionos|bci" | split: "|" %}
   <nav class="topic-cloud" aria-label="Topic keywords">
@@ -201,14 +199,11 @@ Browse research topics across publications, people, and video resources.
         {% assign topic_cluster_id = site.data.topic_clusters.topic_map[topic.slug] %}
         {% unless hidden_project_topics contains topic.slug %}
           {% if topic_cluster_id == cluster.id %}
-            {% capture topic_meta %}{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}{% if topic.videos.size > 0 %}, {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}{% endif %}{% endcapture %}
             {% assign topic_url = "/topics/?q=" | append: topic.slug %}
             <div data-topic-index-card data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}">
               {% include card.html
                 title=topic.title
                 url=topic_url
-                eyebrow=cluster.label
-                meta=topic_meta
                 cluster_id=cluster.id
                 card_type="CreativeWork"
               %}
@@ -226,7 +221,6 @@ Browse research topics across publications, people, and video resources.
   {% unless hidden_project_topics contains topic.slug %}
   <article class="topic-panel" id="{{ topic.slug }}" data-topic-panel data-topic-slug="{{ topic.slug }}" data-topic-text="{{ topic.title | downcase | escape }} {% for pub in topic.publications %}{{ pub.title | downcase | escape }} {{ pub.authors | downcase | escape }} {% endfor %}{% for person in topic.people %}{{ person.title | downcase | escape }} {{ person.affiliation | downcase | escape }} {% endfor %}" hidden>
     <h2>{{ topic.title }}</h2>
-    <p class="topic-summary">{{ topic.publications | size }} paper{% unless topic.publications.size == 1 %}s{% endunless %}, {{ topic.people | size }} linked people, and {{ topic.videos | size }} video route{% unless topic.videos.size == 1 %}s{% endunless %}.</p>
     <div class="topic-grid">
       <div>
         {% for pub in topic.publications %}
@@ -289,8 +283,8 @@ Browse research topics across publications, people, and video resources.
         links.forEach(link => link.classList.toggle('is-active', link.dataset.topicLink === slug));
         if (index) index.hidden = true;
         if (tools) tools.classList.add('is-focused');
-        if (input) input.placeholder = 'Search within topics';
-        status.textContent = 'Showing selected topic.';
+        if (input) input.placeholder = 'Search';
+        status.textContent = '';
         return;
       }
     }
@@ -299,7 +293,7 @@ Browse research topics across publications, people, and video resources.
     indexCards.forEach(card => card.hidden = false);
     if (index) index.hidden = false;
     if (tools) tools.classList.remove('is-focused');
-    status.textContent = 'Choose a topic to open its papers, people, and videos.';
+    status.textContent = '';
   }
 
   function filterTopics() {
@@ -321,7 +315,7 @@ Browse research topics across publications, people, and video resources.
       link.classList.remove('is-active');
     });
     if (tools) tools.classList.toggle('is-focused', false);
-    status.textContent = q ? visible + ' matching topics.' : 'Showing all topics.';
+    status.textContent = q ? visible + ' matching topics.' : '';
   }
 
   showTopic(selected);

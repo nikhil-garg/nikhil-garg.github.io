@@ -2,11 +2,8 @@
   title: "SWIMS"
   url: "/projects/swims/"
   cluster: biosignals
-  status: active
   meta: "2026-present, University of Groningen"
   role: "Postdoctoral Researcher"
-  funding: "SWIMS"
-  summary: "Stochastic spiking wireless multimodal sensory systems for adaptive, low-power neural interfaces."
   topics:
     - name: "EEG"
       url: "/topics/?q=eeg"
@@ -26,11 +23,8 @@
   title: "VITFOX"
   url: "/projects/vitfox/"
   cluster: devices
-  status: completed
   meta: "2025-2026, ETH Zurich"
   role: "Postdoctoral Researcher"
-  funding: "VITFOX"
-  summary: "Ferroelectric-oxide hardware and algorithms for neural-network training, including energy-convergence tradeoffs and personalized EEG processing on emerging synaptic devices."
   topics:
     - name: "ferroelectric synapses"
       url: "/topics/?q=ferroelectric-synapses"
@@ -58,11 +52,8 @@
   title: "UNICO"
   url: "/projects/unico/"
   cluster: algorithms
-  status: completed
   meta: "2021-2024, Université de Lille / Université de Sherbrooke"
   role: "PhD Candidate"
-  funding: "UNICO"
-  summary: "Unsupervised spiking neural networks with analog memristive devices for edge computing."
   topics:
     - name: "voltage-dependent synaptic plasticity"
       url: "/topics/?q=voltage-dependent-synaptic-plasticity"
@@ -98,11 +89,8 @@
   title: "IONOS"
   url: "/projects/ionos/"
   cluster: devices
-  status: completed
   meta: "2020-2024, CNRS / Université de Sherbrooke"
   role: "Master’s thesis and PhD-related research"
-  funding: "IONOS"
-  summary: "Iono-electronic neuromorphic interfaces for communication with living systems."
   topics:
     - name: "OECT array"
       url: "/topics/?q=oect-array"
@@ -130,11 +118,8 @@
   title: "Brain-Computer Interfaces"
   url: "/projects/bci/"
   cluster: biosignals
-  status: completed
   meta: "2017-2021, BITS Pilani Goa"
   role: "Undergraduate Student Researcher"
-  funding: "BCI"
-  summary: "Real-time EEG and machine-learning pipelines for assistive technology, motor imagery, biometric authentication, cognitive-state estimation, and portable-headset emotion decoding."
   topics:
     - name: "EEG"
       url: "/topics/?q=eeg"
@@ -166,11 +151,8 @@
   title: "FPGA and Embedded Hardware"
   url: "/projects/fpga-embedded/"
   cluster: hardware
-  status: completed
   meta: "2017-2020, 2025, BITS Pilani Goa / ETH Zurich"
   role: "FPGA, PCB, and hardware-software co-design"
-  funding: "FPGA and embedded hardware"
-  summary: "FPGA, PCB, and hardware-software co-design work for memory characterization, embedded acceleration, ADC/DAC interfacing, and signal-processing systems."
   topics:
     - name: "FPGA"
       url: "/topics/?q=neuromorphic-hardware"

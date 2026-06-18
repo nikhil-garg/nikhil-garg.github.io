@@ -10,19 +10,9 @@ author_profile: false
   border-bottom: 1px solid #dedede;
   display: grid;
   gap: 1rem;
-  grid-template-columns: minmax(0, 1.35fr) minmax(15rem, 0.65fr);
+  grid-template-columns: 1fr;
   margin: 0 0 1.2rem;
   padding: 0 0 1rem;
-}
-.video-hero h1 {
-  font-size: 1.55rem;
-  margin: 0 0 0.35rem;
-}
-.video-hero p {
-  color: #444;
-  font-size: 0.94rem;
-  line-height: 1.45;
-  margin-bottom: 0.7rem;
 }
 .video-actions,
 .video-card-actions {
@@ -51,25 +41,6 @@ author_profile: false
   border-color: #777;
   color: #111;
   text-decoration: none;
-}
-.video-stats {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.video-stat {
-  border: 1px solid #e2e2e2;
-  border-radius: 6px;
-  padding: 0.65rem;
-}
-.video-stat strong {
-  display: block;
-  font-size: 1.25rem;
-}
-.video-stat span {
-  color: #555;
-  font-size: 0.76rem;
-  text-transform: uppercase;
 }
 .video-section {
   border-top: 1px solid #dedede;
@@ -163,20 +134,12 @@ author_profile: false
 
 <section class="video-hero">
   <div>
-    <h1>Neuromorphic Videos</h1>
-    <p>Lectures, tutorials, workshops, and conference recordings on neuromorphic hardware, event-based sensing, emerging devices, edge AI, and learning algorithms.</p>
     <div class="video-actions">
       <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>all videos</a>
       <a href="/files/neuropac-video-archive/topics/index.html"><i class="fas fa-tags"></i>topics</a>
       <a href="/files/neuropac-video-archive/events/index.html"><i class="fas fa-calendar-alt"></i>events</a>
       <a href="/files/neuropac-video-archive/speakers/index.html"><i class="fas fa-user-friends"></i>speakers</a>
     </div>
-  </div>
-  <div class="video-stats" aria-label="Video archive statistics">
-    <div class="video-stat"><strong>614</strong><span>videos</span></div>
-    <div class="video-stat"><strong>18</strong><span>topics</span></div>
-    <div class="video-stat"><strong>26</strong><span>events</span></div>
-    <div class="video-stat"><strong>431</strong><span>speakers</span></div>
   </div>
 </section>
 
@@ -218,23 +181,19 @@ author_profile: false
   <div class="browse-grid">
     <article class="browse-card">
       <h3>All videos</h3>
-      <p>Search titles, speakers, events, and topics.</p>
-      <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>open</a>
+      <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>All videos</a>
     </article>
     <article class="browse-card">
       <h3>Topics</h3>
-      <p>Algorithms, devices, sensing, circuits, tools, and applications.</p>
-      <a href="/files/neuropac-video-archive/topics/index.html"><i class="fas fa-tags"></i>open</a>
+      <a href="/files/neuropac-video-archive/topics/index.html"><i class="fas fa-tags"></i>Topics</a>
     </article>
     <article class="browse-card">
       <h3>Events</h3>
-      <p>NICE, Telluride, SNUFA, CVPR, TinyML, ISSCC, and more.</p>
-      <a href="/files/neuropac-video-archive/events/index.html"><i class="fas fa-calendar-alt"></i>open</a>
+      <a href="/files/neuropac-video-archive/events/index.html"><i class="fas fa-calendar-alt"></i>Events</a>
     </article>
     <article class="browse-card">
       <h3>Speakers</h3>
-      <p>Speaker and year indexes.</p>
-      <a href="/files/neuropac-video-archive/speakers/index.html"><i class="fas fa-user-friends"></i>open</a>
+      <a href="/files/neuropac-video-archive/speakers/index.html"><i class="fas fa-user-friends"></i>Speakers</a>
     </article>
   </div>
 </section>

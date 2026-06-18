@@ -1,7 +1,7 @@
 {% assign card_type = include.card_type | default: "CreativeWork" %}
 {% assign cluster_id = include.cluster_id | default: "" %}
 <article class="site-card{% if cluster_id %} site-card--{{ cluster_id }}{% endif %}" itemscope itemtype="https://schema.org/{{ card_type }}">
-  <a class="site-card__main" href="{{ include.url }}" itemprop="url">
+  <a class="site-card__main{% unless include.image or include.initials %} site-card__main--text{% endunless %}" href="{{ include.url }}" itemprop="url">
     {% if include.image %}
       <img class="site-card__image" src="{{ include.image }}" alt="{{ include.image_alt | default: include.title }}" itemprop="image">
     {% elsif include.initials %}
@@ -12,7 +12,6 @@
       <span class="site-card__title" itemprop="name">{{ include.title }}</span>
       {% if include.meta %}<span class="site-card__meta">{{ include.meta }}</span>{% endif %}
       {% if include.description %}<span class="site-card__description" itemprop="description">{{ include.description }}</span>{% endif %}
-      {% if include.status %}<span class="site-card__status">{{ include.status }}</span>{% endif %}
     </span>
   </a>
   {% if include.tags %}

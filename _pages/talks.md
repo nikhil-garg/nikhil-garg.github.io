@@ -5,8 +5,6 @@ permalink: /talks/
 author_profile: false
 ---
 
-Selected invited and conference presentations, grouped by year. For the related technical work, see [projects](/projects/) and [publications](/publications/).
-
 <style>
 .talk-list {
   border-left: 1px solid #d9d9d9;

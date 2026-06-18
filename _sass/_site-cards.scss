@@ -45,6 +45,10 @@
   text-decoration: none;
 }
 
+.site-card__main--text {
+  grid-template-columns: 1fr;
+}
+
 .site-card__main:hover {
   color: #111;
   text-decoration: none;

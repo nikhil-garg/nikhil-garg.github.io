@@ -3,7 +3,6 @@
   <section class="project-related" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="name" content="{{ project.title }}">
     <meta itemprop="url" content="{{ site.url }}{{ project.url }}">
-    {% if project.status %}<p class="site-card__status">{{ project.status }}</p>{% endif %}
     {% if project.topics.size > 0 %}
       <h2>Topics</h2>
       <p class="topic-links">

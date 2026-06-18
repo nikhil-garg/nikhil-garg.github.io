@@ -9,6 +9,9 @@ redirect_from:
 ---
 
 <style>
+.page__title {
+  display: none;
+}
 .home-hero {
   border-bottom: 1px solid #dedede;
   display: grid;
@@ -17,25 +20,6 @@ redirect_from:
   align-items: center;
   margin-bottom: 1.4rem;
   padding-bottom: 1.25rem;
-}
-.home-kicker {
-  color: #526a7a;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  margin: 0 0 0.35rem;
-  text-transform: uppercase;
-}
-.home-hero h1 {
-  font-size: clamp(1.9rem, 4vw, 3rem);
-  line-height: 1.1;
-  margin: 0 0 0.75rem;
-}
-.home-lead {
-  color: #333;
-  font-size: 1.02rem;
-  line-height: 1.55;
-  max-width: 760px;
 }
 .home-portrait {
   margin: 0;
@@ -77,14 +61,6 @@ redirect_from:
 .home-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.home-note {
-  border-top: 1px solid #dedede;
-  color: #444;
-  font-size: 0.94rem;
-  line-height: 1.5;
-  margin-top: 1.2rem;
-  padding-top: 1rem;
-}
 @media (max-width: 720px) {
   .home-hero {
     grid-template-columns: 1fr;
@@ -100,9 +76,6 @@ redirect_from:
 
 <section class="home-hero">
   <div>
-    <p class="home-kicker">Neuromorphic electronics · biosignals · adaptive hardware</p>
-    <h1>Nikhil Garg</h1>
-    <p class="home-lead">I am a postdoctoral researcher at CogniGron, University of Groningen, working on brain-inspired electronics for adaptive, energy-efficient neural interfaces. My work connects biosignal front ends, spiking neural networks, and emerging synaptic devices such as ferroelectric and memristive memories.</p>
     <div class="home-actions">
       <a href="/publications/"><i class="fas fa-file-alt"></i>Publications</a>
       <a href="/projects/"><i class="fas fa-project-diagram"></i>Projects</a>
@@ -120,30 +93,10 @@ redirect_from:
   {% for cluster in site.data.topic_clusters.clusters %}
     {% assign cluster_url = "/topics/#cluster-" | append: cluster.id %}
     {% include card.html
-      title=cluster.blurb
+      title=cluster.label
       url=cluster_url
-      eyebrow=cluster.label
       cluster_id=cluster.id
       card_type="CreativeWork"
     %}
   {% endfor %}
 </section>
-
-{% assign featured_pages = site.pages | where: "featured", true | sort: "featured_order" %}
-{% if featured_pages.size > 0 %}
-<h2>Selected work</h2>
-<section class="site-card-grid" aria-label="Selected work">
-  {% for item in featured_pages limit: 3 %}
-    {% include card.html
-      title=item.title
-      url=item.url
-      eyebrow="Selected"
-      description=item.excerpt
-      cluster_id=item.feature_cluster
-      card_type="CreativeWork"
-    %}
-  {% endfor %}
-</section>
-{% endif %}
-
-<p class="home-note">For a compact record, start with <a href="/cv/">CV</a>. For collaborators and supervised students, use <a href="/people/">People</a>. For talks and teaching material, use <a href="/talks/">Talks</a> and <a href="/teaching/">Teaching</a>.</p>

@@ -22,12 +22,6 @@ author_profile: false
   line-height: 1.25;
   margin: 0 0 0.25rem;
 }
-.hub-card p {
-  color: #555;
-  font-size: 0.86rem;
-  line-height: 1.38;
-  margin-bottom: 0.45rem;
-}
 .hub-card a {
   display: inline-flex;
   gap: 0.3rem;
@@ -42,27 +36,22 @@ author_profile: false
 <div class="hub-grid">
   <section class="hub-card">
     <h2>Videos</h2>
-    <p>Searchable neuromorphic computing lectures, workshops, tutorials, and topic maps.</p>
-    <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>open videos</a>
+    <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>Videos</a>
   </section>
   <section class="hub-card">
     <h2>Presentations</h2>
-    <p>Slides, talks, and public teaching material.</p>
-    <a href="/teaching/presentations/"><i class="fas fa-chalkboard"></i>open presentations</a>
+    <a href="/teaching/presentations/"><i class="fas fa-chalkboard"></i>Presentations</a>
   </section>
   <section class="hub-card">
     <h2>Courses</h2>
-    <p>Course-level material grouped by biosignals, ML, electronics, and neuromorphic systems.</p>
-    <a href="/teaching/courses/"><i class="fas fa-graduation-cap"></i>open courses</a>
+    <a href="/teaching/courses/"><i class="fas fa-graduation-cap"></i>Courses</a>
   </section>
   <section class="hub-card">
     <h2>Resources</h2>
-    <p>Readings, GitHub lists, datasets, and practical tools.</p>
-    <a href="/teaching/resources/"><i class="fas fa-book-open"></i>open resources</a>
+    <a href="/teaching/resources/"><i class="fas fa-book-open"></i>Resources</a>
   </section>
   <section class="hub-card">
     <h2>Paths</h2>
-    <p>BCI, neuromorphic algorithms, electronics, and devices.</p>
-    <a href="/teaching/paths/"><i class="fas fa-route"></i>open paths</a>
+    <a href="/teaching/paths/"><i class="fas fa-route"></i>Paths</a>
   </section>
 </div>
