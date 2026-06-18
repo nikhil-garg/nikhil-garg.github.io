@@ -14,14 +14,12 @@ author_profile: false
   margin: 0 0 1.2rem;
   padding: 0 0 1rem;
 }
-.video-actions,
-.video-card-actions {
+.video-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
 }
 .video-actions a,
-.video-card-actions a,
 .topic-link {
   align-items: center;
   border: 1px solid #d8d8d8;
@@ -34,7 +32,6 @@ author_profile: false
   text-decoration: none;
 }
 .video-actions a:hover,
-.video-card-actions a:hover,
 .topic-link:hover {
   border-color: #777;
   color: #111;
@@ -65,6 +62,9 @@ author_profile: false
   display: block;
   object-fit: cover;
   width: 100%;
+}
+.video-card__media {
+  display: block;
 }
 .video-card-body {
   padding: 0.8rem 0.9rem 0.9rem;
@@ -127,30 +127,27 @@ author_profile: false
   <h2>Start Here</h2>
   <div class="video-feature-grid">
     <article class="video-card">
-      <img loading="lazy" src="https://www.neuropac.info/wp-content/uploads/2025/11/attention.png" alt="">
+      <a class="video-card__media" href="/files/neuropac-video-archive/videos/neuromorphic-principles-for-self-attention-emre-neftci-6836.html"><img loading="lazy" src="https://www.neuropac.info/wp-content/uploads/2025/11/attention.png" alt=""></a>
       <div class="video-card-body">
         <span class="video-label">Algorithms</span>
-        <h3>Neuromorphic principles for self-attention</h3>
+        <h3><a href="/files/neuropac-video-archive/videos/neuromorphic-principles-for-self-attention-emre-neftci-6836.html">Neuromorphic principles for self-attention</a></h3>
         <p>Emre Neftci, Telluride 2025.</p>
-        <div class="video-card-actions"><a href="/files/neuropac-video-archive/videos/neuromorphic-principles-for-self-attention-emre-neftci-6836.html"><i class="fas fa-play-circle"></i>watch</a></div>
       </div>
     </article>
     <article class="video-card">
-      <img loading="lazy" src="https://i.ytimg.com/vi/CGYT6g80Ku8/maxresdefault.jpg" alt="">
+      <a class="video-card__media" href="/files/neuropac-video-archive/videos/event-based-vision-for-egomotion-estimation-elisabetta-chicca-6984.html"><img loading="lazy" src="https://i.ytimg.com/vi/CGYT6g80Ku8/maxresdefault.jpg" alt=""></a>
       <div class="video-card-body">
         <span class="video-label">Sensing</span>
-        <h3>Event-Based Vision for Egomotion Estimation</h3>
+        <h3><a href="/files/neuropac-video-archive/videos/event-based-vision-for-egomotion-estimation-elisabetta-chicca-6984.html">Event-Based Vision for Egomotion Estimation</a></h3>
         <p>Elisabetta Chicca, SNUFA 2025.</p>
-        <div class="video-card-actions"><a href="/files/neuropac-video-archive/videos/event-based-vision-for-egomotion-estimation-elisabetta-chicca-6984.html"><i class="fas fa-play-circle"></i>watch</a></div>
       </div>
     </article>
     <article class="video-card">
-      <img loading="lazy" src="https://img.youtube.com/vi/I2cI_HZdxRU/mqdefault.jpg" alt="">
+      <a class="video-card__media" href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html"><img loading="lazy" src="https://img.youtube.com/vi/I2cI_HZdxRU/mqdefault.jpg" alt=""></a>
       <div class="video-card-body">
         <span class="video-label">Devices</span>
-        <h3>Ferroelectric memristors for BEOL integration</h3>
+        <h3><a href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html">Ferroelectric memristors for BEOL integration</a></h3>
         <p>Laura Bégon-Lours, IEEE ISAF 2023.</p>
-        <div class="video-card-actions"><a href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html"><i class="fas fa-play-circle"></i>watch</a></div>
       </div>
     </article>
   </div>

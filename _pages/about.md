@@ -131,12 +131,13 @@ redirect_from:
         </dd>
       </div>
       <div class="home-row">
-        <dt>Recent papers</dt>
+        <dt>Selected work</dt>
         <dd>
           <ul class="home-list">
             <li><a href="https://doi.org/10.1063/5.0319912">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></li>
-            <li><a href="https://doi.org/10.1002/aelm.202500823">Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming Pulses</a></li>
             <li><a href="https://doi.org/10.1038/s43246-025-01033-5">Unsupervised local learning based on voltage-dependent synaptic plasticity</a></li>
+            <li><a href="https://github.com/NEO-ETHZ/EEG-Ferro">EEG-Ferro code</a></li>
+            <li><a href="/teaching/videos/">Neuromorphic video archive</a></li>
           </ul>
         </dd>
       </div>
