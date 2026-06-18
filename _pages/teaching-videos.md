@@ -22,8 +22,7 @@ author_profile: false
 }
 .video-actions a,
 .video-card-actions a,
-.topic-link,
-.browse-card a {
+.topic-link {
   align-items: center;
   border: 1px solid #d8d8d8;
   border-radius: 4px;
@@ -36,8 +35,7 @@ author_profile: false
 }
 .video-actions a:hover,
 .video-card-actions a:hover,
-.topic-link:hover,
-.browse-card a:hover {
+.topic-link:hover {
   border-color: #777;
   color: #111;
   text-decoration: none;
@@ -76,8 +74,7 @@ author_profile: false
   line-height: 1.25;
   margin: 0 0 0.35rem;
 }
-.video-card p,
-.browse-card p {
+.video-card p {
   color: #555;
   font-size: 0.84rem;
   line-height: 1.38;
@@ -91,21 +88,6 @@ author_profile: false
   margin-bottom: 0.35rem;
   text-transform: uppercase;
 }
-.browse-grid {
-  display: grid;
-  gap: 0.75rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-.browse-card {
-  border: 1px solid #dedede;
-  border-radius: 7px;
-  padding: 0.8rem 0.85rem;
-}
-.browse-card h3 {
-  font-size: 0.95rem;
-  line-height: 1.25;
-  margin: 0 0 0.3rem;
-}
 .topic-list {
   display: grid;
   gap: 0.45rem;
@@ -117,7 +99,6 @@ author_profile: false
 }
 @media (max-width: 900px) {
   .video-feature-grid,
-  .browse-grid,
   .topic-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -125,7 +106,6 @@ author_profile: false
 @media (max-width: 720px) {
   .video-hero,
   .video-feature-grid,
-  .browse-grid,
   .topic-list {
     grid-template-columns: 1fr;
   }
@@ -172,28 +152,6 @@ author_profile: false
         <p>Laura Bégon-Lours, IEEE ISAF 2023.</p>
         <div class="video-card-actions"><a href="/files/neuropac-video-archive/videos/ferroelectric-memristors-for-beol-integration-laura-begon-lours-ieee-isaf-2023-3949.html"><i class="fas fa-play-circle"></i>watch</a></div>
       </div>
-    </article>
-  </div>
-</section>
-
-<section class="video-section">
-  <h2>Browse</h2>
-  <div class="browse-grid">
-    <article class="browse-card">
-      <h3>All videos</h3>
-      <a href="/files/neuropac-video-archive/videos/index.html"><i class="fas fa-play-circle"></i>All videos</a>
-    </article>
-    <article class="browse-card">
-      <h3>Topics</h3>
-      <a href="/files/neuropac-video-archive/topics/index.html"><i class="fas fa-tags"></i>Topics</a>
-    </article>
-    <article class="browse-card">
-      <h3>Events</h3>
-      <a href="/files/neuropac-video-archive/events/index.html"><i class="fas fa-calendar-alt"></i>Events</a>
-    </article>
-    <article class="browse-card">
-      <h3>Speakers</h3>
-      <a href="/files/neuropac-video-archive/speakers/index.html"><i class="fas fa-user-friends"></i>Speakers</a>
     </article>
   </div>
 </section>
