@@ -31,6 +31,11 @@ redirect_from:
   object-fit: cover;
   width: 100%;
 }
+.home-name {
+  font-size: 1.65rem;
+  line-height: 1.15;
+  margin: 0;
+}
 .home-actions {
   display: flex;
   flex-wrap: wrap;
@@ -73,6 +78,7 @@ redirect_from:
 
 <section class="home-hero">
   <div>
+    <h1 class="home-name">Nikhil Garg</h1>
     <div class="home-actions">
       <a href="/publications/"><i class="fas fa-file-alt"></i>Publications</a>
       <a href="/projects/"><i class="fas fa-project-diagram"></i>Projects</a>
