@@ -125,7 +125,6 @@ redirect_from:
         <dd class="home-inline-links">
           <a href="/publications/">Publications</a>
           <a href="/projects/">Projects</a>
-          <a href="/people/">People</a>
           <a href="/teaching/">Teaching</a>
           <a href="/teaching/videos/">Videos</a>
           <a href="/cv/">CV</a>
