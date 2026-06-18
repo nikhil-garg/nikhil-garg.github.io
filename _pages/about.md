@@ -12,17 +12,17 @@ redirect_from:
 .page__title {
   display: none;
 }
-.home-hero {
-  border-bottom: 1px solid #dedede;
+.home-profile {
   display: grid;
-  gap: 1.35rem;
-  grid-template-columns: minmax(0, 1fr) 190px;
-  align-items: center;
-  margin-bottom: 1.4rem;
-  padding-bottom: 1.25rem;
+  gap: 2rem;
+  grid-template-columns: 220px minmax(0, 1fr);
+  margin: 1rem 0 2rem;
+}
+.home-side {
+  align-self: start;
 }
 .home-portrait {
-  margin: 0;
+  margin: 0 0 0.85rem;
 }
 .home-portrait img {
   aspect-ratio: 1;
@@ -34,37 +34,58 @@ redirect_from:
 .home-name {
   font-size: 1.65rem;
   line-height: 1.15;
-  margin: 0;
+  margin: 0 0 0.2rem;
 }
-.home-actions {
+.home-role,
+.home-location {
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  margin: 0.18rem 0;
+}
+.home-links,
+.home-inline-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0 0;
+  gap: 0.35rem 0.75rem;
+  margin-top: 0.8rem;
 }
-.home-actions a,
-.home-chip {
-  border: 1px solid #d4d4d4;
-  border-radius: 4px;
+.home-links a,
+.home-inline-links a {
   color: #333;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.36rem;
-  line-height: 1;
-  text-decoration: none;
+  font-size: 0.9rem;
 }
-.home-actions a {
-  font-size: 0.88rem;
-  padding: 0.5rem 0.62rem;
+.home-main {
+  max-width: 760px;
 }
-.home-actions a:hover,
-.home-chip:hover {
-  border-color: #526a7a;
-  color: #111;
-  text-decoration: none;
+.home-summary {
+  border-top: 1px solid #dedede;
+}
+.home-row {
+  border-bottom: 1px solid #ededed;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  padding: 0.72rem 0;
+}
+.home-row dt {
+  color: #555;
+  font-weight: 700;
+}
+.home-row dd {
+  margin: 0;
+}
+.home-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home-list li + li {
+  margin-top: 0.45rem;
 }
 @media (max-width: 720px) {
-  .home-hero {
+  .home-profile,
+  .home-row {
     grid-template-columns: 1fr;
   }
   .home-portrait {
@@ -76,19 +97,60 @@ redirect_from:
 }
 </style>
 
-<section class="home-hero">
-  <div>
+<section class="home-profile">
+  <aside class="home-side">
+    <figure class="home-portrait">
+      <img src="/images/profile-2026-mountain.jpg" alt="Nikhil Garg">
+    </figure>
     <h1 class="home-name">Nikhil Garg</h1>
-    <div class="home-actions">
-      <a href="/publications/"><i class="fas fa-file-alt"></i>Publications</a>
-      <a href="/projects/"><i class="fas fa-project-diagram"></i>Projects</a>
-      <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>Videos</a>
-      <a href="/teaching/"><i class="fas fa-graduation-cap"></i>Teaching</a>
-      <a href="/people/"><i class="fas fa-user-friends"></i>People</a>
-      <a href="/cv/"><i class="fas fa-id-card"></i>CV</a>
+    <p class="home-role">Postdoctoral researcher</p>
+    <p class="home-location">CogniGron, University of Groningen</p>
+    <div class="home-links">
+      <a href="{{ site.author.googlescholar }}">Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>
+      <a href="{{ site.author.orcid }}">ORCID</a>
+      <a href="mailto:{{ site.author.email }}">Email</a>
     </div>
-  </div>
-  <figure class="home-portrait">
-    <img src="/images/profile-2026-mountain.jpg" alt="Nikhil Garg">
-  </figure>
+  </aside>
+
+  <main class="home-main">
+    <dl class="home-summary">
+      <div class="home-row">
+        <dt>Research</dt>
+        <dd>Neuromorphic electronics, biosignals, adaptive hardware, and emerging synaptic devices.</dd>
+      </div>
+      <div class="home-row">
+        <dt>Pages</dt>
+        <dd class="home-inline-links">
+          <a href="/publications/">Publications</a>
+          <a href="/projects/">Projects</a>
+          <a href="/people/">People</a>
+          <a href="/teaching/">Teaching</a>
+          <a href="/teaching/videos/">Videos</a>
+          <a href="/cv/">CV</a>
+        </dd>
+      </div>
+      <div class="home-row">
+        <dt>Recent papers</dt>
+        <dd>
+          <ul class="home-list">
+            <li><a href="https://doi.org/10.1063/5.0319912">Personalized spiking neural networks with ferroelectric synapses for EEG signal processing</a></li>
+            <li><a href="https://doi.org/10.1002/aelm.202500823">Analog Weight Update Rule in Ferroelectric Hafnia, Using picoJoule Programming Pulses</a></li>
+            <li><a href="https://doi.org/10.1038/s43246-025-01033-5">Unsupervised local learning based on voltage-dependent synaptic plasticity</a></li>
+          </ul>
+        </dd>
+      </div>
+      <div class="home-row">
+        <dt>Projects</dt>
+        <dd class="home-inline-links">
+          <a href="/projects/swims/">SWIMS</a>
+          <a href="/projects/vitfox/">VITFOX</a>
+          <a href="/projects/unico/">UNICO</a>
+          <a href="/projects/ionos/">IONOS</a>
+          <a href="/projects/bci/">BCI</a>
+        </dd>
+      </div>
+    </dl>
+  </main>
 </section>
