@@ -128,6 +128,7 @@ a.video-label:hover {
       <a href="/files/neuropac-video-archive/topics/index.html"><i class="fas fa-tags"></i>topics</a>
       <a href="/files/neuropac-video-archive/events/index.html"><i class="fas fa-calendar-alt"></i>events</a>
       <a href="/files/neuropac-video-archive/speakers/index.html"><i class="fas fa-user-friends"></i>speakers</a>
+      <a href="https://www.neuropac.info/video-category/"><i class="fas fa-external-link-alt"></i>original NeuroPAC site</a>
     </div>
   </div>
 </section>
