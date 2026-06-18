@@ -7,11 +7,34 @@ redirect_from:
   - /network/
 ---
 
-Mentors and students connected to my training and supervision.
-
 <style>
 .people-section {
   margin-top: 1.35rem;
+}
+.people-list {
+  border-top: 1px solid #dedede;
+  list-style: none;
+  margin: 0.65rem 0 1.5rem;
+  padding: 0;
+}
+.people-list li {
+  border-bottom: 1px solid #ededed;
+  display: grid;
+  gap: 0.35rem;
+  grid-template-columns: minmax(10rem, 1fr) minmax(9rem, 0.7fr);
+  padding: 0.5rem 0;
+}
+.people-list a {
+  font-weight: 700;
+}
+.people-affiliation {
+  color: #555;
+  font-size: 0.9rem;
+}
+@media (max-width: 640px) {
+  .people-list li {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -25,18 +48,15 @@ Mentors and students connected to my training and supervision.
   {% endif %}
   <section class="people-section" id="{% if group == "Student" %}supervised-students{% else %}{{ group | downcase }}s{% endif %}">
     <h2>{% if group == "Student" %}Supervised Students{% else %}{{ group }}s{% endif %}</h2>
-    <div class="site-card-grid">
+    <ul class="people-list">
       {% for person in people %}
-        {% include card.html
-          title=person.title
-          url=person.url
-          initials=person.initials
-          eyebrow=person.category
-          meta=person.affiliation
-          card_type="Person"
-        %}
+        {% assign affiliation_parts = person.affiliation | split: " · " %}
+        <li>
+          <a href="{{ person.url }}">{{ person.title }}</a>
+          {% if affiliation_parts[0] %}<span class="people-affiliation">{{ affiliation_parts[0] }}</span>{% endif %}
+        </li>
       {% endfor %}
-    </div>
+    </ul>
   </section>
 {% endfor %}
 </section>

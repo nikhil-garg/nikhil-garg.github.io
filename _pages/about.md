@@ -58,9 +58,6 @@ redirect_from:
   color: #111;
   text-decoration: none;
 }
-.home-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
 @media (max-width: 720px) {
   .home-hero {
     grid-template-columns: 1fr;
@@ -79,24 +76,13 @@ redirect_from:
     <div class="home-actions">
       <a href="/publications/"><i class="fas fa-file-alt"></i>Publications</a>
       <a href="/projects/"><i class="fas fa-project-diagram"></i>Projects</a>
-      <a href="/topics/"><i class="fas fa-tags"></i>Topics</a>
       <a href="/teaching/videos/"><i class="fas fa-play-circle"></i>Videos</a>
+      <a href="/teaching/"><i class="fas fa-graduation-cap"></i>Teaching</a>
+      <a href="/people/"><i class="fas fa-user-friends"></i>People</a>
       <a href="/cv/"><i class="fas fa-id-card"></i>CV</a>
     </div>
   </div>
   <figure class="home-portrait">
     <img src="/images/profile-2026-mountain.jpg" alt="Nikhil Garg">
   </figure>
-</section>
-
-<section class="home-grid site-card-grid" aria-label="Research routes">
-  {% for cluster in site.data.topic_clusters.clusters %}
-    {% assign cluster_url = "/topics/#cluster-" | append: cluster.id %}
-    {% include card.html
-      title=cluster.label
-      url=cluster_url
-      cluster_id=cluster.id
-      card_type="CreativeWork"
-    %}
-  {% endfor %}
 </section>

@@ -3,14 +3,6 @@
   <section class="project-related" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="name" content="{{ project.title }}">
     <meta itemprop="url" content="{{ site.url }}{{ project.url }}">
-    {% if project.topics.size > 0 %}
-      <h2>Topics</h2>
-      <p class="topic-links">
-        {% for topic in project.topics %}
-          <a class="topic-mini-chip" href="{{ topic.url }}">{{ topic.name }}</a>
-        {% endfor %}
-      </p>
-    {% endif %}
     {% if project.publications.size > 0 %}
       <h2>Related publications</h2>
       <ul>
