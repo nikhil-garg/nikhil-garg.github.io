@@ -5,6 +5,8 @@ permalink: /projects/bci/
 author_profile: false
 ---
 
+Brain-computer interfaces for EEG, assistive control, and cognitive-state estimation
+
 2017-2021 · Undergraduate Student Researcher · BITS Pilani Goa
 
 <p><a href="https://github.com/nikhil-garg/Decoding_EEG">Decoding_EEG</a> · <a href="/talks/#2021">Talks</a></p>

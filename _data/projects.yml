@@ -1,7 +1,14 @@
 - slug: swims
   title: "SWIMS"
+  full_title: "Stochastic Spiking Wireless Multimodal Sensory Systems"
   url: "/projects/swims/"
   cluster: biosignals
+  duration: "2026-present"
+  affiliation: "University of Groningen"
+  program: "ERC"
+  source:
+    label: "Lab page"
+    url: "https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/"
   meta: "2026-present, University of Groningen"
   role: "Postdoctoral Researcher"
   topics:
@@ -21,8 +28,15 @@
       url: "/people/eelco/"
 - slug: vitfox
   title: "VITFOX"
+  full_title: "Ferroelectric-oxide hardware and algorithms for neural-network training"
   url: "/projects/vitfox/"
   cluster: devices
+  duration: "2025-2026"
+  affiliation: "ETH Zurich"
+  program: "NEO group"
+  source:
+    label: "EEG-Ferro"
+    url: "https://github.com/NEO-ETHZ/EEG-Ferro"
   meta: "2025-2026, ETH Zurich"
   role: "Postdoctoral Researcher"
   topics:
@@ -50,8 +64,15 @@
       url: "/people/matteo-mazza/"
 - slug: unico
   title: "UNICO"
+  full_title: "Unsupervised spiking neural networks with analog memristive devices for edge computing"
   url: "/projects/unico/"
   cluster: algorithms
+  duration: "2019-2022"
+  affiliation: "Université de Sherbrooke / CHIST-ERA"
+  program: "CHIST-ERA"
+  source:
+    label: "CHIST-ERA"
+    url: "https://www.chistera.eu/projects/unico"
   meta: "2021-2024, Université de Lille / Université de Sherbrooke"
   role: "PhD Candidate"
   topics:
@@ -87,8 +108,15 @@
       url: "/people/damien-querlioz/"
 - slug: ionos
   title: "IONOS"
+  full_title: "An iono-electronic neuromorphic interface for communication with living systems"
   url: "/projects/ionos/"
   cluster: devices
+  duration: "2018-2024"
+  affiliation: "CNRS / Université de Sherbrooke"
+  program: "ERC / H2020"
+  source:
+    label: "CORDIS"
+    url: "https://cordis.europa.eu/project/id/773228"
   meta: "2020-2024, CNRS / Université de Sherbrooke"
   role: "Master’s thesis and PhD-related research"
   topics:
@@ -116,8 +144,15 @@
       url: "/people/jean-rouat/"
 - slug: bci
   title: "Brain-Computer Interfaces"
+  full_title: "Brain-computer interfaces for EEG, assistive control, and cognitive-state estimation"
   url: "/projects/bci/"
   cluster: biosignals
+  duration: "2017-2021"
+  affiliation: "BITS Pilani Goa"
+  program: "Cognitive Neuroscience Lab"
+  source:
+    label: "Code"
+    url: "https://github.com/nikhil-garg/Decoding_EEG"
   meta: "2017-2021, BITS Pilani Goa"
   role: "Undergraduate Student Researcher"
   topics:
@@ -149,8 +184,15 @@
       url: "/people/ishaan-madala/"
 - slug: fpga-embedded
   title: "FPGA and Embedded Hardware"
+  full_title: "FPGA, PCB, and embedded interfaces for sensing and characterization"
   url: "/projects/fpga-embedded/"
   cluster: hardware
+  duration: "2017-2020; 2025"
+  affiliation: "BITS Pilani Goa / ETH Zurich"
+  program: "Hardware systems"
+  source:
+    label: "CV"
+    url: "/cv/#student-supervision"
   meta: "2017-2020, 2025, BITS Pilani Goa / ETH Zurich"
   role: "FPGA, PCB, and hardware-software co-design"
   topics:

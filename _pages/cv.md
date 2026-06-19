@@ -46,7 +46,7 @@ redirect_from:
   margin: 0.4rem 0 0;
 }
 .cv-links a,
-.cv-supervision-list .cv-ref {
+.cv-supervision-table .cv-ref {
   border: 1px solid #d2d2d2;
   border-radius: 4px;
   color: #333;
@@ -59,18 +59,17 @@ redirect_from:
   white-space: nowrap;
 }
 .cv-links a:hover,
-.cv-supervision-list .cv-ref:hover {
+.cv-supervision-table .cv-ref:hover {
   border-color: #777;
   color: #111;
   text-decoration: none;
 }
 .cv-simple-list,
-.cv-supervision-list {
+.cv-supervision-wrap {
   border-top: 1px solid #dedede;
   margin: 0.8rem 0 1.4rem;
 }
-.cv-simple-list p,
-.cv-supervision-row {
+.cv-simple-list p {
   border-bottom: 1px solid #ececec;
   font-size: 0.92rem;
   margin: 0;
@@ -88,25 +87,86 @@ redirect_from:
   font-style: normal;
   margin-top: 0.12rem;
 }
-.cv-supervision-row {
-  display: grid;
-  gap: 0.75rem;
-  grid-template-columns: minmax(8rem, 0.35fr) minmax(0, 1fr) auto;
-}
-.cv-supervision-row strong {
-  color: #333;
-}
-.cv-supervision-row span {
-  color: #555;
+.cv-supervision-table {
+  border-collapse: collapse;
   font-size: 0.9rem;
+  line-height: 1.35;
+  width: 100%;
+}
+.cv-supervision-table th {
+  color: #666;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.cv-supervision-table th,
+.cv-supervision-table td {
+  border-bottom: 1px solid #ececec;
+  padding: 0.5rem 0.55rem 0.5rem 0;
+  vertical-align: top;
+}
+.cv-supervision-table th:last-child,
+.cv-supervision-table td:last-child {
+  padding-right: 0;
+}
+.cv-supervision-table td:nth-child(1) {
+  font-weight: 700;
+  width: 16%;
+}
+.cv-supervision-table td:nth-child(2) {
+  width: 40%;
+}
+.cv-supervision-table td:nth-child(3) {
+  color: #555;
+  width: 10%;
+}
+.cv-supervision-table td:nth-child(4) {
+  color: #555;
+  width: 18%;
+}
+.cv-supervision-table td:nth-child(5) {
+  width: 16%;
+}
+.cv-ref-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+}
+.cv-muted {
+  color: #777;
 }
 @media (max-width: 720px) {
-  .cv-item,
-  .cv-supervision-row {
+  .cv-item {
     grid-template-columns: 1fr;
   }
-  .cv-supervision-row {
-    gap: 0.2rem;
+  .cv-supervision-table,
+  .cv-supervision-table tbody,
+  .cv-supervision-table tr,
+  .cv-supervision-table td {
+    display: block;
+    width: 100%;
+  }
+  .cv-supervision-table thead {
+    display: none;
+  }
+  .cv-supervision-table tr {
+    border-bottom: 1px solid #ececec;
+    padding: 0.5rem 0;
+  }
+  .cv-supervision-table td {
+    border-bottom: 0;
+    padding: 0.16rem 0;
+  }
+  .cv-supervision-table td::before {
+    color: #777;
+    content: attr(data-label);
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
   }
 }
 </style>
@@ -266,27 +326,111 @@ redirect_from:
 
 ## Student Supervision
 
-<div class="cv-supervision-list">
-  <div class="cv-supervision-row">
-    <strong>University of Groningen</strong>
-    <span>Eric Sebastian Hallen; Eelco</span>
-    <span></span>
-  </div>
-  <div class="cv-supervision-row">
-    <strong>ETH Zurich</strong>
-    <span>Matteo Mazza; Anxiong Song; Niklas Plessnig; Marc Rautmann; Lara Prelij; Sohil Khan; Jeff Ren</span>
-    <span><a class="cv-ref" href="/publications/#analog-weight-update-ferroelectric-hafnia" aria-label="Analog Weight Update Rule in Ferroelectric Hafnia">paper</a> <a class="cv-ref" href="/publications/#personalized-spiking-neural-networks" aria-label="Personalized spiking neural networks with ferroelectric synapses for EEG signal processing">paper</a></span>
-  </div>
-  <div class="cv-supervision-row">
-    <strong>Université de Sherbrooke</strong>
-    <span>Guillaume Goupy</span>
-    <span><a class="cv-ref" href="/publications/#vdsp-convolutional-snn" aria-label="Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks">paper</a></span>
-  </div>
-  <div class="cv-supervision-row">
-    <strong>BITS Pilani Goa</strong>
-    <span>Rohit Garg; Akshay Valsaraj; Ithihas Madala</span>
-    <span><a class="cv-ref" href="/publications/#portable-eeg-valence-arousal" aria-label="Decoding valence and arousal from portable EEG">paper</a> <a class="cv-ref" href="/publications/#alzheimer-bert-speech" aria-label="Alzheimer's dementia detection using acoustic and linguistic features and pre-trained BERT">paper</a> <a class="cv-ref" href="/publications/#motor-imagery-biometrics" aria-label="Motor Imagery Based Multimodal Biometric User Authentication System Using EEG">paper</a></span>
-  </div>
+<div class="cv-supervision-wrap">
+<table class="cv-supervision-table">
+  <thead>
+    <tr>
+      <th>Student</th>
+      <th>Project</th>
+      <th>Year</th>
+      <th>Affiliation</th>
+      <th>Papers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Student">Eric Sebastian Hallen</td>
+      <td data-label="Project">SWIMS</td>
+      <td data-label="Year">2026</td>
+      <td data-label="Affiliation">University of Groningen</td>
+      <td data-label="Papers"><span class="cv-muted">-</span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Eelco</td>
+      <td data-label="Project">SWIMS</td>
+      <td data-label="Year">2026</td>
+      <td data-label="Affiliation">University of Groningen</td>
+      <td data-label="Papers"><span class="cv-muted">-</span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Matteo Mazza</td>
+      <td data-label="Project">Analog weight update in ferroelectric hafnia</td>
+      <td data-label="Year">2025-2026</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#analog-weight-update-ferroelectric-hafnia">paper</a></span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Anxiong Song</td>
+      <td data-label="Project">Personalized spiking neural networks with ferroelectric synapses for EEG</td>
+      <td data-label="Year">2025</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#personalized-spiking-neural-networks">paper</a></span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Niklas Plessnig</td>
+      <td data-label="Project">Personalized spiking neural networks with ferroelectric synapses for EEG</td>
+      <td data-label="Year">2025</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#personalized-spiking-neural-networks">paper</a></span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Marc Rautmann</td>
+      <td data-label="Project">Digital integrated-circuit work for bio-inspired spiking neurons</td>
+      <td data-label="Year">2025</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-muted">-</span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Lara Prelij</td>
+      <td data-label="Project">Analog integrated-circuit work for bio-inspired spiking neurons</td>
+      <td data-label="Year">2025</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-muted">-</span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Sohil Khan</td>
+      <td data-label="Project">Physics-based memristive device modeling</td>
+      <td data-label="Year">2025</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-muted">-</span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Jeff Ren</td>
+      <td data-label="Project">FPGA-based memristor crossbar characterization</td>
+      <td data-label="Year">2025</td>
+      <td data-label="Affiliation">ETH Zurich</td>
+      <td data-label="Papers"><span class="cv-muted">-</span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Guillaume Goupy</td>
+      <td data-label="Project">Voltage-dependent synaptic plasticity for convolutional spiking neural networks</td>
+      <td data-label="Year">2021-2022</td>
+      <td data-label="Affiliation">Université de Sherbrooke</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#vdsp-convolutional-snn">paper</a></span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Rohit Garg</td>
+      <td data-label="Project">Valence and arousal decoding from portable EEG</td>
+      <td data-label="Year">2020-2021</td>
+      <td data-label="Affiliation">BITS Pilani Goa</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#portable-eeg-valence-arousal">paper</a></span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Akshay Valsaraj</td>
+      <td data-label="Project">Dementia detection from speech; motor-imagery biometrics</td>
+      <td data-label="Year">2019-2020</td>
+      <td data-label="Affiliation">BITS Pilani Goa</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#alzheimer-bert-speech">paper</a><a class="cv-ref" href="/publications/#motor-imagery-biometrics">paper</a></span></td>
+    </tr>
+    <tr>
+      <td data-label="Student">Ithihas Madala</td>
+      <td data-label="Project">Dementia detection from speech; motor-imagery biometrics</td>
+      <td data-label="Year">2019-2020</td>
+      <td data-label="Affiliation">BITS Pilani Goa</td>
+      <td data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#alzheimer-bert-speech">paper</a><a class="cv-ref" href="/publications/#motor-imagery-biometrics">paper</a></span></td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 ## Teaching, Service, and Outreach

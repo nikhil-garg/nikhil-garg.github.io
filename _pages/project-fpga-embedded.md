@@ -5,6 +5,8 @@ permalink: /projects/fpga-embedded/
 author_profile: false
 ---
 
+FPGA, PCB, and embedded interfaces for sensing and characterization
+
 2017-2020, 2025 · BITS Pilani Goa / ETH Zurich
 
 <p><a href="/cv/#student-supervision">CV record</a></p>
