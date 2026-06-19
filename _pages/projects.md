@@ -12,6 +12,10 @@ redirect_from:
   border-top: 1px solid #dedede;
   margin: 0.8rem 0 1.5rem;
 }
+.breadcrumbs .sep {
+  color: #888;
+  margin: 0 0.25rem;
+}
 .project-row {
   border-bottom: 1px solid #ededed;
   display: grid;
@@ -19,11 +23,14 @@ redirect_from:
   grid-template-columns: minmax(8rem, 0.5fr) minmax(0, 1.35fr) minmax(7rem, 0.38fr) minmax(10rem, 0.65fr) minmax(8rem, 0.48fr);
   padding: 0.72rem 0;
 }
+.project-row > div {
+  min-width: 0;
+}
 .project-row--head {
   color: #666;
   font-size: 0.74rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
   padding: 0.48rem 0;
   text-transform: uppercase;
 }
@@ -32,17 +39,27 @@ redirect_from:
   line-height: 1.25;
   margin: 0;
 }
+.project-row h2 a {
+  border-bottom: 1px solid transparent;
+  color: #333;
+  text-decoration: none;
+}
+.project-row h2 a:hover {
+  border-bottom-color: #333;
+  color: #111;
+  text-decoration: none;
+}
 .project-meta {
   color: #555;
   font-size: 0.88rem;
   line-height: 1.35;
   margin: 0;
 }
-.project-program,
+.project-links,
 .project-pubs {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.25rem 0.65rem;
 }
 .project-funding {
   color: #555;
@@ -52,20 +69,17 @@ redirect_from:
 .project-funding strong {
   color: #444;
 }
-.project-chip {
-  border: 1px solid #d2d2d2;
-  border-radius: 4px;
+.project-link {
+  border-bottom: 1px solid #aaa;
   color: #333;
-  display: inline-flex;
-  font-size: 0.74rem;
+  display: inline;
+  font-size: 0.84rem;
   font-weight: 700;
-  line-height: 1;
-  padding: 0.28rem 0.42rem;
+  line-height: 1.35;
   text-decoration: none;
-  white-space: nowrap;
 }
-.project-chip:hover {
-  border-color: #777;
+.project-link:hover {
+  border-bottom-color: #111;
   color: #111;
   text-decoration: none;
 }
@@ -88,7 +102,7 @@ redirect_from:
     display: block;
     font-size: 0.68rem;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0;
     margin-bottom: 0.12rem;
     text-transform: uppercase;
   }
@@ -117,8 +131,8 @@ redirect_from:
         {% if project.pi %}<div><strong>PI:</strong> {{ project.pi }}</div>{% endif %}
         {% if project.funding %}<div>{{ project.funding }}</div>{% elsif project.program %}<div>{{ project.program }}</div>{% endif %}
       </div>
-      <div data-label="Links" class="project-program">
-        {% if project.source.url %}<a class="project-chip" href="{{ project.source.url }}">{{ project.source.label }}</a>{% endif %}
+      <div data-label="Links" class="project-links">
+        {% if project.source.url %}<a class="project-link" href="{{ project.source.url }}">{{ project.source.label }}</a>{% endif %}
       </div>
     </article>
   {% endfor %}

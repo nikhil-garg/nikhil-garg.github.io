@@ -7,7 +7,7 @@
   affiliation: "University of Groningen"
   program: "ERC project"
   source:
-    label: "Lab page"
+    label: "BICS group"
     url: "https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/"
   meta: "2026 - present, University of Groningen"
   role: "Postdoctoral Researcher"
@@ -44,7 +44,7 @@
   affiliation: "ETH Zurich"
   program: "CHIPS-JU / SNSF"
   source:
-    label: "EEG-Ferro"
+    label: "Code"
     url: "https://github.com/NEO-ETHZ/EEG-Ferro"
   meta: "2025 - 2026, ETH Zurich"
   role: "Postdoctoral Researcher"
@@ -92,7 +92,7 @@
   affiliation: "IEMN-CNRS / LN2-CNRS / Université de Sherbrooke"
   program: "CHIST-ERA"
   source:
-    label: "CHIST-ERA project page"
+    label: "CHIST-ERA"
     url: "https://www.chistera.eu/projects/unico"
   meta: "May 2020 - Nov 2024, Université de Lille / Université de Sherbrooke"
   role: "PhD Candidate"
@@ -151,7 +151,7 @@
   affiliation: "CNRS / Université de Sherbrooke"
   program: "ERC project"
   source:
-    label: "CORDIS project record"
+    label: "CORDIS"
     url: "https://cordis.europa.eu/project/id/773228"
   meta: "May 2020 - Jan 2024, CNRS / Université de Sherbrooke"
   role: "Master’s thesis and PhD-related research"
@@ -200,7 +200,7 @@
   affiliation: "BITS Pilani Goa"
   program: "DST-funded project"
   source:
-    label: "Decoding_EEG code"
+    label: "Code"
     url: "https://github.com/nikhil-garg/Decoding_EEG"
   meta: "May 2017 - Aug 2020, BITS Pilani Goa"
   role: "Undergraduate Student Researcher"
