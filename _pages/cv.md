@@ -167,6 +167,12 @@ redirect_from:
 .cv-affiliation {
   color: #555;
 }
+.cv-education-detail {
+  color: #666;
+  display: block;
+  font-size: 0.82rem;
+  margin-top: 0.12rem;
+}
 .cv-ref-list {
   display: flex;
   flex-wrap: wrap;
@@ -218,7 +224,7 @@ redirect_from:
 <div>
 <p class="cv-title">Postdoctoral Researcher</p>
 <p class="cv-place"><a href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/">Bio-Inspired Circuits and Systems group</a>, University of Groningen, Netherlands</p>
-<p class="cv-note">ERC SWIMS: stochastic spiking wireless multimodal sensory systems.</p>
+<p class="cv-note">Zernike Institute for Advanced Materials / CogniGron. ERC SWIMS: stochastic spiking wireless multimodal sensory system.</p>
 </div>
 </article>
 
@@ -229,7 +235,7 @@ redirect_from:
 <div>
 <p class="cv-title">Postdoctoral Researcher</p>
 <p class="cv-place"><a href="https://neo.ethz.ch/">Neuromorphic Electronics with Oxides group</a>, ETH Zurich, Switzerland</p>
-<p class="cv-note">Ferroelectric-oxide devices and bio-inspired computing.</p>
+<p class="cv-note">Integrated Systems Laboratory, ITET. CHIPS-JU ViTFOX and SNSF ROSUBIO work on ferroelectric oxides for bio-inspired computing.</p>
 <p class="cv-links"><a href="/publications/#personalized-spiking-neural-networks">Publications</a></p>
 </div>
 </article>
@@ -388,13 +394,13 @@ redirect_from:
   </div>
   <div class="cv-education-row">
     <div class="cv-degree" data-label="Degree">PhD</div>
-    <div data-label="Field">Electronics, Microelectronics, Nanotechnology and Microwaves / Electrical Engineering</div>
+    <div data-label="Field">Electronics, Microelectronics, Nanotechnology and Microwaves / Electrical Engineering <span class="cv-education-detail">Related coursework: micro and nano fabrication</span></div>
     <div class="cv-institution" data-label="Institution">University of Lille and Université de Sherbrooke</div>
     <div class="cv-year" data-label="Years">2021-2024</div>
   </div>
   <div class="cv-education-row">
     <div class="cv-degree" data-label="Degree">MSc</div>
-    <div data-label="Field">Biological Sciences</div>
+    <div data-label="Field">Biological Sciences <span class="cv-education-detail">Thesis at 3IT on neuromorphic reservoir computing for neurophysiological signal processing</span></div>
     <div class="cv-institution" data-label="Institution">BITS Pilani Goa</div>
     <div class="cv-year" data-label="Years">2016-2021</div>
   </div>

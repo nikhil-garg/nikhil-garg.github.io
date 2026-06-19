@@ -1,16 +1,25 @@
 - slug: swims
   title: "SWIMS"
-  full_title: "Stochastic Spiking Wireless Multimodal Sensory Systems"
+  full_title: "Stochastic Spiking Wireless Multimodal Sensory System"
   url: "/projects/swims/"
   cluster: biosignals
-  duration: "2026-present"
+  duration: "2026 - present"
   affiliation: "University of Groningen"
-  program: "ERC"
+  program: "ERC project"
   source:
     label: "Lab page"
     url: "https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/"
-  meta: "2026-present, University of Groningen"
+  meta: "2026 - present, University of Groningen"
   role: "Postdoctoral Researcher"
+  funding: "ERC"
+  context: "Bio-Inspired Circuits and Systems group, Zernike Institute for Advanced Materials / CogniGron"
+  links:
+    - label: "BICS group"
+      url: "https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/"
+  contributions:
+    - "Postdoctoral work on stochastic spiking wireless multimodal sensory systems."
+    - "Develops low-power neuromorphic sensing ideas for adaptive neural-interface hardware."
+    - "Supervises SWIMS-related student work at the University of Groningen."
   topics:
     - name: "EEG"
       url: "/topics/?q=eeg"
@@ -28,17 +37,29 @@
       url: "/people/eelco/"
 - slug: vitfox
   title: "VITFOX"
-  full_title: "Ferroelectric-oxide hardware and algorithms for neural-network training"
+  full_title: "Vision transformers with ferroelectric oxides"
   url: "/projects/vitfox/"
   cluster: devices
-  duration: "2025-2026"
+  duration: "2025 - 2026"
   affiliation: "ETH Zurich"
-  program: "NEO group"
+  program: "CHIPS-JU / SNSF"
   source:
     label: "EEG-Ferro"
     url: "https://github.com/NEO-ETHZ/EEG-Ferro"
-  meta: "2025-2026, ETH Zurich"
+  meta: "2025 - 2026, ETH Zurich"
   role: "Postdoctoral Researcher"
+  funding: "CHIPS-JU ViTFOX; SNSF ROSUBIO"
+  context: "Integrated Systems Laboratory, Neuromorphic Electronics with Oxides group"
+  links:
+    - label: "EEG-Ferro code"
+      url: "https://github.com/NEO-ETHZ/EEG-Ferro"
+    - label: "Energy-convergence code"
+      url: "https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026"
+  contributions:
+    - "Worked on ferroelectric-oxide devices and bio-inspired computing in the NEO group."
+    - "Developed personalized spiking-neural-network workflows for EEG signal processing with ferroelectric synapses."
+    - "Connected ferroelectric-hafnia analog weight-update behavior to device-aware learning experiments."
+    - "Studied energy-convergence tradeoffs for training neural networks on bio-inspired hardware."
   topics:
     - name: "ferroelectric synapses"
       url: "/topics/?q=ferroelectric-synapses"
@@ -67,14 +88,29 @@
   full_title: "Unsupervised spiking neural networks with analog memristive devices for edge computing"
   url: "/projects/unico/"
   cluster: algorithms
-  duration: "2019-2022"
-  affiliation: "Université de Sherbrooke / CHIST-ERA"
+  duration: "May 2020 - Nov 2024"
+  affiliation: "IEMN-CNRS / LN2-CNRS / Université de Sherbrooke"
   program: "CHIST-ERA"
   source:
-    label: "CHIST-ERA"
+    label: "CHIST-ERA project page"
     url: "https://www.chistera.eu/projects/unico"
-  meta: "2021-2024, Université de Lille / Université de Sherbrooke"
+  meta: "May 2020 - Nov 2024, Université de Lille / Université de Sherbrooke"
   role: "PhD Candidate"
+  pi: "Prof. Dominique Drouin; Prof. Fabien Alibart"
+  funding: "CHIST-ERA"
+  links:
+    - label: "CHIST-ERA project page"
+      url: "https://www.chistera.eu/projects/unico"
+    - label: "VDSP_Nengo code"
+      url: "https://github.com/nikhil-garg/VDSP_Nengo"
+    - label: "VDSP-Memristors code"
+      url: "https://github.com/nikhil-garg/VDSP-Memristors"
+  contributions:
+    - "Developed an unsupervised Hebbian learning rule for spiking neural networks targeting hardware implementation."
+    - "Mentored work extending voltage-dependent synaptic plasticity to convolutional SNNs for image and speech processing."
+    - "Formulated hardware-compatible plasticity algorithms for resistive and ferroelectric memristive synapses."
+    - "Built models, protocols, and simulation frameworks for system-level neuromorphic evaluation."
+    - "Designed a mixed-signal ASIC prototype connecting analog neuron circuits with nanoscale-device interfaces."
   topics:
     - name: "voltage-dependent synaptic plasticity"
       url: "/topics/?q=voltage-dependent-synaptic-plasticity"
@@ -111,14 +147,27 @@
   full_title: "An iono-electronic neuromorphic interface for communication with living systems"
   url: "/projects/ionos/"
   cluster: devices
-  duration: "2018-2024"
+  duration: "May 2020 - Jan 2024"
   affiliation: "CNRS / Université de Sherbrooke"
-  program: "ERC / H2020"
+  program: "ERC project"
   source:
-    label: "CORDIS"
+    label: "CORDIS project record"
     url: "https://cordis.europa.eu/project/id/773228"
-  meta: "2020-2024, CNRS / Université de Sherbrooke"
+  meta: "May 2020 - Jan 2024, CNRS / Université de Sherbrooke"
   role: "Master’s thesis and PhD-related research"
+  pi: "Prof. Fabien Alibart"
+  funding: "European Research Council"
+  links:
+    - label: "CORDIS project record"
+      url: "https://cordis.europa.eu/project/id/773228"
+    - label: "CORDIS DOI"
+      url: "https://doi.org/10.3030/773228"
+    - label: "EMG_exp code"
+      url: "https://github.com/nikhil-garg/EMG_exp"
+  contributions:
+    - "Created a signal-to-spike workflow and reservoir-computing pipeline for EMG hand-gesture recognition using Python and Brian2."
+    - "Optimized signal encoding and channel selection for neuromorphic biosignal-processing demonstrations using PEDOT dendrites."
+    - "Extended the EMG evaluation framework with organic electrochemical transistor reservoir models."
   topics:
     - name: "OECT array"
       url: "/topics/?q=oect-array"
@@ -147,14 +196,24 @@
   full_title: "Brain-computer interfaces for EEG, assistive control, and cognitive-state estimation"
   url: "/projects/bci/"
   cluster: biosignals
-  duration: "2017-2021"
+  duration: "May 2017 - Aug 2020"
   affiliation: "BITS Pilani Goa"
-  program: "Cognitive Neuroscience Lab"
+  program: "DST-funded project"
   source:
-    label: "Code"
+    label: "Decoding_EEG code"
     url: "https://github.com/nikhil-garg/Decoding_EEG"
-  meta: "2017-2021, BITS Pilani Goa"
+  meta: "May 2017 - Aug 2020, BITS Pilani Goa"
   role: "Undergraduate Student Researcher"
+  pi: "Prof. Veeky Baths"
+  funding: "Department of Science & Technology (DST), Govt. of India"
+  links:
+    - label: "Decoding_EEG code"
+      url: "https://github.com/nikhil-garg/Decoding_EEG"
+  contributions:
+    - "Led a real-time EEG signal-processing and machine-learning pipeline for a low-cost BCI wheelchair prototype."
+    - "Designed motor-imagery BCI workflows using imagined and actual upper-limb movements for biometric authentication."
+    - "Built emotion-detection pipelines with feature extraction, genetic selection, and machine-learning classification."
+    - "Mentored speech-based Alzheimer’s detection work using acoustic, linguistic, and transformer-based models."
   topics:
     - name: "EEG"
       url: "/topics/?q=eeg"
@@ -187,7 +246,7 @@
   full_title: "FPGA, PCB, and embedded interfaces for sensing and characterization"
   url: "/projects/fpga-embedded/"
   cluster: hardware
-  duration: "2017-2020; 2025"
+  duration: "2017 - 2020; 2025"
   affiliation: "BITS Pilani Goa / ETH Zurich"
   program: "Hardware systems"
   source:
@@ -195,6 +254,14 @@
     url: "/cv/#student-supervision"
   meta: "2017-2020, 2025, BITS Pilani Goa / ETH Zurich"
   role: "FPGA, PCB, and hardware-software co-design"
+  links:
+    - label: "CV supervision record"
+      url: "/cv/#student-supervision"
+  contributions:
+    - "Developed an FPGA-controlled characterization PCB for non-volatile memory devices."
+    - "Designed FPGA power/configuration hardware and integrated ADC/DAC interfaces with I2C and SPI control in Verilog."
+    - "Worked on FPGA acceleration, reflectometry-data analysis, and hardware-software co-design at BITS Pilani Goa."
+    - "Supervised 2025 student projects on memristor crossbar characterization, device modeling, and analog/digital spiking-neuron circuits."
   topics:
     - name: "FPGA"
       url: "/topics/?q=neuromorphic-hardware"

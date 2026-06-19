@@ -4,7 +4,7 @@
     <meta itemprop="name" content="{{ project.title }}">
     <meta itemprop="url" content="{{ site.url }}{{ project.url }}">
     {% if project.publications.size > 0 %}
-      <h2>Related publications</h2>
+      <h2 id="related-publications">Related publications</h2>
       <ul>
         {% for publication in project.publications %}
           <li><a href="{{ publication.url }}">{{ publication.title }}</a></li>

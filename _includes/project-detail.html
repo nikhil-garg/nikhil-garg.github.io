@@ -1,0 +1,142 @@
+{% assign project = site.data.projects | where: "slug", include.slug | first %}
+{% if project %}
+<style>
+.project-brief {
+  border-top: 1px solid #dedede;
+  margin: 0.8rem 0 1.5rem;
+}
+.project-lede {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0.72rem 0;
+}
+.project-facts {
+  border-top: 1px solid #ececec;
+  margin: 0;
+}
+.project-fact {
+  border-bottom: 1px solid #ececec;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  padding: 0.5rem 0;
+}
+.project-fact dt {
+  color: #666;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.project-fact dd {
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin: 0;
+}
+.project-source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.65rem 0 0;
+}
+.project-source-links a {
+  border: 1px solid #d2d2d2;
+  border-radius: 4px;
+  color: #333;
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.28rem 0.42rem;
+  text-decoration: none;
+}
+.project-source-links a:hover {
+  border-color: #777;
+  color: #111;
+  text-decoration: none;
+}
+.project-contributions {
+  border-top: 1px solid #dedede;
+  margin: 1.2rem 0 1.5rem;
+}
+.project-contributions h2 {
+  margin-top: 0.8rem;
+}
+.project-contributions ul {
+  margin-top: 0.45rem;
+}
+.project-contributions li {
+  font-size: 0.92rem;
+  line-height: 1.42;
+  margin-bottom: 0.32rem;
+}
+@media (max-width: 720px) {
+  .project-fact {
+    gap: 0.12rem;
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<section class="project-brief">
+  <p class="project-lede">{{ project.full_title }}</p>
+  <dl class="project-facts">
+    <div class="project-fact">
+      <dt>Period</dt>
+      <dd>{{ project.duration }}</dd>
+    </div>
+    <div class="project-fact">
+      <dt>Role</dt>
+      <dd>{{ project.role }}</dd>
+    </div>
+    <div class="project-fact">
+      <dt>Affiliation</dt>
+      <dd>{{ project.affiliation }}</dd>
+    </div>
+    {% if project.pi %}
+    <div class="project-fact">
+      <dt>PI</dt>
+      <dd>{{ project.pi }}</dd>
+    </div>
+    {% endif %}
+    {% if project.funding %}
+    <div class="project-fact">
+      <dt>Funding</dt>
+      <dd>{{ project.funding }}</dd>
+    </div>
+    {% endif %}
+    {% if project.context %}
+    <div class="project-fact">
+      <dt>Context</dt>
+      <dd>{{ project.context }}</dd>
+    </div>
+    {% endif %}
+  </dl>
+  {% if project.links %}
+  <div class="project-source-links">
+    {% for link in project.links %}
+      <a href="{{ link.url }}">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% elsif project.source.url %}
+  <div class="project-source-links">
+    <a href="{{ project.source.url }}">{{ project.source.label }}</a>
+  </div>
+  {% endif %}
+</section>
+
+{% if project.contributions %}
+<section class="project-contributions">
+  <h2>Contributions</h2>
+  <ul>
+    {% for contribution in project.contributions %}
+      <li>{{ contribution }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endif %}

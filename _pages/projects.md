@@ -16,7 +16,7 @@ redirect_from:
   border-bottom: 1px solid #ededed;
   display: grid;
   gap: 0.8rem;
-  grid-template-columns: minmax(8rem, 0.5fr) minmax(0, 1.35fr) minmax(7rem, 0.38fr) minmax(8rem, 0.5fr) minmax(8rem, 0.48fr);
+  grid-template-columns: minmax(8rem, 0.5fr) minmax(0, 1.35fr) minmax(7rem, 0.38fr) minmax(10rem, 0.65fr) minmax(8rem, 0.48fr);
   padding: 0.72rem 0;
 }
 .project-row--head {
@@ -43,6 +43,14 @@ redirect_from:
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
+}
+.project-funding {
+  color: #555;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+.project-funding strong {
+  color: #444;
 }
 .project-chip {
   border: 1px solid #d2d2d2;
@@ -91,9 +99,9 @@ redirect_from:
   <div class="project-row project-row--head" aria-hidden="true">
     <div>Project</div>
     <div>Full name</div>
-    <div>Duration</div>
-    <div>Affiliation</div>
-    <div>Source</div>
+    <div>Period</div>
+    <div>PI / Funding</div>
+    <div>Links</div>
   </div>
   {% for project in site.data.projects %}
     <article class="project-row">
@@ -102,20 +110,16 @@ redirect_from:
       </div>
       <div data-label="Full name">
         <p class="project-meta">{{ project.full_title }}</p>
-        {% if project.publications.size > 0 %}
-          <div class="project-pubs">
-            <a class="project-chip" href="{{ project.url }}#related-publications">{{ project.publications.size }} paper{% unless project.publications.size == 1 %}s{% endunless %}</a>
-          </div>
-        {% endif %}
+        <span class="project-label">{{ project.affiliation }}</span>
       </div>
-      <div data-label="Duration"><span class="project-label">{{ project.duration }}</span></div>
-      <div data-label="Affiliation"><span class="project-label">{{ project.affiliation }}</span></div>
-      <div data-label="Source" class="project-program">
-        {% if project.program %}<span class="project-chip">{{ project.program }}</span>{% endif %}
+      <div data-label="Period"><span class="project-label">{{ project.duration }}</span></div>
+      <div data-label="PI / Funding" class="project-funding">
+        {% if project.pi %}<div><strong>PI:</strong> {{ project.pi }}</div>{% endif %}
+        {% if project.funding %}<div>{{ project.funding }}</div>{% elsif project.program %}<div>{{ project.program }}</div>{% endif %}
+      </div>
+      <div data-label="Links" class="project-program">
         {% if project.source.url %}<a class="project-chip" href="{{ project.source.url }}">{{ project.source.label }}</a>{% endif %}
-        {% if project.publications.size > 0 %}
-          <a class="project-chip" href="{{ project.url }}">details</a>
-        {% endif %}
+        <a class="project-chip" href="{{ project.url }}">details</a>
       </div>
     </article>
   {% endfor %}
