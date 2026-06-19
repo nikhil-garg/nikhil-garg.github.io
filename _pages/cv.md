@@ -64,6 +64,7 @@ redirect_from:
   color: #111;
   text-decoration: none;
 }
+.cv-affiliation-list,
 .cv-simple-list,
 .cv-education-list,
 .cv-supervision-grid {
@@ -87,6 +88,52 @@ redirect_from:
   font-size: 0.85rem;
   font-style: normal;
   margin-top: 0.12rem;
+}
+.cv-affiliation-row {
+  align-items: start;
+  border-bottom: 1px solid #ececec;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  padding: 0.62rem 0;
+}
+.cv-affiliation-period {
+  color: #666;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.cv-affiliation-name {
+  color: #333;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  margin: 0;
+}
+.cv-affiliation-logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin-top: 0.38rem;
+}
+.cv-affiliation-logo {
+  align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  display: inline-flex;
+  height: 2.05rem;
+  justify-content: center;
+  padding: 0.2rem 0.36rem;
+  text-decoration: none;
+}
+.cv-affiliation-logo:hover {
+  border-color: #777;
+}
+.cv-affiliation-logo img {
+  display: block;
+  max-height: 1.55rem;
+  max-width: 5.4rem;
+  object-fit: contain;
 }
 .cv-education-row,
 .cv-supervision-row {
@@ -132,8 +179,12 @@ redirect_from:
   display: none;
 }
 @media (max-width: 720px) {
+  .cv-affiliation-row,
   .cv-item {
     grid-template-columns: 1fr;
+  }
+  .cv-affiliation-row {
+    gap: 0.25rem;
   }
   .cv-grid-head {
     display: none;
@@ -278,11 +329,50 @@ redirect_from:
 
 <section id="places-labs">
   <h2>Affiliations</h2>
-  <div class="cv-simple-list" markdown="1">
-  <p><strong>2026-present</strong> University of Groningen; Bio-Inspired Circuits and Systems</p>
-  <p><strong>2025-2026</strong> ETH Zurich; Neuromorphic Electronics with Oxides</p>
-  <p><strong>2021-2024</strong> IEMN-CNRS; LN2-CNRS; Université de Sherbrooke</p>
-  <p><strong>2017-2020</strong> BITS Pilani Goa; Cognitive Neuroscience Lab; Reconfigurable Computing Lab</p>
+  <div class="cv-affiliation-list">
+  <div class="cv-affiliation-row">
+    <div class="cv-affiliation-period">2026-present</div>
+    <div>
+      <p class="cv-affiliation-name">University of Groningen; Bio-Inspired Circuits and Systems</p>
+      <div class="cv-affiliation-logos">
+        <a class="cv-affiliation-logo" href="https://www.rug.nl/" aria-label="University of Groningen"><img src="/images/logos/university-of-groningen-logo.png" alt="University of Groningen"></a>
+        <a class="cv-affiliation-logo" href="https://www.rug.nl/research/zernike/bio-inspired-circuits-and-systems/" aria-label="Bio-Inspired Circuits and Systems"><img src="/images/logos/bics-logo.png" alt="Bio-Inspired Circuits and Systems"></a>
+      </div>
+    </div>
+  </div>
+  <div class="cv-affiliation-row">
+    <div class="cv-affiliation-period">2025-2026</div>
+    <div>
+      <p class="cv-affiliation-name">ETH Zurich; Neuromorphic Electronics with Oxides</p>
+      <div class="cv-affiliation-logos">
+        <a class="cv-affiliation-logo" href="https://ethz.ch/en.html" aria-label="ETH Zurich"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a>
+        <a class="cv-affiliation-logo" href="https://neo.ethz.ch/" aria-label="Neuromorphic Electronics with Oxides"><img src="/images/logos/neo-ethz-logo.svg" alt="Neuromorphic Electronics with Oxides"></a>
+      </div>
+    </div>
+  </div>
+  <div class="cv-affiliation-row">
+    <div class="cv-affiliation-period">2021-2024</div>
+    <div>
+      <p class="cv-affiliation-name">IEMN-CNRS; LN2-CNRS; Université de Sherbrooke</p>
+      <div class="cv-affiliation-logos">
+        <a class="cv-affiliation-logo" href="https://www.iemn.fr/" aria-label="IEMN"><img src="/images/logos/iemn-logo.png" alt="IEMN"></a>
+        <a class="cv-affiliation-logo" href="https://www.usherbrooke.ca/ln2/" aria-label="LN2"><img src="/images/logos/ln2-logo.png" alt="LN2"></a>
+        <a class="cv-affiliation-logo" href="https://www.usherbrooke.ca/" aria-label="Université de Sherbrooke"><img src="/images/logos/udes-logo.png" alt="Université de Sherbrooke"></a>
+        <a class="cv-affiliation-logo" href="https://www.cnrs.fr/en" aria-label="CNRS"><img src="/images/logos/cnrs-logo.jpg" alt="CNRS"></a>
+      </div>
+    </div>
+  </div>
+  <div class="cv-affiliation-row">
+    <div class="cv-affiliation-period">2017-2020</div>
+    <div>
+      <p class="cv-affiliation-name">BITS Pilani Goa; Cognitive Neuroscience Lab; Reconfigurable Computing Lab</p>
+      <div class="cv-affiliation-logos">
+        <a class="cv-affiliation-logo" href="https://www.bits-pilani.ac.in/goa/" aria-label="BITS Pilani Goa"><img src="/images/logos/bits-logo.png" alt="BITS Pilani Goa"></a>
+        <a class="cv-affiliation-logo" href="https://www.bits-pilani.ac.in/goa/" aria-label="Cognitive Neuroscience Lab"><img src="/images/logos/cns-bits-goa.jpg" alt="Cognitive Neuroscience Lab"></a>
+        <a class="cv-affiliation-logo" href="https://www.bits-pilani.ac.in/goa/" aria-label="Reconfigurable Computing Lab"><img src="/images/logos/rcl-bits-goa.jpg" alt="Reconfigurable Computing Lab"></a>
+      </div>
+    </div>
+  </div>
   </div>
 </section>
 
