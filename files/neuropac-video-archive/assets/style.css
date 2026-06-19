@@ -200,21 +200,72 @@ h3 { margin: 0; letter-spacing: 0; }
   display: none;
 }
 .grid .video-card {
-  display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
+  display: block;
 }
 .grid .video-card .thumb {
-  aspect-ratio: 16 / 10;
-  height: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  width: 100%;
 }
 .grid .video-card .play {
-  display: none;
+  height: 30px;
+  left: 10px;
+  width: 30px;
 }
 .grid .video-card .card-body {
-  padding: 13px 14px;
+  padding: 12px 13px 13px;
 }
 .grid .video-card .card-title {
-  margin-bottom: 7px;
+  font-size: .94rem;
+  line-height: 1.28;
+  margin-bottom: 8px;
+}
+.grid .video-card .meta {
+  font-size: .82rem;
+  gap: 4px 10px;
+}
+.video-pagination {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 24px;
+  padding-top: 18px;
+}
+.video-pagination[hidden] {
+  display: none;
+}
+.video-pagination button {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: #1f2937;
+  cursor: pointer;
+  font: inherit;
+  font-size: .86rem;
+  font-weight: 700;
+  min-width: 36px;
+  padding: 7px 10px;
+}
+.video-pagination button:hover {
+  border-color: #b9c4cf;
+  color: var(--accent);
+}
+.video-pagination button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+.video-pagination button:disabled {
+  color: #a7b0ba;
+  cursor: default;
+}
+.video-pagination__gap {
+  color: var(--muted);
+  font-weight: 700;
+  padding: 7px 2px;
 }
 .video-layout { display: grid; grid-template-columns: minmax(0, 780px) minmax(240px, 300px); gap: 22px; align-items: start; }
 .video-main, .video-side { background: white; border: 1px solid var(--line); border-radius: 7px; padding: 22px; }
@@ -255,7 +306,6 @@ h3 { margin: 0; letter-spacing: 0; }
 @media (max-width: 620px) {
   main { padding: 24px 16px 50px; }
   .grid, .grid.four, .taxonomy-grid { grid-template-columns: 1fr; }
-  .grid .video-card { grid-template-columns: 110px minmax(0, 1fr); }
   .searchbox, .filterbar { flex-direction: column; align-items: stretch; }
   h1 { font-size: 2rem; }
 }
