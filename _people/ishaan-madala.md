@@ -10,5 +10,5 @@ Supervised on motor-imagery biometrics and dementia detection from speech.
 
 ## Publications
 
-- [Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT](/publications/#alzheimer-bert-speech)
-- [Motor Imagery Based Multimodal Biometric User Authentication System Using EEG](/publications/#motor-imagery-biometrics)
+- [Alzheimer’s dementia detection using acoustic and linguistic features and pre-trained BERT](/publications/alzheimer-bert-speech/)
+- [Motor Imagery Based Multimodal Biometric User Authentication System Using EEG](/publications/motor-imagery-biometrics/)

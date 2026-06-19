@@ -58,11 +58,18 @@ redirect_from:
   text-decoration: none;
   white-space: nowrap;
 }
+.cv-supervision-grid .cv-ref {
+  border: 0;
+  color: #3f7b8a;
+  font-size: 0.82rem;
+  padding: 0;
+  white-space: normal;
+}
 .cv-links a:hover,
 .cv-supervision-grid .cv-ref:hover {
   border-color: #777;
-  color: #111;
-  text-decoration: none;
+  color: #1f4f5c;
+  text-decoration: underline;
 }
 .cv-affiliation-list,
 .cv-simple-list,
@@ -176,7 +183,7 @@ redirect_from:
 .cv-ref-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.28rem;
+  gap: 0.25rem 0.55rem;
 }
 .cv-muted {
   color: #777;
@@ -236,7 +243,7 @@ redirect_from:
 <p class="cv-title">Postdoctoral Researcher</p>
 <p class="cv-place"><a href="https://neo.ethz.ch/">Neuromorphic Electronics with Oxides group</a>, ETH Zurich, Switzerland</p>
 <p class="cv-note">Integrated Systems Laboratory, ITET. CHIPS-JU ViTFOX and SNSF ROSUBIO work on ferroelectric oxides for bio-inspired computing.</p>
-<p class="cv-links"><a href="/publications/#personalized-spiking-neural-networks">Publications</a></p>
+<p class="cv-links"><a href="/publications/personalized-spiking-neural-networks/">Publications</a></p>
 </div>
 </article>
 
@@ -248,7 +255,7 @@ redirect_from:
 <p class="cv-title">Doctoral Researcher</p>
 <p class="cv-place">LN2-CNRS / Université de Sherbrooke, Canada</p>
 <p class="cv-note">Neuromorphic in-memory learning with analog circuits and nanoscale memristive devices.</p>
-<p class="cv-links"><a href="/publications/#vdsp-memristors">Publications</a></p>
+<p class="cv-links"><a href="/publications/vdsp-memristors/">Publications</a></p>
 </div>
 </article>
 
@@ -271,7 +278,7 @@ redirect_from:
 <p class="cv-title">Doctoral Researcher</p>
 <p class="cv-place">IEMN-CNRS / University of Lille, France</p>
 <p class="cv-note">Neuromorphic circuits, SNNs, and hardware-compatible learning rules.</p>
-<p class="cv-links"><a href="/publications/#vdsp-memristors">Publications</a></p>
+<p class="cv-links"><a href="/publications/vdsp-memristors/">Publications</a></p>
 </div>
 </article>
 
@@ -283,7 +290,7 @@ redirect_from:
 <p class="cv-title">Master’s Thesis / Graduate Research</p>
 <p class="cv-place">3IT, Université de Sherbrooke, Canada</p>
 <p class="cv-note">Neuromorphic reservoir computing and signal-to-spike encoding.</p>
-<p class="cv-links"><a href="/publications/#signals-to-spikes-emg">Publications</a></p>
+<p class="cv-links"><a href="/publications/signals-to-spikes-emg/">Publications</a></p>
 </div>
 </article>
 
@@ -295,7 +302,7 @@ redirect_from:
 <p class="cv-title">Undergraduate Student Researcher</p>
 <p class="cv-place">Cognitive Neuroscience Lab, BITS Pilani Goa, India</p>
 <p class="cv-note">EEG-based BCI, assistive interfaces, biometrics, and cognitive-state estimation.</p>
-<p class="cv-links"><a href="/publications/#portable-eeg-valence-arousal">Publications</a></p>
+<p class="cv-links"><a href="/publications/portable-eeg-valence-arousal/">Publications</a></p>
 </div>
 </article>
 
@@ -435,98 +442,98 @@ redirect_from:
     <div>Project</div>
     <div>Year</div>
     <div>Affiliation</div>
-    <div>Papers</div>
+    <div>Publications</div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Eric Sebastian Hallen</div>
     <div data-label="Project">SWIMS</div>
     <div class="cv-year" data-label="Year">2026</div>
     <div class="cv-affiliation" data-label="Affiliation">University of Groningen</div>
-    <div class="cv-empty" data-label="Papers"></div>
+    <div class="cv-empty" data-label="Publications"></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Eelco</div>
     <div data-label="Project">SWIMS</div>
     <div class="cv-year" data-label="Year">2026</div>
     <div class="cv-affiliation" data-label="Affiliation">University of Groningen</div>
-    <div class="cv-empty" data-label="Papers"></div>
+    <div class="cv-empty" data-label="Publications"></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Matteo Mazza</div>
     <div data-label="Project">Analog weight update in ferroelectric hafnia</div>
     <div class="cv-year" data-label="Year">2025-2026</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#analog-weight-update-ferroelectric-hafnia">AEM 2026</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/analog-weight-update-ferroelectric-hafnia/">AEM 2026</a></span></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Anxiong Song</div>
     <div data-label="Project">Personalized spiking neural networks with ferroelectric synapses for EEG</div>
     <div class="cv-year" data-label="Year">2025</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#personalized-spiking-neural-networks">APL ML 2026</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/personalized-spiking-neural-networks/">APL ML 2026</a></span></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Niklas Plessnig</div>
     <div data-label="Project">Personalized spiking neural networks with ferroelectric synapses for EEG</div>
     <div class="cv-year" data-label="Year">2025</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#personalized-spiking-neural-networks">APL ML 2026</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/personalized-spiking-neural-networks/">APL ML 2026</a></span></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Marc Rautmann</div>
     <div data-label="Project">Digital integrated-circuit work for bio-inspired spiking neurons</div>
     <div class="cv-year" data-label="Year">2025</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div class="cv-empty" data-label="Papers"></div>
+    <div class="cv-empty" data-label="Publications"></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Lara Prelij</div>
     <div data-label="Project">Analog integrated-circuit work for bio-inspired spiking neurons</div>
     <div class="cv-year" data-label="Year">2025</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div class="cv-empty" data-label="Papers"></div>
+    <div class="cv-empty" data-label="Publications"></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Sohil Khan</div>
     <div data-label="Project">Physics-based memristive device modeling</div>
     <div class="cv-year" data-label="Year">2025</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div class="cv-empty" data-label="Papers"></div>
+    <div class="cv-empty" data-label="Publications"></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Jeff Ren</div>
     <div data-label="Project">FPGA-based memristor crossbar characterization</div>
     <div class="cv-year" data-label="Year">2025</div>
     <div class="cv-affiliation" data-label="Affiliation">ETH Zurich</div>
-    <div class="cv-empty" data-label="Papers"></div>
+    <div class="cv-empty" data-label="Publications"></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Guillaume Goupy</div>
     <div data-label="Project">Voltage-dependent synaptic plasticity for convolutional spiking neural networks</div>
     <div class="cv-year" data-label="Year">2021-2022</div>
     <div class="cv-affiliation" data-label="Affiliation">Université de Sherbrooke</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#vdsp-convolutional-snn">NCE 2023</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/vdsp-convolutional-snn/">NCE 2023</a></span></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Rohit Garg</div>
     <div data-label="Project">Valence and arousal decoding from portable EEG</div>
     <div class="cv-year" data-label="Year">2020-2021</div>
     <div class="cv-affiliation" data-label="Affiliation">BITS Pilani Goa</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#portable-eeg-valence-arousal">Frontiers 2022</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/portable-eeg-valence-arousal/">Frontiers 2022</a></span></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Akshay Valsaraj</div>
     <div data-label="Project">Dementia detection from speech; motor-imagery biometrics</div>
     <div class="cv-year" data-label="Year">2019-2020</div>
     <div class="cv-affiliation" data-label="Affiliation">BITS Pilani Goa</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#alzheimer-bert-speech">ISCMI 2021</a><a class="cv-ref" href="/publications/#motor-imagery-biometrics">CW 2020</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/alzheimer-bert-speech/">ISCMI 2021</a><a class="cv-ref" href="/publications/motor-imagery-biometrics/">CW 2020</a></span></div>
   </div>
   <div class="cv-supervision-row">
     <div class="cv-student" data-label="Student">Ithihas Madala</div>
     <div data-label="Project">Dementia detection from speech; motor-imagery biometrics</div>
     <div class="cv-year" data-label="Year">2019-2020</div>
     <div class="cv-affiliation" data-label="Affiliation">BITS Pilani Goa</div>
-    <div data-label="Papers"><span class="cv-ref-list"><a class="cv-ref" href="/publications/#alzheimer-bert-speech">ISCMI 2021</a><a class="cv-ref" href="/publications/#motor-imagery-biometrics">CW 2020</a></span></div>
+    <div data-label="Publications"><span class="cv-ref-list"><a class="cv-ref" href="/publications/alzheimer-bert-speech/">ISCMI 2021</a><a class="cv-ref" href="/publications/motor-imagery-biometrics/">CW 2020</a></span></div>
   </div>
 </div>
 

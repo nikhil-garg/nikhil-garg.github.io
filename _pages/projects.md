@@ -119,7 +119,6 @@ redirect_from:
       </div>
       <div data-label="Links" class="project-program">
         {% if project.source.url %}<a class="project-chip" href="{{ project.source.url }}">{{ project.source.label }}</a>{% endif %}
-        <a class="project-chip" href="{{ project.url }}">details</a>
       </div>
     </article>
   {% endfor %}

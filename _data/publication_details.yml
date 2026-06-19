@@ -1,0 +1,179 @@
+---
+- id: personalized-spiking-neural-networks
+  kind: Journal article
+  project: VITFOX
+  project_url: /projects/vitfox/
+  image: /images/publications/garg-2026-apl-ml-feature.png
+  image_alt: Personalized EEG decoding workflow with ferroelectric synapse model
+  summary: This work studies personalized spiking neural networks for EEG signal processing and connects adaptive neural decoding with ferroelectric synapse models.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2601.00020
+      icon: fas fa-file-alt
+    - label: code
+      url: https://github.com/NEO-ETHZ/EEG-Ferro
+      icon: fab fa-github
+- id: analog-weight-update-ferroelectric-hafnia
+  kind: Journal article
+  project: VITFOX
+  project_url: /projects/vitfox/
+  image: /images/publications/baigol-2026-aem-feature.png
+  image_alt: Ferroelectric hafnia analog weight update measurements
+  summary: This study characterizes picojoule programming pulses in ferroelectric hafnia and maps device behavior to analog weight-update rules for learning hardware.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2601.01186
+      icon: fas fa-file-alt
+- id: vdsp-memristors
+  kind: Journal article
+  project: UNICO
+  project_url: /projects/unico/
+  summary: This paper extends voltage-dependent synaptic plasticity to resistive and ferroelectric synapses and evaluates the rule for hardware-compatible unsupervised learning.
+  links:
+    - label: Nature
+      url: https://www.nature.com/articles/s43246-025-01033-5
+      icon: fas fa-file-alt
+    - label: code
+      url: https://github.com/nikhil-garg/VDSP-Memristors
+      icon: fab fa-github
+- id: energy-convergence-ferro
+  kind: Conference paper
+  project: VITFOX
+  project_url: /projects/vitfox/
+  image: /images/publications/garg-2026-energy-convergence-feature.png
+  image_alt: Mixed-precision in-memory training schematic
+  summary: This paper analyzes the tradeoff between training energy and convergence when neural-network training is mapped to bio-inspired hardware.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2509.18121
+      icon: fas fa-file-alt
+    - label: code
+      url: https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026
+      icon: fab fa-github
+- id: all-in-one-analog-ai-hardware
+  kind: Journal article
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/falcone-2025-all-in-one-analog-ai-feature.png
+  image_alt: BEOL-integrated analog ReRAM array and 1T1R unit cell
+  summary: This work demonstrates conductive-metal-oxide/HfOx ReRAM hardware for on-chip training and inference in analog AI systems.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2502.04524
+      icon: fas fa-file-alt
+- id: cmos-lif-neuron
+  kind: Conference paper
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/garg-2024-icons-cmos-lif-feature.jpg
+  image_alt: CMOS analog LIF neuron circuit and measurement overview
+  summary: This paper presents a CMOS analog leaky-integrate-and-fire neuron designed for memristor-integrated neuromorphic circuits.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2406.19667
+      icon: fas fa-file-alt
+  related:
+    - label: Blog note
+      url: /blog/cmos-lif-neuron/
+      icon: fas fa-link
+    - label: LinkedIn post
+      url: https://www.linkedin.com/posts/nikhil-garg-bits_neuromorphic-analog-ai-activity-7273994918837071872-jdDP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAB_PrxUBC3G1jJscK5o4lv4kztQxXb9ErrI
+      icon: fab fa-linkedin
+- id: pcm-cryo-snn
+  kind: Journal article
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/joao-2024-pcm-cryo-snn-feature.jpg
+  image_alt: Embedded PCM device and cryogenic probe-station setup
+  summary: This work studies 28 nm FDSOI embedded phase-change memory at cryogenic temperature, highlighting near-zero drift for cryogenic spiking-neural-network systems.
+- id: pcm-drift-compensation
+  kind: Journal article
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/joao-2024-pcm-drift-compensation-feature.png
+  image_alt: Phase-change-memory drift mitigation workflow
+  summary: This paper proposes nonlinear current scaling to compensate phase-change-memory drift in spiking neural networks.
+- id: phd-thesis
+  kind: Thesis
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/garg-2024-thesis-feature.jpg
+  image_alt: Neuromorphic chip micrograph with analog blocks and synaptic array
+  summary: The thesis develops neuromorphic in-memory learning methods across analog integrated circuits, spiking-neural-network algorithms, and nanoscale memristive devices.
+- id: oect-array-snn
+  kind: Journal article
+  project: IONOS
+  project_url: /projects/ionos/
+  image: /images/publications/ghazal-2024-oect-array-snn-feature.jpg
+  image_alt: OECT array and signal classification workflow
+  summary: This work uses organic electrochemical transistor arrays with spiking-neural-network simulations for neuromorphic signal classification.
+- id: vdsp-convolutional-snn
+  kind: Journal article
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/goupy-2023-vdsp-convolutional-snn-feature.jpg
+  image_alt: Sparse convolutional spiking neural network with VDSP learning
+  summary: This paper extends voltage-dependent synaptic plasticity to sparsely activated convolutional spiking neural networks for efficient unsupervised learning.
+- id: pedot-structural-plasticity
+  kind: Journal article
+  project: IONOS
+  project_url: /projects/ionos/
+  image: /images/publications/janzakova-2023-pedot-structural-plasticity-feature.jpg
+  image_alt: PEDOT dendritic structural plasticity between neuromorphic nodes
+  summary: This work studies electropolymerized PEDOT dendritic connections as a route to structural plasticity in neuromorphic networks.
+- id: voltage-dependent-synaptic-plasticity
+  kind: Journal article
+  project: UNICO
+  project_url: /projects/unico/
+  image: /images/publications/garg-2022-vdsp-feature.jpg
+  image_alt: Voltage-dependent synaptic plasticity learning rule overview
+  summary: This paper introduces a probabilistic Hebbian rule driven by membrane potential for unsupervised spiking learning.
+  links:
+    - label: code
+      url: https://github.com/nikhil-garg/VDSP_Nengo
+      icon: fab fa-github
+- id: portable-eeg-valence-arousal
+  kind: Journal article
+  project: Brain-Computer Interfaces
+  project_url: /projects/bci/
+  summary: This paper decodes valence and arousal signatures from a portable EEG headset using signal processing and machine-learning workflows.
+  links:
+    - label: code
+      url: https://github.com/nikhil-garg/Decoding_EEG
+      icon: fab fa-github
+- id: signals-to-spikes-emg
+  kind: Conference paper
+  project: IONOS
+  project_url: /projects/ionos/
+  summary: This conference paper converts EMG signals into spike streams for regulated reservoir computing and hand-gesture recognition.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2106.11169
+      icon: fas fa-file-alt
+    - label: code
+      url: https://github.com/nikhil-garg/EMG_exp
+      icon: fab fa-github
+- id: alzheimer-bert-speech
+  kind: Conference paper
+  project: Brain-Computer Interfaces
+  project_url: /projects/bci/
+  summary: This work combines acoustic and linguistic speech features with BERT-based representations for Alzheimer’s dementia detection.
+- id: wheelchair-hybrid-bci
+  kind: Conference paper
+  project: Brain-Computer Interfaces
+  project_url: /projects/bci/
+  summary: This paper presents a hybrid BCI wheelchair-control system using SSVEP and eye-blink signals.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2106.11008
+      icon: fas fa-file-alt
+- id: motor-imagery-biometrics
+  kind: Conference paper
+  project: Brain-Computer Interfaces
+  project_url: /projects/bci/
+  summary: This paper uses motor-imagery EEG as a multimodal biometric authentication signal.
+- id: motor-imagery-multiclass
+  kind: Conference paper
+  project: Brain-Computer Interfaces
+  project_url: /projects/bci/
+  summary: This study analyzes motor imagery for multiclass BCI, with attention to same-limb movement classes.

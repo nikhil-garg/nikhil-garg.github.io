@@ -7,7 +7,7 @@
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
-    url: "/publications/#alzheimer-bert-speech"
+    url: "/publications/alzheimer-bert-speech/"
     project: BCI
     keywords:
     - Alzheimer’s dementia
@@ -45,7 +45,7 @@
       headset.
     authors: N. Garg, R. Garg, A. Anand, V. Baths.
     venue: Frontiers in Human Neuroscience , 2022.
-    url: "/publications/#portable-eeg-valence-arousal"
+    url: "/publications/portable-eeg-valence-arousal/"
     project: BCI
     keywords:
     - portable EEG
@@ -84,7 +84,7 @@
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
-    url: "/publications/#alzheimer-bert-speech"
+    url: "/publications/alzheimer-bert-speech/"
     project: BCI
     keywords:
     - Alzheimer’s dementia
@@ -121,7 +121,7 @@
     authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
-    url: "/publications/#all-in-one-analog-ai-hardware"
+    url: "/publications/all-in-one-analog-ai-hardware/"
     project: UNICO
     keywords:
     - analog AI hardware
@@ -166,7 +166,7 @@
       memristive devices.
     authors: N. Garg.
     venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
-    url: "/publications/#phd-thesis"
+    url: "/publications/phd-thesis/"
     project: UNICO
     keywords:
     - PhD thesis
@@ -187,7 +187,7 @@
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
       L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
-    url: "/publications/#analog-weight-update-ferroelectric-hafnia"
+    url: "/publications/analog-weight-update-ferroelectric-hafnia/"
     project: VITFOX
     keywords:
     - ferroelectric hafnia
@@ -214,7 +214,7 @@
       headset.
     authors: N. Garg, R. Garg, A. Anand, V. Baths.
     venue: Frontiers in Human Neuroscience , 2022.
-    url: "/publications/#portable-eeg-valence-arousal"
+    url: "/publications/portable-eeg-valence-arousal/"
     project: BCI
     keywords:
     - portable EEG
@@ -252,7 +252,7 @@
     title: Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks.
     authors: L. Kanungo, N. Garg, A. Bhobe, S. Rajguru, V. Baths.
     venue: IEEE SMC , 2021.
-    url: "/publications/#wheelchair-hybrid-bci"
+    url: "/publications/wheelchair-hybrid-bci/"
     project: BCI
     keywords:
     - hybrid BCI
@@ -284,7 +284,7 @@
       EEG.
     authors: A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.
     venue: Cyberworlds , 2020.
-    url: "/publications/#motor-imagery-biometrics"
+    url: "/publications/motor-imagery-biometrics/"
     project: BCI
     keywords:
     - motor imagery
@@ -332,7 +332,7 @@
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
-    url: "/publications/#alzheimer-bert-speech"
+    url: "/publications/alzheimer-bert-speech/"
     project: BCI
     keywords:
     - Alzheimer’s dementia
@@ -371,7 +371,7 @@
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
       B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
-    url: "/publications/#energy-convergence-ferro"
+    url: "/publications/energy-convergence-ferro/"
     project: VITFOX
     keywords:
     - energy-convergence
@@ -403,7 +403,7 @@
       focus in the same limb movement.
     authors: M. Patil, N. Garg, L. Kanungo, V. Baths.
     venue: ICCI\*CC , 2019.
-    url: "/publications/#motor-imagery-multiclass"
+    url: "/publications/motor-imagery-multiclass/"
     project: BCI
     keywords:
     - motor imagery
@@ -436,7 +436,7 @@
     authors: N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz,
       Y. Beilliard, D. Drouin, F. Alibart, et al.
     venue: ICONS , 2024.
-    url: "/publications/#cmos-lif-neuron"
+    url: "/publications/cmos-lif-neuron/"
     project: UNICO
     keywords:
     - CMOS analog circuits
@@ -502,7 +502,7 @@
     authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
-    url: "/publications/#all-in-one-analog-ai-hardware"
+    url: "/publications/all-in-one-analog-ai-hardware/"
     project: UNICO
     keywords:
     - analog AI hardware
@@ -548,7 +548,7 @@
     authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
-    url: "/publications/#vdsp-convolutional-snn"
+    url: "/publications/vdsp-convolutional-snn/"
     project: UNICO
     keywords:
     - convolutional SNNs
@@ -587,7 +587,7 @@
     authors: J. H. Q. Palhares, N. Garg, P.-A. Mouny, Y. Beilliard, J. Sandrini, F.
       Arnaud, L. Anghel, F. Alibart, D. Drouin, P. Galy.
     venue: npj Unconventional Computing , 2024.
-    url: "/publications/#pcm-cryo-snn"
+    url: "/publications/pcm-cryo-snn/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -608,7 +608,7 @@
     authors: J. H. Q. Palhares, N. Garg, Y. Beilliard, L. Anghel, F. Alibart, D. Drouin,
       P. Galy.
     venue: Journal of Low Power Electronics and Applications , 2024.
-    url: "/publications/#pcm-drift-compensation"
+    url: "/publications/pcm-drift-compensation/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -631,7 +631,7 @@
     authors: K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat,
       D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.
     venue: Nature Communications , 2023.
-    url: "/publications/#pedot-structural-plasticity"
+    url: "/publications/pedot-structural-plasticity/"
     project: IONOS
     keywords:
     - structural plasticity
@@ -676,7 +676,7 @@
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
       L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
-    url: "/publications/#analog-weight-update-ferroelectric-hafnia"
+    url: "/publications/analog-weight-update-ferroelectric-hafnia/"
     project: VITFOX
     keywords:
     - ferroelectric hafnia
@@ -706,7 +706,7 @@
     authors: J. H. Q. Palhares, N. Garg, P.-A. Mouny, Y. Beilliard, J. Sandrini, F.
       Arnaud, L. Anghel, F. Alibart, D. Drouin, P. Galy.
     venue: npj Unconventional Computing , 2024.
-    url: "/publications/#pcm-cryo-snn"
+    url: "/publications/pcm-cryo-snn/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -727,7 +727,7 @@
     authors: J. H. Q. Palhares, N. Garg, Y. Beilliard, L. Anghel, F. Alibart, D. Drouin,
       P. Galy.
     venue: Journal of Low Power Electronics and Applications , 2024.
-    url: "/publications/#pcm-drift-compensation"
+    url: "/publications/pcm-drift-compensation/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -747,7 +747,7 @@
       signal processing.
     authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
-    url: "/publications/#personalized-spiking-neural-networks"
+    url: "/publications/personalized-spiking-neural-networks/"
     project: VITFOX
     keywords:
     - EEG
@@ -760,7 +760,7 @@
       focus in the same limb movement.
     authors: M. Patil, N. Garg, L. Kanungo, V. Baths.
     venue: ICCI\*CC , 2019.
-    url: "/publications/#motor-imagery-multiclass"
+    url: "/publications/motor-imagery-multiclass/"
     project: BCI
     keywords:
     - motor imagery
@@ -816,7 +816,7 @@
       EEG.
     authors: A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.
     venue: Cyberworlds , 2020.
-    url: "/publications/#motor-imagery-biometrics"
+    url: "/publications/motor-imagery-biometrics/"
     project: BCI
     keywords:
     - motor imagery
@@ -865,7 +865,7 @@
     authors: K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat,
       D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.
     venue: Nature Communications , 2023.
-    url: "/publications/#pedot-structural-plasticity"
+    url: "/publications/pedot-structural-plasticity/"
     project: IONOS
     keywords:
     - structural plasticity
@@ -909,7 +909,7 @@
       hand gesture recognition.
     authors: N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.
     venue: ICONS , 2021.
-    url: "/publications/#signals-to-spikes-emg"
+    url: "/publications/signals-to-spikes-emg/"
     project: IONOS
     keywords:
     - EMG
@@ -973,7 +973,7 @@
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
       B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
-    url: "/publications/#energy-convergence-ferro"
+    url: "/publications/energy-convergence-ferro/"
     project: VITFOX
     keywords:
     - energy-convergence
@@ -1003,7 +1003,7 @@
       hand gesture recognition.
     authors: N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.
     venue: ICONS , 2021.
-    url: "/publications/#signals-to-spikes-emg"
+    url: "/publications/signals-to-spikes-emg/"
     project: IONOS
     keywords:
     - EMG
@@ -1065,7 +1065,7 @@
     title: Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks.
     authors: L. Kanungo, N. Garg, A. Bhobe, S. Rajguru, V. Baths.
     venue: IEEE SMC , 2021.
-    url: "/publications/#wheelchair-hybrid-bci"
+    url: "/publications/wheelchair-hybrid-bci/"
     project: BCI
     keywords:
     - hybrid BCI
@@ -1096,7 +1096,7 @@
     authors: J. H. Q. Palhares, N. Garg, P.-A. Mouny, Y. Beilliard, J. Sandrini, F.
       Arnaud, L. Anghel, F. Alibart, D. Drouin, P. Galy.
     venue: npj Unconventional Computing , 2024.
-    url: "/publications/#pcm-cryo-snn"
+    url: "/publications/pcm-cryo-snn/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -1119,7 +1119,7 @@
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
       B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
-    url: "/publications/#energy-convergence-ferro"
+    url: "/publications/energy-convergence-ferro/"
     project: VITFOX
     keywords:
     - energy-convergence
@@ -1152,7 +1152,7 @@
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
       L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
-    url: "/publications/#analog-weight-update-ferroelectric-hafnia"
+    url: "/publications/analog-weight-update-ferroelectric-hafnia/"
     project: VITFOX
     keywords:
     - ferroelectric hafnia
@@ -1181,7 +1181,7 @@
       signal processing.
     authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
-    url: "/publications/#personalized-spiking-neural-networks"
+    url: "/publications/personalized-spiking-neural-networks/"
     project: VITFOX
     keywords:
     - EEG
@@ -1195,7 +1195,7 @@
     authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
-    url: "/publications/#vdsp-memristors"
+    url: "/publications/vdsp-memristors/"
     project: UNICO
     keywords:
     - voltage-dependent synaptic plasticity
@@ -1284,7 +1284,7 @@
       hand gesture recognition.
     authors: N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.
     venue: ICONS , 2021.
-    url: "/publications/#signals-to-spikes-emg"
+    url: "/publications/signals-to-spikes-emg/"
     project: IONOS
     keywords:
     - EMG
@@ -1350,7 +1350,7 @@
     authors: N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz,
       D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.
     venue: Frontiers in Neuroscience , 2022.
-    url: "/publications/#voltage-dependent-synaptic-plasticity"
+    url: "/publications/voltage-dependent-synaptic-plasticity/"
     project: UNICO
     keywords:
     - VDSP
@@ -1430,7 +1430,7 @@
     title: Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks.
     authors: L. Kanungo, N. Garg, A. Bhobe, S. Rajguru, V. Baths.
     venue: IEEE SMC , 2021.
-    url: "/publications/#wheelchair-hybrid-bci"
+    url: "/publications/wheelchair-hybrid-bci/"
     project: BCI
     keywords:
     - hybrid BCI
@@ -1462,7 +1462,7 @@
       memristive devices.
     authors: N. Garg.
     venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
-    url: "/publications/#phd-thesis"
+    url: "/publications/phd-thesis/"
     project: UNICO
     keywords:
     - PhD thesis
@@ -1485,7 +1485,7 @@
     authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
-    url: "/publications/#all-in-one-analog-ai-hardware"
+    url: "/publications/all-in-one-analog-ai-hardware/"
     project: UNICO
     keywords:
     - analog AI hardware
@@ -1531,7 +1531,7 @@
     authors: N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz,
       Y. Beilliard, D. Drouin, F. Alibart, et al.
     venue: ICONS , 2024.
-    url: "/publications/#cmos-lif-neuron"
+    url: "/publications/cmos-lif-neuron/"
     project: UNICO
     keywords:
     - CMOS analog circuits
@@ -1596,7 +1596,7 @@
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
-    url: "/publications/#alzheimer-bert-speech"
+    url: "/publications/alzheimer-bert-speech/"
     project: BCI
     keywords:
     - Alzheimer’s dementia
@@ -1635,7 +1635,7 @@
     authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
-    url: "/publications/#vdsp-memristors"
+    url: "/publications/vdsp-memristors/"
     project: UNICO
     keywords:
     - voltage-dependent synaptic plasticity
@@ -1709,7 +1709,7 @@
     authors: J. H. Q. Palhares, N. Garg, Y. Beilliard, L. Anghel, F. Alibart, D. Drouin,
       P. Galy.
     venue: Journal of Low Power Electronics and Applications , 2024.
-    url: "/publications/#pcm-drift-compensation"
+    url: "/publications/pcm-drift-compensation/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -1731,7 +1731,7 @@
       headset.
     authors: N. Garg, R. Garg, A. Anand, V. Baths.
     venue: Frontiers in Human Neuroscience , 2022.
-    url: "/publications/#portable-eeg-valence-arousal"
+    url: "/publications/portable-eeg-valence-arousal/"
     project: BCI
     keywords:
     - portable EEG
@@ -1771,7 +1771,7 @@
     authors: N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz,
       D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.
     venue: Frontiers in Neuroscience , 2022.
-    url: "/publications/#voltage-dependent-synaptic-plasticity"
+    url: "/publications/voltage-dependent-synaptic-plasticity/"
     project: UNICO
     keywords:
     - VDSP
@@ -1851,7 +1851,7 @@
     authors: N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz,
       Y. Beilliard, D. Drouin, F. Alibart, et al.
     venue: ICONS , 2024.
-    url: "/publications/#cmos-lif-neuron"
+    url: "/publications/cmos-lif-neuron/"
     project: UNICO
     keywords:
     - CMOS analog circuits
@@ -1917,7 +1917,7 @@
     authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
-    url: "/publications/#vdsp-memristors"
+    url: "/publications/vdsp-memristors/"
     project: UNICO
     keywords:
     - voltage-dependent synaptic plasticity
@@ -1991,7 +1991,7 @@
     authors: N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz,
       Y. Beilliard, D. Drouin, F. Alibart, et al.
     venue: ICONS , 2024.
-    url: "/publications/#cmos-lif-neuron"
+    url: "/publications/cmos-lif-neuron/"
     project: UNICO
     keywords:
     - CMOS analog circuits
@@ -2056,7 +2056,7 @@
       EEG.
     authors: A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.
     venue: Cyberworlds , 2020.
-    url: "/publications/#motor-imagery-biometrics"
+    url: "/publications/motor-imagery-biometrics/"
     project: BCI
     keywords:
     - motor imagery
@@ -2069,7 +2069,7 @@
       focus in the same limb movement.
     authors: M. Patil, N. Garg, L. Kanungo, V. Baths.
     venue: ICCI\*CC , 2019.
-    url: "/publications/#motor-imagery-multiclass"
+    url: "/publications/motor-imagery-multiclass/"
     project: BCI
     keywords:
     - motor imagery
@@ -2117,7 +2117,7 @@
       focus in the same limb movement.
     authors: M. Patil, N. Garg, L. Kanungo, V. Baths.
     venue: ICCI\*CC , 2019.
-    url: "/publications/#motor-imagery-multiclass"
+    url: "/publications/motor-imagery-multiclass/"
     project: BCI
     keywords:
     - motor imagery
@@ -2149,7 +2149,7 @@
       EEG.
     authors: A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.
     venue: Cyberworlds , 2020.
-    url: "/publications/#motor-imagery-biometrics"
+    url: "/publications/motor-imagery-biometrics/"
     project: BCI
     keywords:
     - motor imagery
@@ -2195,7 +2195,7 @@
       memristive devices.
     authors: N. Garg.
     venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
-    url: "/publications/#phd-thesis"
+    url: "/publications/phd-thesis/"
     project: UNICO
     keywords:
     - PhD thesis
@@ -2216,7 +2216,7 @@
     authors: N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz,
       D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.
     venue: Frontiers in Neuroscience , 2022.
-    url: "/publications/#voltage-dependent-synaptic-plasticity"
+    url: "/publications/voltage-dependent-synaptic-plasticity/"
     project: UNICO
     keywords:
     - VDSP
@@ -2298,7 +2298,7 @@
     authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
-    url: "/publications/#vdsp-convolutional-snn"
+    url: "/publications/vdsp-convolutional-snn/"
     project: UNICO
     keywords:
     - convolutional SNNs
@@ -2336,7 +2336,7 @@
       memristive devices.
     authors: N. Garg.
     venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
-    url: "/publications/#phd-thesis"
+    url: "/publications/phd-thesis/"
     project: UNICO
     keywords:
     - PhD thesis
@@ -2358,7 +2358,7 @@
       array and spiking neural simulations.
     authors: M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.
     venue: IEEE Sensors Journal , 2024.
-    url: "/publications/#oect-array-snn"
+    url: "/publications/oect-array-snn/"
     project: IONOS
     keywords:
     - OECT array
@@ -2394,7 +2394,7 @@
     authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
-    url: "/publications/#all-in-one-analog-ai-hardware"
+    url: "/publications/all-in-one-analog-ai-hardware/"
     project: UNICO
     keywords:
     - analog AI hardware
@@ -2441,7 +2441,7 @@
       array and spiking neural simulations.
     authors: M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.
     venue: IEEE Sensors Journal , 2024.
-    url: "/publications/#oect-array-snn"
+    url: "/publications/oect-array-snn/"
     project: IONOS
     keywords:
     - OECT array
@@ -2477,7 +2477,7 @@
     authors: K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat,
       D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.
     venue: Nature Communications , 2023.
-    url: "/publications/#pedot-structural-plasticity"
+    url: "/publications/pedot-structural-plasticity/"
     project: IONOS
     keywords:
     - structural plasticity
@@ -2524,7 +2524,7 @@
     authors: K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat,
       D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.
     venue: Nature Communications , 2023.
-    url: "/publications/#pedot-structural-plasticity"
+    url: "/publications/pedot-structural-plasticity/"
     project: IONOS
     keywords:
     - structural plasticity
@@ -2570,7 +2570,7 @@
       signal processing.
     authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
-    url: "/publications/#personalized-spiking-neural-networks"
+    url: "/publications/personalized-spiking-neural-networks/"
     project: VITFOX
     keywords:
     - EEG
@@ -2617,7 +2617,7 @@
     authors: J. H. Q. Palhares, N. Garg, P.-A. Mouny, Y. Beilliard, J. Sandrini, F.
       Arnaud, L. Anghel, F. Alibart, D. Drouin, P. Galy.
     venue: npj Unconventional Computing , 2024.
-    url: "/publications/#pcm-cryo-snn"
+    url: "/publications/pcm-cryo-snn/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -2631,7 +2631,7 @@
     authors: J. H. Q. Palhares, N. Garg, Y. Beilliard, L. Anghel, F. Alibart, D. Drouin,
       P. Galy.
     venue: Journal of Low Power Electronics and Applications , 2024.
-    url: "/publications/#pcm-drift-compensation"
+    url: "/publications/pcm-drift-compensation/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -2653,7 +2653,7 @@
       memristive devices.
     authors: N. Garg.
     venue: PhD thesis, Université de Lille and Université de Sherbrooke, 2024.
-    url: "/publications/#phd-thesis"
+    url: "/publications/phd-thesis/"
     project: UNICO
     keywords:
     - PhD thesis
@@ -2674,7 +2674,7 @@
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
       L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
-    url: "/publications/#analog-weight-update-ferroelectric-hafnia"
+    url: "/publications/analog-weight-update-ferroelectric-hafnia/"
     project: VITFOX
     keywords:
     - ferroelectric hafnia
@@ -2703,7 +2703,7 @@
       headset.
     authors: N. Garg, R. Garg, A. Anand, V. Baths.
     venue: Frontiers in Human Neuroscience , 2022.
-    url: "/publications/#portable-eeg-valence-arousal"
+    url: "/publications/portable-eeg-valence-arousal/"
     project: BCI
     keywords:
     - portable EEG
@@ -2743,7 +2743,7 @@
     authors: N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz,
       D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.
     venue: Frontiers in Neuroscience , 2022.
-    url: "/publications/#voltage-dependent-synaptic-plasticity"
+    url: "/publications/voltage-dependent-synaptic-plasticity/"
     project: UNICO
     keywords:
     - VDSP
@@ -2825,7 +2825,7 @@
     authors: D. F. Falcone, V. Clerico, W. Choi, T. Stecconi, F. Horst, L. Bégon-Lours,
       M. Galetta, A. La Porta, N. Garg, F. Alibart, et al.
     venue: Advanced Functional Materials , 2025.
-    url: "/publications/#all-in-one-analog-ai-hardware"
+    url: "/publications/all-in-one-analog-ai-hardware/"
     project: UNICO
     keywords:
     - analog AI hardware
@@ -2870,7 +2870,7 @@
       array and spiking neural simulations.
     authors: M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.
     venue: IEEE Sensors Journal , 2024.
-    url: "/publications/#oect-array-snn"
+    url: "/publications/oect-array-snn/"
     project: IONOS
     keywords:
     - OECT array
@@ -2883,7 +2883,7 @@
       hand gesture recognition.
     authors: N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.
     venue: ICONS , 2021.
-    url: "/publications/#signals-to-spikes-emg"
+    url: "/publications/signals-to-spikes-emg/"
     project: IONOS
     keywords:
     - EMG
@@ -2948,7 +2948,7 @@
       focus in the same limb movement.
     authors: M. Patil, N. Garg, L. Kanungo, V. Baths.
     venue: ICCI\*CC , 2019.
-    url: "/publications/#motor-imagery-multiclass"
+    url: "/publications/motor-imagery-multiclass/"
     project: BCI
     keywords:
     - motor imagery
@@ -2978,7 +2978,7 @@
       array and spiking neural simulations.
     authors: M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.
     venue: IEEE Sensors Journal , 2024.
-    url: "/publications/#oect-array-snn"
+    url: "/publications/oect-array-snn/"
     project: IONOS
     keywords:
     - OECT array
@@ -3013,7 +3013,7 @@
       hand gesture recognition.
     authors: N. Garg, I. Balafrej, Y. Beilliard, D. Drouin, F. Alibart, J. Rouat.
     venue: ICONS , 2021.
-    url: "/publications/#signals-to-spikes-emg"
+    url: "/publications/signals-to-spikes-emg/"
     project: IONOS
     keywords:
     - EMG
@@ -3079,7 +3079,7 @@
     authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
-    url: "/publications/#vdsp-convolutional-snn"
+    url: "/publications/vdsp-convolutional-snn/"
     project: UNICO
     keywords:
     - convolutional SNNs
@@ -3117,7 +3117,7 @@
       pre-trained BERT.
     authors: A. Valsaraj, I. Madala, N. Garg, V. Baths.
     venue: ISCMI , 2021.
-    url: "/publications/#alzheimer-bert-speech"
+    url: "/publications/alzheimer-bert-speech/"
     project: BCI
     keywords:
     - Alzheimer’s dementia
@@ -3155,7 +3155,7 @@
       signal processing.
     authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
-    url: "/publications/#personalized-spiking-neural-networks"
+    url: "/publications/personalized-spiking-neural-networks/"
     project: VITFOX
     keywords:
     - EEG
@@ -3169,7 +3169,7 @@
     authors: J. H. Q. Palhares, N. Garg, P.-A. Mouny, Y. Beilliard, J. Sandrini, F.
       Arnaud, L. Anghel, F. Alibart, D. Drouin, P. Galy.
     venue: npj Unconventional Computing , 2024.
-    url: "/publications/#pcm-cryo-snn"
+    url: "/publications/pcm-cryo-snn/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -3183,7 +3183,7 @@
     authors: J. H. Q. Palhares, N. Garg, Y. Beilliard, L. Anghel, F. Alibart, D. Drouin,
       P. Galy.
     venue: Journal of Low Power Electronics and Applications , 2024.
-    url: "/publications/#pcm-drift-compensation"
+    url: "/publications/pcm-drift-compensation/"
     project: UNICO
     keywords:
     - phase-change memory
@@ -3229,7 +3229,7 @@
       array and spiking neural simulations.
     authors: M. Ghazal, A. Kumar, N. Garg, S. Pecqueur, F. Alibart.
     venue: IEEE Sensors Journal , 2024.
-    url: "/publications/#oect-array-snn"
+    url: "/publications/oect-array-snn/"
     project: IONOS
     keywords:
     - OECT array
@@ -3263,7 +3263,7 @@
     title: Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks.
     authors: L. Kanungo, N. Garg, A. Bhobe, S. Rajguru, V. Baths.
     venue: IEEE SMC , 2021.
-    url: "/publications/#wheelchair-hybrid-bci"
+    url: "/publications/wheelchair-hybrid-bci/"
     project: BCI
     keywords:
     - hybrid BCI
@@ -3296,7 +3296,7 @@
     authors: K. Janzakova, I. Balafrej, A. Kumar, N. Garg, C. Scholaert, J. Rouat,
       D. Drouin, Y. Coffinier, S. Pecqueur, F. Alibart.
     venue: Nature Communications , 2023.
-    url: "/publications/#pedot-structural-plasticity"
+    url: "/publications/pedot-structural-plasticity/"
     project: IONOS
     keywords:
     - structural plasticity
@@ -3343,7 +3343,7 @@
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
       B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
-    url: "/publications/#energy-convergence-ferro"
+    url: "/publications/energy-convergence-ferro/"
     project: VITFOX
     keywords:
     - energy-convergence
@@ -3376,7 +3376,7 @@
     authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
-    url: "/publications/#vdsp-memristors"
+    url: "/publications/vdsp-memristors/"
     project: UNICO
     keywords:
     - voltage-dependent synaptic plasticity
@@ -3390,7 +3390,7 @@
     authors: N. Garg, D. Florini, P. Dufour, E. Muhr, M. C. Faye, M. Bocquet, D. Querlioz,
       Y. Beilliard, D. Drouin, F. Alibart, et al.
     venue: ICONS , 2024.
-    url: "/publications/#cmos-lif-neuron"
+    url: "/publications/cmos-lif-neuron/"
     project: UNICO
     keywords:
     - CMOS analog circuits
@@ -3472,7 +3472,7 @@
     authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
-    url: "/publications/#vdsp-convolutional-snn"
+    url: "/publications/vdsp-convolutional-snn/"
     project: UNICO
     keywords:
     - convolutional SNNs
@@ -3510,7 +3510,7 @@
       EEG.
     authors: A. Valsaraj, I. Madala, N. Garg, M. Patil, V. Baths.
     venue: Cyberworlds , 2020.
-    url: "/publications/#motor-imagery-biometrics"
+    url: "/publications/motor-imagery-biometrics/"
     project: BCI
     keywords:
     - motor imagery
@@ -3558,7 +3558,7 @@
       headset.
     authors: N. Garg, R. Garg, A. Anand, V. Baths.
     venue: Frontiers in Human Neuroscience , 2022.
-    url: "/publications/#portable-eeg-valence-arousal"
+    url: "/publications/portable-eeg-valence-arousal/"
     project: BCI
     keywords:
     - portable EEG
@@ -3598,7 +3598,7 @@
     authors: G. Goupy, A. Juneau-Fecteau, N. Garg, I. Balafrej, F. Alibart, L. Fréchette,
       D. Drouin, Y. Beilliard.
     venue: Neuromorphic Computing and Engineering , 2023.
-    url: "/publications/#vdsp-convolutional-snn"
+    url: "/publications/vdsp-convolutional-snn/"
     project: UNICO
     keywords:
     - convolutional SNNs
@@ -3612,7 +3612,7 @@
     authors: N. Garg, I. Balafrej, T. C. Stewart, J.-M. Portal, M. Bocquet, D. Querlioz,
       D. Drouin, J. Rouat, Y. Beilliard, F. Alibart.
     venue: Frontiers in Neuroscience , 2022.
-    url: "/publications/#voltage-dependent-synaptic-plasticity"
+    url: "/publications/voltage-dependent-synaptic-plasticity/"
     project: UNICO
     keywords:
     - VDSP
@@ -3700,7 +3700,7 @@
       signal processing.
     authors: N. Garg, A. Song, N. Plessnig, N. Savoia, L. Bégon-Lours.
     venue: APL Machine Learning , 2026.
-    url: "/publications/#personalized-spiking-neural-networks"
+    url: "/publications/personalized-spiking-neural-networks/"
     project: VITFOX
     keywords:
     - EEG
@@ -3714,7 +3714,7 @@
     authors: A. Baigol, N. Garg, M. Mazza, Y. Zhang, E. Zaccaria, W. Choi, B. J. Offrein,
       L. Bégon-Lours.
     venue: Advanced Electronic Materials , 2026.
-    url: "/publications/#analog-weight-update-ferroelectric-hafnia"
+    url: "/publications/analog-weight-update-ferroelectric-hafnia/"
     project: VITFOX
     keywords:
     - ferroelectric hafnia
@@ -3728,7 +3728,7 @@
     authors: N. Garg, P. U. Vicandi, Y. Zhang, A. Baigol, D. F. Falcone, S. R. Mamidala,
       B. J. Offrein, L. Bégon-Lours.
     venue: CCMCC , 2025.
-    url: "/publications/#energy-convergence-ferro"
+    url: "/publications/energy-convergence-ferro/"
     project: VITFOX
     keywords:
     - energy-convergence
@@ -3780,7 +3780,7 @@
     authors: N. Garg, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini,
       D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, et al.
     venue: Communications Materials , 2026.
-    url: "/publications/#vdsp-memristors"
+    url: "/publications/vdsp-memristors/"
     project: UNICO
     keywords:
     - voltage-dependent synaptic plasticity
@@ -3854,7 +3854,7 @@
     title: Wheelchair automation by a hybrid BCI system using SSVEP and eye blinks.
     authors: L. Kanungo, N. Garg, A. Bhobe, S. Rajguru, V. Baths.
     venue: IEEE SMC , 2021.
-    url: "/publications/#wheelchair-hybrid-bci"
+    url: "/publications/wheelchair-hybrid-bci/"
     project: BCI
     keywords:
     - hybrid BCI

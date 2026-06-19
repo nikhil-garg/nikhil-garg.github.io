@@ -10,7 +10,7 @@
   - L. Bégon-Lours
   venue: APL Machine Learning
   year: '2026'
-  url: "/publications/#personalized-spiking-neural-networks"
+  url: "/publications/personalized-spiking-neural-networks/"
   doi: 10.1063/5.0319912
   topics:
   - name: EEG
@@ -35,7 +35,7 @@
   - L. Bégon-Lours
   venue: Advanced Electronic Materials
   year: '2026'
-  url: "/publications/#analog-weight-update-ferroelectric-hafnia"
+  url: "/publications/analog-weight-update-ferroelectric-hafnia/"
   doi: 10.1002/aelm.202500823
   topics:
   - name: ferroelectric hafnia
@@ -66,7 +66,7 @@
   - F. Alibart
   venue: Communications Materials
   year: '2026'
-  url: "/publications/#vdsp-memristors"
+  url: "/publications/vdsp-memristors/"
   doi: 10.1038/s43246-025-01033-5
   topics:
   - name: voltage-dependent synaptic plasticity
@@ -91,7 +91,7 @@
   - L. Bégon-Lours
   venue: CCMCC
   year: '2025'
-  url: "/publications/#energy-convergence-ferro"
+  url: "/publications/energy-convergence-ferro/"
   doi: 10.1109/ccmcc67628.2025.11380809
   topics:
   - name: energy-convergence
@@ -119,7 +119,7 @@
   - et al
   venue: Advanced Functional Materials
   year: '2025'
-  url: "/publications/#all-in-one-analog-ai-hardware"
+  url: "/publications/all-in-one-analog-ai-hardware/"
   doi: 10.1002/adfm.202504688
   topics:
   - name: analog AI hardware
@@ -148,7 +148,7 @@
   - J.-M. Portal
   venue: ICONS
   year: '2024'
-  url: "/publications/#cmos-lif-neuron"
+  url: "/publications/cmos-lif-neuron/"
   doi: 10.1109/icons62911.2024.00034
   topics:
   - name: CMOS analog circuits
@@ -175,7 +175,7 @@
   - P. Galy
   venue: npj Unconventional Computing
   year: '2024'
-  url: "/publications/#pcm-cryo-snn"
+  url: "/publications/pcm-cryo-snn/"
   doi: 10.1038/s44335-024-00008-y
   topics:
   - name: phase-change memory
@@ -201,7 +201,7 @@
   - P. Galy
   venue: Journal of Low Power Electronics and Applications
   year: '2024'
-  url: "/publications/#pcm-drift-compensation"
+  url: "/publications/pcm-drift-compensation/"
   doi: 10.3390/jlpea14040050
   topics:
   - name: phase-change memory
@@ -221,7 +221,7 @@
   - N. Garg
   venue: PhD thesis, Université de Lille and Université de Sherbrooke
   year: '2024'
-  url: "/publications/#phd-thesis"
+  url: "/publications/phd-thesis/"
   doi: 
   topics:
   - name: PhD thesis
@@ -245,7 +245,7 @@
   - F. Alibart
   venue: IEEE Sensors Journal
   year: '2024'
-  url: "/publications/#oect-array-snn"
+  url: "/publications/oect-array-snn/"
   doi: 10.1109/JSEN.2024.3353307
   topics:
   - name: OECT array
@@ -272,7 +272,7 @@
   - Y. Beilliard
   venue: Neuromorphic Computing and Engineering
   year: '2023'
-  url: "/publications/#vdsp-convolutional-snn"
+  url: "/publications/vdsp-convolutional-snn/"
   doi: 10.1088/2634-4386/acad98
   topics:
   - name: convolutional SNNs
@@ -301,7 +301,7 @@
   - F. Alibart
   venue: Nature Communications
   year: '2023'
-  url: "/publications/#pedot-structural-plasticity"
+  url: "/publications/pedot-structural-plasticity/"
   doi: 10.1038/s41467-023-43887-8
   topics:
   - name: structural plasticity
@@ -330,7 +330,7 @@
   - F. Alibart
   venue: Frontiers in Neuroscience
   year: '2022'
-  url: "/publications/#voltage-dependent-synaptic-plasticity"
+  url: "/publications/voltage-dependent-synaptic-plasticity/"
   doi: 10.3389/fnins.2022.983950
   topics:
   - name: VDSP
@@ -352,7 +352,7 @@
   - V. Baths
   venue: Frontiers in Human Neuroscience
   year: '2022'
-  url: "/publications/#portable-eeg-valence-arousal"
+  url: "/publications/portable-eeg-valence-arousal/"
   doi: 10.3389/fnhum.2022.1051463
   topics:
   - name: portable EEG
@@ -377,7 +377,7 @@
   - J. Rouat
   venue: ICONS
   year: '2021'
-  url: "/publications/#signals-to-spikes-emg"
+  url: "/publications/signals-to-spikes-emg/"
   doi: 10.1145/3477145.3477267
   topics:
   - name: EMG
@@ -400,7 +400,7 @@
   - V. Baths
   venue: ISCMI
   year: '2021'
-  url: "/publications/#alzheimer-bert-speech"
+  url: "/publications/alzheimer-bert-speech/"
   doi: 10.1109/iscmi53840.2021.9654804
   topics:
   - name: Alzheimer’s dementia
@@ -423,7 +423,7 @@
   - V. Baths
   venue: IEEE SMC
   year: '2021'
-  url: "/publications/#wheelchair-hybrid-bci"
+  url: "/publications/wheelchair-hybrid-bci/"
   doi: 10.1109/smc52423.2021.9659266
   topics:
   - name: hybrid BCI
@@ -447,7 +447,7 @@
   - V. Baths
   venue: Cyberworlds
   year: '2020'
-  url: "/publications/#motor-imagery-biometrics"
+  url: "/publications/motor-imagery-biometrics/"
   doi: 10.1109/CW49994.2020.00050
   topics:
   - name: motor imagery
@@ -468,7 +468,7 @@
   - V. Baths
   venue: ICCI\*CC
   year: '2019'
-  url: "/publications/#motor-imagery-multiclass"
+  url: "/publications/motor-imagery-multiclass/"
   doi: 10.1109/iccicc46617.2019.9146105
   topics:
   - name: motor imagery

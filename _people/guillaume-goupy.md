@@ -10,4 +10,4 @@ Supervised on VDSP-based learning for convolutional spiking neural networks.
 
 ## Publications
 
-- [Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks](/publications/#vdsp-convolutional-snn)
+- [Unsupervised and efficient learning in sparsely activated convolutional spiking neural networks](/publications/vdsp-convolutional-snn/)

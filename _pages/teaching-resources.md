@@ -10,7 +10,7 @@ author_profile: false
   <li><a href="https://arxiv.org/abs/1611.08024">EEGNet</a>: compact baseline for EEG decoding.</li>
   <li><a href="https://www.deeplearningbook.org/">Deep Learning</a>: core neural-network reference.</li>
   <li><a href="https://www.gaussianprocess.org/gpml/">Gaussian Processes for Machine Learning</a>: uncertainty, kernels, and Bayesian modeling.</li>
-  <li><a href="/publications/#voltage-dependent-synaptic-plasticity">Voltage-dependent synaptic plasticity</a>: local learning from membrane potential.</li>
+  <li><a href="/publications/voltage-dependent-synaptic-plasticity/">Voltage-dependent synaptic plasticity</a>: local learning from membrane potential.</li>
   <li><a href="/publications/cmos-lif-neuron/">Versatile CMOS analog LIF neuron</a>: analog neuron interface for memristive circuits.</li>
 </ul>
 

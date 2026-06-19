@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Videos"
-permalink: /videos/
+permalink: /teaching/videos/
 author_profile: false
 redirect_from:
-  - /teaching/videos/
+  - /teaching/videos.html
 ---
 
 <style>

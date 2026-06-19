@@ -87,49 +87,49 @@ author_profile: false
 <p class="talk-year">2026 · Invited talk</p>
 <p class="talk-title">Neuromorphic in-memory learning with analog integrated circuits and nanoscale memristive devices</p>
 <p class="talk-venue"><a href="https://infim.ro/event/11th-international-workshop-of-materials-physics/">11th International Workshop of Materials Physics</a></p>
-<p class="talk-links"><a href="/files/talks/iwmp-2026-abstract.pdf">Abstract</a> <a href="/publications/#vdsp-memristors">Related paper</a></p>
+<p class="talk-links"><a href="/files/talks/iwmp-2026-abstract.pdf">Abstract</a> <a href="/publications/vdsp-memristors/">Related publication</a></p>
 </article>
 
 <article class="talk-card" id="ccmcc-2025" markdown="1">
 <p class="talk-year">2025 · Paper presentation</p>
 <p class="talk-title">Energy-convergence trade off for the training of neural networks on bio-inspired hardware</p>
 <p class="talk-venue">CCMCC</p>
-<p class="talk-links"><a href="/publications/#energy-convergence-ferro">Paper</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Code</a></p>
+<p class="talk-links"><a href="/publications/energy-convergence-ferro/">Publication</a> <a href="https://github.com/nikhil-garg/Energy-convergence-Ferro-CCMCC2026">Code</a></p>
 </article>
 
 <article class="talk-card" id="2024" markdown="1">
 <p class="talk-year">2024 · Paper presentation</p>
 <p class="talk-title">Versatile CMOS Analog LIF Neuron for Memristor-Integrated Neuromorphic Circuits</p>
 <p class="talk-venue"><a href="https://iconsneuromorphic.cc/">International Conference on Neuromorphic Systems</a></p>
-<p class="talk-links"><a href="/publications/#cmos-lif-neuron">Paper</a></p>
+<p class="talk-links"><a href="/publications/cmos-lif-neuron/">Publication</a></p>
 </article>
 
 <article class="talk-card" id="2023" markdown="1">
 <p class="talk-year">2023 · Contributed oral presentation</p>
 <p class="talk-title">Synergizing In-Memory Learning and Bio-inspired ASICs: Advancing the Future of Neuromorphic Computing</p>
 <p class="talk-venue"><a href="https://uwaterloo.ca/canadian-semiconductor-science-technology-conference/">Canadian Semiconductor Science and Technology Conference</a></p>
-<p class="talk-links"><a href="/publications/#vdsp-memristors">Related publications</a></p>
+<p class="talk-links"><a href="/publications/vdsp-memristors/">Related publication</a></p>
 </article>
 
 <article class="talk-card" id="2022" markdown="1">
 <p class="talk-year">2022 · Invited workshop presentation</p>
 <p class="talk-title">Unsupervised Learning with Ferroelectric Synapses</p>
 <p class="talk-venue"><a href="https://www.ieee-essderc.org/">IEEE European Solid-State Device Research Conference</a></p>
-<p class="talk-links"><a href="/publications/#personalized-spiking-neural-networks">Related publications</a></p>
+<p class="talk-links"><a href="/publications/personalized-spiking-neural-networks/">Related publication</a></p>
 </article>
 
 <article class="talk-card" id="2021" markdown="1">
 <p class="talk-year">2021 · Paper presentation</p>
 <p class="talk-title">Signals to Spikes for Neuromorphic Regulated Reservoir Computing and EMG Hand Gesture Recognition</p>
 <p class="talk-venue"><a href="https://iconsneuromorphic.cc/">International Conference on Neuromorphic Systems</a></p>
-<p class="talk-links"><a href="/publications/#signals-to-spikes-emg">Paper</a> <a href="https://github.com/nikhil-garg/EMG_exp">Code</a></p>
+<p class="talk-links"><a href="/publications/signals-to-spikes-emg/">Publication</a> <a href="https://github.com/nikhil-garg/EMG_exp">Code</a></p>
 </article>
 
 <article class="talk-card" markdown="1">
 <p class="talk-year">2021 · Paper presentation</p>
 <p class="talk-title">Wheelchair Automation by a Hybrid BCI System Using SSVEP and Eye Blinks</p>
 <p class="talk-venue"><a href="https://www.ieeesmc.org/">IEEE International Conference on Systems, Man, and Cybernetics</a></p>
-<p class="talk-links"><a href="/publications/#wheelchair-hybrid-bci">Paper</a></p>
+<p class="talk-links"><a href="/publications/wheelchair-hybrid-bci/">Publication</a></p>
 </article>
 
 </div>

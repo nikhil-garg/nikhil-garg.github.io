@@ -10,4 +10,4 @@ Supervised during the ETH Zurich period on personalized spiking neural networks 
 
 ## Publications
 
-- [Personalized spiking neural networks with ferroelectric synapses for EEG signal processing](/publications/#personalized-spiking-neural-networks)
+- [Personalized spiking neural networks with ferroelectric synapses for EEG signal processing](/publications/personalized-spiking-neural-networks/)

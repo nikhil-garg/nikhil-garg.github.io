@@ -10,4 +10,4 @@ Supervised during the ETH Zurich period on analog ferroelectric hafnia device le
 
 ## Publications
 
-- [Analog Weight Update Rule in Ferroelectric Hafnia](/publications/#analog-weight-update-ferroelectric-hafnia)
+- [Analog Weight Update Rule in Ferroelectric Hafnia](/publications/analog-weight-update-ferroelectric-hafnia/)

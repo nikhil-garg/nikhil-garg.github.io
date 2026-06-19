@@ -10,4 +10,4 @@ Supervised on emotion elicitation and detection using a portable EEG headset and
 
 ## Publications
 
-- [Decoding the neural signatures of valence and arousal from portable EEG headset](/publications/#portable-eeg-valence-arousal)
+- [Decoding the neural signatures of valence and arousal from portable EEG headset](/publications/portable-eeg-valence-arousal/)

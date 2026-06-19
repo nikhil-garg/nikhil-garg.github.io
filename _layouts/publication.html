@@ -2,7 +2,31 @@
 layout: single
 ---
 
+{% assign pub_id = page.pub_id | default: page.slug %}
+{% assign pub = site.data.publications | where: "id", pub_id | first %}
+{% assign detail = site.data.publication_details | where: "id", pub_id | first %}
+{% if page.authors %}
+  {% assign authors = page.authors %}
+{% elsif pub.authors %}
+  {% assign authors = pub.authors | join: ", " %}
+{% endif %}
+{% assign venue = page.venue | default: pub.venue %}
+{% assign year = page.year | default: pub.year %}
+{% assign feature_image = page.feature_image | default: detail.image %}
+{% assign feature_alt = page.feature_alt | default: detail.image_alt | default: page.title %}
+
 <style>
+.publication-page {
+  max-width: 880px;
+}
+.publication-kicker {
+  color: #526a7a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
 .publication-actions,
 .publication-posts {
   display: flex;
@@ -20,10 +44,16 @@ layout: single
   gap: 0.35rem;
   line-height: 1;
   padding: 0.5rem 0.62rem;
+  text-decoration: none;
 }
 .publication-actions i,
 .publication-posts i {
   color: #555;
+}
+.publication-summary {
+  border-top: 1px solid #dedede;
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 .publication-meta {
   color: #444;
@@ -43,31 +73,146 @@ layout: single
   padding: 0.45rem;
   width: 100%;
 }
+.publication-facts {
+  border-top: 1px solid #ececec;
+  margin: 1rem 0 1.4rem;
+}
+.publication-fact {
+  border-bottom: 1px solid #ececec;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  padding: 0.52rem 0;
+}
+.publication-fact dt {
+  color: #666;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0;
+  text-transform: uppercase;
+}
+.publication-fact dd {
+  color: #444;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  margin: 0;
+}
+.publication-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.publication-topic {
+  background: #f6f7f8;
+  border: 1px solid #d6dadd;
+  border-radius: 4px;
+  color: #333;
+  font-size: 0.76rem;
+  line-height: 1;
+  padding: 0.33rem 0.45rem;
+  text-decoration: none;
+}
+.publication-citation {
+  background: #fbfcfe;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  color: #333;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin: 0.5rem 0 1rem;
+  padding: 0.75rem;
+}
+@media (max-width: 720px) {
+  .publication-fact {
+    gap: 0.12rem;
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
-{% if page.feature_image %}
-  <img class="publication-feature" src="{{ page.feature_image }}" alt="{{ page.feature_alt | default: page.title }}">
-{% endif %}
+<article class="publication-page">
+  {% if detail.kind %}
+    <p class="publication-kicker">{{ detail.kind }}</p>
+  {% endif %}
 
-{% if page.authors %}
-  <p class="publication-meta"><strong>Authors:</strong> {{ page.authors }}</p>
-{% endif %}
+  {% if feature_image %}
+    <img class="publication-feature" src="{{ feature_image }}" alt="{{ feature_alt }}">
+  {% endif %}
 
-{% if page.paper_links %}
+  {% if authors %}
+    <p class="publication-meta"><strong>Authors:</strong> {{ authors }}</p>
+  {% endif %}
+  {% if venue or year %}
+    <p class="publication-meta"><strong>Venue:</strong> {{ venue }}{% if year %}, {{ year }}{% endif %}</p>
+  {% endif %}
+
   <div class="publication-actions">
-    {% for item in page.paper_links %}
-      <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-file-alt' }}"></i>{{ item.label }}</a>
-    {% endfor %}
+    {% if pub.doi %}
+      <a href="https://doi.org/{{ pub.doi }}"><i class="fas fa-link"></i>DOI</a>
+    {% endif %}
+    {% if detail.links %}
+      {% for item in detail.links %}
+        <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-file-alt' }}"></i>{{ item.label }}</a>
+      {% endfor %}
+    {% endif %}
+    {% if detail.project_url %}
+      <a href="{{ detail.project_url }}"><i class="fas fa-project-diagram"></i>{{ detail.project }}</a>
+    {% endif %}
   </div>
-{% endif %}
 
-{{ content }}
+  {% if detail.summary %}
+    <section class="publication-summary">
+      <h2 id="abstract">Abstract</h2>
+      <p>{{ detail.summary }}</p>
+    </section>
+  {% elsif content != "" %}
+    <section class="publication-summary">
+      {{ content }}
+    </section>
+  {% endif %}
 
-{% if page.related_posts %}
-  <h2 id="related-posts">Related Posts</h2>
-  <div class="publication-posts">
-    {% for item in page.related_posts %}
-      <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-link' }}"></i>{{ item.label }}</a>
-    {% endfor %}
-  </div>
-{% endif %}
+  <dl class="publication-facts">
+    {% if detail.project %}
+      <div class="publication-fact">
+        <dt>Project</dt>
+        <dd>{% if detail.project_url %}<a href="{{ detail.project_url }}">{{ detail.project }}</a>{% else %}{{ detail.project }}{% endif %}</dd>
+      </div>
+    {% endif %}
+    {% if pub.topics %}
+      <div class="publication-fact">
+        <dt>Topics</dt>
+        <dd class="publication-topics">
+          {% for topic in pub.topics %}
+            <a class="publication-topic" href="{{ topic.url }}">{{ topic.name }}</a>
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+    {% if detail.note %}
+      <div class="publication-fact">
+        <dt>Note</dt>
+        <dd>{{ detail.note }}</dd>
+      </div>
+    {% endif %}
+  </dl>
+
+  <h2 id="citation">Citation</h2>
+  <p class="publication-citation">{{ authors }}. ({{ year }}). {{ pub.title | default: page.title }}. <em>{{ venue }}</em>{% if pub.doi %}. https://doi.org/{{ pub.doi }}{% endif %}</p>
+
+  {% if detail.related %}
+    <h2 id="related">Related</h2>
+    <div class="publication-posts">
+      {% for item in detail.related %}
+        <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-link' }}"></i>{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  {% elsif page.related_posts %}
+    <h2 id="related">Related</h2>
+    <div class="publication-posts">
+      {% for item in page.related_posts %}
+        <a href="{{ item.url }}"><i class="{{ item.icon | default: 'fas fa-link' }}"></i>{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>
