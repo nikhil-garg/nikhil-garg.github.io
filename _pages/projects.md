@@ -20,7 +20,7 @@ redirect_from:
   border-bottom: 1px solid #ededed;
   display: grid;
   gap: 0.8rem;
-  grid-template-columns: minmax(8rem, 0.5fr) minmax(0, 1.35fr) minmax(7rem, 0.38fr) minmax(10rem, 0.65fr) minmax(8rem, 0.48fr);
+  grid-template-columns: minmax(8rem, 0.5fr) minmax(0, 1.45fr) minmax(7rem, 0.42fr) minmax(10rem, 0.7fr);
   padding: 0.72rem 0;
 }
 .project-row > div {
@@ -55,7 +55,6 @@ redirect_from:
   line-height: 1.35;
   margin: 0;
 }
-.project-links,
 .project-pubs {
   display: flex;
   flex-wrap: wrap;
@@ -68,20 +67,6 @@ redirect_from:
 }
 .project-funding strong {
   color: #444;
-}
-.project-link {
-  border-bottom: 1px solid #aaa;
-  color: #333;
-  display: inline;
-  font-size: 0.84rem;
-  font-weight: 700;
-  line-height: 1.35;
-  text-decoration: none;
-}
-.project-link:hover {
-  border-bottom-color: #111;
-  color: #111;
-  text-decoration: none;
 }
 .project-label {
   color: #555;
@@ -115,7 +100,6 @@ redirect_from:
     <div>Full name</div>
     <div>Period</div>
     <div>PI / Funding</div>
-    <div>Links</div>
   </div>
   {% for project in site.data.projects %}
     <article class="project-row">
@@ -130,9 +114,6 @@ redirect_from:
       <div data-label="PI / Funding" class="project-funding">
         {% if project.pi %}<div><strong>PI:</strong> {{ project.pi }}</div>{% endif %}
         {% if project.funding %}<div>{{ project.funding }}</div>{% elsif project.program %}<div>{{ project.program }}</div>{% endif %}
-      </div>
-      <div data-label="Links" class="project-links">
-        {% if project.source.url %}<a class="project-link" href="{{ project.source.url }}">{{ project.source.label }}</a>{% endif %}
       </div>
     </article>
   {% endfor %}
