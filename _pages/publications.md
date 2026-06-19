@@ -182,7 +182,7 @@ Articles are also listed on [Google Scholar]({{site.author.googlescholar}}).
 <p class="pub-title"><a href="https://doi.org/10.1038/s43246-025-01033-5">Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses.</a></p>
 <p class="pub-authors"><strong>N. Garg</strong>, I. Balafrej, J. H. Q. Palhares, L. Bégon-Lours, D. Florini, D. F. Falcone, T. Stecconi, V. Bragaglia, B. J. Offrein, J.-M. Portal, D. Querlioz, Y. Beilliard, D. Drouin, F. Alibart.</p>
 <p class="pub-venue"><em>Communications Materials</em>, 2026.</p>
-<p class="pub-links"><a href="https://doi.org/10.1038/s43246-025-01033-5"><i class="fas fa-link"></i>DOI</a> <a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>paper</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a></p>
+<p class="pub-links"><a href="https://doi.org/10.1038/s43246-025-01033-5"><i class="fas fa-link"></i>DOI</a> <a href="https://www.nature.com/articles/s43246-025-01033-5"><i class="fas fa-file-alt"></i>Nature</a> <a href="https://github.com/nikhil-garg/VDSP-Memristors"><i class="fab fa-github"></i>code</a></p>
 </div>
 </article>
 
